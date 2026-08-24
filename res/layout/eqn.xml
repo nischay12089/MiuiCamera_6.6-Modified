@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/bg8" android:layout_height="@dimen/bg7" android:foreground="@drawable/bg_ai_pose_guide_border_placeholder"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_ai_pose_guide_panel" android:paddingTop="@dimen/bge" android:layout_width="@dimen/bgh" android:layout_height="@dimen/bgg" android:paddingStart="@dimen/bgd" android:paddingEnd="@dimen/bgd">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/bg6" android:layout_height="@dimen/bg5" android:src="@drawable/ic_ai_pose_guide_assistant_placeholder" android:contentDescription="@null" android:layout_marginEnd="@dimen/bgb" />
+            <TextView android:textSize="@dimen/bgi" android:textColor="@color/white_alpha_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gce" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bgj" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bgk" android:text="@string/gch" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bga">
+            <ImageView android:id="@id/ai_pose_guide_scene_icon" android:layout_width="@dimen/bgc" android:layout_height="@dimen/bgc" android:src="@drawable/ic_ai_pose_guide_pose_placeholder" android:contentDescription="@null" android:layout_marginEnd="@dimen/bgb" />
+            <TextView android:textSize="@dimen/bgi" android:textColor="@color/white_alpha_30" android:id="@id/ai_pose_guide_scene_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcd" />
+        </LinearLayout>
+        <ImageView android:layout_width="@dimen/bgc" android:layout_height="@dimen/bg9" android:src="@drawable/ic_ai_pose_guide_connector_placeholder" android:scaleType="centerInside" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ai_pose_guide_portrait_icon" android:layout_width="@dimen/bgc" android:layout_height="@dimen/bgc" android:src="@drawable/ic_ai_pose_guide_pose_placeholder" android:contentDescription="@null" android:layout_marginEnd="@dimen/bgb" />
+            <TextView android:textSize="@dimen/bgi" android:textColor="@color/white_alpha_30" android:id="@id/ai_pose_guide_portrait_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcg" />
+        </LinearLayout>
+        <ImageView android:layout_width="@dimen/bgc" android:layout_height="@dimen/bg9" android:src="@drawable/ic_ai_pose_guide_connector_placeholder" android:scaleType="centerInside" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ai_pose_guide_pose_icon" android:layout_width="@dimen/bgc" android:layout_height="@dimen/bgc" android:src="@drawable/ic_ai_pose_guide_pose_placeholder" android:contentDescription="@null" android:layout_marginEnd="@dimen/bgb" />
+            <TextView android:textSize="@dimen/bgi" android:textColor="@color/white_alpha_30" android:id="@id/ai_pose_guide_pose_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcf" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

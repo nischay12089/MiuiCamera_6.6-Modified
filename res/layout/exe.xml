@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/more_mode_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/more_mode_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a5e="true" />
+    <FrameLayout android:layout_gravity="top" android:id="@id/more_mode_header" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera.fragment.mode.more.EditDragLayout android:id="@id/more_mode_drag_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <miuix.springback.view.SpringBackLayout android:layout_gravity="center_horizontal" android:id="@id/mode_edit_list_container" android:paddingTop="@dimen/d95" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aty="@id/mode_edit_list">
+            <com.android.camera.fragment.mode.more.DragMoreModeRecycleView android:layout_gravity="center|top" android:id="@id/mode_edit_list" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/d9l" />
+        </miuix.springback.view.SpringBackLayout>
+        <com.android.camera.fragment.mode.more.DragCommonModeRecycleView android:id="@id/common_mode_edit_list_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:accessibilityTraversalAfter="@id/mode_edit_list" />
+    </com.android.camera.fragment.mode.more.EditDragLayout>
+    <com.android.camera2.compat.theme.custom.cv.more.DragLayoutBar android:layout_gravity="center_horizontal" android:id="@id/drag_bar" android:layout_width="@dimen/d9a" android:layout_height="@dimen/d99" android:layout_marginTop="@dimen/d9_" />
+</FrameLayout>

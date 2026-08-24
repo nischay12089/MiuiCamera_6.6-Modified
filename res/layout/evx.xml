@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.nestedheader.widget.NestedScrollingLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:aty="@id/music_recycler_view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/music_recycler_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rl_pic_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/pic_empty_albums" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf8" android:src="@drawable/pic_empty_albums_dark" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/ced" android:textColor="@color/white_alpha_60" android:id="@id/tv_empty_albums" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cew" android:layout_below="@id/pic_empty_albums" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/music_updating_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="@dimen/dd_" android:layout_height="@dimen/dd_" android:indeterminateDrawable="@drawable/live_music_loading" style="?android:progressBarStyleLarge" />
+        <TextView android:textColor="@color/day_night_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gm1" android:alpha="0.6" android:layout_marginStart="@dimen/ddo" />
+    </LinearLayout>
+</miuix.nestedheader.widget.NestedScrollingLayout>

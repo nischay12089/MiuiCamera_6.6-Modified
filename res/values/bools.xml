@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="bdh">true</bool>
+    <bool name="bdi">true</bool>
+    <bool name="bdj">false</bool>
+    <bool name="bdk">true</bool>
+    <bool name="bdl">true</bool>
+    <bool name="bdm">false</bool>
+    <bool name="bdn">true</bool>
+    <bool name="bdo">true</bool>
+    <bool name="bdp">false</bool>
+    <bool name="a">true</bool>
+    <bool name="b">false</bool>
+    <bool name="bdq">false</bool>
+    <bool name="bdr">true</bool>
+    <bool name="bds">true</bool>
+    <bool name="bdt">false</bool>
+    <bool name="bdu">true</bool>
+    <bool name="bdv">false</bool>
+    <bool name="bdw">false</bool>
+    <bool name="bdx">false</bool>
+</resources>

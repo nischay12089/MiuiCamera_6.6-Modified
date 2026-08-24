@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iht" parent="@style/i4j">
+        <item name="b3x">center</item>
+        <item name="b4f">fixed</item>
+    </style>
+    <style name="iku" parent="@style/igt">
+        <item name="android:textAppearance">?b5i</item>
+        <item name="android:textColor">?si</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/eop</item>
+    </style>
+    <style name="ikx" parent="@style/i4n">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+</resources>

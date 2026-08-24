@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tint_color_preview_bg" android:drawable="@drawable/preference_tint_color_preview_bg" />
+    <item android:id="@id/tint_color_preview_display" android:drawable="@drawable/preference_tint_color_preview_display" />
+    <item android:id="@id/tint_color_preview_common" android:drawable="@drawable/preference_tint_color_preview_common" />
+    <item android:id="@id/tint_color_preview_zoom" android:drawable="@drawable/preference_tint_color_preview_zoom_normal" />
+    <item android:id="@id/tint_color_preview_highlight" android:drawable="@drawable/preference_tint_color_preview_highlight_normal" />
+    <item android:id="@id/tint_color_preview_border" android:drawable="@drawable/preference_tint_color_preview_border" />
+</layer-list>

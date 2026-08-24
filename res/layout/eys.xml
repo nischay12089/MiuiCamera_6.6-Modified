@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/makeups_list" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera.ui.CombineSlideView android:layout_gravity="bottom" android:id="@id/beauty_slide_combineslideview" android:layout_width="fill_parent" android:layout_height="@dimen/dw1" />
+</FrameLayout>

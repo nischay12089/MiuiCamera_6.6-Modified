@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/equip_street_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <com.android.camera.ui.EquipStreetBgView android:id="@id/equip_street_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/c24" android:textColor="@color/white_alpha_30" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c25" android:text="@string/g9x" android:rotation="90.0" android:layout_marginEnd="@dimen/c23" />
+        <com.android.camera.ui.EquipStreetThumbnailView android:gravity="center" android:layout_gravity="end" android:id="@id/equip_street_thumbnail_image" android:layout_width="@dimen/c22" android:layout_height="@dimen/c22" android:layout_marginTop="@dimen/c1w" android:scaleType="centerCrop" android:contentDescription="@string/fgq" android:rotation="90.0" android:layout_marginEnd="@dimen/c21" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/c29" android:layout_marginTop="@dimen/c2b" android:layoutDirection="ltr">
+            <TextView android:textSize="@dimen/c2e" android:textColor="@color/white" android:gravity="center" android:id="@id/equip_street_top_menu" android:background="@drawable/bg_equip_street_top_menu" android:layout_width="@dimen/c29" android:layout_height="@dimen/c29" android:text="MENU" android:rotation="90.0" android:layout_marginStart="@dimen/c2_" />
+            <TextView android:textSize="@dimen/c2e" android:textColor="@color/white" android:gravity="center" android:id="@id/equip_street_top_ev" android:background="@drawable/bg_equip_street_top_menu" android:layout_width="@dimen/c29" android:layout_height="@dimen/c29" android:text="EV" android:rotation="90.0" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="@dimen/c2e" android:textColor="@color/white" android:gravity="center" android:id="@id/equip_street_top_focus" android:background="@drawable/bg_equip_street_top_menu" android:layout_width="@dimen/c29" android:layout_height="@dimen/c29" android:text="AF" android:rotation="90.0" android:layout_marginStart="20.0dip" />
+            <ImageView android:gravity="center" android:id="@id/equip_street_top_close" android:background="@drawable/bg_equip_street_top_close" android:layout_width="@dimen/c29" android:layout_height="@dimen/c28" android:src="@drawable/ic_equip_street_top_close" android:scaleType="centerInside" android:contentDescription="@string/g67" android:rotation="90.0" android:layout_marginStart="@dimen/c2e" />
+        </LinearLayout>
+        <ImageView android:id="@id/equip_street_filter_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_filter_input_mm" android:contentDescription="@string/fe6" android:rotation="90.0" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/equip_street_bottom_action" android:layout_width="fill_parent" android:layout_height="@dimen/c1z" android:layout_marginBottom="@dimen/c1i" android:layoutDirection="ltr" android:layout_marginEnd="61.0dip">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="28.0dip">
+                <TextView android:textSize="@dimen/c2e" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/equip_street_bottom_filter" android:background="@drawable/bg_equip_street_bottom_button" android:layout_width="@dimen/c1l" android:layout_height="@dimen/c1l" android:text="Filter" android:rotation="90.0" />
+            </FrameLayout>
+            <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/equip_street_bottom_shutter_button" android:focusable="false" android:clickable="true" android:layout_width="@dimen/c1z" android:layout_height="@dimen/c1z" android:contentDescription="@string/fgy" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="23.0dip">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/equip_street_bottom_cvtype" android:background="@drawable/bg_equip_street_bottom_button" android:layout_width="@dimen/c1l" android:layout_height="@dimen/c1l" android:rotation="90.0">
+                    <TextView android:textSize="@dimen/c1p" android:textColor="@color/white" android:id="@id/equip_street_bottom_cvtype_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LEICA" />
+                    <TextView android:textSize="@dimen/c1q" android:textColor="@color/white" android:gravity="center" android:id="@id/equip_street_cvtype_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g9v" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/eyo" />
+    </FrameLayout>
+    <include android:id="@id/layout_enter_or_exit_animation" android:visibility="gone" layout="@layout/f1n" />
+</FrameLayout>

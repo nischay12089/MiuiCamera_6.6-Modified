@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tint_color_indicator_outer" android:drawable="@drawable/preference_tint_color_selector_indicator_outer" />
+    <item android:id="@id/tint_color_indicator_inner" android:drawable="@drawable/preference_tint_color_selector_indicator_inner" />
+    <item android:id="@id/tint_color_palette" android:drawable="@drawable/preference_tint_color_selector_palette" />
+</layer-list>

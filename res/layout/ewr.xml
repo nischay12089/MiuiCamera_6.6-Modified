@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_bubble_pop_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="end" android:id="@id/ugc_add_entrance_view_stub" android:layout="@layout/f37" android:inflatedId="@id/ugc_add_entrance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci8" android:layout_marginEnd="@dimen/ci9" />
+    <FrameLayout android:id="@id/ugc_bottom_menu_root" android:layout_width="fill_parent" android:layout_height="@dimen/ciu" android:paddingHorizontal="@dimen/civ">
+        <ImageView android:layout_gravity="start|center" android:id="@id/ugc_batch_import" android:layout_width="@dimen/ciw" android:layout_height="fill_parent" android:src="@drawable/ic_pro_ugc_batch_import" android:scaleType="centerInside" android:contentDescription="@string/hzv" />
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/cix" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ugc_bottom_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/hzz" app:b1y="@color/alpha24_black" app:b1z="@dimen/cj7" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/ugc_add" android:layout_width="@dimen/ciw" android:layout_height="fill_parent" android:src="@drawable/ic_pro_ugc_add_entrance" android:scaleType="centerInside" android:contentDescription="@string/hzu" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/rv_parent" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/cj2">
+        <miuix.springback.view.SpringBackLayout android:layout_gravity="center" android:id="@id/rv_springbacklayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:zn="left" app:zo="@dimen/di7" app:atu="horizontal" app:aty="@id/style_workspace_list">
+            <miuix.recyclerview.widget.RecyclerView android:id="@id/style_workspace_list" android:padding="@dimen/cj3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </miuix.springback.view.SpringBackLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/eow" style="?android:progressBarStyleLarge" />
+            <TextView android:textSize="13.799988sp" android:textColor="@android:color/white" android:id="@id/ll_updating_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gm1" android:layout_marginStart="@dimen/cfl" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

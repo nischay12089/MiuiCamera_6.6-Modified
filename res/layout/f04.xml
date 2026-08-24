@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manually_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/add_item_layout" android:layout_width="@dimen/dzz" android:layout_height="@dimen/dzz" android:layout_marginTop="@dimen/e00">
+        <com.android.camera.ui.ColorImageView android:layout_gravity="center_vertical" android:id="@id/add_item_value_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_workspace_add_auto" android:scaleType="centerInside" style="@style/ia1" />
+        <TextView android:textSize="@dimen/e03" android:textColor="@color/worksapce_add_detail_item_text_color" android:ellipsize="marquee" android:id="@id/add_item_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+        <TextView android:textSize="@dimen/e03" android:textColor="@color/worksapce_add_detail_item_text_color" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/add_item_key" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Zaostrené. Rozpoznaných %d tvárí</item>
+        <item quantity="one">Zaostrené. Rozpoznaná %d tvár</item>
+        <item quantity="few">Zaostrené. Rozpoznané %d tváre</item>
+        <item quantity="many">Zaostrené. Rozpoznanej %d tváre</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotografií z dávkového snímania</item>
+        <item quantity="one">%d fotografia z dávkového snímania</item>
+        <item quantity="few">%d fotografie z dávkového snímania</item>
+        <item quantity="many">%d fotografie z dávkového snímania</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d sekúnd</item>
+        <item quantity="one">Interval: %d sekunda</item>
+        <item quantity="few">Interval: %d sekundy</item>
+        <item quantity="many">Interval: %d sekundy</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Trvanie: %d minút</item>
+        <item quantity="one">Trvanie: %d minúta</item>
+        <item quantity="few">Trvanie: %d minúty</item>
+        <item quantity="many">Trvanie: %d minúty</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Rýchlosť: %dX</item>
+        <item quantity="one">Rýchlosť: %dX</item>
+        <item quantity="few">Rýchlosť: %dX</item>
+        <item quantity="many">Rýchlosť: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Doba trvania: %d sekúnd</item>
+        <item quantity="one">Doba trvania: %d sekunda</item>
+        <item quantity="few">Doba trvania: %d sekundy</item>
+        <item quantity="many">Doba trvania: %d sekundy</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Zadaných %d znakov.</item>
+        <item quantity="one">Zadaný %d znak.</item>
+        <item quantity="few">Zadané %d znaky.</item>
+        <item quantity="many">Zadaného %d znaku.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Zadajte najviac %d znakov.</item>
+        <item quantity="one">Zadajte najviac %d znak.</item>
+        <item quantity="few">Zadajte najviac %d znaky.</item>
+        <item quantity="many">Zadajte najviac %d znaku.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">K rovnakej sieti môžete pripojiť maximálne %d kamier</item>
+        <item quantity="one">K rovnakej sieti môžete pripojiť maximálne %d kameru</item>
+        <item quantity="few">K rovnakej sieti môžete pripojiť maximálne %d kamery</item>
+        <item quantity="many">K rovnakej sieti môžete pripojiť maximálne %d kamier</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">K rovnakej sieti môžete pripojiť maximálne %d monitorov</item>
+        <item quantity="one">K rovnakej sieti môžete pripojiť maximálne %d monitor</item>
+        <item quantity="few">K rovnakej sieti môžete pripojiť maximálne %d monitory</item>
+        <item quantity="many">K rovnakej sieti môžete pripojiť maximálne %d monitoru</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Môžete vytvoriť až %d klonov naraz.</item>
+        <item quantity="one">Môžete vytvoriť až %d klon naraz.</item>
+        <item quantity="few">Môžete vytvoriť až %d klony naraz.</item>
+        <item quantity="many">Môžete vytvoriť až %d klonu naraz.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Nie je možné sa pripojiť k fotoaparátu.&lt;br>Aplikácia bude za &lt;font color=#FFCE16>&lt;b>%1$d sekúnd &lt;/b>&lt;/font> ukončená. Po ukončení aplikácie chvíľu počkajte a skúste to znova.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Nie je možné sa pripojiť k fotoaparátu.&lt;br>Aplikácia bude za &lt;font color=#FFCE16>&lt;b>%1$d sekundu &lt;/b>&lt;/font> ukončená. Po ukončení aplikácie chvíľu počkajte a skúste to znova.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Nie je možné sa pripojiť k fotoaparátu.&lt;br>Aplikácia bude za &lt;font color=#FFCE16>&lt;b>%1$d sekundy &lt;/b>&lt;/font> ukončená. Po ukončení aplikácie chvíľu počkajte a skúste to znova.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Nie je možné sa pripojiť k fotoaparátu.&lt;br>Aplikácia bude za &lt;font color=#FFCE16>&lt;b>%1$d sekundy &lt;/b>&lt;/font> ukončená. Po ukončení aplikácie chvíľu počkajte a skúste to znova.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Toto zariadenie je teraz prehriate.&lt;br>Aplikácia sa zatvorí za &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Aktuálny priebeh sa uloží automaticky.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Toto zariadenie je teraz prehriate.&lt;br>Aplikácia sa zatvorí za &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Aktuálny priebeh sa uloží automaticky.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Toto zariadenie je teraz prehriate.&lt;br>Aplikácia sa zatvorí za &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Aktuálny priebeh sa uloží automaticky.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Toto zariadenie je teraz prehriate.&lt;br>Aplikácia sa zatvorí za &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Aktuálny priebeh sa uloží automaticky.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Verzia fotoaparátu, ktorú používate, nie je kompatibilná s modelom vášho zariadenia.&lt;br>Aplikácia sa zavrie za &lt;font color=#FFCE16>&lt;b>%1$d sekúnd&lt;/b>&lt;/font>. Odinštalujte aktualizácie fotoaparátu a skúste to znova.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Verzia fotoaparátu, ktorú používate, nie je kompatibilná s modelom vášho zariadenia.&lt;br>Aplikácia sa zavrie za &lt;font color=#FFCE16>&lt;b>%1$d sekundu&lt;/b>&lt;/font>. Odinštalujte aktualizácie fotoaparátu a skúste to znova.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Verzia fotoaparátu, ktorú používate, nie je kompatibilná s modelom vášho zariadenia.&lt;br>Aplikácia sa zavrie za &lt;font color=#FFCE16>&lt;b>%1$d sekundy&lt;/b>&lt;/font>. Odinštalujte aktualizácie fotoaparátu a skúste to znova.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Verzia fotoaparátu, ktorú používate, nie je kompatibilná s modelom vášho zariadenia.&lt;br>Aplikácia sa zavrie za &lt;font color=#FFCE16>&lt;b>%1$d sekundy&lt;/b>&lt;/font>. Odinštalujte aktualizácie fotoaparátu a skúste to znova.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+        <item quantity="few">%1$d min.</item>
+        <item quantity="many">%1$d min.</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sek.</item>
+        <item quantity="one">%1$d sek.</item>
+        <item quantity="few">%1$d sek.</item>
+        <item quantity="many">%1$d sek.</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Zapnutý časovač (%1$d sek.). Fotografie sa prenesú do tohto zariadenia.</item>
+        <item quantity="one">Zapnutý časovač (%1$d sek.). Fotografie sa prenesú do tohto zariadenia.</item>
+        <item quantity="few">Zapnutý časovač (%1$d sek.). Fotografie sa prenesú do tohto zariadenia.</item>
+        <item quantity="many">Zapnutý časovač (%1$d sek.). Fotografie sa prenesú do tohto zariadenia.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Vymazať %1$d konceptov?</item>
+        <item quantity="one">Vymazať %1$d koncept?</item>
+        <item quantity="few">Vymazať %1$d koncepty?</item>
+        <item quantity="many">Vymazať %1$d konceptov?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Pridajte maximálne %d predvolieb</item>
+        <item quantity="one">Pridajte maximálne %d predvoľbu</item>
+        <item quantity="few">Pridajte maximálne %d predvoľby</item>
+        <item quantity="many">Pridajte maximálne %d predvolieb</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Vymazať %d predvolieb teraz?</item>
+        <item quantity="one">Vymazať %d predvoľbu teraz?</item>
+        <item quantity="few">Vymazať %d predvoľby teraz?</item>
+        <item quantity="many">Vymazať %d predvoľby teraz?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Vymazaných %d predvolieb</item>
+        <item quantity="one">Vymazaná %d predvoľba</item>
+        <item quantity="few">Vymazané %d predvoľby</item>
+        <item quantity="many">Vymazanej %d predvoľby</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Importovaných %d predvolieb</item>
+        <item quantity="one">Importovaná %d predvoľba</item>
+        <item quantity="few">Importované %d predvoľby</item>
+        <item quantity="many">Importovanej %d predvoľby</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+        <item quantity="few">%1$s min.</item>
+        <item quantity="many">%1$s min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Zachytávanie živých momentov, max. %d sek.</item>
+        <item quantity="one">Zachytávanie živého momentu, max. %d sek.</item>
+        <item quantity="few">Zachytávanie živých momentov, max. %d sek.</item>
+        <item quantity="many">Zachytávanie živých momentov, max. %d sek.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Nahrať %d sekúnd</item>
+        <item quantity="one">Nahrať %d sekundu</item>
+        <item quantity="few">Nahrať %d sekundy</item>
+        <item quantity="many">Nahrať %d sekundy</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Videá s funkciou zmrazenia môžete natáčať iba s %d objektami.</item>
+        <item quantity="one">Videá s funkciou zmrazenia môžete natáčať iba s %d objektom.</item>
+        <item quantity="few">Videá s funkciou zmrazenia môžete natáčať iba s %d objektami.</item>
+        <item quantity="many">Videá s funkciou zmrazenia môžete natáčať iba s %d objektami.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotografií</item>
+        <item quantity="one">%1$s fotografia</item>
+        <item quantity="few">%1$s fotografie</item>
+        <item quantity="many">%1$s fotografie</item>
+    </plurals>
+</resources>

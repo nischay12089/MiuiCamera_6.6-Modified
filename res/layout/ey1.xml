@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.widget.StrokeAdaptiveTextView android:textSize="@dimen/dip" android:textColor="@android:color/white" android:id="@id/pic_style_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dil" android:maxWidth="@dimen/dim" android:text="@string/gnd" android:textDirection="ltr" android:paddingHorizontal="@dimen/din" android:paddingVertical="@dimen/dio" app:b1z="@dimen/dic" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dig" android:paddingStart="@dimen/dii" android:paddingEnd="@dimen/dih">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/pic_style_reset" android:background="@drawable/pic_style_reset_bg" android:layout_width="@dimen/dif" android:layout_height="@dimen/dif" android:src="@drawable/ic_pic_style_reset" android:scaleType="centerInside" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pic_style_selector_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dw1" android:layout_marginTop="@dimen/dij">
+        <micamx.compat.ui.widget.seekbar.IndicatorTickedSeekBar android:layout_gravity="center" android:id="@id/pic_style_slider_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bae="@color/zoom_slider_normal_color" app:baf="@dimen/e1f" app:bag="@dimen/dwc" app:bah="true" app:baj="@color/tint_color_yellow_depth2" app:bal="@dimen/bm8" app:ban="@dimen/bma" app:bap="@dimen/e1h" app:baq="50" app:bar="-50" app:bas="move_tick" app:bav="0" app:bb3="false" app:bb5="true" app:bb7="true" app:bb8="@dimen/e1m" app:bb9="@color/zoom_slider_normal_color" app:bb_="@dimen/dik" app:bba="@dimen/e1m" app:bbb="5.0" app:bbc="@dimen/bme" />
+    </FrameLayout>
+</LinearLayout>

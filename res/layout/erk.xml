@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.camera.ui.blur.BlurBackgroundView android:layout_gravity="center_horizontal" android:id="@id/cine_popup_blur_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a5e="true" app:asb="@dimen/e70"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rl_connect_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/e61" android:paddingStart="@dimen/d82" android:paddingEnd="@dimen/d81">
+        <FrameLayout android:gravity="center_vertical" android:id="@id/rv_top_navigation_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dnl" android:layoutDirection="ltr">
+            <ImageView android:layout_gravity="start|center" android:id="@id/iv_pop_up_back" android:layout_width="@dimen/e2q" android:layout_height="@dimen/e2q" android:src="@drawable/ic_vector_config_back" android:contentDescription="@string/gon" />
+            <TextView android:textSize="@dimen/e6c" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/tv_connect_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g4e" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:contentDescription="@string/hr0" android:contextClickable="true" android:fallbackLineSpacing="false" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dnl" android:layout_marginBottom="90.0dip">
+            <TextView android:textSize="@dimen/d7y" android:textColor="#99ffffff" android:id="@id/tv_device_ip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ScrollView android:scrollbarThumbVertical="@drawable/video_prompter_scroll_bar_style" android:paddingTop="@dimen/d7x" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/d7y" android:textColor="@color/white_alpha_60" android:id="@id/tv_connect_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fallbackLineSpacing="true" />
+            </ScrollView>
+            <include layout="@layout/erm" />
+            <include layout="@layout/erl" />
+            <miuix.androidbasewidget.widget.ProgressBar android:layout_gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d7w" android:layout_marginBottom="@dimen/d7w" android:indeterminateTint="@color/miuix_appcompat_white" style="?android:progressBarStyleLarge" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/bqt" android:layout_gravity="bottom" android:id="@id/btn_connect_start" android:background="@drawable/shape_btn_connect_start_un_press" android:layout_marginBottom="@dimen/d7v" android:text="@string/g46" android:alpha="1.0" android:layout_marginHorizontal="0.0dip" style="@style/i53" />
+    </FrameLayout>
+</com.xiaomi.camera.ui.blur.BlurBackgroundView>

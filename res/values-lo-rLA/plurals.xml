@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ໂຟກັສແລ້ວ. ກວດພົບ %d ໃບໜ້າ</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ພາບໃນຮູບຖ່າຍຕໍ່ເນື່ອງ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ຊ່ວງເວລາ: %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ຊ່ວງເວລາ: %d ນາທີ</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">ຄວາມໄວ: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ຊ່ວງເວລາ: %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">ປ້ອນແລ້ວ %d ຕົວອັກສອນ.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">ປ້ອນສູງສຸດ %d ຕົວອັກສອນ.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dວິ</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ທ່ານສາມາດເຊື່ອມຕໍ່ໄດ້ເຖິງ %d ກ້ອງກັບເຄືອຂ່າຍດຽວກັນ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ທ່ານສາມາດເຊື່ອມຕໍ່ໄດ້ເຖິງ %d ຈໍກັບເຄືອຂ່າຍດຽວກັນ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ທ່ານສາມາດສ້າງໄດ້ສູງສຸດ %d ໂຄລນໃນໜຶ່ງຄັ້ງ.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບກ້ອງໄດ້.&lt;br>ແອັບນີ້ຈະຖືກປິດໃນ &lt;font color=#FFCE16>&lt;b>%1$d ວິນາທີ&lt;/b>&lt;/font>. ຫຼັງຈາກນີ້, ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ອຸປະກອນນີ້ຮ້ອນເກີນໄປໃນຕອນນີ້.&lt;br>ແອັບຈະຖືກປິດໃນ &lt;font color=#FFCE16>&lt;b>%1$d ວິນາທີ&lt;/b>&lt;/font>. ຄວາມຄືບໜ້າປັດຈຸບັນຖືກບັນທຶກໂດຍອັດຕະໂນມັດ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>ເວີຊັ່ນກ້ອງຖ່າຍຮູບທີ່ທ່ານກຳລັງໃຊ້ນັ້ນບໍ່ເຂົ້າກັນໄດ້ກັບໂມເດວອຸປະກອນຂອງທ່ານ.&lt;br>Tແອັບຈະຖືກປິດໃນ &lt;font color=#FFCE16>&lt;b>%1$d ວິ&lt;/b>&lt;/font>. ຖອນການຕິດຕັ້ງການອັບເດດກ້ອງຖ່າຍຮູບແລະລອງອີກຄັ້ງ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d ນາທີ</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d ວິ</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">ເປີດໂຕຈັບເວລາ (%1$d ວິນາທີ). ຮູບພາບຈະຖືກໂອນໄປທີ່ອຸປະກອນນີ້.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">ລົບ %1$d ​ໂຄງຮ່າງບໍ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">ເພີ່ມສູງສຸດ %d ຄ່າທີ່ຕັ້ງໄວ້</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">ລົບ %d ເຊັດການຕັ້ງຄ່າຕອນນີ້?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">ລົບ %d ເຊັດການຕັ້ງຄ່າ</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">ນໍາເຂົ້າ %d ເຊັດການຕັ້ງຄ່າ</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dວິ</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s ນາທີ</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ການບັນທຶກຊ່ວງເວລາສົດ, ສູງສຸດ %d ວິ</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">ບັນທຶກ %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">ທ່ານສາມາດຖ່າຍວິດີໂອແຊ່ແຂງເວລາໄດ້ສູງສຸດ %d ວັດຖຸ.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ຮູບພາບ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.CapsuleLayout android:id="@id/capsule_tip_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:b4t="@id/capsule_tip_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/capsule_tip_content" android:background="@drawable/bg_capsule_tip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="@dimen/bph">
+        <ImageView android:layout_gravity="end|center" android:id="@id/capsule_tip_close" android:focusable="false" android:layout_width="@dimen/bpg" android:layout_height="@dimen/bpg" android:src="@drawable/ic_capsule_tip_close" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.xiaomi.camera.ui.widget.StrokeAdaptiveTextView android:textSize="@dimen/bpl" android:textColor="@color/mode_selected_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/capsule_tip_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/bpi" android:layout_marginEnd="@dimen/bpj" android:layout_marginVertical="@dimen/bpk" />
+    </FrameLayout>
+</com.android.camera.ui.CapsuleLayout>

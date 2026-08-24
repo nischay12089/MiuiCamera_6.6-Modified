@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/more_mode_scrim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.xiaomi.camera.ui.edit.drag.BaseDragContainer android:layout_gravity="bottom" android:id="@id/more_mode_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/blur_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/edit_confirm_bar_stub" android:layout="@layout/f1m" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.xiaomi.camera.main.ui.modeselector.popup.DragIndicatorBar android:layout_gravity="center_horizontal" android:id="@id/drag_indicator_bar" android:layout_width="@dimen/d9a" android:layout_height="@dimen/d9d" android:layout_marginTop="@dimen/d9_" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/more_mode_grid" android:paddingTop="@dimen/d9c" android:paddingBottom="@dimen/d9c" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/edit_common_mode_list" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/btg" android:paddingVertical="@dimen/d8v" />
+    </com.xiaomi.camera.ui.edit.drag.BaseDragContainer>
+    <FrameLayout android:id="@id/mode_select_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaomi.camera.main.ui.view.EdgeHorizonScrollView android:id="@id/mode_select_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zn="top|bottom">
+            <com.xiaomi.camera.main.ui.view.ModeSelectView android:id="@id/mode_select_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.xiaomi.camera.main.ui.view.EdgeHorizonScrollView>
+        <ViewStub android:layout_gravity="center" android:id="@id/capsule_tip_stub" android:layout="@layout/f1h" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

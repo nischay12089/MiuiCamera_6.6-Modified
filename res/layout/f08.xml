@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/style_item_data_layout" android:background="@drawable/workspace_default_item_bg" android:layout_width="@dimen/cdf" android:layout_height="@dimen/e05"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/di7" android:paddingEnd="4.0dip">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/di8">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/e08" android:textColor="@color/white_alpha_80" android:ellipsize="marquee" android:id="@id/style_item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" android:textDirection="locale" android:layout_marginEnd="5.0dip" />
+            <ImageView android:id="@id/style_item_name_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lc_ic_style_menu" android:contentDescription="@null" android:layout_marginEnd="4.0dip" />
+        </LinearLayout>
+        <com.android.camera2.compat.theme.custom.mm.manually.view.NoTouchRecyclerView android:id="@id/manual_item_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/style_item_indicator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/style_item_selected_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/workspace_operation_item_selector_cv" android:layout_centerInParent="true" android:contentDescription="@null" android:rotation="0.0" />
+    </FrameLayout>
+</FrameLayout>

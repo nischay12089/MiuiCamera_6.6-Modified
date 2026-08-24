@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">對焦完成，檢測到%d張人臉</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">拍攝張數%d張</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">時間間隔%d秒</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">時長%d分鐘</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">速度%d倍</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">錄製時間%d秒</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">已輸入%d字符</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">最多可輸入%d字符</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">同一網路下最多支援存取%d台攝影機</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">同一網路下最多支援存取%d台監視器</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">最多支援%d個分身</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>無法連線到相機，&lt;br>應用程式將在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>後退出，請稍候重試。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>裝置溫度過高，&lt;br>應用程式將在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>後退出，拍攝進度已自動儲存。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>目前相機版本和機型不匹配，&lt;br>應用程式將在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>後退出，請移除該版本後使用。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">已預設開啟倒數計時%1$ds拍攝，並自動傳輸照片至本機</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">是否刪除%1$d項草稿？</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">最多支援新增%d個預設</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">是否删除%d個預設？</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">已删除%d個預設</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">已匯入%d個預設</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d 則新通知</item>
+        <item quantity="one">%d 則新通知</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dS</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s分鐘</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">動態照片拍攝中，最多支援%d秒</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d秒錄製</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">僅支援 %d 個人像拍攝</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s張</item>
+    </plurals>
+</resources>

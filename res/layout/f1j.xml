@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/btn_cancel_container" android:background="@drawable/bg_confirm_bar_button" android:layout_width="@dimen/bte" android:layout_height="@dimen/bte" app:aar="parent" app:abg="parent" app:abk="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/btn_cancel" android:background="@null" android:padding="@dimen/btf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/miuix_action_icon_immersion_close_dark" android:contentDescription="@string/gtd" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/bti" app:aar="parent" app:aay="@id/btn_confirm_container" app:abf="@id/btn_cancel_container" app:abk="parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white_alpha_95" android:gravity="center_horizontal" android:id="@id/title_first_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gto" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_50" android:gravity="center_horizontal" android:id="@id/title_second_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gtq" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/btn_confirm_container" android:background="@drawable/bg_confirm_bar_button" android:layout_width="@dimen/bte" android:layout_height="@dimen/bte" app:aar="parent" app:aax="parent" app:abk="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/btn_confirm" android:background="@null" android:padding="@dimen/btf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/miuix_action_icon_immersion_confirm_dark" android:contentDescription="@string/g6l" />
+    </FrameLayout>
+</merge>

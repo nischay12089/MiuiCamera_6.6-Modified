@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.camera.ui.edit.drag.BaseDragContainer android:id="@id/more_panel_root" android:background="@color/more_panel_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/edit_confirm_bar_stub" android:layout="@layout/f2a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/more_panel_grid" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/d9m" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/edit_common_mode_list" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/e0x" android:paddingVertical="@dimen/e0s" />
+</com.xiaomi.camera.ui.edit.drag.BaseDragContainer>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.appcompat.app.SearchModeStubView android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/search_mode_stub" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/d0c" style="@style/imy">
+        <LinearLayout android:id="@android:id/inputArea" android:background="?aii" android:layout_width="fill_parent" android:layout_height="@dimen/d0f" android:forceDarkAllowed="false">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ai4" android:scaleType="centerInside" android:paddingStart="@dimen/cw6" android:paddingEnd="@dimen/cw5" />
+            <TextView android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@android:id/input" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:contentDescription="@string/gsv" android:textDirection="locale" style="@style/i7j" />
+        </LinearLayout>
+    </FrameLayout>
+</miuix.appcompat.app.SearchModeStubView>

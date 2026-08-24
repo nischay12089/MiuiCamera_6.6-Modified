@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom|center" android:id="@id/menu_bottom_root" android:layout_width="fill_parent" android:layout_height="@dimen/e7j"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/menu_footer_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/e7h" app:aar="parent" app:aba="parent" app:abg="parent" app:abk="parent" />
+    <TextView android:textSize="@dimen/e7i" android:textColor="@color/white_alpha_48" android:id="@id/menu_footer_battery_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/e7h" app:aar="parent" app:abf="@id/menu_footer_battery" app:abk="parent" />
+    <TextView android:textSize="@dimen/e7k" android:textColor="@color/white_alpha_48" android:id="@id/menu_footer_setting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g3n" android:contentDescription="@string/g3n" android:layout_marginEnd="@dimen/e7l" app:aar="parent" app:aay="@id/menu_footer_setting_img" app:abk="parent" />
+    <ImageView android:id="@id/menu_footer_setting_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vector_menu_setting_arrow" android:contentDescription="@string/g3n" android:layout_marginEnd="@dimen/e7h" app:aar="parent" app:aax="parent" app:abk="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

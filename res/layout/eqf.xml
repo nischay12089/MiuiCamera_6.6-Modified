@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/presenation_textureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/cover_top" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="bottom" android:id="@id/cover_bottom" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/cover_left" android:background="@color/black" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <View android:layout_gravity="end" android:id="@id/cover_right" android:background="@color/black" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <View android:id="@id/presenation_hibernation_cover" android:background="@color/color_FF000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/presenation_delay_number" android:visibility="gone" android:clickable="false" style="@style/i9x" />
+    <com.android.camera2.compat.theme.custom.mm.top.topalert.RecordingTimeView android:layout_gravity="end|center|top" android:id="@id/ll_alert_recording_time_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2w" android:layout_marginStart="@dimen/eb1" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/presenation_timer_burst" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/presenation_timer_burst_index" style="@style/i9x" />
+            <TextView android:textColor="@color/vv_progress_bg_color" android:id="@id/presenation_timer_burst_total" style="@style/i9x" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/presenation_record_loading_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/presenation_record_2s" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/presenation_record_loading" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dm8" android:layout_height="@dimen/dm8" android:src="@drawable/ic_presenation_record_loading" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/esx" android:layout="@layout/esx" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/video_prompter_container" android:visibility="gone" android:layout_width="@dimen/eb0" android:layout_height="fill_parent" android:layout_marginStart="@dimen/eb2" layout="@layout/ey_" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:id="@id/tip_base_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="bottom" android:layout_gravity="center_vertical" android:id="@id/tip_image" android:background="@null" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dj_" android:layout_height="@dimen/dj_" android:scaleType="center" android:contentDescription="@null" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/ev_value_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/bn9" android:textStyle="bold" android:textColor="@color/bottom_tip_selected_color" android:gravity="center" android:id="@id/tip_symbol" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bn8" android:singleLine="true" android:layout_alignBottom="@id/tip_text" android:layout_marginEnd="@dimen/bn7" android:fontFeatureSettings="tnum" app:ag8="1.0" app:b1y="@color/alpha24_black" app:b1z="@dimen/bp0" />
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/bnb" android:textColor="@color/bottom_tip_selected_color" android:gravity="center" android:id="@id/tip_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toEndOf="@id/tip_symbol" android:fontFeatureSettings="tnum" app:ag8="1.0" app:b1y="@color/alpha24_black" app:b1z="@dimen/bp0" />
+    </RelativeLayout>
+</FrameLayout>

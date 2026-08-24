@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Tarkennettu. %d kasvot havaittu</item>
+        <item quantity="one">Tarkennettu. %d kasvot havaittu</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d kuvaa sarjaotoksessa</item>
+        <item quantity="one">%d kuva sarjaotoksessa</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Aikaväli: %d sekuntia</item>
+        <item quantity="one">Aikaväli: %d sekunti</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Kesto: %d minuuttia</item>
+        <item quantity="one">Kesto: %d minuutti</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Nopeus: %dX</item>
+        <item quantity="one">Nopeus: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Kesto: %d sekuntia</item>
+        <item quantity="one">Kesto: %d sekunti</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Syötettiin %d merkkiä.</item>
+        <item quantity="one">Syötettiin %d merkki.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Kirjoita enintään %d merkkiä.</item>
+        <item quantity="one">Kirjoita enintään %d merkki.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Voit yhdistää enintään %d kameraa samaan verkkoon</item>
+        <item quantity="one">Voit yhdistää enintään %d kameran samaan verkkoon</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Voit liittää enintään %d monitoria samaan verkkoon</item>
+        <item quantity="one">Voit liittää enintään %d monitorin samaan verkkoon</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Voit luoda enintään %d kloonia kerralla.</item>
+        <item quantity="one">Voit luoda enintään %d kloonin kerralla.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Ei voi muodostaa yhteyttä kameraan.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Odota tämän jälkeen pari minuuttia ja yritä uudelleen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Ei voi muodostaa yhteyttä kameraan.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Odota tämän jälkeen pari minuuttia ja yritä uudelleen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Tämä laite on nyt liian kuuma.&lt;br>Tämä sovellus suljetaan &lt;font color=#FFCE16>&lt;b>%1$d sekunnin kuluttua&lt;/b>&lt;/font>. Tämänhetkinen edistyminen tallennettiin automaattisesti.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Käyttämäsi Kamera-versio ei ole yhteensopiva laitemallisi kanssa.&lt;br>Sovellus sulkeutuu &lt;font color=#FFCE16>&lt;b>%1$d sek kuluttua&lt;/b>&lt;/font >. Poista Kamera-päivitykset ja yritä uudelleen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Käyttämäsi Kamera-versio ei ole yhteensopiva laitemallisi kanssa.&lt;br>Sovellus sulkeutuu &lt;font color=#FFCE16>&lt;b>%1$d sek kuluttua&lt;/b>&lt;/font >. Poista Kamera-päivitykset ja yritä uudelleen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d minuuttia</item>
+        <item quantity="one">%1$d minuutti</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sekuntia</item>
+        <item quantity="one">%1$d sekunti</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Ajastin päällä (%1$d sek). Valokuvat siirretään tälle laitteelle.</item>
+        <item quantity="one">Ajastin päällä (%1$d sek). Valokuvat siirretään tälle laitteelle.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Poistetaanko %1$d luonnosta?</item>
+        <item quantity="one">Poistetaanko %1$d luonnos?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Lisää enintään %d esiasetusta</item>
+        <item quantity="one">Lisää enintään %d esiasetus</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Poistetaanko %d esiasetusta nyt?</item>
+        <item quantity="one">Poistetaanko %d esiasetus nyt?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d esiasetusta poistettu</item>
+        <item quantity="one">%d esiasetus poistettu</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d esiasetusta tuotu</item>
+        <item quantity="one">%d esiasetus tuotu</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s minuuttia</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Tallennetaan live-hetkeä, jopa %d s</item>
+        <item quantity="one">Tallennetaan live-hetkeä, jopa %d s</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Tallenna %d sekuntia</item>
+        <item quantity="one">Tallenna %d sekunti</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Voit kuvata aikapysäytettyjä videoita enintään %d kohteella.</item>
+        <item quantity="one">Voit kuvata aikapysäytettyjä videoita vain %d kohteella.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s kuvaa</item>
+        <item quantity="one">%1$s kuva</item>
+    </plurals>
+</resources>

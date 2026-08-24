@@ -1,0 +1,17 @@
+.class public interface abstract LQx/m;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract dismiss()V
+.end method
+
+.method public abstract isShowing()Z
+.end method
+
+.method public abstract n(Landroid/view/Menu;)V
+.end method
+
+.method public abstract showAsDropDown(Landroid/view/View;)V
+.end method

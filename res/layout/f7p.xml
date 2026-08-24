@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.visual.check.VisualCheckGroup android:id="@id/preference_more_mode_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <miuix.visual.check.VisualCheckBox android:gravity="center_horizontal" android:id="@id/preference_more_mode_tab_check_box" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/gvo">
+            <miuix.visual.check.BorderLayout android:padding="@dimen/dl_" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pc="@drawable/preference_more_mode_visual_check_border">
+                <miuix.smooth.SmoothFrameLayout2 android:layout_width="@dimen/dlg" android:layout_height="@dimen/dlf" android:radius="@dimen/dlc">
+                    <VideoView android:id="@id/preference_more_mode_tab_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" android:importantForAccessibility="no" />
+                    <View android:id="@id/preference_more_mode_tab_cover" android:background="@drawable/video_cover_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </miuix.smooth.SmoothFrameLayout2>
+            </miuix.visual.check.BorderLayout>
+            <miuix.visual.check.VisualCheckedTextView android:textSize="@dimen/dle" android:textStyle="bold" android:textColor="@color/more_mode_type_setting_text_color_normal" android:id="@id/preference_more_mode_tab_title" android:padding="@dimen/dld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gvo" android:maxLines="3" />
+        </miuix.visual.check.VisualCheckBox>
+        <miuix.visual.check.VisualCheckBox android:gravity="center_horizontal" android:id="@id/preference_more_mode_popup_check_box" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/gvn">
+            <miuix.visual.check.BorderLayout android:padding="@dimen/dl_" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pc="@drawable/preference_more_mode_visual_check_border">
+                <miuix.smooth.SmoothFrameLayout2 android:layout_width="@dimen/dlg" android:layout_height="@dimen/dlf" android:radius="@dimen/dlc">
+                    <VideoView android:id="@id/preference_more_mode_popup_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" android:importantForAccessibility="no" />
+                    <View android:id="@id/preference_more_mode_popup_cover" android:background="@drawable/video_cover_popup" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </miuix.smooth.SmoothFrameLayout2>
+            </miuix.visual.check.BorderLayout>
+            <miuix.visual.check.VisualCheckedTextView android:textSize="@dimen/dle" android:textStyle="bold" android:textColor="@color/more_mode_type_setting_text_color_normal" android:id="@id/preference_more_mode_popup_title" android:padding="@dimen/dld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gvn" android:maxLines="3" />
+        </miuix.visual.check.VisualCheckBox>
+    </miuix.visual.check.VisualCheckGroup>
+</LinearLayout>

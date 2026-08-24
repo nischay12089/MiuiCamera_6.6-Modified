@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/ckl" android:layout_marginRight="@dimen/ckw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/e0_" android:textColor="@color/manual_workspacr_batch_item_value" android:gravity="center_vertical" android:id="@id/manual_workspace_item_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textDirection="ltr" />
+    <TextView android:textSize="@dimen/e0_" android:textColor="@color/manual_workspacr_batch_item_value" android:gravity="center_vertical" android:id="@id/manual_workspace_item_value" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textDirection="ltr" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/manual_workspace_item_auto" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_manual_workspace_activitty_item_auto" />
+</LinearLayout>

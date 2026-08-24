@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/legendary_selected_example" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/legendary_m9" />
+    <ImageView android:layout_gravity="bottom|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cdr" android:src="@drawable/leica_logo" />
+</FrameLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">បានសម្លឹងផ្តោត។ បានអង្កេត​ឃើញទម្រង់មុខ %d</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d រូបថតនៅក្នុងរូបថតរហ័សមួយ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ចន្លោះពេល: %d វិនាទី</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">រយៈពេល៖ %d នាទី</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">ល្បឿន៖ %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">រយៈពេល: %d វិនាទី</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">វាយបញ្ចូល %d តួអក្សរ</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">វាយបញ្ចូលបានដល់ %d តួអក្សរ</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">អ្នកអាចភ្ជាប់កាមេរ៉ារហូតដល់ %d ជាមួយបណ្ដាញតែមួយ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">អ្នកអាចភ្ជាប់ម៉ូនីទ័របានរហូតដល់ %d ជាមួយបណ្ដាញតែមួយ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">អ្នកអាចបង្កើតការក្លូនបាន %d ក្នុងពេលតែមួយ។</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>មិនអាចតភ្ជាប់ទៅកាមេរ៉ាបានទេ។&lt;br>កម្មវិធីនេះនឹងត្រូវបិទនៅក្នុងពេល &lt;font color=#FFCE16>&lt;b>%1$d វិនាទី&lt;/b>&lt;/font>។ បន្ទាប់ពីនេះ សូមរង់ចាំមួយទៅពីរនាទី ហើយព្យាយាមម្តងទៀត។&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ឥឡូវនេះឧបករណ៍នេះក្តៅពេកហើយ។&lt;br>កម្មវិធីនេះនឹងត្រូវបិទនៅក្នុងពេល &lt;font color=#FFCE16>&lt;b>%1$d វិនាទី&lt;/b>&lt;/font>។ វឌ្នភាពបច្ចុប្បន្នត្រូវបានរក្សាទុកដោយស្វ័យប្រវត្តិ។&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>កំណែកាមេរ៉ាដែលអ្នកកំពុងប្រើប្រាស់មិនត្រូវគ្នានឹងម៉ូដែលឧបករណ៍របស់អ្នកទេ។&lt;br>កម្មវិធីនឹងបិទក្នុងរយៈពេល &lt;font color=#FFCE16>&lt;b>%1$d វិនាទី&lt;/b>&lt;/font>. លុបការអាប់ដេតកម្មវិធីកាមេរ៉ា ហើយព្យាយាមម្តងទៀត។&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d វិនាទី</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">បានបើកកម្មវិធីកំណត់ម៉ោង (%1$d វិនាទី)។ រូបថតនឹងត្រូវបានផ្ទេរទៅឧបករណ៍នេះ។</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">លុប %1$d សេចក្តីព្រាងនេះឬ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">បន្ថែម%dគំរូ</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">លុប %d បុរេកំណត់ឥឡូវនេះ?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">បានលុប %d បុរេកំណត់</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">បាននាំចូល %d បុរេកំណត់</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s នាទី</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ថតពេលវេលាជាក់ស្តែងរហូតដល់ %d វិនាទី</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">ថត %d វិនាទី</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">អ្នកអាចថតវីដេអូបង្កកពេលវេលាបានរហូតដល់ %d កម្មវត្ថុ។</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">រូបថត %1$s សន្លឹក</item>
+    </plurals>
+</resources>

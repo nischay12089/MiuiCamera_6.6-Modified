@@ -1,0 +1,108 @@
+.class public final Lpv/z$a;
+.super Lpv/K$c;
+.source "SourceFile"
+
+# interfaces
+.implements Lev/q;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lpv/z;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<D:",
+        "Ljava/lang/Object;",
+        "E:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lpv/K$c<",
+        "TV;>;",
+        "Lev/q;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final e:Lpv/z;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lpv/z<",
+            "TD;TE;TV;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lpv/z;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lpv/z<",
+            "TD;TE;TV;>;)V"
+        }
+    .end annotation
+
+    const-string v0, "property"
+
+    invoke-static {p1, v0}, Lfv/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lpv/K$c;-><init>()V
+
+    iput-object p1, p0, Lpv/z$a;->e:Lpv/z;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lmv/j;
+    .locals 0
+
+    iget-object p0, p0, Lpv/z$a;->e:Lpv/z;
+
+    return-object p0
+.end method
+
+.method public final j(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    iget-object p0, p0, Lpv/z$a;->e:Lpv/z;
+
+    iget-object p0, p0, Lpv/z;->k:Ljava/lang/Object;
+
+    invoke-interface {p0}, LPu/f;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lpv/z$a;
+
+    filled-new-array {p1, p2, p3}, [Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lpv/f;->call([Ljava/lang/Object;)Ljava/lang/Object;
+
+    sget-object p0, LPu/A;->a:LPu/A;
+
+    return-object p0
+.end method
+
+.method public final o()Lpv/K;
+    .locals 0
+
+    iget-object p0, p0, Lpv/z$a;->e:Lpv/z;
+
+    return-object p0
+.end method

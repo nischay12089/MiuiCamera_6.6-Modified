@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/tip_base_layout" android:layout_width="@dimen/bn5" android:layout_height="@dimen/bn5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/tip_image" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/ev_value_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/bn_" android:id="@id/tip_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/bn_" android:id="@id/tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tip_symbol" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

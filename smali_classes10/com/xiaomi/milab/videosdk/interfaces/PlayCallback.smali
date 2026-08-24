@@ -1,0 +1,26 @@
+.class public interface abstract Lcom/xiaomi/milab/videosdk/interfaces/PlayCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract onClipShotComplete(Landroid/graphics/Bitmap;IILjava/lang/String;)V
+.end method
+
+.method public abstract onPlayEOF()V
+.end method
+
+.method public abstract onPlayTimelinePosition(J)V
+.end method
+
+.method public abstract onTimelineFlushComplete(D)V
+.end method
+
+.method public abstract onTimelineSeekComplete(J)V
+.end method
+
+.method public abstract onTimelineStateChanged(I)V
+.end method
+
+.method public abstract onTimelineSurfaceChange(I)V
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/d8j"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d8k" android:textColor="@android:color/white" android:gravity="center" android:id="@id/common_mode_text" android:background="@drawable/bg_common_mode_edit_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/d8u" android:paddingVertical="@dimen/d8v" />
+</FrameLayout>

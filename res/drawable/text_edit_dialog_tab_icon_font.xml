@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/e1c" android:width="@dimen/e1d" android:viewportWidth="21.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/mark_text_edit_dialog_tab_color_selector" android:pathData="M3.5,4.5H9.75V17.5H11.25V4.5H17.5V3H3.5V4.5Z" />
+</vector>

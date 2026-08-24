@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.internal.widget.AlertActionSheetPanel android:orientation="vertical" android:id="@id/action_sheet_content_panel" android:background="@color/miuix_appcompat_transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.smooth.SmoothFrameLayout2 android:id="@id/action_sheet_content" android:background="?ts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:radius="@dimen/cu4">
+        <LinearLayout android:orientation="vertical" android:id="@id/action_sheet_content_container" android:background="?ts" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/crm" android:textColor="?sy" android:ellipsize="end" android:gravity="center" android:id="@id/action_sheet_message" android:background="?ts" android:paddingTop="@dimen/cr7" android:paddingBottom="@dimen/cr6" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textDirection="locale" android:textAlignment="center" android:paddingStart="@dimen/crn" android:paddingEnd="@dimen/crn" />
+            <miuix.core.widget.NestedScrollView android:id="@id/actionSheetScrollView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/alertContentWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <miuix.springback.view.SpringBackLayout android:id="@id/actionSheetSpringBack" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:atu="bbx" app:aty="@id/action_sheet_list_view">
+                    <include layout="@layout/f4t" />
+                </miuix.springback.view.SpringBackLayout>
+                <miuix.internal.widget.GroupButton android:textSize="@dimen/cri" android:layout_gravity="center_horizontal" android:id="@id/action_sheet_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/crg" android:layout_marginBottom="@dimen/cre" android:minHeight="@dimen/crq" android:fontFamily="@string/gt4" android:textAlignment="center" android:layout_marginStart="@dimen/crf" android:layout_marginEnd="@dimen/crf" style="?android:buttonBarNegativeButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </miuix.smooth.SmoothFrameLayout2>
+</miuix.internal.widget.AlertActionSheetPanel>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bny">59.0dip</dimen>
+    <dimen name="bon">10.0dip</dimen>
+    <dimen name="boy">70.0dip</dimen>
+    <dimen name="by5">420.0dip</dimen>
+    <dimen name="e45">20.0dip</dimen>
+</resources>

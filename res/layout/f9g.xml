@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/doi" android:textColor="@color/setup_wizard_home_text_color" android:id="@id/home_perm" android:paddingLeft="@dimen/dog" android:paddingRight="@dimen/dog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hko" android:lineHeight="@dimen/dof" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_what" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/doi" android:textColor="@color/setup_wizard_home_text_color" android:paddingLeft="@dimen/dog" android:paddingRight="@dimen/dog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hkm" android:lineHeight="@dimen/dof" />
+        <TextView android:textSize="@dimen/doi" android:textColor="@color/setup_wizard_home_text_color" android:paddingLeft="@dimen/dog" android:paddingRight="@dimen/dog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doh" android:text="@string/hkn" android:lineHeight="@dimen/dof" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/home_logo" android:background="@drawable/remote_online_circular_background" android:layout_width="@dimen/doe" android:layout_height="@dimen/dod" android:layout_marginTop="@dimen/doj">
+            <ImageView android:layout_gravity="center" android:id="@id/rotate_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_remote_camera_bg" />
+            <ImageView android:layout_gravity="center" android:id="@id/rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_remote_camera_fg" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/dol" android:textColor="@color/setup_wizard_hint_text_color" android:layout_gravity="center" android:id="@id/home_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dok" android:text="@string/hkt" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">குவிக்கப்பட்டது. %d முகங்கள் கண்டறியப்பட்டன</item>
+        <item quantity="one">குவிக்கப்பட்டது. %d முகம் கண்டறியப்பட்டது</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">பர்ஸ்ட் ஷாட்டில் %d படங்கள்</item>
+        <item quantity="one">பர்ஸ்ட் ஷாட்டில் %d படம்</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">இடைவெளி: %d வினாடிகள்</item>
+        <item quantity="one">இடைவெளி: %d வினாடி</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">நேரம்: %d நிமிடங்கள்</item>
+        <item quantity="one">நேரம்: %d நிமிடம்</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">வேகம்: %dX</item>
+        <item quantity="one">வேகம்: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">கால அளவு: %d வினாடி</item>
+        <item quantity="one">கால அளவு: %d வினாடி</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d எழுத்துகளை உள்ளிட்டுள்ளீர்கள்.</item>
+        <item quantity="one">%d எழுத்தை உள்ளிட்டுள்ளீர்கள்.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d எழுத்துகள் வரை உள்ளிடலாம்.</item>
+        <item quantity="one">%d எழுத்து வரை உள்ளிடலாம்.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dவி</item>
+        <item quantity="one">%dவி</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ஒரு நெட்வொர்க்கில் %d கேமராக்கள் வரை இணைக்கலாம்</item>
+        <item quantity="one">ஒரு நெட்வொர்க்கில் %d கேமராவை இணைக்கலாம்</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ஒரு நெட்வொர்க்கில் %d மானிட்டர்கள் வரை இணைக்கலாம்</item>
+        <item quantity="one">ஒரு நெட்வொர்க்கில் %d மானிட்டரை இணைக்கலாம்</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ஒரு நேரத்தில் %d குளோன்கள் வரை நீங்கள் உருவாக்கலாம்.</item>
+        <item quantity="one">ஒரு நேரத்தில் %d குளோன் வரை நீங்கள் உருவாக்கலாம்.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>கேமராவுடன் இணைக்க முடியவில்லை.&lt;br>இந்தச் செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடிகளில்&lt;/b>&lt;/font>. மூடப்படும். இதன் பிறகு, ஓரிரு நிமிடங்கள் காத்திருந்து, மீண்டும் முயலவும்.&lt;/Data></item>
+        <item quantity="one">&lt;Data>கேமராவுடன் இணைக்க முடியவில்லை.&lt;br>இந்தச் செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடியில்&lt;/b>&lt;/font>. மூடப்படும். இதன் பிறகு, ஓரிரு நிமிடங்கள் காத்திருந்து, மீண்டும் முயலவும்.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>இந்தச் சாதனம் இப்போது மிகவும் சூடாக இருக்கிறது.&lt;br>இந்தச் செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடிகளில்&lt;/b>&lt;/font> மூடப்படும். தற்போதைய செயல்நிலை தானாகவே சேமிக்கப்பட்டது.&lt;/Data></item>
+        <item quantity="one">&lt;Data>இந்தச் சாதனம் இப்போது மிகவும் சூடாக இருக்கிறது.&lt;br>இந்தச் செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடியில்&lt;/b>&lt;/font> மூடப்படும். தற்போதைய செயல்நிலை தானாகவே சேமிக்கப்பட்டது.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>நீங்கள் பயன்படுத்தும் கேமரா பதிப்பு உங்கள் சாதன மாடலுடன் பொருந்தாது.&lt;br>செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடிகளில்&lt;/b>&lt;/font> மூடப்படும். கேமரா புதுப்பிப்புகளை நிறுவல் நீக்கி விட்டு மீண்டும் முயற்சி செய்யவும்.&lt;/Data></item>
+        <item quantity="one">&lt;Data>நீங்கள் பயன்படுத்தும் கேமரா பதிப்பு உங்கள் சாதன மாடலுடன் பொருந்தாது.&lt;br>செயலி &lt;font color=#FFCE16>&lt;b>%1$d வினாடியில்&lt;/b>&lt;/font> மூடப்படும். கேமரா புதுப்பிப்புகளை நிறுவல் நீக்கி விட்டு மீண்டும் முயற்சி செய்யவும்.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d நிமி</item>
+        <item quantity="one">%1$d நிமி</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d நொடி</item>
+        <item quantity="one">%1$d நொடி</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">டைமர் இயக்கப்பட்டது (%1$d நொடி). படங்கள் இந்தச் சாதனத்திற்கு மாற்றப்படும்.</item>
+        <item quantity="one">டைமர் இயக்கப்பட்டது (%1$d நொடி). படங்கள் இந்தச் சாதனத்திற்கு மாற்றப்படும்.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">இந்த %1$d வரைவுகளை நீக்கவா?</item>
+        <item quantity="one">இந்த %1$d வரைவை நீக்கவா?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d முன்னமைவுகள் வரை சேர்க்கவும்</item>
+        <item quantity="one">%d முன்னமைவு வரை சேர்க்கவும்</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">இப்போது %d ப்ரீசெட்களை நீக்கவா?</item>
+        <item quantity="one">இப்போது %d ப்ரீசெட்டை நீக்கவா?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d ப்ரீசெட்கள் நீக்கப்பட்டன</item>
+        <item quantity="one">%d ப்ரீசெட் நீக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d ப்ரீசெட்கள் இறக்கப்பட்டன</item>
+        <item quantity="one">%d ப்ரீசெட் இறக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dவி</item>
+        <item quantity="one">%dவி</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s நிமி</item>
+        <item quantity="one">%1$s நிமி</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">நேரலைத் தருணத்தைப் பிடிக்கிறது, %dவி வரை</item>
+        <item quantity="one">நேரலைத் தருணத்தை பிடிக்கிறது, %d வி வரை</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d வினாடிகள் ரெக்கார்டு செய்யவும்</item>
+        <item quantity="one">%d வினாடி ரெக்கார்டு செய்யவும்</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">%d சப்ஜெக்ட்களுடன் மட்டுமே டைம் ஃபீஸ் வீடியோக்களை ஷூட் செய்ய முடியும்.</item>
+        <item quantity="one">%d சப்ஜெக்ட் உடன் மட்டுமே டைம் ஃபீஸ் வீடியோக்களை ஷூட் செய்ய முடியும்.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s படங்கள்</item>
+        <item quantity="one">%1$s படம்</item>
+    </plurals>
+</resources>

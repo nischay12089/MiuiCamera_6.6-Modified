@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/bg7" android:width="@dimen/bg8" android:viewportWidth="364.22" android:viewportHeight="149.4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/transparent" android:pathData="M31,1 L170,1" android:strokeColor="#ffb56637" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.8" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M170,1 L272,1" android:strokeColor="#ff6d4c68" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.75" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M272,1 L334,1 C350.02,1 363.22,14.2 363.22,30.2" android:strokeColor="#ff5554ad" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.8" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M363.22,30.2 L363.22,119.2" android:strokeColor="#ff1460d5" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.9" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M363.22,119.2 C363.22,135.2 350.02,148.4 334,148.4 L228,148.4" android:strokeColor="#ff0d54c5" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.85" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M228,148.4 L84,148.4" android:strokeColor="#ff4a57a8" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.75" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M84,148.4 L31,148.4 C14.98,148.4 1,135.2 1,119.2" android:strokeColor="#ff8b7890" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.75" />
+    <path android:fillColor="@android:color/transparent" android:pathData="M1,119.2 L1,30.2 C1,14.2 14.98,1 31,1" android:strokeColor="#ffb4703c" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.85" />
+</vector>

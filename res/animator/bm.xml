@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <set>
+            <objectAnimator android:duration="@integer/eon" android:valueTo="@dimen/d_o" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_e" android:valueType="floatType" android:propertyName="elevation" />
+        </set>
+    </item>
+    <item android:state_enabled="true" android:state_hovered="true">
+        <set>
+            <objectAnimator android:duration="@integer/eon" android:valueTo="@dimen/d_g" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_e" android:valueType="floatType" android:propertyName="elevation" />
+        </set>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <set>
+            <objectAnimator android:duration="@integer/eon" android:valueTo="@dimen/d_f" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_e" android:valueType="floatType" android:propertyName="elevation" />
+        </set>
+    </item>
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator android:duration="@integer/eon" android:valueTo="@dimen/d_t" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@integer/eom" />
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_e" android:valueType="floatType" android:propertyName="elevation" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_d" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:duration="0" android:valueTo="@dimen/d_c" android:valueType="floatType" android:propertyName="elevation" />
+        </set>
+    </item>
+</selector>

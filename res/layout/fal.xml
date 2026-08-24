@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.visual.check.VisualCheckBox android:gravity="center" android:id="@id/fal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.visual.check.BorderLayout android:gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/eha" android:layout_height="@dimen/eh_" app:pc="@drawable/preference_wm_signature_visual_check_border">
+        <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/eha" android:layout_height="@dimen/eh_">
+            <ImageView android:layout_gravity="center" android:background="@drawable/bg_wm_signature_off" android:layout_width="@dimen/ei1" android:layout_height="@dimen/ehr" />
+            <ImageView android:layout_gravity="center" android:id="@id/watermark_signature_item_image" android:padding="@dimen/ei0" android:layout_width="@dimen/ei1" android:layout_height="@dimen/ehr" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/watermark_signature_item_delete_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wm_icon_delete_icon" />
+        </FrameLayout>
+    </miuix.visual.check.BorderLayout>
+</miuix.visual.check.VisualCheckBox>

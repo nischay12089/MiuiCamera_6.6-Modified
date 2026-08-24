@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/f9n" android:layout_width="@dimen/dhz" android:layout_height="@dimen/dhz"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dzr" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/street_zoom_ring_item_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" style="@style/ia1" />
+    <TextView android:textSize="@dimen/dzv" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/street_zoom_ring_item_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dzw" android:text="mm" android:singleLine="true" android:textDirection="ltr" style="@style/ia1" />
+</LinearLayout>

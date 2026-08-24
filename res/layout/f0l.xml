@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/zoom_toggle_button_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="center" android:id="@id/zoom_toggle_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ekv" layout="@layout/fas" />
+    </FrameLayout>
+</FrameLayout>

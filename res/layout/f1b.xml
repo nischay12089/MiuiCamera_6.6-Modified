@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mode_item" android:layout_width="fill_parent" android:layout_height="@dimen/d8y"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mode_icon_bg" android:background="@drawable/bg_more_mode_item_icon" android:layout_width="@dimen/d90" android:layout_height="@dimen/d90" android:layout_marginTop="@dimen/d8z">
+        <ImageView android:layout_gravity="center" android:id="@id/mode_icon" android:layout_width="@dimen/d92" android:layout_height="@dimen/d92" android:scaleType="centerInside" android:contentDescription="@null" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/d94" android:textColor="@color/color_BFFFFFFF" android:gravity="center" android:id="@id/mode_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d93" android:maxLines="3" android:breakStrategy="balanced" />
+</LinearLayout>

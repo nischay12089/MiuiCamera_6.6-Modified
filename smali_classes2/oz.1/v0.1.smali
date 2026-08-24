@@ -1,0 +1,65 @@
+.class public final Loz/v0;
+.super Loz/e1;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final g()S
+    .locals 0
+
+    const/16 p0, 0x894
+
+    return p0
+.end method
+
+.method public final h()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public final i(Lorg/apache/poi/util/LittleEndianByteArrayOutputStream;)V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance p0, Ljava/lang/StringBuffer;
+
+    const-string v0, "[NAMECMT]\n    .record type            = "
+
+    invoke-direct {p0, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lorg/apache/poi/util/HexDump;->shortToHex(I)[C
+
+    move-result-object v1
+
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuffer;->append([C)Ljava/lang/StringBuffer;
+
+    const-string v1, "\n    .frt cell ref flag      = "
+
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-static {v0}, Lorg/apache/poi/util/HexDump;->byteToHex(I)[C
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuffer;->append([C)Ljava/lang/StringBuffer;
+
+    const-string v0, "\n    .reserved               = 0\n    .name length            = "
+
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method

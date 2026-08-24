@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/guide_cardView" android:layout_width="@dimen/c8v" android:layout_height="@dimen/c8q" android:backgroundTint="@color/transparent" app:nl="@dimen/efe" app:nm="0.0dip">
+        <ImageView android:id="@id/guide_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textSize="@dimen/c9a" android:textColor="@color/white" android:gravity="center" android:id="@id/guide_title" android:layout_width="@dimen/c98" android:layout_height="@dimen/c9_" android:layout_marginTop="@dimen/c9d" />
+    <TextView android:textSize="@dimen/c8d" android:textColor="@color/guide_content_white" android:gravity="center" android:id="@id/guide_content" android:layout_width="@dimen/c98" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c8f" android:lineSpacingExtra="@dimen/c8b" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/ehv" android:paddingVertical="4.0dip">
+        <EditText android:layout_gravity="center" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:paddingEnd="@dimen/egs" android:fallbackLineSpacing="false" style="@style/ii7" />
+    </FrameLayout>
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/preference_watermark_greeting_list_title_color" android:gravity="start|center" android:id="@id/greeting_label" android:layout_width="fill_parent" android:layout_height="@dimen/ei7" android:text="@string/hhv" android:layout_marginHorizontal="@dimen/eho" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/greeting_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/eho" android:paddingEnd="@dimen/ehv" />
+</LinearLayout>

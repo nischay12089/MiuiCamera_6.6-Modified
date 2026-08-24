@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/live_share_item" android:padding="@dimen/efr" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/live_share_icon" android:layout_width="@dimen/efq" android:layout_height="@dimen/efq" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/eg2" android:textColor="@color/vv_dialog_share_text_color" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/live_share_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/eg3" android:layout_height="@dimen/efz" android:layout_marginTop="@dimen/eg1" android:layout_marginBottom="@dimen/eg0" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:importantForAccessibility="no" />
+</LinearLayout>

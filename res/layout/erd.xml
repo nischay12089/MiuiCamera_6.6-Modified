@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera2.compat.theme.custom.cv.tab.CapsuleLayoutCV android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:b4t="@id/bottom_scene_tip_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_scene_tip_layout" android:background="@drawable/ic_scene_rect_border" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dx6" android:paddingEnd="@dimen/dxa">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/d6y" android:id="@id/mode_scene_tip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/dxh" app:a4f="false" app:b1y="@color/alpha24_black" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_scene_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_collapse_scene_tip" android:scaleType="centerInside" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dxg" />
+    </LinearLayout>
+</com.android.camera2.compat.theme.custom.cv.tab.CapsuleLayoutCV>

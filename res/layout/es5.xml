@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:id="@id/tip_base_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:gravity="bottom" android:layout_gravity="center_vertical" android:id="@id/tip_image" android:background="@null" android:focusable="false" android:layout_width="@dimen/dj_" android:layout_height="@dimen/dj_" android:scaleType="center" android:contentDescription="@null" />
+    <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/bns" android:textStyle="bold" android:textColor="@color/bottom_tip_selected_color" android:layout_gravity="end" android:id="@id/tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnr" android:singleLine="true" android:includeFontPadding="false" android:layout_marginEnd="@dimen/bnq" android:fontFeatureSettings="tnum" app:b1y="@color/alpha24_black" app:b1z="@dimen/bp0" />
+</FrameLayout>

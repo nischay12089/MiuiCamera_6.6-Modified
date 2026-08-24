@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/f3_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/material_hour_tv" layout="@layout/f3f" />
+    <include layout="@layout/f3a" />
+    <include android:id="@id/material_minute_tv" layout="@layout/f3f" />
+</LinearLayout>

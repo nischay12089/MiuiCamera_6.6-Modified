@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/vp_segment_item_root" android:focusable="false" android:layout_width="@dimen/edg" android:layout_height="@dimen/edg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.NormalRoundView android:layout_gravity="center" android:id="@id/vp_segment_item_view" android:background="@color/vp_segment_item_bg" android:focusable="false" android:layout_width="@dimen/ed6" android:layout_height="@dimen/ed6" app:asb="@dimen/dqe">
+        <ImageView android:id="@id/dv_segment_cover" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <FrameLayout android:id="@id/vp_segment_item_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/ed5" android:textColor="@color/color_white" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/vp_segment_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/vp_long_item_selected_bg" android:background="@color/vp_preview_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="center" android:id="@id/vp_long_item_selected_more" android:padding="@dimen/edh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_select" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/ed9" android:layout_gravity="end|bottom|center" android:id="@id/vp_segment_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ed7" android:layout_marginEnd="@dimen/ed8" />
+        </FrameLayout>
+    </com.android.camera.ui.NormalRoundView>
+    <ImageView android:id="@id/vp_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</FrameLayout>

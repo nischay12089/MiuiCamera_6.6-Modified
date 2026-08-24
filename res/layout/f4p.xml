@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.internal.widget.ArrowActionSheetPanel android:orientation="vertical" android:id="@id/action_sheet_content_panel" android:background="@color/miuix_appcompat_transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.smooth.SmoothFrameLayout2 android:id="@id/action_sheet_content" android:background="?ts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:radius="@dimen/crp">
+        <LinearLayout android:orientation="vertical" android:id="@id/action_sheet_content_container" android:background="?ts" android:paddingBottom="@dimen/cr8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/cro">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/crm" android:textColor="?sy" android:ellipsize="end" android:gravity="center" android:id="@id/action_sheet_message" android:background="?ts" android:paddingTop="@dimen/crd" android:paddingBottom="@dimen/crc" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textDirection="locale" android:textAlignment="center" android:paddingStart="@dimen/crn" android:paddingEnd="@dimen/crn" />
+            <miuix.springback.view.SpringBackLayout android:id="@id/actionSheetSpringBack" android:layout_width="fill_parent" android:layout_height="fill_parent" app:atu="bbx" app:aty="@id/action_sheet_list_view">
+                <include layout="@layout/f4t" />
+            </miuix.springback.view.SpringBackLayout>
+        </LinearLayout>
+    </miuix.smooth.SmoothFrameLayout2>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/action_sheet_arrow_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+</miuix.internal.widget.ArrowActionSheetPanel>

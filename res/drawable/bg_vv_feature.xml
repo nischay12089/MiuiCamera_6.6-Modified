@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/zoom_button_background_color" android:endColor="@color/zoom_button_background_color" android:angle="0.0" />
+    <corners android:topLeftRadius="@dimen/eed" android:topRightRadius="@dimen/eed" android:bottomLeftRadius="@dimen/eed" android:bottomRightRadius="@dimen/eed" />
+</shape>

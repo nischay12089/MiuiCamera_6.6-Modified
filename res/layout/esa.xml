@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/description_item_video" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:nl="@dimen/c0i" app:nm="0.0dip">
+        <com.android.camera.ui.FastmotionTextureVideoView android:id="@id/esa" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/description_item_video_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+</RelativeLayout>

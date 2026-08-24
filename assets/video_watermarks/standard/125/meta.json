@@ -1,0 +1,35 @@
+{
+  "version": 2.05,
+  "miviVersion": 3.001,
+  "metadata": {
+    "name": "@wm_standard_125_name",
+    "id": "125",
+    "description": "video_standard_125",
+    "reminder": "@wm_common_video_reminder_v1",
+    "reminder_not_support_mode": [
+      "8K",
+      "120hz",
+      "log",
+      "slowmotion",
+      "mimoji"
+    ],
+    "limitation": {
+      "name_length_limitation": [
+        0,
+        17
+      ]
+    },
+    "priority": 1,
+    "show_in_menu": true,
+    "position": "in",
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "include_cases": [
+      "raw",
+      "thirdparty",
+      "mimoji",
+      "showexternal"
+    ]
+  }
+}

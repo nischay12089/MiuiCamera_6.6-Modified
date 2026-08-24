@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|top" android:layout_width="@dimen/e8m" android:layout_height="@dimen/e84"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/img_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.camera.ui.ColorImageView android:layout_gravity="center_horizontal" android:id="@id/main_image" android:visibility="gone" android:layout_width="@dimen/e5x" android:layout_height="@dimen/e5x" android:scaleType="centerInside" />
+            <com.android.camera.ui.ColorImageView android:layout_gravity="center_horizontal" android:id="@id/label_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/e8_" android:scaleType="centerInside" />
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/e8h" android:textColor="@color/white_alpha_48" android:gravity="center_horizontal" android:id="@id/label_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="3" android:layout_centerHorizontal="true" android:fallbackLineSpacing="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

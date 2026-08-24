@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokuseret. %d ansigter detekteret</item>
+        <item quantity="one">Fokuseret. %d ansigt detekteret</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotos er burst-fotos</item>
+        <item quantity="one">%d foto er burst-foto</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d sekunder</item>
+        <item quantity="one">Interval: %d sekund</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Varighed: %d min.</item>
+        <item quantity="one">Varighed: %d min.</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Hastighed: %dX</item>
+        <item quantity="one">Hastighed: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Varighed: %d sekunder</item>
+        <item quantity="one">Varighed: %d sekund</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Indtastede %d tegn.</item>
+        <item quantity="one">Indtastede %d tegn.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Indtast op til %d tegn.</item>
+        <item quantity="one">Indtast op til %d tegn.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Du kan tilslutte op til %d kameraer til det samme netværk</item>
+        <item quantity="one">Du kan tilslutte op til %d kamera til det samme netværk</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Du kan tilslutte op til %d skærme til det samme netværk</item>
+        <item quantity="one">Du kan tilslutte op til %d skærm til det samme netværk</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Du kan oprette op til %d kloner ad gangen.</item>
+        <item quantity="one">Du kan oprette op til %d klon ad gangen.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kan ikke tilslutte til kameraet.&lt;br>Denne app lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Efter dette skal du vente et minut eller to og så prøve igen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kan ikke tilslutte til kameraet.&lt;br>Denne app lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Efter dette skal du vente et minut eller to og så prøve igen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Denne enhed er for varm nu.br>Denne app lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nuværende fremskridt blev automatisk gemt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Denne enhed er for varm nu.br>Denne app lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nuværende fremskridt blev automatisk gemt.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Den kameraversion, du bruger, er ikke kompatibel med din enhedsmodel.&lt;br>Appen lukker om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Afinstallér kameraopdateringer, og prøv igen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Den kameraversion, du bruger, er ikke kompatibel med din enhedsmodel.&lt;br>Appen lukker om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Afinstallér kameraopdateringer, og prøv igen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sek.</item>
+        <item quantity="one">%1$d sek.</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Slået timer til (%1$d sek.). Billederne overføres til denne enhed.</item>
+        <item quantity="one">Slået timer til (%1$d sek.). Billederne overføres til denne enhed.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Slet %1$d kladder?</item>
+        <item quantity="one">Slet %1$d kladde?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Tilføj op til %d faste indstillinger</item>
+        <item quantity="one">Tilføj op til %d fast indstilling</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Slet %d forudindstillinger nu?</item>
+        <item quantity="one">Slet %d forudindstilling nu?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Slettede %d forudindstillinger</item>
+        <item quantity="one">Slettede %d forudindstilling</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Importerede %d forudindstillinger</item>
+        <item quantity="one">Importerede %d forudindstilling</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Optager live-øjeblik i op til %d sek.</item>
+        <item quantity="one">Optager live-øjeblik i op til %d sek.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Optag %d sekunder</item>
+        <item quantity="one">Optag %d sekund</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Du kan optage time freeze-videoer med op til %d emner.</item>
+        <item quantity="one">Du kan optage time freeze-videoer med kun %d emne.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s billeder</item>
+        <item quantity="one">%1$s billede</item>
+    </plurals>
+</resources>

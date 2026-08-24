@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.smooth.SmoothFrameLayout2 android:id="@id/video_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:radius="@dimen/c0i"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.TextureVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/video_view_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/f8w" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" />
+</miuix.smooth.SmoothFrameLayout2>

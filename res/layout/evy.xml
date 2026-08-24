@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_music_select_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera2.compat.theme.custom.cv.more.DragLayoutBarCV android:layout_gravity="center_horizontal" android:id="@id/drag_bar" android:background="@drawable/bg_more_mode_popup_bar" android:layout_width="@dimen/ce3" android:layout_height="@dimen/ceh" android:layout_marginTop="@dimen/cfk" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce7" android:layout_marginStart="@dimen/cee" android:layout_marginEnd="@dimen/cee">
+        <Button android:textSize="@dimen/cfi" android:textColor="@color/slide_beauty_level1_mm" android:id="@id/music_recommend" android:background="@drawable/shape_btn_music_select" android:layout_width="0.0dip" android:layout_height="@dimen/ce6" android:text="@string/gle" android:layout_weight="1.0" style="@style/ih5" />
+        <Button android:textSize="@dimen/cfi" android:textColor="@color/scale_zoom_view_normal_line_color" android:layout_gravity="center_horizontal" android:id="@id/music_favorite" android:background="@drawable/shape_btn_music_unselect_black" android:layout_width="0.0dip" android:layout_height="@dimen/ce6" android:text="@string/gl4" android:layout_weight="1.0" android:layout_marginStart="@dimen/cfk" android:layout_marginEnd="@dimen/cfk" style="@style/ih5" />
+        <Button android:textSize="@dimen/cfi" android:textColor="@color/scale_zoom_view_normal_line_color" android:id="@id/music_local" android:background="@drawable/shape_btn_music_unselect_black" android:layout_width="0.0dip" android:layout_height="@dimen/ce6" android:text="@string/gl9" android:layout_weight="1.0" style="@style/ih5" />
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/music_viewpager" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/cfk" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/original_sound_select_layout" android:paddingTop="@dimen/cei" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cf5">
+        <CheckBox android:theme="@style/i64" android:textSize="@dimen/ced" android:textColor="@color/slide_beauty_level1_mm" android:id="@id/original_sound_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/gm5" android:paddingStart="@dimen/cfk" android:layout_marginStart="@dimen/ceu" />
+    </FrameLayout>
+</LinearLayout>

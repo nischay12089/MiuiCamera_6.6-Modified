@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/clr" android:insetRight="@dimen/clr" android:insetTop="@dimen/clt" android:insetBottom="@dimen/clt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <solid android:color="@color/zoom_button_background_color" />
+    </shape>
+</inset>

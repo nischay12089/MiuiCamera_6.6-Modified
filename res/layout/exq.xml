@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_start" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aaz="20.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_end" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab0="20.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_selector_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aaz="56.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_selector_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aaz="112.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_slide_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab0="40.0dip" />
+    <TextView android:textSize="@dimen/diy" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/diu" android:layout_marginBottom="20.0dip" android:maxWidth="@dimen/div" android:paddingHorizontal="@dimen/diw" android:paddingVertical="@dimen/dix" app:aas="@id/guideline_selector_top" app:aax="@id/guideline_end" app:abg="@id/guideline_start" />
+    <View android:id="@id/reset_box" android:layout_width="@dimen/cmk" android:layout_height="@dimen/cmk" app:aas="@id/guideline_selector_bottom" app:abg="@id/guideline_start" app:abk="@id/guideline_selector_top" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/manual_picture_style_reset" android:background="@drawable/picture_style_reset_item_bg" android:padding="4.0dip" android:layout_width="@dimen/c6q" android:layout_height="@dimen/c6q" android:src="@drawable/ic_beauty_out_reset_new" android:scaleType="centerInside" android:contentDescription="@string/hkx" app:aar="@id/reset_box" app:aax="@id/reset_box" app:abg="@id/reset_box" app:abk="@id/reset_box" />
+</androidx.constraintlayout.widget.ConstraintLayout>

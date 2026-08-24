@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Nofokusēts. %d sejas atrastas</item>
+        <item quantity="zero">Nofokusēts. %d sejas atrastas</item>
+        <item quantity="one">Nofokusēts. %d seja atrasta</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d foto sērījveida foto uzņemšanā</item>
+        <item quantity="zero">%d foto sērījveida foto uzņemšanā</item>
+        <item quantity="one">%d foto sērījveida foto uzņemšanā</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervāls: %d sekundes</item>
+        <item quantity="zero">Intervāls: %d sekundes</item>
+        <item quantity="one">Intervāls: %d sekunde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Ilgums: %d minūtes</item>
+        <item quantity="zero">Ilgums: %d minūtes</item>
+        <item quantity="one">Ilgums: %d minūte</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Ātrums: %dX</item>
+        <item quantity="zero">Ātrums: %dX</item>
+        <item quantity="one">Ātrums: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Ilgums: %d sekundes</item>
+        <item quantity="zero">Ilgums: %d sekundes</item>
+        <item quantity="one">Ilgums: %d sekunde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Ievadītas %d rakstzīmes.</item>
+        <item quantity="zero">Ievadītas %d rakstzīmes.</item>
+        <item quantity="one">Ievadīta %d rakstzīme.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Ievadiet līdz %d rakstzīmēm.</item>
+        <item quantity="zero">Ievadiet līdz %d rakstzīmēm.</item>
+        <item quantity="one">Ievadiet līdz %d rakstzīmei.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Tam pašam tīklam varat pievienot līdz %d kamerām</item>
+        <item quantity="zero">Tam pašam tīklam varat pievienot līdz %d kamerām</item>
+        <item quantity="one">Tam pašam tīklam varat pievienot līdz %d kamerai</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Tam pašam tīklam varat pievienot līdz %d monitoriem</item>
+        <item quantity="zero">Tam pašam tīklam varat pievienot līdz %d monitoriem</item>
+        <item quantity="one">Tam pašam tīklam varat pievienot līdz %d monitoram</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Jūs varat izveidot līdz pat %d kloniem vienā reizē.</item>
+        <item quantity="zero">Jūs varat izveidot līdz pat %d kloniem vienā reizē.</item>
+        <item quantity="one">Jūs varat izveidot līdz pat %d klonam vienā reizē.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Nevar izveidot savienojumu ar kameru.&lt;br>Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>.Pēc tam, uzgaidiet dažas minūtes un mēģiniet vēlreiz.&lt;/Data></item>
+        <item quantity="zero">&lt;Data>Nevar izveidot savienojumu ar kameru.&lt;br>Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>.Pēc tam, uzgaidiet dažas minūtes un mēģiniet vēlreiz.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Nevar izveidot savienojumu ar kameru.&lt;br>Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>.Pēc tam, uzgaidiet dažas minūtes un mēģiniet vēlreiz.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Šī ierīce tagad ir pārāk karsta.&lt;br> Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$dsek&lt;/b>&lt;/font>. Pašreizējais progress tika saglabāts automātiski.&lt;/Data></item>
+        <item quantity="zero">&lt;Data>Šī ierīce tagad ir pārāk karsta.&lt;br> Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$dsek&lt;/b>&lt;/font>. Pašreizējais progress tika saglabāts automātiski.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Šī ierīce tagad ir pārāk karsta.&lt;br> Šī lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$dsek&lt;/b>&lt;/font>. Pašreizējais progress tika saglabāts automātiski.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Jūsu izmantotā Kameras versija nav saderīga ar jūsu ierīces modeli.&lt;br>Lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Atinstalējiet Kameras atjauninājumus un mēģiniet vēlreiz.&lt;/Data></item>
+        <item quantity="zero">&lt;Data>Jūsu izmantotā Kameras versija nav saderīga ar jūsu ierīces modeli.&lt;br>Lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Atinstalējiet Kameras atjauninājumus un mēģiniet vēlreiz.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Jūsu izmantotā Kameras versija nav saderīga ar jūsu ierīces modeli.&lt;br>Lietotne tiks aizvērta pēc &lt;font color=#FFCE16>&lt;b>%1$d sek.&lt;/b>&lt;/font>. Atinstalējiet Kameras atjauninājumus un mēģiniet vēlreiz.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d minūtes</item>
+        <item quantity="zero">%1$d minūtes</item>
+        <item quantity="one">%1$d minūte</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sek</item>
+        <item quantity="zero">%1$d sek</item>
+        <item quantity="one">%1$d sek</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Taimeris ir ieslēgts (%1$d sekundes). Foto tiks pārsūtīti uz šo ierīci.</item>
+        <item quantity="zero">Taimeris ir ieslēgts (%1$d sekundes). Foto tiks pārsūtīti uz šo ierīci.</item>
+        <item quantity="one">Taimeris ir ieslēgts (%1$d sekunde). Foto tiks pārsūtīti uz šo ierīci.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Dzēst %1$d melnrakstus?</item>
+        <item quantity="zero">Dzēst %1$d melnrakstus?</item>
+        <item quantity="one">Dzēst %1$d melnrakstu?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Pievienot līdz %d sākotnējiem iestatījumiem</item>
+        <item quantity="zero">Pievienot līdz %d sākotnējiem iestatījumiem</item>
+        <item quantity="one">Pievienot līdz %d sākotnējam iestatījumam</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Vai dzēst %d iestatījumus?</item>
+        <item quantity="zero">Vai dzēst %d iestatījumus?</item>
+        <item quantity="one">Vai dzēst %d iestatījumu?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Dzēsti %d iestatījumi</item>
+        <item quantity="zero">Dzēsti %d iestatījumi</item>
+        <item quantity="one">Dzēsts %d iestatījums</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Importēti %d iestatījumi</item>
+        <item quantity="zero">Importēti %d iestatījumi</item>
+        <item quantity="one">Importēti %d iestatījums</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="zero">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Dzīva momenta tveršana, līdz pat %d sek.</item>
+        <item quantity="zero">Dzīva momenta tveršana, līdz pat %d sek.</item>
+        <item quantity="one">Dzīva momenta tveršana, līdz pat %d sek.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Ierakstīt %d sekundes</item>
+        <item quantity="zero">Ierakstīt %d sekundes</item>
+        <item quantity="one">Ierakstīt %d sekundi</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Jūs varat uzņemt laika iesaldēšanas video ar %d objektiem.</item>
+        <item quantity="zero">Jūs varat uzņemt laika iesaldēšanas video ar %d objektiem.</item>
+        <item quantity="one">Jūs varat uzņemt laika iesaldēšanas video ar %d objektu.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s foto</item>
+        <item quantity="zero">%1$s foto</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

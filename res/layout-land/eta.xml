@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/video_original" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:rotation="-90.0" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/video_3d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:rotation="-90.0" />
+    <com.android.camera.ui.ColorImageView android:id="@id/image_back" android:layout_width="@dimen/d69" android:layout_height="@dimen/d6_" android:layout_marginLeft="@dimen/c6g" android:layout_marginTop="@dimen/c6f" android:src="?android:homeAsUpIndicator" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/g64" android:layoutDirection="ltr" />
+    <RelativeLayout android:id="@id/container_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c6h" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+        <TextView android:textSize="20.359985sp" android:textColor="@color/white" android:id="@id/text_3d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hfb" />
+        <TextView android:textSize="20.359985sp" android:textColor="@color/white" android:id="@id/text_original" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.359985dip" android:text="@string/hfe" android:layout_toRightOf="@id/text_3d" android:alpha="0.5" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/bottom_action_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/thumbnail_container" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/boy" android:layout_height="@dimen/boy" android:layout_centerVertical="true">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/v9_thumbnail_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/bnt" app:ni="@color/transparent" app:nm="0.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image_bg" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/fgq" />
+        </androidx.cardview.widget.CardView>
+        <ViewStub android:layout_gravity="center" android:id="@id/bottom_action_thumb_stub" android:clipChildren="false" android:layout="@layout/er2" android:inflatedId="@id/er2" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/snap_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:elevation="1.0dip">
+        <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/shutter_button" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/fgy" />
+        <ViewStub android:layout_gravity="center" android:id="@id/bottom_action_snap_stub" android:layout="@layout/er1" android:inflatedId="@id/er1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/v9_capture_picker_layout" android:focusable="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/street_focus_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/street_focus_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textDirection="ltr" />
+            <TextView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/street_focus_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dzi" android:layout_alignBottom="@id/street_focus_state" android:layout_toEndOf="@id/street_focus_state" />
+        </RelativeLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/v9_camera_picker" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </FrameLayout>
+</RelativeLayout>

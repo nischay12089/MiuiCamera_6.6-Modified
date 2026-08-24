@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">కేంద్రీకరించబడింది. %d ముఖాలు గుర్తించబడ్డాయి</item>
+        <item quantity="one">కేంద్రీకరించబడింది. %d ముఖం గుర్తించబడింది</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">బరస్ట్ షాట్‌లో %d ఫోటోలు</item>
+        <item quantity="one">బరస్ట్ షాట్‌లో %d ఫోటో</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">విరామం: %d సెకన్లు</item>
+        <item quantity="one">విరామం: %d సెకను</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">వ్యవధి: %d నిమిషాలు</item>
+        <item quantity="one">వ్యవధి: %d నిమిషం</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">వేగం: %dX</item>
+        <item quantity="one">వేగం: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">నిడివి: %d సెకన్లు</item>
+        <item quantity="one">నిడివి: %d సెకను</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d అక్షరాలు నమోదు చేశారు.</item>
+        <item quantity="one">%d అక్షరం నమోదు చేశారు.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d అక్షరాల వరకు నమోదు చేయండి.</item>
+        <item quantity="one">%d అక్షరం వరకు నమోదు చేయండి</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dసె</item>
+        <item quantity="one">%dసె</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">మీరు ఇదే నెట్‌వర్క్‌కు %d కెమెరాల వరకు కనెక్ట్ చేయవచ్చు</item>
+        <item quantity="one">మీరు ఇదే నెట్‌వర్క్‌కు %d కెమెరా వరకు కనెక్ట్ చేయవచ్చు</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">మీరు ఇదే నెట్‌వర్క్‌కు %d మానిటర్‌ల వరకు కనెక్ట్ చేయవచ్చు</item>
+        <item quantity="one">మీరు ఇదే నెట్‌వర్క్‌కు %d మానిటర్ వరకు కనెక్ట్ చేయవచ్చు</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">మీరు ఒక సారికి %d క్లోన్‌ల వరకు సృష్టించవచ్చు.</item>
+        <item quantity="one">మీరు ఒక సారికి %d క్లోన్ వరకు సృష్టించవచ్చు.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>కెమెరాకి కనెక్ట్ కాలేము.&lt;br>ఈ యాప్ &lt;font color=#FFCE16>&lt;b>%1$d సెకన్లలో&lt;/b>&lt;/font> మూసివేయబడుతుంది. దీని తరువాత, ఒకటి లేదా రెండు నిమిషాలు వేచి ఉండి మళ్లీ ప్రయత్నించండి.&lt;/Data></item>
+        <item quantity="one">&lt;Data>కెమెరాకి కనెక్ట్ కాలేము.&lt;br>ఈ యాప్ &lt;font color=#FFCE16>&lt;b>%1$d సెకను&lt;/b>&lt;/font>లో మూసివేయబడుతుంది. దీని తరువాత, ఒకటి లేదా రెండు నిమిషాలు వేచి ఉండి మళ్లీ ప్రయత్నించండి.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ఈ పరికరం ప్రస్తుతం చాలా వేడిగా ఉంది.&lt;br>ఈ యాప్ &lt;font color=#FFCE16>&lt;b>%1$d సెకన్లలో&lt;/b>&lt;/font> మూసివేయబడుతుంది. ప్రస్తుత పురోగతి ఆటోమేటిక్‌గా సేవ్ చేయబడుతుంది.&lt;/Data></item>
+        <item quantity="one">&lt;Data>ఈ పరికరం ప్రస్తుతం చాలా వేడిగా ఉంది.&lt;br>ఈ యాప్ &lt;font color=#FFCE16>&lt;b>%1$d సెకను&lt;/b>&lt;/font>లో మూసివేయబడుతుంది. ప్రస్తుత పురోగతి ఆటోమేటిక్‌గా సేవ్ చేయబడుతుంది.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>మీరు ఉపయోగిస్తున్న కెమెరా వెర్షన్ మీ పరికరంతో అనుకూలంగా లేదు.&lt;br>అప్లికేషన్ &lt;font color=#FFCE16>&lt;b>%1$d సెకన్ల&lt;/b>&lt;/font>లో మూసివేయబడుతుంది. కెమెరా అప్‌డేట్‌లను అన్ఇన్‌స్టాల్ చేసి, మళ్లీ ప్రయత్నించండి.&lt;/Data></item>
+        <item quantity="one">&lt;Data>మీరు ఉపయోగిస్తున్న కెమెరా వెర్షన్ మీ పరికరంతో అనుకూలంగా లేదు.&lt;br>అప్లికేషన్ &lt;font color=#FFCE16>&lt;b>%1$d సెకను&lt;/b>&lt;/font>లో మూసివేయబడుతుంది. కెమెరా అప్‌డేట్‌లను అన్ఇన్‌స్టాల్ చేసి, మళ్లీ ప్రయత్నించండి.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d నిమిషాలు</item>
+        <item quantity="one">%1$d నిమిషం</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d సెకన్లు</item>
+        <item quantity="one">%1$d సెకను</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">టైమర్ (%1$d సెకన్లు) ఆన్ చేయబడింది. ఫోటోలు ఈ పరికరానికి బదిలీ చేయబడ్డాయి.</item>
+        <item quantity="one">టైమర్ (%1$d సెక) ఆన్ చేయబడింది. ఫోటోలు ఈ పరికరానికి బదిలీ చేయబడతాయి.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d డ్రాఫ్ట్‌లను తొలగించాలా?</item>
+        <item quantity="one">%1$d డ్రాఫ్ట్‌ను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d ప్రీసెట్‌ల వరకు జోడించండి</item>
+        <item quantity="one">%d ప్రీసెట్ వరకు జోడించండి</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">ఇప్పుడే %d ప్రీసెట్స్ తొలగించాలా?</item>
+        <item quantity="one">ఇప్పుడే %d ప్రీసెట్ తొలగించాలా?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d ప్రీసెట్‌లను తొలగించండి</item>
+        <item quantity="one">%d ప్రీసెట్ తొలగించండి</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d ప్రీసెట్స్ దిగుమతి చేయబడ్డాయి</item>
+        <item quantity="one">%d ప్రీసెట్ దిగుమతి చేయబడింది</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dసె</item>
+        <item quantity="one">%dసె</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s నిమిషాలు</item>
+        <item quantity="one">%1$s నిమి</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">లైవ్ మూమెంట్‌ను క్యాప్చర్ చేస్తోంది, %d సెకన్ల వరకు</item>
+        <item quantity="one">లైవ్ మూమెంట్‌ను క్యాప్చర్ చేస్తోంది, %d సెకను వరకు</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d సెకన్లు రికార్డ్ చేయండి</item>
+        <item quantity="one">%d సెకను రికార్డ్ చేయండి</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">మీరు %d సబ్జెక్ట్‌లతో మాత్రమే టైమ్ ఫ్రీజ్ వీడియోలను షూట్ చేయగలరు.</item>
+        <item quantity="one">మీరు %d సబ్జెక్ట్‌తో మాత్రమే టైమ్ ఫ్రీజ్ వీడియోలను షూట్ చేయగలరు.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ఫోటోలు</item>
+        <item quantity="one">%1$s ఫోటో</item>
+    </plurals>
+</resources>

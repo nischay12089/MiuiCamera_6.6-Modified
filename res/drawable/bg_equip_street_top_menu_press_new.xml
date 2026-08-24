@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h52v52h-52z" />
+        <path android:fillColor="@drawable/$bg_equip_street_top_menu_press_new__0" android:pathData="M6,0L46,0A6,6 0,0 1,52 6L52,46A6,6 0,0 1,46 52L6,52A6,6 0,0 1,0 46L0,6A6,6 0,0 1,6 0z" />
+        <path android:fillColor="#ff141414" android:pathData="M7,2L45,2A5,5 0,0 1,50 7L50,45A5,5 0,0 1,45 50L7,50A5,5 0,0 1,2 45L2,7A5,5 0,0 1,7 2z" />
+    </group>
+</vector>

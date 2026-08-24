@@ -1,0 +1,279 @@
+.class public final enum Lcom/xiaomi/recordplayer/enums/AVErrorState;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/xiaomi/recordplayer/enums/AVErrorState;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorAccess:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorDecoderNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorHttpBadRequest:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorHttpForbidden:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorHttpNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorHttpUnauthorized:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorIO:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorNoEntrance:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorNoMemory:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorOther:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorStreamNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+.field public static final enum AVErrorTimedOut:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+
+# instance fields
+.field private nCode:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 14
+
+    new-instance v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v1, "AVErrorStreamNotFound"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2, v2}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorStreamNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v1, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v2, "AVErrorDecoderNotFound"
+
+    const/4 v3, 0x1
+
+    invoke-direct {v1, v2, v3, v3}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v1, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorDecoderNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v2, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v3, "AVErrorHttpBadRequest"
+
+    const/4 v4, 0x2
+
+    invoke-direct {v2, v3, v4, v4}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v2, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorHttpBadRequest:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v3, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v4, "AVErrorHttpUnauthorized"
+
+    const/4 v5, 0x3
+
+    invoke-direct {v3, v4, v5, v5}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v3, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorHttpUnauthorized:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v4, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v5, "AVErrorHttpForbidden"
+
+    const/4 v6, 0x4
+
+    invoke-direct {v4, v5, v6, v6}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v4, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorHttpForbidden:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v5, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v6, "AVErrorHttpNotFound"
+
+    const/4 v7, 0x5
+
+    invoke-direct {v5, v6, v7, v7}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v5, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorHttpNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v6, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v7, "AVErrorTimedOut"
+
+    const/4 v8, 0x6
+
+    invoke-direct {v6, v7, v8, v8}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v6, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorTimedOut:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v7, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v8, "AVErrorNoEntrance"
+
+    const/4 v9, 0x7
+
+    invoke-direct {v7, v8, v9, v9}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v7, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorNoEntrance:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v8, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v9, "AVErrorNoMemory"
+
+    const/16 v10, 0x8
+
+    invoke-direct {v8, v9, v10, v10}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v8, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorNoMemory:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v9, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v10, "AVErrorIO"
+
+    const/16 v11, 0x9
+
+    invoke-direct {v9, v10, v11, v11}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v9, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorIO:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v10, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v11, "AVErrorAccess"
+
+    const/16 v12, 0xa
+
+    invoke-direct {v10, v11, v12, v12}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v10, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorAccess:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    new-instance v11, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    const-string v12, "AVErrorOther"
+
+    const/16 v13, 0xb
+
+    invoke-direct {v11, v12, v13, v13}, Lcom/xiaomi/recordplayer/enums/AVErrorState;-><init>(Ljava/lang/String;II)V
+
+    sput-object v11, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorOther:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    filled-new-array/range {v0 .. v11}, [Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->$VALUES:[Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p3, p0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->nCode:I
+
+    return-void
+.end method
+
+.method public static int2enum(I)Lcom/xiaomi/recordplayer/enums/AVErrorState;
+    .locals 6
+
+    sget-object v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->AVErrorStreamNotFound:Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    invoke-static {}, Lcom/xiaomi/recordplayer/enums/AVErrorState;->values()[Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    move-result-object v1
+
+    array-length v2, v1
+
+    const/4 v3, 0x0
+
+    :goto_0
+    if-ge v3, v2, :cond_1
+
+    aget-object v4, v1, v3
+
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v5
+
+    if-ne v5, p0, :cond_0
+
+    move-object v0, v4
+
+    :cond_0
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-object v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/xiaomi/recordplayer/enums/AVErrorState;
+    .locals 1
+
+    const-class v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/xiaomi/recordplayer/enums/AVErrorState;
+    .locals 1
+
+    sget-object v0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->$VALUES:[Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    invoke-virtual {v0}, [Lcom/xiaomi/recordplayer/enums/AVErrorState;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/xiaomi/recordplayer/enums/AVErrorState;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getCode()I
+    .locals 0
+
+    iget p0, p0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->nCode:I
+
+    return p0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 0
+
+    iget p0, p0, Lcom/xiaomi/recordplayer/enums/AVErrorState;->nCode:I
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

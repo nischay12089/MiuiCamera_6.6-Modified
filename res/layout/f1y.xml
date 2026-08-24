@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/pano_preview_hint_frame_vertical" android:visibility="gone" android:layout_width="@dimen/dh0" android:layout_height="0.0dip" app:aax="parent" app:abg="parent" app:abk="parent" layout="@layout/f1x" />
+    <include android:id="@id/pano_preview_hint_frame" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/dgy" app:aax="parent" app:abg="parent" app:abk="parent" layout="@layout/f1w" />
+    <include android:id="@id/pano_use_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dhb" app:aax="parent" app:abg="parent" app:abk="parent" layout="@layout/f__" />
+</androidx.constraintlayout.widget.ConstraintLayout>

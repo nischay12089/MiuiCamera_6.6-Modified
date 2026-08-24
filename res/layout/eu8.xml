@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cine_extra_item_layout" android:layout_width="@dimen/bpu" android:layout_height="@dimen/bpt">
+        <com.android.camera.ui.ColorImageView android:id="@id/cine_extra_item_image" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/bq7" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/cine_extra_item_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:shadowColor="#80000000" android:shadowRadius="1.0" />
+    </LinearLayout>
+</LinearLayout>

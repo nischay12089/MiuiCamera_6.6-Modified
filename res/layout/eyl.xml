@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_sticker_template_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sticker_result_layout" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="@dimen/dyo" android:layout_height="@dimen/dym" android:layout_marginTop="@dimen/dyn" android:src="@drawable/ic_sticker_title" android:scaleType="centerInside" />
+        <FrameLayout android:id="@id/sticker_result_show_animator_layout" android:layout_width="@dimen/dyo" android:layout_height="@dimen/dyj" android:layout_marginTop="@dimen/dyl">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/sticker_result_show_animator_root" android:background="@color/white" android:visibility="gone" android:layout_width="@dimen/dyk" android:layout_height="@dimen/dyj">
+                <FrameLayout android:layout_gravity="center" android:id="@id/sticker_result_show" android:background="@drawable/bg_sticker_collage_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/sticker_preview_exit_hint_layout" android:background="@color/white_alpha_90" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <miuix.androidbasewidget.widget.ProgressBar android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dyv" android:layout_marginTop="@dimen/dyw" android:indeterminateTint="@color/black" />
+                    <TextView android:textSize="@dimen/dy8" android:textColor="@color/alpha80_black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dyy" android:text="@string/hog" android:layout_marginHorizontal="@dimen/dyx" />
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:id="@id/sticker_result_operate_layout" android:layout_width="@dimen/dys" android:layout_height="fill_parent">
+            <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/sticker_result_operate_print" android:layout_width="@dimen/dyq" android:layout_height="@dimen/dyq" android:contentDescription="@string/hjv">
+                <ImageView android:layout_gravity="center" android:id="@id/im_sticker_result_operate_print" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/im_sticker_result_operate_print_loading" android:visibility="gone" android:layout_width="@dimen/dyp" android:layout_height="@dimen/dyp" android:indeterminateDrawable="@drawable/vv_download_progress" style="?android:progressBarStyleLarge" />
+            </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+            <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/sticker_result_operate_done" android:layout_width="@dimen/dyq" android:layout_height="@dimen/dyq" android:layout_marginTop="@dimen/dyr" android:contentDescription="@string/gs2">
+                <ImageView android:layout_gravity="center" android:id="@id/im_sticker_result_operate_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sticker_result_operate_done" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/im_sticker_result_operate_done_loading" android:visibility="gone" android:layout_width="@dimen/dyp" android:layout_height="@dimen/dyp" android:indeterminateDrawable="@drawable/vv_download_progress" style="?android:progressBarStyleLarge" />
+            </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/print_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/dyd">
+        <ImageView android:id="@id/bt_waiting_print_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dyc" android:src="@drawable/ic_sticker_print_back" />
+        <FrameLayout android:id="@id/waiting_install_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <miuix.androidbasewidget.widget.ProgressBar android:layout_gravity="center_horizontal" android:id="@id/waiting_install_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dye" android:indeterminateTint="@color/black" style="?ari" />
+            <ScrollView android:id="@id/install_result_show_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dy6" android:layout_marginTop="@dimen/dy7">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dy_" android:textColor="@color/alpha95_black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hxw" />
+                    <TextView android:textSize="@dimen/dy8" android:textColor="#a3000000" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy9" android:text="@string/hxx" />
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:textSize="@dimen/dy3" android:textColor="@color/alpha80_black" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/bt_waiting_print_retry" android:background="@drawable/bg_secondscreen_sticker_retry_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dy2" android:layout_marginBottom="@dimen/dy1" android:text="@string/hxz" android:contentDescription="@string/hxz" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/printing_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/ic_icon_flip" android:layout_width="@dimen/dyf" android:layout_height="@dimen/dyf" android:layout_marginTop="@dimen/dyg" android:src="@drawable/icon_flip_waiting_authorize" android:scaleType="centerInside" android:contentDescription="@null" />
+            <ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dyh" android:layout_marginTop="@dimen/dyi">
+                <TextView android:textSize="@dimen/dy3" android:textColor="@color/alpha95_black" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hxy" />
+            </ScrollView>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

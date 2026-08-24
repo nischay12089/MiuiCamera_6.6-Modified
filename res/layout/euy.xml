@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dolly_zoom_capture_hint_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.CaptureHintTextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/dolly_zoom_capture_hint" android:background="@drawable/clone_textview_corner_bg" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/brr" android:layout_height="@dimen/brp" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/dolly_zoom_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/dolly_zoom_preview_top" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/dolly_zoom_preview_center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/eg7" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dolly_zoom_newTip_text" android:background="@drawable/toast_top_recommend_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eg4" android:paddingStart="@dimen/eg4" android:paddingEnd="@dimen/eg4" />
+        </FrameLayout>
+        <com.android.camera.ui.TextureVideoView android:layout_gravity="center_horizontal" android:id="@id/dolly_zoom_preview_texture_video" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="90.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/dolly_zoom_preview_thumb" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/dolly_zoom_resume_play" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_play" android:scaleType="centerInside" android:contentDescription="@string/fgd" />
+        <FrameLayout android:id="@id/vv_preview_bottom_action" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/vv_preview_bottom_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bmn">
+                <ImageView android:layout_gravity="start|center" android:id="@id/dolly_zoom_give_up_to_preview" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_close" android:scaleType="centerInside" android:contentDescription="@string/ff0" android:layout_marginStart="@dimen/bnw" />
+                <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/dolly_zoom_shutter_button" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/fgy" />
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/dolly_zoom_save_button" android:focusable="false" android:clickable="true" android:layout_width="@dimen/efl" android:layout_height="@dimen/efl" android:scaleType="centerInside" android:contentDescription="@string/fh0" />
+                <ImageView android:layout_gravity="center" android:id="@id/dolly_zoom_snap_view_progress" android:focusable="false" android:clickable="true" android:layout_width="@dimen/efl" android:layout_height="@dimen/efl" android:src="@drawable/ic_vv_save_progress" android:scaleType="centerCrop" android:contentDescription="@string/fh6" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/dolly_zoom_save_and_share" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_share" android:scaleType="centerInside" android:contentDescription="@string/gk5" android:layout_marginEnd="@dimen/bnw" />
+                <ProgressBar android:layout_gravity="end|center" android:id="@id/dolly_zoom_share_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="12.0dip" android:focusable="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:scaleType="centerInside" android:indeterminateDrawable="@drawable/vv_process_progress" android:indeterminateDuration="400" android:layout_marginEnd="@dimen/bnw" style="?android:progressBarStyleLarge" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

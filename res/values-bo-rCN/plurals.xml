@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">མདོ་གཏོགས་ལེགས་གྲུབ། མིའི་གདོང་%dདཔྱད་འཇལ་ཐུབ་སོང་།</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">པར་ལེན་ཁ་གྲངས་%d</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">དུས་ཡུན་བར་ཐག་སྐར་ཆ་%d</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">དུས་ཡུན%dསྐར་མ།</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">མྱུར་ཚད་%dསྡེབ།</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ཕབ་བསྐྲུན་དུས་ཚོད་སྐར་ཆ་%d</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">ཡིག་རྟགས་%dནང་འཇུག་ཟིན།</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">མང་ཤོས་སུ་ཡིག་རྟགས་%dནང་འཇུག་ཆོག</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">སྐར་ཆ་%d</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">དྲ་རྒྱ་གཅིག་གི་སྟེང་མང་ཤོས་སུའང་བརྙན་ལེན་ཆས་%dདང་སྦྲེལ་ཆོག</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">དྲ་རྒྱ་གཅིག་གི་སྟེང་མང་ཤོས་སུའང་ལྟ་ཞིབ་ཆས་%dསྦྲེལ་ཆོག</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">མང་མཐར་ཡང་གཟུགས་དབྱེ་%dརྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>པར་ཆས་དང་སྦྲེལ་མཐུད་མི་ཐུབ།&lt;br>ཉེར་སྤྱོད་&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>རྗེས་ནས་ཕྱིར་འཐེན་བྱེད། ཅུང་ཙམ་ནས་ཚོད་ལྟ་གནང་རོགས།&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>སྒྲིག་ཆས་ཀྱི་དྲོད་ཚད་མཐོ་དྲགས་པས། &lt;br>ཉེར་སྤྱོད་མི་འགྱང་བའི་&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>རྗེས་ཕྱིར་འཐེན་བྱེད། བརྙན་ལེན་སྒྲུབ་ཚད་རང་འགུལ་གྱིས་ཉར་གསོག་བྱེད།&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>མིག་སྔའི་པར་ཆས་པར་གཞི་དང་འཕྲུལ་ཆས་གཉིས་མི་འཚམ་&lt;br>ཉེར་སྤྱོད་&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>རྗེས་ཕྱིར་ཐོན་རྒྱུ་ཡིན། པར་གཞི་འདི་སུབ་རྗེས་བེད་སྤྱོད་རོགས།&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">སྐར་མ་%1$d</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">སྐར་ཆ་%1$d</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">སྐར་ཆ་%1$dཡི་ལྡོག་རྩིས་པར་ལེན་ཁ་ཕྱེ་ཟིན་ལ་རང་འགུལ་གྱིས་པར་རིས་ཁ་པར་སྟེང་སྐུར།</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">ཟིན་བྲིས་%1$dསུབ་ཟིན་ནམ།</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">མང་ཤོས་སུ་%dབསྣན་ཆོག</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">སྔོན་བཀོད་%dབསུབ་པ་ཡིན་ནམ།</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">སྔོན་བཀོད་%dབསུབ་ཟིན།</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">སྔོན་བཀོད་%dནང་འདྲེན་བྱས་ཟིན་།</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dS</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">སྐར་མ%1$s</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">འགུལ་རྣམ་འདྲ་པར་ལེན་པའི་ཁྲོད་ཆེས་མང་ན་སྐར་ཆ་%dལ་རྒྱབ་སྐྱོར་བྱེད་དགོས།</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">སྐར་ཆ་%dཕབ་འཇུག</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">མི་གཟུགས་པར་ལེན་ %d ལས་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">ཤོག་ལྷེ་%1$s</item>
+    </plurals>
+</resources>

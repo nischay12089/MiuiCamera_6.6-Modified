@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xiaomi.camera.main.ui.view.CamSurfaceView android:id="@id/camera_surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.CardImageView android:id="@id/card_image_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/mode_select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

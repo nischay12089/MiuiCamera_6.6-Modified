@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.zoom.ZoomIndexButtonsLayout android:id="@id/zoom_index_buttons_layout" android:layout_width="fill_parent" android:layout_height="@dimen/eku" android:layout_marginStart="@dimen/chu" android:layout_marginEnd="@dimen/chu"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/fa9" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_top_navigation_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dnl" android:layout_marginHorizontal="@dimen/ein">
+        <ImageView android:gravity="center" android:id="@id/iv_top_extra_menu_back" android:layout_width="@dimen/e2q" android:layout_height="@dimen/e2q" android:src="@drawable/ic_vector_config_back" android:layout_centerVertical="true" android:contentDescription="@string/gon" />
+        <TextView android:textSize="@dimen/e6c" android:textColor="@color/white" android:id="@id/atv_top_extra_menu_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hh_" android:layout_centerInParent="true" android:contentDescription="@string/hh_" android:contextClickable="true" />
+        <ImageView android:gravity="center" android:id="@id/watermark_description" android:visibility="gone" android:layout_width="@dimen/dnk" android:layout_height="@dimen/dnk" android:src="@drawable/ic_parameter_description_entrance_normal" android:layout_centerVertical="true" android:contentDescription="@string/hy1" android:alpha="0.8" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/config_extra_watermark_switch_recyclerview" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/config_top_extra_menu_recyclerview" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/e5c" android:paddingEnd="@dimen/e5b" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/wm_top_menu_more_item_ly" android:background="@drawable/wm_top_menu_more_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ejp" android:layout_marginTop="@dimen/ejr" android:layout_marginBottom="@dimen/ejq" android:layout_marginHorizontal="@dimen/e5c">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" app:aar="parent" app:abg="parent" app:abk="parent">
+            <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/hzq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hzq" />
+            <ImageView android:id="@id/more_item_point" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/ic_vector_wm_more_item_point" android:importantForAccessibility="no" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/more_item_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vector_wm_more_item_arrow" android:importantForAccessibility="no" android:layout_marginEnd="16.0dip" app:aar="parent" app:aax="parent" app:abk="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/layout_watermark_switch_close" android:visibility="gone" layout="@layout/err" />
+    <include android:id="@id/layout_watermark_switch_standard" android:visibility="gone" layout="@layout/erv" />
+    <include android:id="@id/layout_watermark_switch_leica" android:visibility="gone" layout="@layout/ert" />
+    <include android:id="@id/layout_watermark_switch_westcoast" android:visibility="gone" layout="@layout/erw" />
+</LinearLayout>

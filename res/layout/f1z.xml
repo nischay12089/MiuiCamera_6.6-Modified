@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true" android:layout_width="@dimen/dlv" android:layout_height="@dimen/dlv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/tint_color_palette_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shadowColor="@color/preference_tint_color_picker_palette_item_shadow_color" android:shadowDx="0.0" android:shadowDy="10.0" android:shadowRadius="160.0" app:ni="@color/transparent" app:nl="@dimen/dlu" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/tint_color_palette" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preference_tint_color_selector" android:scaleType="centerInside" android:contentDescription="@null" android:elevation="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.base.top.ui.menu.embed.toggle.SegmentToggleView android:id="@id/embed_toggle_view" android:layout_width="fill_parent" android:layout_height="@dimen/e7c" android:layout_marginTop="@dimen/e7e" android:layout_marginBottom="@dimen/e7e" android:layout_marginStart="@dimen/e7d" android:layout_marginEnd="@dimen/e7d" app:aax="parent" app:abg="parent" app:abk="parent" app:b22="2.0dip" app:b23="关闭" app:b24="3.0dip" app:b25="开启" app:b26="#ffe11b1b" app:b27="#ff000000" app:b28="#ffffffff" app:b29="#4dffffff" />
+    <FrameLayout android:id="@id/embed_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abj="@id/embed_toggle_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

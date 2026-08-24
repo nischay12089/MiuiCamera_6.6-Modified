@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/vlog_pro_feature_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/vlog_pro_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ees">
+        <ProgressBar android:id="@id/vlog_pro_updating_progress" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="@dimen/eez" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/eow" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/cfa" android:textColor="@android:color/white" android:id="@id/vlog_pro_updating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/eez" android:text="@string/gm1" android:layout_marginStart="11.0dip" />
+    </LinearLayout>
+    <com.android.camera.ui.SideFadingMiuiRecyclerView android:layout_gravity="bottom|center" android:id="@id/vlog_pro_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/eez" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.fragment.smartComposition.v1.SmartCompositionPipView android:id="@id/pip_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dx2" android:layout_marginTop="@dimen/dx3" />
+    <TextView android:id="@id/debug_asdDetectResultTextView" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dx2" android:layout_marginTop="@dimen/dx3" />
+    <TextView android:id="@id/debug_currentUseCompositionListTextView" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dx2" android:layout_marginTop="40.0dip" />
+</FrameLayout>

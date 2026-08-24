@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_card_arrow" android:layout_width="@dimen/dxe" android:layout_height="@dimen/dxe" android:scaleType="centerInside" android:importantForAccessibility="no" />
+    <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/d6y" android:id="@id/mode_select_item" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:a4f="false" app:b1y="@color/alpha24_black" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mode_extra_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/d6y" android:id="@id/mode_select_extra_item" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:a4f="false" app:b1y="@color/alpha24_black" />
+    </LinearLayout>
+</LinearLayout>

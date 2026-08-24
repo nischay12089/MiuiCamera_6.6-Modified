@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.fragment.watermark.wmSettingV1.view.WatermarkItemCheckBox android:id="@id/watermark_top_item_cb" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <miuix.visual.check.BorderLayout android:layout_gravity="center" android:id="@id/top_border" android:padding="@dimen/eii" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pc="@drawable/preference_watermark_item_top_visual_check_border_lc">
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.fragment.watermark.wmSettingV1.view.CustomBorderImageView android:layout_gravity="center" android:id="@id/top_image" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/eis" android:scaleType="centerInside" android:adjustViewBounds="true" app:w2="@color/watermark_top_item_border_color" app:w3="@dimen/eir" app:w4="@dimen/eid" />
+                <ImageView android:layout_gravity="start|center|top" android:id="@id/menu_watermark_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/watermark_new" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+                <ImageView android:layout_gravity="start|center|top" android:id="@id/top_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eip" android:src="@drawable/ic_watermark_top_item_edit" />
+            </FrameLayout>
+        </miuix.visual.check.BorderLayout>
+        <TextView android:textSize="@dimen/e6d" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/top_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/eie" android:layout_marginTop="@dimen/ei_" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </com.android.camera.fragment.watermark.wmSettingV1.view.WatermarkItemCheckBox>
+</LinearLayout>

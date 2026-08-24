@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:background="@color/signature_crop_tip_bar_color" android:layout_width="fill_parent" android:layout_height="@dimen/dur">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/signature_crop_tip_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hzl" android:fontFamily="misans-normal" android:layout_marginStart="28.0dip" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/signatureLayout" android:background="@color/signature_crop_view_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.fragment.watermark.wmSettingV2.imageCrop.WmSignatureCropView android:id="@id/signatureCropView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/bu3" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+            <com.miui.support.cardview.CardView android:layout_gravity="bottom|center" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip" android:minWidth="172.0dip" android:minHeight="50.0dip" app:ni="@color/preference_watermark_loading_bg_color" app:nl="16.0dip" app:nm="6.0dip" app:ajk="@color/alpha10_black" app:ajn="0.34000003dip">
+                <miuix.androidbasewidget.widget.ProgressBar android:layout_gravity="start|center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="20.0dip" android:indeterminateTint="@color/preference_watermark_loading_view_color" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/preference_watermark_loading_view_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhy" android:fontFamily="misans-normal" android:layout_marginStart="54.0dip" android:layout_marginEnd="20.0dip" android:textFontWeight="330" />
+            </com.miui.support.cardview.CardView>
+            <View android:id="@id/mask" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

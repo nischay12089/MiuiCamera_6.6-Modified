@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ambilight_scenes_list_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/debug_info" android:background="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="13.819977sp" android:textColor="#ffffffff" android:gravity="center|top" android:id="@id/ambilight_use_hint_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hpw" android:shadowColor="#c0000000" android:shadowRadius="4.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ambilight_scenes_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bim">
+        <com.android.camera.ui.SideFadingMiuiRecyclerView android:layout_gravity="center_horizontal" android:id="@id/ambilight_scenes_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

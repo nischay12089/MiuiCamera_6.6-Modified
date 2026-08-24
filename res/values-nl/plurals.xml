@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Gefocust. %d gezichten gedetecteerd</item>
+        <item quantity="one">Gefocust. %d gezicht gedetecteerd</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">"%d foto's in een burst-opname"</item>
+        <item quantity="one">%d foto in een burst-opname</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d seconden</item>
+        <item quantity="one">Interval: %d seconde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Duur: %d minuten</item>
+        <item quantity="one">Duur: %d minuut</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Snelheid: %dX</item>
+        <item quantity="one">Snelheid: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Duur: %d seconden</item>
+        <item quantity="one">Duur: %d seconde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d tekens ingevoerd.</item>
+        <item quantity="one">%d teken ingevoerd.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Voer maximaal %d tekens in.</item>
+        <item quantity="one">Voer maximaal %d teken in.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">"U kunt maximaal %d camera's op hetzelfde netwerk aansluiten"</item>
+        <item quantity="one">U kunt maximaal %d camera op hetzelfde netwerk aansluiten</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">U kunt maximaal %d monitoren op hetzelfde netwerk aansluiten</item>
+        <item quantity="one">U kunt maximaal %d monitor op hetzelfde netwerk aansluiten</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">U kunt maximaal maken %d klonen tegelijk.</item>
+        <item quantity="one">U kunt maximaal maken %d kloon tegelijk.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kan geen verbinding maken met de camera.&lt;br>Deze app wordt over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> gesloten. Wacht daarna een minuut of twee en probeer het opnieuw.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kan geen verbinding maken met de camera.&lt;br>Deze app wordt over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> gesloten. Wacht daarna een minuut of twee en probeer het opnieuw.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Dit apparaat is nu te heet.&lt;br>De app wordt over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> gesloten. De huidige voortgang is automatisch opgeslagen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Dit apparaat is nu te heet.&lt;br>De app wordt over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> gesloten. De huidige voortgang is automatisch opgeslagen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>De Cameraversie die u gebruikt, is niet compatibel met uw apparaatmodel.&lt;br>De app sluit over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Verwijder Camera-updates en probeer het opnieuw.&lt;/Data></item>
+        <item quantity="one">&lt;Data>De Cameraversie die u gebruikt, is niet compatibel met uw apparaatmodel.&lt;br>De app sluit over &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Verwijder Camera-updates en probeer het opnieuw.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sec</item>
+        <item quantity="one">%1$d sec</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">"Timer ingeschakeld (%1$d sec). Foto's worden overgezet naar dit apparaat."</item>
+        <item quantity="one">"Timer ingeschakeld (%1$d sec). Foto's worden overgezet naar dit apparaat."</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Verwijder %1$d concepten?</item>
+        <item quantity="one">Verwijder %1$d concept?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Voeg maximaal %d presets toe</item>
+        <item quantity="one">Voeg maximaal %d preset toe</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Nu %d presets verwijderen?</item>
+        <item quantity="one">Nu %d preset verwijderen?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d presets verwijderd</item>
+        <item quantity="one">%d preset verwijderd</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d presets geïmporteerd</item>
+        <item quantity="one">%d preset geïmporteerd</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Live moment vastleggen, tot %d sec.</item>
+        <item quantity="one">Live moment vastleggen, tot %d sec.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Neem %d seconden op</item>
+        <item quantity="one">Neem %d seconde op</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">"U kunt video's met stilstaande tijd opnemen met maximaal %d onderwerpen."</item>
+        <item quantity="one">"U kunt alleen video's met stilstaande tijd opnemen met %d onderwerp."</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">"%1$s foto's"</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

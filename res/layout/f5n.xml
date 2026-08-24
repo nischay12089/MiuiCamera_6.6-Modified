@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.appcompat.widget.NoPressedImageView android:layout_gravity="center_vertical" android:id="@id/a7u" android:layout_width="@dimen/cya" android:layout_height="@dimen/cy9" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cy_"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

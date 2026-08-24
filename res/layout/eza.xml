@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.ArbitraryRectLayout android:background="@drawable/bg_video_prompter_round_corner" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/eal" android:layout_height="@dimen/ead" android:layout_marginTop="@dimen/eah" android:importantForAccessibility="no" android:layout_marginStart="@dimen/eag"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/top_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:abk="parent">
+        <LinearLayout android:id="@id/move_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/move_view" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:layout_marginTop="@dimen/ea9" android:src="@drawable/ic_video_prompter_move" android:layout_marginStart="@dimen/ea9" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/close_btn" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:layout_marginTop="@dimen/ea9" android:src="@drawable/ic_video_prompter_close" android:contentDescription="@string/ga2" android:layout_marginEnd="@dimen/ea9" />
+    </LinearLayout>
+    <ScrollView android:scrollbarSize="@dimen/eb6" android:scrollbarThumbVertical="@drawable/video_prompter_scroll_bar_style" android:scrollbarStyle="outsideOverlay" android:id="@id/video_prompt_text_container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" app:aas="@id/bottom_container" app:abj="@id/top_container" app:abn="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white_alpha_80" android:id="@id/video_prompt_text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hwp" android:paddingHorizontal="@dimen/ebe" />
+            <LinearLayout android:orientation="vertical" android:id="@id/blankArea" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_container" android:paddingBottom="@dimen/eac" android:layout_width="0.0dip" android:layout_height="wrap_content" app:aar="parent" app:aay="@id/zoom_right" app:abf="@id/zoom_left" app:abs="0.567">
+        <ImageView android:id="@id/edit_text_btn" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:layout_marginTop="@dimen/eac" android:src="@drawable/video_prompter_edit" android:contentDescription="@string/hwq" app:aay="@id/play_text_btn" app:ab8="spread_inside" app:abg="@id/bottom_container" app:abk="@id/bottom_container" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/play_text_btn" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:src="@drawable/ic_video_prompter_play" android:contentDescription="@string/hx5" app:aay="@id/adjust_text_btn" app:abf="@id/edit_text_btn" app:abk="@id/edit_text_btn" />
+        <ImageView android:id="@id/adjust_text_btn" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:src="@drawable/ic_video_prompter_adjust" android:contentDescription="@string/fgx" app:aax="@id/bottom_container" app:abf="@id/play_text_btn" app:abk="@id/edit_text_btn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/zoom_left" android:layout_width="@dimen/eam" android:layout_height="@dimen/eam" android:src="@drawable/video_prompter_zoom_left" app:aar="parent" app:aba="parent" />
+    <ImageView android:id="@id/zoom_right" android:layout_width="@dimen/eam" android:layout_height="@dimen/eam" android:src="@drawable/video_prompter_zoom_right" app:aar="parent" app:abe="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end" android:id="@id/zoom_btn" android:visibility="gone" android:layout_width="@dimen/eaf" android:layout_height="@dimen/eaf" android:layout_marginTop="@dimen/ea9" android:src="@drawable/video_prompter_zoom_in" android:layout_marginEnd="@dimen/ea9" app:aax="parent" app:abk="parent" />
+</com.android.camera.fragment.videoprompter.ArbitraryRectLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manually_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e00"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="top" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/manually_item_value_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmh">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/manually_item_value_auto" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmn" android:scaleType="centerInside" android:text="A" style="@style/ia1" />
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/e03" android:textColor="@color/white_alpha_48" android:ellipsize="marquee" android:id="@id/manually_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+    </LinearLayout>
+    <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/e01" android:textColor="@color/white_alpha_48" android:ellipsize="marquee" android:layout_gravity="bottom|center" android:id="@id/manually_item_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cmh" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+</FrameLayout>

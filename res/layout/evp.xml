@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/kaleidoscope_layout" android:background="@color/fullscreen_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.SideFadingMiuiRecyclerView android:layout_gravity="bottom|center" android:id="@id/kaleidoscope_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

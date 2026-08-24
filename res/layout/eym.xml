@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/cosmetic_layout_root" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/slide_main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.TopAlertSlideSwitchButton android:id="@id/street_slide_switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:q2="@dimen/e1n" app:a8t="#ffffffff" app:a9i="true" app:b78="@dimen/dw8" app:b7p="@dimen/e1t" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/depth_main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:id="@id/depth_text_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <com.android.camera.ui.DepthFieldView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/depth_field_view" android:layout_width="@dimen/but" android:layout_height="@dimen/bur" android:layout_marginTop="@dimen/but" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:layout_width="@dimen/bvc" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv5" android:layout_marginStart="@dimen/bv4">
+            <ImageView android:gravity="center" android:id="@id/depth_image_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_config_street_infinity" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_00" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv6" android:text="5" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv7" android:text="3" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv8" android:text="2" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv9" android:text="1" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv_" android:text="0.6" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+            <TextView android:textSize="@dimen/bvb" android:textColor="@color/white" android:gravity="center" android:id="@id/depth_text_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bva" android:text="0.1" android:shadowColor="@color/black" android:shadowRadius="1.0" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

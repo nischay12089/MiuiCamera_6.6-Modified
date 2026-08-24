@@ -1,0 +1,21 @@
+.class public abstract Lup/j$c;
+.super Lup/j;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lup/j;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lup/j$c$a;,
+        Lup/j$c$b;
+    }
+.end annotation

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/text_edit_dialog_options_font_panel_item" android:background="@drawable/text_edit_font_background" android:layout_width="@dimen/cn3" android:layout_height="@dimen/cn2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_item_background" android:layout_width="@dimen/cn3" android:layout_height="@dimen/cn2" android:contentDescription="@null" />
+    <TextView android:textSize="16.5dip" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_font_name" android:layout_width="@dimen/cn3" android:layout_height="@dimen/cn2" android:text="@string/hq7" android:fallbackLineSpacing="false" />
+</FrameLayout>

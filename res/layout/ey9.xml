@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|right" android:id="@id/second_screen_zoom_layout" android:layout_width="@dimen/dw1" android:layout_height="fill_parent">
+        <com.android.camera.ui.ZoomViewMM android:id="@id/zoom_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

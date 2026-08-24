@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Фокусирано. %d лица са открити</item>
+        <item quantity="one">Фокусирано. %d лице е открито</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d серийни снимки</item>
+        <item quantity="one">%d серийна снимка</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Интервал: %d секунди</item>
+        <item quantity="one">Интервал: %d секунда</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Времетраене: %d минути</item>
+        <item quantity="one">Времетраене: %d минута</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Скорост: %dX</item>
+        <item quantity="one">Скорост: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Продължителност: %d секунди</item>
+        <item quantity="one">Продължителност: %d секунда</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Въведени %d символа.</item>
+        <item quantity="one">Въведен %d символ.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Въведи до %d символа.</item>
+        <item quantity="one">Въведи до %d символ.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dсек.</item>
+        <item quantity="one">%dсек.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Можете да свържете до %d камери към същата мрежа</item>
+        <item quantity="one">Можете да свържете до %d камера към същата мрежа</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Можете да свържете до %d монитора към същата мрежа</item>
+        <item quantity="one">Можете да свържете до %d монитор към същата мрежа</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Можете да създадете до %d клонинга едновременно.</item>
+        <item quantity="one">Можете да създадете до %d клонинг едновременно.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Неуспешно свързване с камерата.&lt;br>Това приложение ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. След това изчакайте минута-две и опитайте отново.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Неуспешно свързване с камерата.&lt;br>Това приложение ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. След това изчакайте минута-две и опитайте отново.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Устройството е твърде горещо в момента.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Настоящия прогрес ще бъде запазен автоматично.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Устройството е твърде горещо в момента.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Настоящия прогрес ще бъде запазен автоматично.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Версията на Камерата, която използвате, не е съвместима с модела на вашето устройство.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Деинсталирайте обновленията на камерата и опитайте отново.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Версията на Камерата, която използвате, не е съвместима с модела на вашето устройство.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Деинсталирайте обновленията на камерата и опитайте отново.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d мин</item>
+        <item quantity="one">%1$d мин</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d сек</item>
+        <item quantity="one">%1$d сек</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Таймерът е включен (%1$d сек). Снимките ще бъдат прехвърлени на това устройство.</item>
+        <item quantity="one">Таймерът е включен (%1$d сек). Снимките ще бъдат прехвърлени на това устройство.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Изтриване на %1$d чернови?</item>
+        <item quantity="one">Изтриване на %1$d чернова?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Добавяне на до %d предварителни настройки</item>
+        <item quantity="one">Добавяне на до %d предварителна настройка</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Изтриване на %d предварителни настройки сега?</item>
+        <item quantity="one">Изтриване на %d предварителна настройка сега?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Изтрити %d предварителни настройки</item>
+        <item quantity="one">Изтрита %d предварителна настройка</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Внесени %d предварителни настройки</item>
+        <item quantity="one">Внесена %d предварителна настройка</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dс</item>
+        <item quantity="one">%dс</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s мин</item>
+        <item quantity="one">%1$s мин</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Заснемане на снимки в реално време, до %d сек</item>
+        <item quantity="one">Заснемане на снимки в реално време, до %d сек</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Запис от %d секунди</item>
+        <item quantity="one">Запис от %d секунда</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Можете да заснемате видеоклипове със замразено време с до %d обекта.</item>
+        <item quantity="one">Можете да заснемате видеоклипове със замразено време само с %d обект.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s снимки</item>
+        <item quantity="one">%1$s снимка</item>
+    </plurals>
+</resources>

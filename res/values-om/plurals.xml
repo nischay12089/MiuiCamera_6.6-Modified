@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Xiyyeeffatamaa. Fuulotni %d adda baafamaniiru</item>
+        <item quantity="one">Xiyyeeffatamaa. Fuulli %d adda baafameera</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d suuraawwan suuraa saffisaa keessaa</item>
+        <item quantity="one">%d suuraa kan suuraa saffisaa keessa</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Garaagarummaa: sekondiiwwan %d</item>
+        <item quantity="one">Garaagarummaa: sekondii %d</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Turtii: daqiiqaawwan %d</item>
+        <item quantity="one">Turtii: daqiiqaa %d</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Saffisa: %dX</item>
+        <item quantity="one">Saffisa: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Turtii: sekondiiwwan %d</item>
+        <item quantity="one">Turtii: sekondii %d</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Arfiilee %d galaniiru.</item>
+        <item quantity="one">Arfiin %d galeera.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Hamma arfillee %d tti galchaa.</item>
+        <item quantity="one">Hamma arfii %d galchaa.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Hamma kaameeraawwan %d tti neetwoorkii walfakkaataa waliin walitti hidhu dandeessu</item>
+        <item quantity="one">Hamma kaameeraa %d tti neetwoorkii walfakkaataa waliin walitti hidhu dandeessu</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Hamma to’attuuwwan %d tti neetwoorkii walfakkaataan walitti hidhuu dandeessu</item>
+        <item quantity="one">Hamma to’attu %d tti neetwoorkii walfakkaataan walitti hidhuu dandeessu</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Yeroo tokkotti Kiloonii hamma %d uumuu dandeessu.</item>
+        <item quantity="one">Yeroo tokkotti Kiloonii hamma %d uumuu dandeessau.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kameeraa waliin wal qunnamsiisuu hin danda’u.&lt;br>Appiin kun sekondiiwwan &lt;font color=#FFCE16>&lt;b>%1$d keessatti&lt;/b>&lt;/font> ni cufama. Kana booda, daqiiqaa tokko ykn lama eeguudhaan irra deebi’aa yaalaa.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameeraa waliin wal qunnamsiisuu hin danda’u.&lt;br>Appiin kun sekondii &lt;font color=#FFCE16>&lt;b>%1$d keessatti&lt;/b>&lt;/font> cufama. Kana booda, daqiiqaa tokko ykn lama eeguudhaan irra deebi’aa yaalaa.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Meeshaan kun amma baayʼee hoʼee jira.&lt;br>Appichi sekondii &lt;font color=#FFCE16>&lt;b>%1$d keessatti &lt;/b>&lt;/font> ni cufama. Adeemsi amma jiru ofumaan olkaa’ameera.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Meeshaan kun amma baayʼee hoʼaa jira.&lt;br>Appichi sekondii &lt;font color=#FFCE16>&lt;b>%1$d keessatti &lt;/b>&lt;/font> ni cufama. Adeemsi amma jiru ofumaan olkaa’ameera.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Maxxansi Kameeraa isin fayyadamaa jirtan moodeela meeshaa keessanii waliin hin walsimu.&lt;br>Appichi sekondii &lt;font color=#FFCE16>&lt;b>%1$d keessatti ni cufama&lt;/b>&lt;/font>. Haaroomsawwan kaameeraa haquun irra deebi’aa yaalaa.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Maxxansi Kameeraa isin fayyadamaa jirtan moodeela meeshaa keessanii waliin hin walsimu.&lt;br>Appichi sekondii &lt;font color=#FFCE16>&lt;b>%1$d keessatti ni cufama &lt;/b>&lt;/font>. Haaroomsawwan kaameeraa haquun irra deebi’aa yaalaa.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">Daqiiqaawwan %1$d</item>
+        <item quantity="one">Daqiiqaa %1$d</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">Sekondiiwwan %1$d</item>
+        <item quantity="one">Sekondii %1$d</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Lakkooftuu sa’aatii baname (sekondiiwwan %1$d). Suuraan gara meeshaa kanaatti ni dabarfama.</item>
+        <item quantity="one">Lakkooftuu sa’aatii baname (sekondii %1$d). Suuraan gara meeshaa kanaatti ni dabarfama.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Wixineewwan %1$d balleessaa?</item>
+        <item quantity="one">Wixinee %1$d balleessaa?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Hamma durqindaa’inoota %d dabalaa</item>
+        <item quantity="one">Hamma durqindaa’ina %d dabalaa</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Durqindaa’oota %d amma haquu?</item>
+        <item quantity="one">Durqindaa’aa %d amma haquu?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Durqindaa’onni %d haqamaniiru</item>
+        <item quantity="one">Durqindaa’aan %d haqameera</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Durqindaa’onni %d galfamaniiru</item>
+        <item quantity="one">Durqindaa’aan %d galfameera</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">Daqiiqaawwan %1$s</item>
+        <item quantity="one">Daqiiqaa %1$s</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturing live moment, up to %d secs</item>
+        <item quantity="one">Capturing live moment, up to %d sec</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Sekondiiwwan %d galmeessaa</item>
+        <item quantity="one">Sekondii %d gaalmeessaa</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Yeroo Dhaabbi Viidiyoo hamma dhimma %d waliin waraabuu dandeessu.</item>
+        <item quantity="one">Yeroo Dhaabbi Viidiyoo dhimma %d qofaa waliin waraabuu dandeessu.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">Suuraalee %1$s</item>
+        <item quantity="one">Suuraa %1$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.features.zoompanel.ui.view.ZoomPanelMaskView android:layout_gravity="start|center" android:id="@id/zoom_panel_mask" android:visibility="gone" android:layout_width="@dimen/elh" android:layout_height="@dimen/elg" />
+    <FrameLayout android:layout_gravity="start|center" android:id="@id/zoom_panel_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaomi.camera.features.zoompanel.ui.view.ScaleZoomPanelView android:id="@id/zoom_panel" android:layout_width="@dimen/elh" android:layout_height="@dimen/elg" />
+    </FrameLayout>
+    <com.xiaomi.camera.features.zoompanel.ui.view.ZoomPanelTipView android:layout_gravity="start|center" android:id="@id/far" android:visibility="gone" android:layout_width="@dimen/elo" android:layout_height="wrap_content" />
+</FrameLayout>

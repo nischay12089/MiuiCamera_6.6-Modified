@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Difokus. %d wajah dikesan</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d gambar dalam tangkapan berganda</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Selang: %d saat</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Tempoh: %d minit</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Kelajuan: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Durasi: %d saat</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Memasukkan %d karakter.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Masukkan sehingga %d karakter.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Anda boleh menyambung sehingga %d kamera ke rangkaian yang sama</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Anda boleh menyambung sehingga %d monitor ke rangkaian yang sama</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Anda boleh mencipta sehingga %d klon dalam satu masa.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Tidak dapat menyambung ke kamera.&lt;br>Apl ini akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat &lt;/b>&lt;/font>. Selepas ini, tunggu satu atau dua minit dan cuba lagi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Peranti ini terlalu panas sekarang.&lt;br>Apl ini akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat&lt;/b>&lt;/font>. Perkembangan semasa disimpan secara automatik.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Versi Kamera yang anda gunakan tidak serasi dengan model peranti anda.&lt;br>Apl akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat&lt;/b>&lt;/font>. Nyahpasang kemas kini Kamera dan cuba lagi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Pemasa dihidupkan (%1$d saat). Gambar akan dipindahkan ke peranti ini.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Padam %1$d draf?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Tambahkan sehingga %d pratetap</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Padam %d pratetap sekarang?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d pratetap dipadamkan</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d pratetap diimport</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Merakam detik langsung, sehingga %d saat</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Rakam %d saat</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Anda boleh merakam video beku masa sehingga %d subjek.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s gambar</item>
+    </plurals>
+</resources>

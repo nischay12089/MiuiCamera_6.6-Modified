@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" style="@style/ijj"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.appcompat.widget.NoPressedImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cxv" />
+    <TextView android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/imc" />
+</LinearLayout>

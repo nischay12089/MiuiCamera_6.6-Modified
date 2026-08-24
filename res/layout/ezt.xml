@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/egm" android:layout_marginEnd="@dimen/egm">
+        <androidx.cardview.widget.CardView android:id="@id/vv_workspace_image_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ni="@color/fullscreen_background" app:nl="@dimen/efe" app:nm="0.0dip">
+            <com.android.camera.ui.TextureVideoView android:id="@id/vv_workspace_video" android:layout_width="@dimen/egh" android:layout_height="@dimen/egg" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+            <ImageView android:id="@id/vv_workspace_image" android:layout_width="@dimen/egh" android:layout_height="@dimen/egg" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center" android:id="@id/vv_workspace_play" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_vector_play" android:scaleType="centerCrop" android:contentDescription="@string/gm9" />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/egn" android:minHeight="@dimen/ega">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/egb" android:textColor="#e5ffffff" android:id="@id/vv_workspace_create_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/egf" android:textColor="#7fffffff" android:id="@id/vv_workspace_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="@dimen/egq" android:layout_height="fill_parent">
+                <com.android.camera.ui.ScrollTextview android:textSize="@dimen/eg_" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/vv_workspace_shot" android:background="@drawable/bg_vv_workspace_start" android:layout_width="fill_parent" android:layout_height="@dimen/ego" android:layout_marginTop="@dimen/eg9" android:text="@string/gjz" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <CheckBox android:layout_gravity="end|center" android:id="@id/vv_workspace_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/egi" style="@style/i58" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

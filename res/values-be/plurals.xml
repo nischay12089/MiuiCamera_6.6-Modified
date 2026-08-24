@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Сфакусавана. Выяўлена %d асобы</item>
+        <item quantity="one">Сфакусавана. Выяўлена %d асоба</item>
+        <item quantity="few">Сфакусавана. Выяўлена %d асобы</item>
+        <item quantity="many">Сфакусавана. Выяўлена %d асобаў</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d фота ў серыйнай здымцы</item>
+        <item quantity="one">%d фота ў серыйнай здымцы</item>
+        <item quantity="few">%d фота ў серыйнай здымцы</item>
+        <item quantity="many">%d фота ў серыйнай здымцы</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Інтэрвал: %d секунд</item>
+        <item quantity="one">Інтэрвал: %d секунда</item>
+        <item quantity="few">Інтэрвал: %d секунды</item>
+        <item quantity="many">Інтэрвал: %d секунд</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Працягласць: %d хвілін</item>
+        <item quantity="one">Працягласць: %d хвіліна</item>
+        <item quantity="few">Працягласць: %d хвіліны</item>
+        <item quantity="many">Працягласць: %d хвілін</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Хуткасць: %dX</item>
+        <item quantity="one">Хуткасць: %dX</item>
+        <item quantity="few">Хуткасць: %dX</item>
+        <item quantity="many">Хуткасць: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Працягласць: %d секунд</item>
+        <item quantity="one">Працягласць: %d секунда</item>
+        <item quantity="few">Працягласць: %d секунды</item>
+        <item quantity="many">Працягласць: %d секунд</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Уведзены %d сімвалаў.</item>
+        <item quantity="one">Уведзены %d сімвал.</item>
+        <item quantity="few">Уведзены %d сімвала.</item>
+        <item quantity="many">Уведзены %d сімвалаў.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Увядзіце не больш за %d сімвалаў.</item>
+        <item quantity="one">Увядзіце не больш за %d сімвал.</item>
+        <item quantity="few">Увядзіце не больш за %d сімвала.</item>
+        <item quantity="many">Увядзіце не больш за %d сімвалаў.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+        <item quantity="few">%d сек.</item>
+        <item quantity="many">%d сек.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Вы можаце падключыць да %d камер да адной сеткі</item>
+        <item quantity="one">Вы можаце падключыць да %d камеры да адной сеткі</item>
+        <item quantity="few">Вы можаце падключыць да %d камер да адной сеткі</item>
+        <item quantity="many">Вы можаце падключыць да %d камер да адной сеткі</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Вы можаце падключыць да %d манітораў да адной сеткі</item>
+        <item quantity="one">Вы можаце падключыць да %d манітора да адной сеткі</item>
+        <item quantity="few">Вы можаце падключыць да %d манітораў да адной сеткі</item>
+        <item quantity="many">Вы можаце падключыць да %d манітораў да адной сеткі</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Вы можаце стварыць не больш %d клонаў за раз.</item>
+        <item quantity="one">Вы можаце стварыць не больш %d клона за раз.</item>
+        <item quantity="few">Вы можаце стварыць не больш %d клонаў за раз.</item>
+        <item quantity="many">Вы можаце стварыць не больш %d клонаў за раз.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Збой падлучэння да камеры.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунды&lt;/b>&lt;/font>. Пасля гэтага пачакайце крыху і паспрабуйце ізноў.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Збой падлучэння да камеры.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Пасля гэтага пачакайце крыху і паспрабуйце ізноў.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Збой падлучэння да камеры.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунды&lt;/b>&lt;/font>. Пасля гэтага пачакайце крыху і паспрабуйце ізноў.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Збой падлучэння да камеры.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Пасля гэтага пачакайце крыху і паспрабуйце ізноў.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Перагрэў прылады.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунды&lt;/b>&lt;/font>. Бягучы прагрэс быў захаваны аўтаматычна.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Перагрэў прылады.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Бягучы прагрэс быў захаваны аўтаматычна.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Перагрэў прылады.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунды&lt;/b>&lt;/font>. Бягучы прагрэс быў захаваны аўтаматычна.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Перагрэў прылады.&lt;br>Гэтая праграма будзе зачынена праз &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Бягучы прагрэс быў захаваны аўтаматычна.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Выкарыстоўваная вамі версія камеры несумяшчальная з мадэллю вашай прылады.&lt;br>Праграма зачыніцца праз &lt;font color=#FFCE16>&lt;b>%1$d сек.&lt;/b>&lt;/font>. Выдаліце ​​абнаўленні камеры і паспрабуйце яшчэ раз.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Выкарыстоўваная вамі версія камеры несумяшчальная з мадэллю вашай прылады.&lt;br>Праграма зачыніцца праз &lt;font color=#FFCE16>&lt;b>%1$d сек.&lt;/b>&lt;/font>. Выдаліце ​​абнаўленні камеры і паспрабуйце яшчэ раз.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Выкарыстоўваная вамі версія камеры несумяшчальная з мадэллю вашай прылады.&lt;br>Праграма зачыніцца праз &lt;font color=#FFCE16>&lt;b>%1$d сек.&lt;/b>&lt;/font>. Выдаліце ​​абнаўленні камеры і паспрабуйце яшчэ раз.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Выкарыстоўваная вамі версія камеры несумяшчальная з мадэллю вашай прылады.&lt;br>Праграма зачыніцца праз &lt;font color=#FFCE16>&lt;b>%1$d сек.&lt;/b>&lt;/font>. Выдаліце ​​абнаўленні камеры і паспрабуйце яшчэ раз.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d хв.</item>
+        <item quantity="one">%1$d хв.</item>
+        <item quantity="few">%1$d хв.</item>
+        <item quantity="many">%1$d хв.</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d сек.</item>
+        <item quantity="one">%1$d сек.</item>
+        <item quantity="few">%1$d сек.</item>
+        <item quantity="many">%1$d сек.</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Уключаны таймер (%1$d сек). Фота будуць перададзены на гэтую прыладу.</item>
+        <item quantity="one">Уключаны таймер (%1$d сек). Фота будуць перададзены на гэтую прыладу.</item>
+        <item quantity="few">Уключаны таймер (%1$d сек). Фота будуць перададзены на гэтую прыладу.</item>
+        <item quantity="many">Уключаны таймер (%1$d сек). Фота будуць перададзены на гэтую прыладу.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Выдаліць %1$d чарнавікоў?</item>
+        <item quantity="one">Выдаліць %1$d чарнавік?</item>
+        <item quantity="few">Выдаліць %1$d чарнавіка?</item>
+        <item quantity="many">Выдаліць %1$d чарнавікоў?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Дадайце да %d прэсета­ў</item>
+        <item quantity="one">Дадайце да %d прэсета</item>
+        <item quantity="few">Дадайце да %d прэсета­ў</item>
+        <item quantity="many">Дадайце да %d прэсета­ў</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Выдаліць %d прэсетаў зараз?</item>
+        <item quantity="one">Выдаліць %d прэсет зараз?</item>
+        <item quantity="few">Выдаліць %d прэсеты зараз?</item>
+        <item quantity="many">Выдаліць %d прэсетаў зараз?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Выдалены %d прэсэтаў</item>
+        <item quantity="one">Выдалены %d прэсэт</item>
+        <item quantity="few">Выдалены %d прэсэта</item>
+        <item quantity="many">Выдалены %d прэсэтаў</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Імпартаваны %d прэсэтаў</item>
+        <item quantity="one">Імпартаваны %d прэсэт</item>
+        <item quantity="few">Імпартаваны %d прэсэты</item>
+        <item quantity="many">Імпартаваны %d прэсэтаў</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+        <item quantity="few">%d сек.</item>
+        <item quantity="many">%d сек.</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s хв.</item>
+        <item quantity="one">%1$s хв.</item>
+        <item quantity="few">%1$s хв.</item>
+        <item quantity="many">%1$s хв.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Захоп жывога моманту, да %d сек.</item>
+        <item quantity="one">Захоп жывога моманту, да %d сек.</item>
+        <item quantity="few">Захоп жывога моманту, да %d сек.</item>
+        <item quantity="many">Захоп жывога моманту, да %d сек.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Запішыце %d секунд</item>
+        <item quantity="one">Запішыце %d секунду</item>
+        <item quantity="few">Запішыце %d секунды</item>
+        <item quantity="many">Запішыце %d секунд</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">"Вы можаце здымаць відэа з прыпынкам па часе толькі з %d суб'ектамі."</item>
+        <item quantity="one">"Вы можаце здымаць відэа з прыпынкам па часе толькі з %d суб'ектам."</item>
+        <item quantity="few">"Вы можаце здымаць відэа з прыпынкам па часе толькі з %d суб'ектамі."</item>
+        <item quantity="many">"Вы можаце здымаць відэа з прыпынкам па часе толькі з %d суб'ектамі."</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s фота</item>
+        <item quantity="one">%1$s фота</item>
+        <item quantity="few">%1$s фота</item>
+        <item quantity="many">%1$s фота</item>
+    </plurals>
+</resources>

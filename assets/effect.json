@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "fashionSize": 5,
+  "dvSize": 5,
+  "kaleidoscopeSize": 6,
+  "data": [
+    {
+      "id": "kaleidoscope01",
+      "filter": "1",
+      "iconUrl": "ic_live_kale_1",
+      "type": 3
+    },
+    {
+      "id": "kaleidoscope02",
+      "filter": "2",
+      "iconUrl": "ic_live_kale_2",
+      "type": 3
+    },
+    {
+      "id": "kaleidoscope03",
+      "filter": "3",
+      "iconUrl": "ic_live_kale_3",
+      "type": 3
+    },
+    {
+      "id": "kaleidoscope04",
+      "filter": "4",
+      "iconUrl": "ic_live_kale_4",
+      "type": 3
+    },
+    {
+      "id": "kaleidoscope05",
+      "filter": "5",
+      "iconUrl": "ic_live_kale_5",
+      "type": 3
+    },
+    {
+      "id": "kaleidoscope06",
+      "filter": "6",
+      "iconUrl": "ic_live_kale_6",
+      "type": 3
+    }
+  ]
+}

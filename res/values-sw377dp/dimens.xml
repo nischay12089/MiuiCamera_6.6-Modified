@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bxt">60.0dip</dimen>
+    <dimen name="by2">30.0dip</dimen>
+    <dimen name="c2y">8.0dip</dimen>
+    <dimen name="c56">12.0dip</dimen>
+    <dimen name="cb6">165.22dip</dimen>
+    <dimen name="cb7">380.0dip</dimen>
+    <dimen name="e82">110.0dip</dimen>
+    <dimen name="e8_">40.0dip</dimen>
+    <dimen name="e8b">13.0dip</dimen>
+    <dimen name="e8l">110.0dip</dimen>
+</resources>

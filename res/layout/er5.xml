@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.camera.base.ui.bottom.BottomMotionLayout android:id="@id/bottom_motion_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/bmt" app:aaa="@xml/inx" app:awe="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/start_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab1="0.5" />
+    <androidx.constraintlayout.widget.Guideline android:id="@id/center_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab1="0.5" />
+    <androidx.constraintlayout.widget.Guideline android:id="@id/end_extra_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab1="0.5" />
+    <androidx.constraintlayout.widget.Guideline android:id="@id/end_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab1="0.5" />
+    <FrameLayout android:id="@id/start_container" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/boy" android:layout_height="@dimen/boy" />
+    <FrameLayout android:id="@id/snap_layout" android:focusable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaomi.camera.ui.base.shutter.ShutterView android:layout_gravity="center" android:id="@id/shutter_view" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" app:ax0="@color/ax0" app:ax3="@color/white" app:ax4="@color/shutter_recording_color" app:ax8="@color/white" app:ax9="@color/white" app:ax_="@dimen/dup" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/end_extra_container" android:focusable="false" android:visibility="invisible" android:clipChildren="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" />
+    <FrameLayout android:id="@id/end_container" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" />
+</com.xiaomi.camera.base.ui.bottom.BottomMotionLayout>

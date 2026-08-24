@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.TextureVideoView android:layout_gravity="center" android:id="@id/video_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera.guide.Banner android:layout_gravity="center_horizontal" android:id="@id/banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" />
+    <RelativeLayout android:gravity="bottom" android:id="@id/hint_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/e7x" android:textColor="@color/white" android:gravity="center" android:id="@id/hint_text" android:layout_width="@dimen/c8o" android:layout_height="wrap_content" android:text="@string/gzs" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/e7w" android:textColor="@color/white" android:id="@id/hint_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c8n" android:text="@string/gzr" android:layout_below="@id/hint_text" android:layout_centerHorizontal="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/hint_anim" android:layout_width="@dimen/c8m" android:layout_height="@dimen/c8h" android:layout_marginTop="@dimen/c8l" android:scaleType="centerInside" android:layout_below="@id/hint_skip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

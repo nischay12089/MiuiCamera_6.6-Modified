@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alignmentMode="alignMargins" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/eib"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraintLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+        <LinearLayout android:gravity="start|center" android:id="@id/b9b" android:layout_width="fill_parent" android:layout_height="@dimen/ei7" app:abg="parent" app:abk="parent">
+            <TextView android:textSize="@dimen/ei8" android:textStyle="bold" android:textColor="@color/watermark_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hi4" android:fontFamily="misans-normal" />
+        </LinearLayout>
+        <HorizontalScrollView android:gravity="start|center" android:orientation="horizontal" android:id="@id/scrollView" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abj="@id/b9b">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <miuix.visual.check.VisualCheckGroup android:id="@id/layout_vertical_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ehs" app:a__="@dimen/eht" />
+                <miuix.visual.check.VisualCheckGroup android:id="@id/layout_horizontal_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ehs" android:layout_marginStart="@dimen/eib" app:a__="@dimen/eht" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:id="@id/y7" android:background="@color/preference_watermark_edit_layout_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/ehl" android:layout_marginTop="@dimen/ehm" app:aar="parent" app:abj="@id/scrollView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

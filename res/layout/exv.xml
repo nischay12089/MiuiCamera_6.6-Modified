@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/rl_bubble_pop_parent" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/rv_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+        <com.android.camera.ui.EdgeSpringBackLayout android:id="@id/rv_springbacklayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:zn="left" app:zo="@dimen/di7" app:atu="horizontal" app:aty="@id/style_workspace_list">
+            <miuix.recyclerview.widget.RecyclerView android:id="@id/style_workspace_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.android.camera.ui.EdgeSpringBackLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/eow" style="?android:progressBarStyleLarge" />
+            <TextView android:textSize="13.799988sp" android:textColor="@android:color/white" android:id="@id/ll_updating_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gm1" android:layout_marginStart="@dimen/cfl" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

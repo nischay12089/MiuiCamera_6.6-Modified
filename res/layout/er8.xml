@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/v9_thumbnail_layout" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/bon" app:ni="@color/transparent" app:nl="@dimen/diz" app:nm="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image_bg" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_vector_thumb_bg_cv" android:scaleType="centerCrop" android:contentDescription="@string/fgq" />
+    <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_vector_thumb_bg_cv" android:scaleType="centerCrop" android:contentDescription="@string/fgq" />
+</androidx.cardview.widget.CardView>

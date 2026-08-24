@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_result" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/search_history_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dpd">
+        <TextView android:textSize="@dimen/dpe" android:textColor="@color/search_history_text_color" android:id="@id/history_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hlo" android:layout_marginStart="@dimen/dpm" app:aba="@id/search_history_root" app:abk="@id/search_history_root" />
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/search_history_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dph" android:layout_marginStart="@dimen/dpg" app:ii="flex_start" app:a36="wrap" app:a_m="flex_start" app:aba="@id/search_history_root" app:abj="@id/history_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/search_result_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:id="@id/search_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/no_result" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dpn" android:src="@drawable/ic_no_result_img" android:contentDescription="@string/hlp" app:aas="@id/no_result_text" app:aba="@id/no_result" app:abe="@id/no_result" />
+            <TextView android:textSize="@dimen/dpp" android:textColor="@color/white_alpha_50" android:id="@id/no_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dpo" android:text="@string/hlp" app:aas="@id/custom_button" app:aba="@id/no_result" app:abe="@id/no_result" />
+            <TextView android:textSize="@dimen/dpb" android:textColor="@color/white_alpha_80" android:gravity="center" android:id="@id/custom_button" android:background="@drawable/custom_background" android:layout_width="@dimen/dpc" android:layout_height="@dimen/dpa" android:text="@string/hlm" app:aar="@id/no_result" app:aba="@id/no_result" app:abe="@id/no_result" app:abk="@id/no_result" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</FrameLayout>

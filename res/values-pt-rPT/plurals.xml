@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Focado. %d rostos detetados</item>
+        <item quantity="one">Focado. %d rosto detetado</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotos em disparo sequencial</item>
+        <item quantity="one">%d foto em disparo sequencial</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervalo: %d segundos</item>
+        <item quantity="one">Intervalo: %d segundo</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Duração: %d minutos</item>
+        <item quantity="one">Duração: %d minuto</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Velocidade: %dX</item>
+        <item quantity="one">Velocidade: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Duração: %d segundos</item>
+        <item quantity="one">Duração: %d segundo</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Introduziu %d caracteres.</item>
+        <item quantity="one">Introduziu %d caractere.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Introduza até %d caracteres.</item>
+        <item quantity="one">Introduza até %d caractere.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Pode ligar até %d câmaras à mesma rede</item>
+        <item quantity="one">Pode ligar até %d câmara à mesma rede</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Pode ligar até %d monitores à mesma rede</item>
+        <item quantity="one">Pode ligar até %d monitor à mesma rede</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Pode criar até %d clones por vez.</item>
+        <item quantity="one">Pode criar até %d clone por vez.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Não é possível ligar à câmara.&lt;br>Esta aplicação vai ser fechada em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Depois disso, espere um minuto ou dois e tente novamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Não é possível ligar à câmara.&lt;br>Esta aplicação vai ser fechada em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Depois disso, espere um minuto ou dois e tente novamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Este dispositivo está superaquecido.&lt;br>A aplicação vai ser fechada em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. O progresso atual foi guardado automaticamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Este dispositivo está superaquecido.&lt;br>A aplicação vai ser fechada em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. O progresso atual foi guardado automaticamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>A versão da Câmara que estás a utilizar não é compatível com o modelo do seu dispositivo.&lt;br>A aplicação fechará em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstale as atualizações da Câmara e tente novamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>A versão da Câmara que estás a utilizar não é compatível com o modelo do seu dispositivo.&lt;br>A aplicação fechará em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstale as atualizações da Câmara e tente novamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Temporizador ligado (%1$d s). As fotos serão transferidas para este dispositivo.</item>
+        <item quantity="one">Temporizador ligado (%1$d s). As fotos serão transferidas para este dispositivo.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Eliminar %1$d rascunhos?</item>
+        <item quantity="one">Eliminar %1$d rascunho?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Adicione até %d predefinições</item>
+        <item quantity="one">Adicione até %d predefinição</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Eliminar %d predefinições agora?</item>
+        <item quantity="one">Eliminar %d predefinição agora?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d predefinições eliminadas</item>
+        <item quantity="one">%d predefinição eliminada</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d predefinições importadas</item>
+        <item quantity="one">%d predefinição importada</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">A capturar o momento vivo, até %d segundos</item>
+        <item quantity="one">A capturar o momento vivo, até %d segundo</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Gravar %d segundos</item>
+        <item quantity="one">Gravar %d segundo</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Pode gravar vídeos com congelamento de tempo apenas com %d objetos.</item>
+        <item quantity="one">Pode gravar vídeos com congelamento de tempo apenas com %d objeto.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotos</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

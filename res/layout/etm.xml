@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/beauty_multi_options_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/beauty_option_list" android:layout_width="fill_parent" android:layout_height="@dimen/dq3" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dw1" android:layout_marginTop="@dimen/dqb" app:aax="parent" app:abg="parent" app:abj="@id/beauty_option_list">
+        <com.android.camera.ui.ColorImageView android:layout_gravity="start|center|top" android:id="@id/fq7" android:layout_width="@dimen/e0b" android:layout_height="@dimen/e0b" android:layout_marginTop="@dimen/e0c" android:src="@drawable/ic_beauty_out_reset_new" android:contentDescription="@string/fcr" android:layout_marginStart="@dimen/dt2" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="end|center|top" android:id="@id/beauty_compare" android:layout_width="@dimen/e0b" android:layout_height="@dimen/e0b" android:layout_marginTop="@dimen/e0c" android:src="@drawable/ic_beauty_compare_new" android:contentDescription="@string/fcm" android:layout_marginEnd="@dimen/dt2" />
+        <micamx.compat.ui.widget.seekbar.IndicatorTickedSeekBar android:layout_gravity="center" android:id="@id/combine_slide_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bae="@color/zoom_slider_normal_color" app:baf="@dimen/e1f" app:bag="@dimen/dwc" app:bah="true" app:baj="@color/tint_color_yellow_depth2" app:bal="@dimen/bm8" app:ban="@dimen/bma" app:bap="@dimen/e1h" app:baq="100" app:bar="0" app:bas="move_tick" app:bb0="@color/black" app:bb5="true" app:bb8="@dimen/e1m" app:bb9="@color/zoom_slider_normal_color" app:bb_="@dimen/bm4" app:bba="@dimen/e1m" app:bbb="5.0" app:bbc="@dimen/bme" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

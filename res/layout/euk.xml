@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_marginTop="@dimen/bve">
+        <ImageView android:layout_gravity="start" android:id="@id/image_crop_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_crop_back" android:contentDescription="@string/gon" android:layout_marginStart="@dimen/bu3" />
+        <TextView android:textSize="@dimen/d6c" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ht9" />
+        <ImageView android:layout_gravity="end" android:id="@id/image_crop_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_crop_save" android:contentDescription="@string/gs2" android:layout_marginEnd="@dimen/bu3" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.android.camera.imagecrop.CropView android:id="@id/imageCropView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

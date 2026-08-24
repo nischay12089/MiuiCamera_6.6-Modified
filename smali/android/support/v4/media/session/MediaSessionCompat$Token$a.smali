@@ -1,0 +1,52 @@
+.class public final Landroid/support/v4/media/session/MediaSessionCompat$Token$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/support/v4/media/session/MediaSessionCompat$Token;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Landroid/support/v4/media/session/MediaSessionCompat$Token;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+
+    move-result-object p0
+
+    new-instance p1, Landroid/support/v4/media/session/MediaSessionCompat$Token;
+
+    invoke-direct {p1, p0}, Landroid/support/v4/media/session/MediaSessionCompat$Token;-><init>(Landroid/os/Parcelable;)V
+
+    return-object p1
+.end method
+
+.method public final newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    new-array p0, p1, [Landroid/support/v4/media/session/MediaSessionCompat$Token;
+
+    return-object p0
+.end method

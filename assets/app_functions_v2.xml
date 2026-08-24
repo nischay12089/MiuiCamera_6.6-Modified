@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appfunctions>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#adjustBeautyValue</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：调节美颜单项（磨皮 / 美白 / 立体 / 瘦脸等）的强度数值。
+
+ 触发：美颜调到 X / 美颜开大 / 美颜调到最大 / 后置美颜开到最大 /
+      磨皮 / 皮肤光滑 / 嫩肤 / 磨皮调高 / 磨皮调到 X /
+      美白 / 美白调到 X / 美白效果调强 /
+      立体 / 立体感调到 X / 立体效果加强 /
+      补妆 / 妆感 / 妆感调到 X / 加一点妆感 /
+      瘦脸 / 把脸瘦一点 / 脸瘦一点 / 瘦脸效果调强 /
+      小头 / 把头调小一点 / 头小一点 / 小头效果调到 X /
+      蓬蓬发 / 头发蓬松一点 / 头发蓬松 / 蓬蓬发效果加强 /
+      大眼 / 眼睛放大一点 / 眼睛大一点 / 大眼效果调到最大 /
+      瘦鼻 / 鼻子瘦一点 / 瘦鼻效果加强 /
+      白牙 / 牙白 / 牙齿白一点 / 牙白效果调到最大 /
+      发际线 / 发际线往下调一点 / 发际线下移
+      超界示例："调到 200" / "-50" → clamp 到 [0, 100]
+ 前置：相机已启动；当前模式支持美颜
+ 模式：所有支持美颜的模式。后置美颜仅支持磨皮键（其他键无效），
+       后置调节美颜时未指定 key 默认走磨皮 key
+ 区分：
+   - 关美颜整体功能 = toggleBeauty
+   - 调单项强度 = adjustBeautyValue
+   - 智能 AI 美颜开关 = toggleFeature(ComponentConfigAiBeauty)
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>key</name>
+            <description>美颜子项键名： pref_beautify_skin_smooth_ratio_key=磨皮（后置默认走此键）| pref_beautify_whiten_ratio_key=美白 | pref_beautify_solid_ratio_key=立体 | pref_beautify_makeup_ratio_key=补妆 | pref_beautify_slim_face_ratio_key=瘦脸 | pref_beautify_down_head_narrow=小头 | pref_beautify_hair_puffy_key=蓬蓬发 | pref_beautify_enlarge_eye_ratio_key=大眼 | pref_beautify_nose_ratio_key=瘦鼻 | pref_beautify_tooth_white_key=白牙 | pref_beautify_hairline_ratio_key=发际线</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>强度数值，范围 [0, 100]</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | DEFAULT （不支持 ON/OFF——数值键传开关无意义；关美颜整体用 toggleBeauty）</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#adjustBeautyValue</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCameraSettings</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取相机设置页所有偏好值（照片格式 / 视频编码 / 地理位置 / 自拍镜像等），
+      按“拍照设置 / 录像设置 / 通用设置”分组返回。
+
+ 触发：相机设置 / 偏好 / 当前设置 / 照片格式 / 视频编码 / 自拍镜像 / 位置信息
+ 前置：无（读取偏好不依赖相机前台）
+ 区分：偏好（设置页）= getCameraSettings；运行态 Component = getCameraStatus</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.CameraSettingsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>CameraSettingsResult.settings 全量偏好键值对；三组页以“分组名 = 页面入口”暴露， 带“[二级页面]”的条目可由 openCameraSettings 直达</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCameraSettings</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCameraStatus</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前相机所有 Component 状态（闪光灯 / HDR / 比例 / 滤镜 /
+       变焦 / 倒计时等的实时值）。
+ 前置：不传 modeId 时相机必须在前台（否则直接返回 success=false，message="相机不在前台"），
+       可先调 switchMode 启动相机；传入 modeId 时允许相机在后台读取指定模式参数，
+       用于相机故障诊断排查。
+ 区分：偏好（设置页）= getCameraSettings；运行态 Component = getCameraStatus</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>7</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>modeId</name>
+            <description>可选模式 ID；不传时读取当前前台模式，传入时读取指定模式且不要求相机在前台</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.CameraStatusResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>CameraStatusResult；success=false 时表示相机不在前台或查询失败</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCameraStatus</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCvTypeOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前机型支持的徕卡风格选项。
+
+ 触发：徕卡风格有哪几种
+ 前置：相机已启动；机型支持徕卡</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.CvTypeOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>CvTypeOptionsResult.options.value 可直接传给 setCvType； 机型不支持徕卡时 isSupported=false</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getCvTypeOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getFilterOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的滤镜选项。
+
+ 触发：滤镜列表 / 有哪些滤镜
+ 前置：相机必须在前台（不在前台时返回空列表，message 提示
+       "请打开相机并重试"）。可先调 switchMode 启动相机</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.FilterOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>FilterOptionsResult.options.value 可直接传给 setFilter</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getFilterOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getFlashOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的闪光灯选项。
+
+ 触发：闪光灯有哪些选项 / 支持哪些闪光模式
+ 前置：相机已启动</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.FlashOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>FlashOptionsResult.options.value 可直接传给 setFlashMode</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getFlashOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getHdrOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的 HDR 选项。
+
+ 触发：HDR 选项 / HDR 有哪几档
+ 前置：相机已启动</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.HdrOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>HdrOptionsResult.options.value（off / auto / on，小写） 可直接传给 setHdrMode</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getHdrOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getModeList</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前设备支持的拍摄模式列表（已过滤"更多 / 编辑"等非拍摄项）。
+
+ 触发：有哪些模式 / 支持什么模式 / 模式列表
+ 前置：无（设备维度静态数据，不依赖相机前台）
+ 区分：模式列表 = getModeList；场景列表 = getSceneOptions</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.SupportedModesResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>SupportedModesResult.modes 可直接传给 switchMode 的 modeName</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getModeList</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getRatioOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的画幅比例选项。
+
+ 触发：支持哪些画幅 / 比例选项
+ 前置：相机已启动</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.RatioOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>RatioOptionsResult.options.value 可直接传给 setAspectRatio</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getRatioOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getSceneOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前设备支持的场景列表。
+
+ 触发：有哪些场景 / 支持哪些拍照场景
+ 前置：无
+ 区分：本函数已自动排除模式类索引（58~74）。如需切换"夜景 / 慢动作"
+       等拍摄模式请使用 getModeList + switchMode。</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.SceneOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>SceneOptionsResult.options 可直接传给 setScene</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getSceneOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getTimerOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的倒计时选项。
+
+ 触发：倒计时有几档 / 支持哪些倒计时
+      注：本接口返回值仅供参考；setCameraTimer 仍以硬白名单 0/3/5/10 校验为准，
+         设备扩展值传入会被拒绝
+ 前置：相机已启动（component 未初始化时回退到 0/3/5/10 默认集合）
+ 区分：见 setCameraTimer 的"已知问题"——硬白名单仅 0/3/5/10，本函数返回的
+       设备扩展值在当前实现下不可设置</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.TimerOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>TimerOptionsResult.options 可作参考，但传给 setCameraTimer 时 必须只用 0/3/5/10 子集</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getTimerOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getVideoFpsOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的录像帧率选项。
+
+ 触发：帧率选项 / 支持哪些 FPS
+      注：切换到目标录像模式后必须重新调用本函数——慢动作和普通录像
+         走两条独立链，集合不同
+ 前置：相机已启动；切换到目标录像模式后必须重新调用本函数——
+       慢动作和普通录像走两条独立链，集合不同</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.VideoFpsOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>VideoFpsOptionsResult.options.value 可直接传给 setVideoFps</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getVideoFpsOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getVideoQualityOptions</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的录像分辨率选项。
+
+ 触发：分辨率选项 / 支持哪些 4K / 1080p / 录像清晰度档位
+      注：切换到目标录像模式后必须重新调用本函数——慢动作和普通录像
+         走两条独立链，集合不同
+ 前置：相机已启动；切换到目标录像模式后必须重新调用本函数——
+       慢动作和普通录像走两条独立链，集合不同</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.VideoQualityOptionsResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>VideoQualityOptionsResult.options.value 可直接传给 setVideoQuality</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getVideoQualityOptions</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#getZoomRange</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：获取当前模式支持的变焦倍率范围（最小、最大）。
+
+ 触发：变焦范围 / 最大几倍 / 最小几倍
+ 前置：相机必须在前台（不在前台时通道无返回，结果为空字符串）。
+       可先调 switchMode 启动相机</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.ZoomRangeResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>ZoomRangeResult.min / max；不支持变焦的模式两者皆为空字符串</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#getZoomRange</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#openCameraSettings</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：打开相机设置页，或跳转到 getCameraSettings 返回内容对应的设置项所在页面。
+
+ 触发：打开相机设置 / 打开设置页 / 打开通用设置 / 打开拍照设置 /
+      打开照片设置 / 打开录像设置 / 打开视频设置 / 打开相机设置里的 X / 去设置 X
+ 前置：无；本函数只打开设置页，不修改任何设置值。
+ 区分：读取设置值用 getCameraSettings；修改拍摄参数用对应 setXxx/toggleXxx。
+      用户说“通用设置 / 拍照设置 / 录像设置”等页面名时，settingName 直接传页面名，
+      不要替换成“视频编码 / 照片格式”等具体设置项。
+
+ settingName 为空时打开设置首页；非空时仅支持 getCameraSettings 返回的“名称 = 值”左侧，
+ 包括“拍照设置 / 录像设置 / 通用设置”三个分组页。带“[二级页面]”的设置项会直达二级页，
+ 其他设置项打开所属分组页。未命中时返回失败，不会把外部输入直接作为 Fragment className 透传。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>settingName</name>
+            <description>设置项名称或分组名；传 null 或空字符串打开设置首页</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 仅表示已发起设置页跳转</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#openCameraSettings</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#recognizeScene</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：在识别所需模式内触发一次当前镜头画面分析并给出推荐效果。
+
+ 触发：当前场景怎么拍好看 / 这个场景怎么拍 / 帮我分析一下场景 /
+       场景识别 / 场景分析 / 拍照建议 / 拍摄建议
+ 区分：
+   - 当前场景拍摄建议 = recognizeScene
+   - 仅切换拍摄模式 = switchMode
+   - 设置具体场景预设（美食/宠物/烟花等）= setScene</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示已触发场景分析；失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#recognizeScene</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setAspectRatio</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置画幅比例。
+
+ 触发：画幅 / 比例 / 画面比例 / 画幅切成 X / 画幅设为 X / 改成 X /
+      1:1 / 1 比 1 / 方画幅 / 方形 / 切换到方形模式 /
+      3:4 / 4:3 / 3 比 4 /
+      9:16 / 16:9 / 16 比 9 / 宽画幅 /
+      2:3 / 3:2 /
+      全屏 / 切全屏 /
+      2.39:1 / 电影画幅 / 真电影画幅
+      不支持：任意像素值（只能用预设比例）
+      注：用户说"切换到方形模式"中的"模式"是冗余词，**不存在"方形"拍摄模式**，
+         必须用本函数 setAspectRatio("1x1")，不要错调 switchMode
+ 前置：相机已启动
+ 模式：见 getRatioOptions 返回值（视频与照片可选项不同）</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>画幅枚举： 1x1=1:1 | 3x2=2:3 | 4x3=3:4 | 16x9=9:16 | full=全屏 | 2.39x1=电影画幅 | 2.39x1_new=真电影画幅（部分机型）</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setAspectRatio</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setBurstCount</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置定时连拍张数。
+
+ 触发：连拍多少张 / 拍 X 张 / 帮我定时拍 X 张 / 连拍设成 X 张 /
+      无限连拍 / 一直拍 / 定时连拍张数
+      超界示例："连拍设成 1000 张" / "-5 张" → clamp 到 [10, 600]
+ 前置：相机已启动；当前为定时连拍模式或已开启 ComponentLiveTimerBurst
+ 模式：定时连拍模式
+ 区分：张数 = setBurstCount；间隔 = setBurstInterval；倒计时 = setCameraTimer
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>连拍张数数值，范围 [10, 600]</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>仅支持 MAX，含义为无限张数（直到手动停止），不是数值上限</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setBurstCount</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setBurstInterval</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置定时连拍每张之间的时间间隔。
+
+ 触发：连拍间隔 / 间隔 X 秒 / 连拍间隔 X 秒 / 每隔几秒拍一张 / 连拍频率
+      超界示例："间隔设成 0.01 秒" / "100 秒" → clamp 到 [1, 60]
+ 前置：相机已启动；当前为定时连拍模式
+ 模式：定时连拍模式
+ 区分：间隔 = setBurstInterval；张数 = setBurstCount；倒计时 = setCameraTimer</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>间隔秒数字符串，范围 [1, 60]</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setBurstInterval</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setCameraTimer</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置拍照倒计时秒数。
+
+ 触发：倒计时 / 倒数 X 秒 / X 秒后拍照 / X 秒后拍 / 倒计时 X 秒 /
+      10 秒后拍照 / 5 秒倒计时 / 设成 5 秒倒计时 / 关闭倒计时 / 关倒计时 /
+      不要倒计时 / 自拍倒计时 / 延时拍照 /
+      倒计时三秒拍照 / 倒计时拍照 / 拍照倒计时X秒
+ 前置：相机已启动
+ 模式：除"贴纸"外所有拍照模式
+ 区分：
+   - 倒计时（一次拍照前的延时）= setCameraTimer
+   - 定时连拍间隔（连拍中每张间隔）= setBurstInterval
+   - 连拍张数（拍多少张）= setBurstCount
+
+ 多指令组合：
+   - 倒计时X秒拍照 = setCameraTimer(X) → startOperation("CAPTURE")
+   - 倒计时自拍 = startOperation("SWITCH_FRONT") → setCameraTimer("3") → CAPTURE
+   详见类级 KDoc M 节
+
+ 已知问题：硬白名单为 0/3/5/10。即使 getTimerOptions 返回设备扩展值
+           （如 2/15/20），传入会被拒绝——以 setCameraTimer 校验为准。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>time</name>
+            <description>倒计时秒数字符串，仅支持 "0" | "3" | "5" | "10"</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setCameraTimer</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setCvType</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置徕卡影像风格（仅徕卡联名机型可用）。
+
+ 触发：徕卡 / 莱卡 / leica / 徕卡风格 / 徕卡摄影风格 /
+      徕卡生动 / 切换到徕卡生动风格 /
+      徕卡经典 / 用徕卡经典拍 / 帮我用徕卡经典风格拍 /
+      大师人像 / 换成大师人像风格 /
+      徕卡人像 / 帮我切到徕卡人像
+ 前置：相机已启动；机型必须支持徕卡（见 getCvTypeOptions）
+ 模式：见 getCvTypeOptions 返回值
+ 区分：
+   - 徕卡风格（成像调性）= setCvType
+   - 滤镜（叠加色彩效果）= setFilter
+   - 专业自定义风格（手动调对比度 / 锐度等）= setPictureStyle
+
+ 取值约定：数字编码。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>徕卡风格枚举："0"=徕卡生动 | "1"=徕卡经典 | "2"=大师人像 | "3"=徕卡人像</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setCvType</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setExposureValue</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：调节 EV 曝光补偿。
+
+ 触发：曝光补偿 / EV / 曝光值 / EV+X / +1EV / -2EV / 把 EV 调到 X / EV 加到 X /
+      调高曝光 / 调低曝光 / 欠曝 / 过曝 / 曝光过度 / 曝光不足 /
+      调亮 / 调暗 / 提亮 / 压暗 / 画面亮一点 / 画面暗一点 /
+      把画面调亮一点 / 把曝光调亮一点 / 把画面调暗一点 /
+      曝光调到最大 / 曝光最亮 / 曝光最暗 /
+      曝光归零 / 曝光复位 / 关掉曝光 / 取消曝光补偿 / 恢复默认曝光
+      （曝光归零/恢复默认 → control="DEFAULT"）
+      超界示例："EV 调到 10" / "曝光设成 -8" → clamp 到 [-4, 4] 或用 control=MAX/MIN
+ 前置：相机已启动
+ 模式：所有支持手动 EV 的模式（专业模式 / 部分录像模式）
+ 区分：
+   - 整体亮度（线性补偿）= setExposureValue
+   - 高动态范围 = setHdrMode
+   - 闪光灯 = setFlashMode
+   - 专业模式手动曝光时间 = setProParameter("exposureTime", ...)
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>EV 目标值，范围 [-4, 4]</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | DEFAULT | MULTIPLY_xxx | DIVIDE_xxx</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setExposureValue</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFilter</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置滤镜（选定一种滤镜效果，如黑白 / 胶片 / 复古）。
+
+ 触发：滤镜 / 风格化 / 加 X 滤镜 / 加一个 X 滤镜 / 用 X 滤镜 / 套个 X 滤镜 /
+      黑白滤镜 / 胶片滤镜 / 复古滤镜 / 鲜艳 / 怀旧 / 富士滤镜 /
+      奶油 / 奶油滤镜 / 加一个奶油滤镜 / 正片 / 正片滤镜 / 用正片滤镜 /
+      关闭滤镜 / 把滤镜去掉 / 用原图 / 不要滤镜 / 取消滤镜 / 把滤镜去掉用原图
+ 前置：相机已启动（滤镜列表运行时初始化）
+ 模式：见 getFilterOptions 返回值
+ 区分：
+   - 选哪个滤镜 = setFilter
+   - 调当前滤镜的强度 = setFilterIntensity
+   - 徕卡风格 = setCvType
+   - 专业自定义风格 = setPictureStyle</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>滤镜值，必须取自 getFilterOptions 返回的 FilterOption.value</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFilter</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFilterIntensity</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：调节当前滤镜浓度（0~100）。
+
+ 触发：滤镜浓度 / 滤镜强度 / 滤镜程度 / 滤镜浅一点 / 滤镜重一点 /
+      滤镜淡一点 / 滤镜浓一点 / 加重滤镜 / 减弱滤镜 / 滤镜强度调到 X
+      超界示例：调到 200 → clamp 到 100；-50 → clamp 到 0
+ 前置：相机已启动；当前已选定滤镜（先 setFilter）
+ 模式：见 getFilterOptions 返回非空的模式
+ 区分：选滤镜 = setFilter；强度 = setFilterIntensity；美颜数值用 adjustBeautyValue
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>强度数值，范围 [0, 100]</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | DEFAULT | MULTIPLY_xxx | DIVIDE_xxx</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFilterIntensity</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFlashMode</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置闪光灯模式。
+
+ 触发：
+   - 后置闪光灯：闪光灯 / 打开闪光灯 / 开闪光 / 关闪光灯 / 关掉闪光灯 /
+                不要闪光 / 强制闪光 / 闪光灯常亮 / 闪光灯一直开着 /
+                自动闪光 / 闪光灯调成自动 / 闪光灯设自动
+   - 前置补光（独立概念）：打开补光灯 / 开补光灯 / 关掉补光灯 / 关补光灯 /
+                          补光灯调自动 / 自动补光 / 前置柔光开 / 前置柔光环 /
+                          前置柔光灯打开 / 自拍补光
+      重要：补光灯 = 前置柔光环，对应 value "104"=常亮 / "105"=自动；
+           后置闪光对应 "0"=关 / "1"=开 / "2"=常亮 / "3"=自动
+ 前置：相机已启动
+ 模式：见 getFlashOptions 返回值（不同模式可选项不同，前置摄像头集合更小）
+ 区分：闪光灯影响曝光，但 EV 调节请用 setExposureValue；HDR 用 setHdrMode
+
+ 取值约定：数字编码（与默认 UPPER_SNAKE_CASE 不同）。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>闪光灯枚举： "0"=关 | "1"=后置闪光开 | "2"=后置常亮 | "3"=后置自动 | "104"=前置柔光环常亮 | "105"=前置柔光环自动； 容错：后置 104/105 自动映射到 2/3，前置 1/2/3 自动映射到 104/104/105</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setFlashMode</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setHdrMode</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置 HDR 模式。
+
+ 触发：HDR / 高动态范围 / 开 HDR / 关 HDR / 自动 HDR / HDR 调成自动 / 逆光增强 / 大光比
+      不支持：HDR 强度 / HDR 等级（仅三档 off/auto/on，无强度概念）
+ 前置：相机已启动
+ 模式：见 getHdrOptions 返回值
+ 区分：HDR 调动态范围；EV 调整体亮度（setExposureValue）；闪光灯（setFlashMode）
+
+ 取值约定：lowercase（与默认 UPPER_SNAKE_CASE 不同）。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>HDR 枚举：off | auto | on（小写）</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setHdrMode</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setPictureStyle</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：调节专业自定义摄影风格的单项数值（对比度 / 冷暖调 / 青品调 / 饱和度 / 锐度）。
+
+ 触发（间接表达居多）：自定义风格 / 调色 / 摄影风格 / 风格调节
+   - 对比度 → ComponentManuallyTone：
+     对比度 / 对比度高一点 / 对比度调高 / 画面通透 / 通透一点 / 灰蒙蒙
+   - 冷暖调 → ComponentManuallyColorSubTemperature：
+     冷暖调 / 色温调暖 / 暖色调 / 冷色调 / 画面太黄了冷一点 / 偏暖 / 偏蓝
+   - 青品调 → ComponentManuallyColorSubTune：
+     青品调 / 富士绿 / 加一点富士绿拍照 / 绿色调 / 紫色调
+   - 饱和度 → ComponentManuallyVibrance：
+     饱和度 / 颜色鲜艳 / 颜色鲜艳点 / 鲜艳一点 / 浓郁一点 / 颜色淡一点
+   - 锐度 → ComponentManuallyTexture：
+     锐度 / 边缘清晰度 / 调整画面边缘清晰度 / 锐利一点 / 画面太软
+      超界示例："对比度调为 100" / "-100" → clamp 到 [-50, 50]
+ 前置：相机已启动；仅在专业拍照模式下可用（其他模式直接拒绝）
+ 模式：专业拍照（不支持专业视频）
+ 区分：
+   - 自定义风格（手动调对比 / 锐度 / 饱和）= setPictureStyle
+   - 徕卡风格（预设调性）= setCvType
+   - 滤镜（叠加色彩）= setFilter
+   - 专业模式参数（曝光时间 / ISO / 白平衡 / 对焦）= setProParameter
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>key</name>
+            <description>ComponentManuallyTone=对比度 | ComponentManuallyColorSubTemperature=冷暖调 | ComponentManuallyColorSubTune=青品调 | ComponentManuallyVibrance=饱和度 | ComponentManuallyTexture=锐度</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>数值，范围 [-50, 50]</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | DEFAULT</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setPictureStyle</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setProParameter</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置专业模式参数（曝光时间 / ISO / 白平衡 / 对焦）。
+
+ 触发：曝光时间 / 快门 / 快门速度 / 快门调慢 / 1/1000 秒 / 千分之一秒 /
+      ISO / 感光度 / 感光度调高 / ISO 调到 400 /
+      白平衡 / 色温 / 色温 5500K / 色温调暖 / 白平衡设成日光模式 / AWB /
+      手动对焦 / 对焦距离 / 对焦调远一点
+      注：paramType 字面量必须小写驼峰 exposureTime / iso / whiteBalance / focus，
+         不能传 ET / ISO / WB / Focus（PRO_PARAM_MAP 强校验，错传立即失败）
+      不支持：光圈 / F 值 / f2.8 / 虚化档位（参见类级 KDoc 第 I 节）
+ 前置：相机已启动；仅在专业拍照、专业视频两个模式生效
+       PRO_PARAM_MAP.supportedModes 内，传入会返回失败
+ 模式：专业拍照 | 专业视频（不支持普通照片 / 录像）
+ 区分：
+   - 专业模式四参数 = setProParameter
+   - 专业自定义风格（对比 / 锐度 / 饱和）= setPictureStyle
+   - EV 曝光补偿（不是曝光时间）= setExposureValue
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。
+
+ AUTO 取值不对称（重要）：
+   - exposureTime / iso / whiteBalance 的 AUTO 用 value="0"
+   - focus 的 AUTO 用 value="1000"</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>paramType</name>
+            <description>参数类型，仅以下四种之一： - exposureTime：曝光时间，value 单位纳秒。 分数秒：1000000000 ÷ 分母（1/1000s → "1000000"）； 整数秒：秒 × 1000000000（1s → "1000000000"）；"0"=AUTO。支持 control。 - iso：ISO 感光度，value 整数。典型 50~50000，"0"=AUTO。支持 control。 - whiteBalance：色温（K），value 整数。范围 2000~8000，步长由设备决定 （通常 100 或 200）；也可传 AWB 预设值；"0"=AUTO。支持 control。 - focus：对焦距离，value 整数。范围 10(最近)~990(最远)，步长 10， "1000"=AUTO。仅支持 value，不支持 control。</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>绝对数值字符串；使用 control 时传 ""</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>相对调节指令：MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | DEFAULT。focus 不支持 control（传入会返回失败）。 ADD_100000000 = +0.1s 示例。无 _xxx 后缀时按设备默认步长</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功；模式不匹配（普通模式） 或 focus 传 control 时 success=false（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setProParameter</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setScene</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置拍照场景，按场景自动配置一组相机参数（白平衡 / 对比度 / 降噪 / 算法等），
+      不切换 UI tab。
+
+ 触发：拍 X / 怎么拍 X / X 怎么拍 / 帮我拍 X
+      常见场景示例（设备实际清单以 getSceneOptions 为准）：
+      - 食物：美食 / 水果 / 咖啡 / 咖喱
+      - 动物：小猫 / 小狗 / 宠物
+      - 风光：天空 / 海边 / 沙滩 / 建筑 / 风景 / 枫叶 / 秋景
+      - 文档：文档 / PPT / 证件
+      - 人像（细分）：自拍 / 多人合影 / 逆光人像 / 阴天人像 / 雪景人像 /
+                     舞台人像 / 夜景人像 / 虚化人像 / 表情抓拍 / 剪影
+      - 物品：花卉 / 绿植 / 草地 / 烟花 / 珠宝 / 手办玩具
+      - 车辆：静止汽车 / 飞驰赛车 / 车辆摇摄 / 车外
+      - 长曝光子场景：穿梭人群 / 霓光夜幕 / 行云流水 / 创意光绘 / 璀璨星空 / 浪漫星轨
+      - 延时子场景：街道延时 / 云朵延时 / 日出日落延时 / 夜晚延时 / 植物延时
+      - 风格：质感胶片 / 人文扫街 / 徕卡经典风格 / 水墨风格 / 高对比风格 / 电影质感
+      - 夜空：夜景 / 星空 / 月亮 / 雪花下落 / 雪花拉丝 / 雪花特写
+      口语示例："今天阴天怎么拍人像" / "拍胶片感的照片" / "看演唱会拍台上的人" /
+               "下雪了拍雪景人像" / "我要拍刚买的高达手办"
+      上述列表非穷举（设备实际清单 60+ 项）；用户给出未列出的同类场景名时，
+      先调 getSceneOptions 拿当前合法清单再决定，不要凭印象传值。
+ 前置：无（相机不在前台时通过 Intent 启动到指定场景）
+ 区分：
+   - 场景（细粒度参数预设）= setScene
+   - 拍摄模式（夜景 / 长曝光 / 慢动作 / 全景 / 专业 / 延时 / 电影）= switchMode
+   - 名字两边都有时（如"夜景"），优先 switchMode；"夜景人像"等细分仅在 setScene
+   - 底层 sceneNameToIndex 接受部分"模式类索引"（58~74），但此处禁止把
+     夜景 / 长曝光等模式名传给本函数——请改用 switchMode</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>scene</name>
+            <description>场景名称，必须取自 getSceneOptions 返回值；不在列表内的 名称（包括拍摄模式名）一律拒绝</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示已成功发起场景配置； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setScene</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setVideoFps</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置录像帧率（自动按"普通录像 / 慢动作"两条独立配置链分流）。
+
+ 触发：帧率 / FPS / fps / 录像帧率 /
+      24 帧 / 30 帧 / 60 帧 / 120 帧 / 240 帧 / 480 帧 / 960 帧 / 1920 帧 /
+      帧率调到 60 / 帧率设成 30 / 我要录 120 帧慢动作 / 录一个 240 帧的慢动作
+      超界示例："10000 帧" / "0 帧" → LLM 应取 getVideoFpsOptions 最接近合法值
+ 前置：必须先 switchMode 切到目标录像模式；切换模式后必须重新调
+       getVideoFpsOptions——慢动作和普通录像的可选值集合不同
+ 模式：所有录像模式
+ 区分：录像帧率 = setVideoFps；录像分辨率 = setVideoQuality</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>帧率字符串，必须取自 getVideoFpsOptions 当前返回值</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setVideoFps</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setVideoQuality</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置录像分辨率（自动按"普通录像 / 慢动作"两条独立配置链分流）。
+
+ 触发：分辨率 / 录像分辨率 / 视频分辨率 /
+      4K / 8K / 1080P / 720P / 2.8K /
+      录像分辨率调成 4K / 分辨率改成 1080P / 我要录 8K 视频 / 画质调到最高 /
+      录像清晰度 / 视频清晰度
+      超界示例："16K" / "100P" → LLM 应取 getVideoQualityOptions 最接近合法值的列表元素的 value
+ 前置：必须先 switchMode 切到目标录像模式；切换模式后必须重新调
+       getVideoQualityOptions——慢动作和普通录像的可选值集合不同
+ 模式：所有录像模式（普通 / 慢动作 / 电影 / VLOG ...）
+ 区分：录像分辨率 = setVideoQuality；录像帧率 = setVideoFps</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>分辨率选项内部值，必须取自 getVideoQualityOptions 中列表元素的 value。</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setVideoQuality</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setWatermark</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：设置水印总开关（开启时保留当前水印样式）。
+
+ 触发：水印 / 时间水印 / 关水印 / 关闭水印 / 开水印 / 打开水印 / 拍照水印 /
+      拍照不要带水印
+      不支持：水印样式选择（仅 ON/OFF 总开关）
+ 前置：相机已启动
+ 模式：所有支持水印的模式</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>ON=开启（保留当前样式）| OFF=关闭</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setWatermark</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#setZoomRatio</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：调节变焦倍率。
+
+ 触发：放大 / 缩小 / 变焦 / zoom / 几倍变焦 /
+      放大到 X 倍 / 缩小到 X 倍 / 帮我拉到 X 倍变焦 /
+      拉近 / 拉近一点 / 把镜头拉近 / 推近 /
+      拉远 / 把镜头拉远 / 推远 / 镜头远一点 / 把镜头拉远一点 /
+      1 倍 / 2 倍 / 3 倍 / 0.6 倍 / 缩小到 1 倍 /
+      广角 / 超广角 / 长焦 / 超长焦 / 主摄 /
+      切广角 / 切长焦 / 切主摄 / 恢复变焦 / 回主摄 /
+      放大相机焦距 / 缩小相机焦距 / 放大视频焦距 / 缩小视频焦距 /
+      放大镜头 / 缩小镜头
+      超界示例："放大到 200 倍" → clamp 到 getZoomRange 上限
+ 前置：相机已启动；可调用 getZoomRange 拿当前模式可用范围
+ 模式：所有支持变焦的模式
+
+ value/control 互斥：value 模式 control=null；control 模式 value=""。
+
+ 本函数 control 不支持 DEFAULT。允许的 control：
+ MAX | MIN | UP | DOWN | ADD_xxx | SUB_xxx | MULTIPLY_xxx | DIVIDE_xxx |
+ ULTRA_WIDE | MAIN | TELE | ULTRA_TELE</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>目标倍率字符串（如 "2.0"），范围见 getZoomRange</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>见上方说明</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#setZoomRatio</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#startOperation</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：执行相机的瞬时动作——拍照、开始/结束/暂停/继续录像、切前后置。
+
+ 触发：
+   - 拍照：拍照 / 拍一张 / 帮我拍一张 / 来拍照 / 咔嚓一下 / 咔嚓 / 抓拍 / 按快门 /
+           开始拍照 / 照相 / 拍摄 / 茄子（仅相机已在前台时；不在前台时按知识问答处理）
+   - 录像：录像 / 录视频 / 录一段视频 / 录一段 / 开始录像 / 拍视频 / 我要拍小视频 /
+           我要录视频 / 立即录像
+   - 暂停：暂停录像 / 暂停一下 / 暂停一下录像 / 录像暂停
+   - 继续：继续录 / 继续录像 / 恢复录像 / 接着录像 / 继续录视频
+   - 停止：停止录像 / 结束录像 / 不录了 / 退出录像 / 停止录视频
+   - 切前后置：切前置 / 切后置 / 切前置摄像头 / 切到前置 / 翻转摄像头 /
+               翻转一下摄像头 / 我要自拍 / 自拍 / 自拍切前置 / 换镜头 /
+               切换镜头 / 切换一下镜头 / 切换拍摄镜头 /
+               打开前置摄像头 / 打开后置摄像头 /
+               切换前置摄像头 / 切换后置摄像头
+ 前置：CAPTURE / START_RECORDING 在相机不在前台时会自动 Intent 启动相机；
+       其它操作（STOP / PAUSE / RESUME / SWITCH_*）要求相机已在前台
+ 模式：所有支持拍照 / 录像的模式
+ 区分：调节参数请用对应 setXxx；切换"夜景 / 慢动作"等模式请用 switchMode
+
+ 多指令组合（详见类级 KDoc M 节）：
+   - 自拍 = SWITCH_FRONT → CAPTURE
+   - 打开前置/后置摄像头并拍照 = SWITCH_FRONT/BACK → CAPTURE
+   - 前置/后置摄像头录像 = switchMode("录像") → SWITCH_FRONT/BACK → START_RECORDING
+   - 倒计时X秒拍照 = setCameraTimer(X) → CAPTURE
+   - 倒计时自拍 = SWITCH_FRONT → setCameraTimer("3") → CAPTURE</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>operation</name>
+            <description>动作枚举：CAPTURE | START_RECORDING | STOP_RECORDING | PAUSE_RECORDING | RESUME_RECORDING | SWITCH_FRONT | SWITCH_BACK</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#startOperation</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#switchMode</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：切换相机拍摄模式；相机不在前台时自动 Intent 启动相机到指定模式。
+
+ 触发：切到 X 模式 / 切 X / 换到 X / 进入 X 模式 / 用 X 拍 /
+      打开夜景 / 切夜景 / 进入专业模式 / 切到慢动作 / 切到长曝光 / 全景 /
+      切到普通拍照 / 切人像 /
+      打开相机 / 启动相机 / 开启相机 / 打开摄像机 /
+      打开拍照模式 / 打开拍照页 / 切换拍照模式 /
+      打开录像模式 / 打开视频模式 / 打开录像页 / 我要录像
+      注：
+      - "打开相机 / 启动相机 / 开启相机" → switchMode("拍照")
+      - "打开摄像机 / 打开录像 / 拍视频意图" → switchMode("录像")
+      - "拍夜景人像 / 雪景人像 / 阴天人像"等细分场景走 setScene，不走本函数
+      - "切换到方形模式" 不走本函数（无"方形"模式），改用 setAspectRatio("1x1")
+ 前置：无（这是唯一能自动唤起相机的 set 函数，是其它 set/get 的常用前置）
+ 模式：见 getModeList 返回值
+ 区分：
+   - 调节"夜景 / 慢动作 / 专业"等拍摄模式 = switchMode
+   - 设置"美食 / 宠物 / 烟花"等场景 = setScene
+   - 切前后置 = startOperation(SWITCH_FRONT / SWITCH_BACK)</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>modeName</name>
+            <description>模式名称，必须取自 getModeList 返回值</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#switchMode</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#toggleBeauty</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：美颜整体开关（一键开 / 关所有美颜效果）。
+
+ 触发：开美颜 / 美颜打开 / 关美颜 / 关闭美颜 / 美颜关闭 / 美颜开关 /
+      不要美颜 / 默认美颜 / 美颜还原默认 / 美颜恢复默认 / 美颜复位 /
+      美颜恢复默认值
+      注："美颜设成智能" 走 toggleFeature(ComponentConfigAiBeauty, ON)，不在本函数
+ 前置：相机已启动；当前模式支持美颜
+ 模式：所有支持美颜的模式
+ 区分：
+   - 整体开关 = toggleBeauty
+   - 单项强度 = adjustBeautyValue
+   - 智能 AI 美颜开关 = toggleFeature(ComponentConfigAiBeauty)</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>control</name>
+            <description>操作选项：ON=开启 | OFF=关闭 | DEFAULT=恢复默认</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#toggleBeauty</functionId>
+    </appfunction>
+    <appfunction>
+        <id>com.xiaomi.camera.agent.functions.AgentToolFunctions#toggleFeature</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>用途：开关相机的若干 Feature：动态照片 / 定时连拍 / 运动抓拍 / 智能美颜。
+
+ 触发：
+   - 动态照片 / Live Photo / 拍动态照片
+   - 定时连拍（开关，张数/间隔分别用 setBurstCount/setBurstInterval）
+   - 运动抓拍 / 运动模式抓拍
+   - 智能美颜 / AI 美颜 / 美颜设成智能 / 用智能美颜
+      注：key 仅 4 个字面量，不能凭印象造名（无 HDR/RAW/水印 键）
+ 前置：相机已启动；该 Feature 在当前模式可用
+ 模式：各 Feature 支持的模式不同（如动态照片仅照片模式；运动抓拍部分机型）
+ 区分（针对 AiBeauty）：
+   - 智能 AI 美颜开关 = toggleFeature(ComponentConfigAiBeauty)
+   - 传统美颜整体开关 = toggleBeauty
+   - 调美颜单项强度 = adjustBeautyValue
+   - HDR 开关用 setHdrMode（不在本函数）；RAW 当前不支持</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>key</name>
+            <description>ComponentConfigLiveShot=动态照片 | ComponentLiveTimerBurst=定时连拍 | ComponentConfigMotionCapture=运动抓拍 | ComponentConfigAiBeauty=智能美颜</description>
+        </parameters>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>value</name>
+            <description>ON=开 | OFF=关</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.xiaomi.camera.agent.data.OperationResult</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>OperationResult；success=true 表示设置成功； 失败时 message 含错误码语义（参见类级 KDoc 错误码表）</description>
+        </response>
+        <functionId>com.xiaomi.camera.agent.functions.AgentToolFunctions#toggleFeature</functionId>
+    </appfunction>
+    <AppFunctionComponentMetadataDocument>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.CameraSettingsResult</objectQualifiedName>
+                <description>
+ 相机设置查询结果（设置页偏好项）。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>8</type>
+                        </itemType>
+                        <description>设置项列表，每条形如 "自拍镜像 = 关" </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>settings</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>settings</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.CameraSettingsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.CameraStatusResult</objectQualifiedName>
+                <description>
+ 相机运行时状态查询结果（所有 Component 参数）。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式 ID </description>
+                        <type>7</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>currentMode</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>currentModeName</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前是否为前置摄像头 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isFrontCamera</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前是否为后置摄像头 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isBackCamera</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前是否正在录像 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isRecording</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>8</type>
+                        </itemType>
+                        <description>Component 参数列表（Config + Global + Running），每条形如 "闪光灯 = 关" </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>status</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>currentMode</required>
+                <required>currentModeName</required>
+                <required>isFrontCamera</required>
+                <required>isBackCamera</required>
+                <required>isRecording</required>
+                <required>status</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.CameraStatusResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.CvTypeOption</objectQualifiedName>
+                <description>
+ 徕卡摄影风格选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setCvType </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.CvTypeOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.CvTypeOptionsResult</objectQualifiedName>
+                <description>
+ 徕卡摄影风格选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.CvTypeOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的徕卡风格选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前机型/模式是否支持徕卡风格 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.CvTypeOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.FilterOption</objectQualifiedName>
+                <description>
+ 滤镜选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setFilter </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.FilterOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.FilterOptionsResult</objectQualifiedName>
+                <description>
+ 滤镜选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.FilterOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的滤镜选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持滤镜 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.FilterOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.FlashOption</objectQualifiedName>
+                <description>
+ 闪光灯选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setFlashMode </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.FlashOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.FlashOptionsResult</objectQualifiedName>
+                <description>
+ 闪光灯选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.FlashOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的闪光灯选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持闪光灯切换 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.FlashOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.HdrOption</objectQualifiedName>
+                <description>
+ HDR选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setHdrMode </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.HdrOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.HdrOptionsResult</objectQualifiedName>
+                <description>
+ HDR选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.HdrOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的HDR选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持HDR </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.HdrOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.OperationResult</objectQualifiedName>
+                <description>
+ 通用操作结果,用于设置类操作（场景、能力）的返回。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>操作是否成功 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.OperationResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.RatioOption</objectQualifiedName>
+                <description>
+ 画幅比例选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setAspectRatio </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.RatioOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.RatioOptionsResult</objectQualifiedName>
+                <description>
+ 画幅比例选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.RatioOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的画幅选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持画幅切换 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.RatioOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.SceneOptionsResult</objectQualifiedName>
+                <description>
+ 场景选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>8</type>
+                        </itemType>
+                        <description>当前设备支持的场景名称列表，可直接传给 setScene </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前设备是否支持场景功能 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.SceneOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.SupportedModesResult</objectQualifiedName>
+                <description>
+ 支持的拍摄模式查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>8</type>
+                        </itemType>
+                        <description>支持的模式名称列表，可直接传给 switchMode </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>modes</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>modes</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.SupportedModesResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.TimerOption</objectQualifiedName>
+                <description>
+ 倒计时选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值: "0" / "3" / "5" / "10" </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称: "关" / "3秒" / "5秒" / "10秒" </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.TimerOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.TimerOptionsResult</objectQualifiedName>
+                <description>
+ 倒计时选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.TimerOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的倒计时选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持倒计时 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.TimerOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.VideoFpsOption</objectQualifiedName>
+                <description>
+ 录像帧率选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项值，可直接传给 setVideoFps </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>显示名称 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.VideoFpsOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.VideoFpsOptionsResult</objectQualifiedName>
+                <description>
+ 录像帧率选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.VideoFpsOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的录像帧率选项列表 </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持帧率切换 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.VideoFpsOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.VideoQualityOption</objectQualifiedName>
+                <description>
+ 录像分辨率选项。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项内部值，用于 setVideoQuality 入参 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>选项展示文案，用于面向用户展示 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>label</name>
+                </properties>
+                <required>value</required>
+                <required>label</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.VideoQualityOption</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.VideoQualityOptionsResult</objectQualifiedName>
+                <description>
+ 录像分辨率选项查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <itemType>
+                            <dataTypeReference>com.xiaomi.camera.agent.data.VideoQualityOption</dataTypeReference>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <type>11</type>
+                        </itemType>
+                        <description>支持的录像分辨率选项列表；setVideoQuality 入参使用列表元素的 value </description>
+                        <type>10</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>options</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>当前模式是否支持分辨率切换 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>isSupported</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>options</required>
+                <required>isSupported</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.VideoQualityOptionsResult</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.xiaomi.camera.agent.data.ZoomRangeResult</objectQualifiedName>
+                <description>
+ 变焦范围查询结果。
+</description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>是否成功查询 </description>
+                        <type>1</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>success</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>结果描述或错误原因 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>message</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>最小变焦倍率 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>minZoom</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <description>最大变焦倍率 </description>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>maxZoom</name>
+                </properties>
+                <required>success</required>
+                <required>message</required>
+                <required>minZoom</required>
+                <required>maxZoom</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.xiaomi.camera.agent.data.ZoomRangeResult</name>
+        </dataTypes>
+        <id>unused</id>
+    </AppFunctionComponentMetadataDocument>
+</appfunctions>

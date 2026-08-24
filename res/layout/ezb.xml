@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout android:layout_gravity="bottom|center" android:clickable="true" android:layout_width="@dimen/eao" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/adjust_blur_background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:asb="@dimen/e70" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="fill_parent" android:layout_height="@dimen/eb3">
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_size_container" android:layout_width="fill_parent" android:layout_height="@dimen/e_p" android:paddingVertical="@dimen/e_r">
+            <TextView android:textSize="@dimen/e_q" android:textColor="@color/white" android:id="@id/adjust_text_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwn" android:paddingStart="@dimen/eb5" android:paddingEnd="@dimen/eb5" />
+            <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/adjust_text_size_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e_r" android:layout_marginStart="@dimen/eb5" android:layout_marginEnd="@dimen/eb5" app:yv="true" app:a_y="@color/white_alpha_48" app:arl="@color/transparent" app:aru="@color/white" app:arv="@dimen/duc" app:awf="true" app:b_f="true" style="@style/inq" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_speed_container" android:layout_width="fill_parent" android:layout_height="@dimen/e_t" android:paddingVertical="@dimen/e_r">
+            <TextView android:textSize="@dimen/e_q" android:textColor="@color/white" android:id="@id/adjust_text_speed_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwo" android:paddingStart="@dimen/eb5" android:paddingEnd="@dimen/eb5" />
+            <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/adjust_text_speed_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e_r" android:layout_marginStart="@dimen/eb5" android:layout_marginEnd="@dimen/eb5" app:yv="true" app:a_y="@color/white_alpha_48" app:arl="@color/transparent" app:aru="@color/white" app:arv="@dimen/duc" app:awf="true" app:b_f="true" style="@style/inq" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/adjust_switch_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/e_v" android:paddingStart="@dimen/eb5" android:paddingEnd="@dimen/eb5">
+            <TextView android:textSize="@dimen/e_q" android:textColor="@color/white" android:id="@id/switch_description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hfv" android:layout_weight="1.0" />
+            <Switch android:id="@id/adjust_second_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track" android:showText="false" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout>

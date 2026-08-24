@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/calendar_date_picker_header_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct8" android:paddingHorizontal="@dimen/ct7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_appcompat_calendar_date_picker_arrow_left" android:contentDescription="@string/fqs" />
+    <TextView android:layout_gravity="center" android:id="@id/calendar_date_picker_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/ct6" android:drawableEnd="@drawable/miuix_appcompat_calendar_date_picker_arrow_down" android:textDirection="ltr" android:accessibilityLiveRegion="polite" style="@style/ibd" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_appcompat_calendar_date_picker_arrow_right" android:contentDescription="@string/fqr" />
+</FrameLayout>

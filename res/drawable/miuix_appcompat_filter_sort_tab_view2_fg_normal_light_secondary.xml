@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable app:i3="0.0" app:a7c="0.06" app:a7e="0.06" app:aiw="@color/miuix_navigator_filter_sort_tab_view2_tint_light" app:aix="@dimen/cwe" app:alw="0.0" app:ar2="0.12" class="miuix.miuixbasewidget.widget.internal.FilterSortTabView2ForegroundDrawable" xmlns:app="http://schemas.android.com/apk/res-auto" />

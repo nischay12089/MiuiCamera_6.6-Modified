@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="@dimen/djw" android:layout_height="@dimen/djw" android:layout_marginTop="@dimen/djv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/indicator_frame" android:visibility="visible" android:layout_width="@dimen/djw" android:layout_height="@dimen/djw" android:src="@drawable/polaroid_frame_item_selector" android:contentDescription="@null" />
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_polaroid_frame_edit_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.NormalRoundView android:layout_gravity="center" android:id="@id/filter_still_parent" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/djr" android:layout_height="@dimen/djr" app:asb="@dimen/dqe">
+            <ImageView android:layout_gravity="center" android:id="@id/frame_cover" android:visibility="visible" android:layout_width="@dimen/dju" android:layout_height="@dimen/djt" android:src="@drawable/polaroid_frame_default" android:contentDescription="@null" />
+        </com.android.camera.ui.NormalRoundView>
+    </FrameLayout>
+</FrameLayout>

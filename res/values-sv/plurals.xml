@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokuserad. %d ansikten detekterade</item>
+        <item quantity="one">Fokuserad. %d ansikte detekterat</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d foton i en fotoserie</item>
+        <item quantity="one">%d foto i en fotoserie</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervall: %d sekunder</item>
+        <item quantity="one">Intervall: %d sekund</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Varaktighet: %d minuter</item>
+        <item quantity="one">Varaktighet: %d minut</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Hastighet: %dX</item>
+        <item quantity="one">Hastighet: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Varaktighet: %d sekunder</item>
+        <item quantity="one">Varaktighet: %d sekund</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Angav %d tecken.</item>
+        <item quantity="one">Angav %d tecken.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Ange upp till %d tecken.</item>
+        <item quantity="one">Ange upp till %d tecken.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Du kan ansluta upp till %d kameror till samma nätverk</item>
+        <item quantity="one">Du kan ansluta upp till %d kamera till samma nätverk</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Du kan ansluta upp till %d skärmar till samma nätverk</item>
+        <item quantity="one">Du kan ansluta upp till %d monitor till samma nätverk</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Du kan skapa upp till %d kloner åt gången.</item>
+        <item quantity="one">Du kan skapa upp till %d klon åt gången.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Det går inte att ansluta till kameran.&lt;br>Denna app kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sekunder&lt;/b>&lt;/font>. Efter detta, vänta en minut eller två och försök igen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Det går inte att ansluta till kameran.&lt;br>Denna app kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Efter detta, vänta en minut eller två och försök igen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Denna enhet är för varm nu.&lt;br>Appen kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sekunder&lt;/b>&lt;/font>. Aktuellt förlopp sparades automatiskt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Denna enhet är för varm nu.&lt;br>Appen kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sekund&lt;/b>&lt;/font>. Aktuellt förlopp sparades automatiskt.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Kameraversionen dom du använder är inte kompatibel med din enhetsmodell.&lt;br>Appen kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Avinstallera kamerauppdateringar och försök igen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameraversionen dom du använder är inte kompatibel med din enhetsmodell.&lt;br>Appen kommer att stängas om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Avinstallera kamerauppdateringar och försök igen.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sek</item>
+        <item quantity="one">%1$d sek</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Aktiverade timer (%1$d sekunder). Foton kommer att överföras till den här enheten.</item>
+        <item quantity="one">Aktiverade timer (%1$d sekund). Foton kommer att överföras till den här enheten.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Ta bort %1$d utkast?</item>
+        <item quantity="one">Ta bort %1$d utkast?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Lägg till %d förinställningar</item>
+        <item quantity="one">Lägg till %d förinställning</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Radera %d för inställningar nu?</item>
+        <item quantity="one">Radera %d förinställning nu?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Radera %d förinställningar</item>
+        <item quantity="one">Radera %d förinställning</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Importerade %d förinställningar</item>
+        <item quantity="one">Importerad %d förinställning</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s minuter</item>
+        <item quantity="one">%1$s minut</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Spelar in live-foto upp till %d sek</item>
+        <item quantity="one">Spelar in live-foto upp till %d sek</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Spela in %d sekunder</item>
+        <item quantity="one">Spela in %d sekund</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Du kan filma tidsfrysningsvideor med upp till %d motiv.</item>
+        <item quantity="one">Du kan bara filma tidsfrysningsvideor med %d motiv.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s foton</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

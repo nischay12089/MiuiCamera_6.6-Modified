@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/result_image_view" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/fgd" />
+    <ImageView android:id="@id/result_image_view_livephoto_icon" android:padding="6.0dip" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/ic_motionphoto" android:scaleType="center" />
+    <com.android.camera.ui.TextureVideoView android:id="@id/result_image_surfaceview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/fgd" />
+    <ImageView android:layout_gravity="center" android:id="@id/v6_video_btn_play" android:background="@drawable/bg_thumbnail_background_full" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vector_play" android:scaleType="centerInside" android:contentDescription="@string/ff3" style="@style/i_9" />
+    <FrameLayout android:layout_gravity="right" android:id="@id/intent_bottom" android:layout_width="@dimen/bom" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bmo">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/intent_done_retry" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:layout_marginTop="@dimen/bnw" android:contentDescription="@string/gry">
+            <ImageView android:layout_gravity="center" android:id="@id/intent_done_retry_bg" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:scaleType="center" />
+            <ImageView android:layout_gravity="center" android:id="@id/intent_done_retry_ic" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_intent_done_retry" android:scaleType="center" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/done_button" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:layout_marginBottom="@dimen/bnw" android:contentDescription="@string/fez">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/done_button_bg" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:scaleType="center" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/done_button_ic" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_intent_done_apply" android:scaleType="center" android:contentDescription="@string/fez" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" android:layout_width="@dimen/dnf" android:layout_height="@dimen/dnb" android:layout_marginTop="@dimen/dnc" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/dne" android:textColor="@color/white_alpha_40" android:id="@id/b52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e1e" />
+        <FrameLayout android:id="@id/exit_view" android:layout_width="@dimen/btv" android:layout_height="@dimen/btv" android:layout_marginTop="@dimen/btu">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_flat_tip_close" android:contentDescription="@string/gtd" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/arrow_root" android:paddingTop="@dimen/c5k" android:paddingBottom="@dimen/c5k" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c4u" android:paddingStart="@dimen/c5j" android:paddingEnd="@dimen/c5j">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/arrow" android:layout_width="@dimen/c58" android:layout_height="@dimen/c58" android:scaleType="centerInside" android:elevation="2.0dip" />
+            <com.android.camera.fragment.presentation.LinearGradientSlideView android:id="@id/slide_mask" android:layout_width="@dimen/c59" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/c5c" android:elevation="1.0dip" />
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/c5h" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/slide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c5e" android:text="@string/gau" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginEnd="@dimen/c5d" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

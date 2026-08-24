@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/camera_widget_red_video_layout" android:background="@drawable/bg_widget_camera_lens" android:padding="@dimen/ejk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/hz0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/camera_red_video_widget_icon_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.5dip" android:layout_weight="1.0" android:contentDescription="@string/fue" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.5dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/camera_red_video_widget_icon_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/fz1" android:layout_marginEnd="@dimen/ejj" />
+        <ImageView android:id="@id/camera_red_video_widget_icon_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/fz4" android:layout_marginStart="@dimen/ejj" />
+    </LinearLayout>
+</LinearLayout>

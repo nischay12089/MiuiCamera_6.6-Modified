@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false">
+        <TextView android:textSize="@dimen/cj_" android:gravity="center" android:id="@id/manual_dialog_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cj9" android:text="@string/hxs" android:textDirection="locale" style="?android:textAppearanceMedium" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci7" android:paddingHorizontal="@dimen/cu8">
+            <EditText android:textSize="@dimen/ck9" android:id="@id/dialog_input_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" android:textAlignment="viewStart" android:paddingStart="@dimen/edm" android:paddingEnd="@dimen/egs" />
+            <TextView android:textSize="@dimen/eih" android:textColor="@color/watermark_summer_text_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/count_tip" android:clickable="true" android:layout_width="@dimen/egs" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <miuix.recyclerview.widget.RecyclerView android:id="@id/manual_dialog_recyclerview" android:background="@drawable/bg_manual_dialog_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:layout_marginHorizontal="@dimen/ci6" />
+    </LinearLayout>
+</ScrollView>

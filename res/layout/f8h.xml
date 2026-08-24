@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.customization.BGTintTextView android:textSize="@dimen/bh3" android:textColor="#d9000000" android:gravity="center" android:id="@id/permanent_top_tip_text" android:background="@drawable/toast_top_tip_bg" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bgx" android:paddingStart="@dimen/bh1" android:paddingEnd="@dimen/bgz" android:layout_marginStart="@dimen/bgw" android:layout_marginEnd="@dimen/bgv"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

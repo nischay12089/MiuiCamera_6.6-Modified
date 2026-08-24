@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/e5o"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/top_editor_bar_blank_fill" android:background="@drawable/bg_round_item" android:visibility="gone" android:layout_width="@dimen/e5h" android:layout_height="@dimen/e5h" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/top_editor_bar_blank_stroke" android:background="@drawable/top_editor_bar_blank_bg" android:visibility="gone" android:layout_width="@dimen/e5h" android:layout_height="@dimen/e5h" android:contentDescription="@null" />
+</FrameLayout>

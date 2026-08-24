@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokussiert, %d Gesichter gefunden</item>
+        <item quantity="one">Fokussiert, %d Gesicht gefunden</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d Fotos in einer Serienaufnahme</item>
+        <item quantity="one">%d Foto in einer Serienaufnahme</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervall: %d Sekunden</item>
+        <item quantity="one">Intervall: %d Sekunde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Dauer: %d Minuten</item>
+        <item quantity="one">Dauer: %d Minute</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Geschwindigkeit: %dX</item>
+        <item quantity="one">Geschwindigkeit: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Länge: %d Sekunden</item>
+        <item quantity="one">Länge: %d Sekunde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d Zeichen eingegeben.</item>
+        <item quantity="one">%d Zeichen eingegeben.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Gib bis zu %d Zeichen ein.</item>
+        <item quantity="one">Gib bis zu %d Zeichen ein.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d Sek.</item>
+        <item quantity="one">%d Sek.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Du kannst bis zu %d Kameras mit dem gleichen Netzwerk verbinden</item>
+        <item quantity="one">Du kannst bis zu %d Kamera mit dem gleichen Netzwerk verbinden</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Du kannst bis zu %d Monitore mit dem gleichen Netzwerk verbinden</item>
+        <item quantity="one">Du kannst bis zu %d Monitor mit dem gleichen Netzwerk verbinden</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Du kannst bis zu %d Klone gleichzeitig erstellen.</item>
+        <item quantity="one">Du kannst bis zu %d Klon gleichzeitig erstellen.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kamera kann nicht verbunden werden.&lt;br>Diese App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b> geschlossen&lt;/font>. Warte danach eine oder zwei Minuten und versuche es erneut.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kamera kann nicht verbunden werden.&lt;br>Diese App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b> geschlossen&lt;/font>. Warte danach eine oder zwei Minuten und versuche es erneut.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Dieses Gerät ist gerade zu heiß.&lt;br>Die App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b> geschlossen&lt;/font>. Der aktuelle Fortschritt wird automatisch gespeichert.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Dieses Gerät ist gerade zu heiß.&lt;br>Die App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b> geschlossen&lt;/font>. Der aktuelle Fortschritt wird automatisch gespeichert.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Die Kameraversion, die du verwendest ist mit deinem Gerätemodell nicht kompatibel.&lt;br>Die App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b>&lt;/font> geschlossen. Deinstalliere Kamera-Updates und versuche es erneut.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Die Kameraversion, die du verwendest ist mit deinem Gerätemodell nicht kompatibel.&lt;br>Die App wird in &lt;font color=#FFCE16>&lt;b>%1$d Sek.&lt;/b>&lt;/font> geschlossen. Deinstalliere Kamera-Updates und versuche es erneut.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d Min</item>
+        <item quantity="one">%1$d Min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d Sek</item>
+        <item quantity="one">%1$d Sek</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Timer aktiviert (%1$d Sek.). Fotos werden auf dieses Gerät übertragen.</item>
+        <item quantity="one">Timer aktiviert (%1$d Sek.). Fotos werden auf dieses Gerät übertragen.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d Entwürfe löschen?</item>
+        <item quantity="one">%1$d Entwurf löschen?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Füge bis zu %d Voreinstellungen hinzu.</item>
+        <item quantity="one">Füge bis zu %d Voreinstellung hinzu.</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">%d Voreinstellungen jetzt löschen?</item>
+        <item quantity="one">%d Voreinstellung jetzt löschen?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d Voreinstellungen gelöscht</item>
+        <item quantity="one">%d Voreinstellung gelöscht</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d Voreinstellungen importiert</item>
+        <item quantity="one">%d Voreinstellung importiert</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s Min.</item>
+        <item quantity="one">%1$s Min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Live-Moment wird erfasst, bis zu %d Sek.</item>
+        <item quantity="one">Live-Moment wird erfasst, bis zu %d Sek.</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Aufnahme %d Sekunden</item>
+        <item quantity="one">Aufnahme %d Sekunde</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Du kannst Time-Freeze-Videos nur mit %d Motiven aufnehmen.</item>
+        <item quantity="one">Du kannst Time-Freeze-Videos nur mit %d Motiv aufnehmen.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s Fotos</item>
+        <item quantity="one">%1$s Foto</item>
+    </plurals>
+</resources>

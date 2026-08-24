@@ -1,0 +1,28 @@
+{
+  "version": 2.05,
+  "miviVersion": 3.001,
+  "metadata": {
+    "name": "@wm_standard_126_name",
+    "id": "126",
+    "description": "video_standard_126",
+    "reminder": "@wm_common_video_reminder_v1",
+    "reminder_not_support_mode": [
+      "8K",
+      "120hz",
+      "log",
+      "slowmotion",
+      "mimoji"
+    ],
+    "limitation": {},
+    "priority": 2,
+    "position": "in",
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "include_cases": [
+      "raw",
+      "thirdparty",
+      "mimoji"
+    ]
+  }
+}

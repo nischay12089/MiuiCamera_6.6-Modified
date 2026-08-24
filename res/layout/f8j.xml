@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/color_point_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/print_start_white_point" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" app:adu="false" app:ae5="true" app:ae7="@raw/print_point_white" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/print_yellow_point" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" app:adu="false" app:ae5="true" app:ae7="@raw/print_point_yellow" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/print_red_point" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" app:adu="false" app:ae5="true" app:ae7="@raw/print_point_red" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/print_blue_point" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" app:adu="false" app:ae5="true" app:ae7="@raw/print_point_blue" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/print_end_white_point" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" app:adu="false" app:ae5="true" app:ae7="@raw/print_point_white" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/print_done_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" app:adu="false" app:ae5="false" app:ae7="@raw/print_point_done" />
+</FrameLayout>

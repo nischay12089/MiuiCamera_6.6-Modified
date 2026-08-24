@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@drawable/bg_sticker_template_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cg_select_root" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dzg">
+        <com.android.camera.ui.SideFadingSpringBackLayout android:id="@id/filter_spring_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:atu="horizontal" app:aty="@id/select_recycler_view">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|left|top" android:id="@id/select_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.android.camera.ui.SideFadingSpringBackLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/confirm_img_view" android:background="@drawable/bg_template_confirm" android:layout_width="@dimen/dz2" android:layout_height="@dimen/dz0" android:layout_marginBottom="@dimen/dyz" android:src="@drawable/ic_template_save" android:contentDescription="@string/fd9" />
+    </FrameLayout>
+</FrameLayout>

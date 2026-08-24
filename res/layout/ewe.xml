@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/workspace_management_parent" android:background="@color/black" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/manual_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chz" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chv">
+            <TextView android:textSize="@dimen/ci1" android:textColor="@color/manual_workspace_tittle_text_color" android:layout_gravity="center_horizontal" android:id="@id/tittle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hzz" />
+            <TextView android:textSize="@dimen/ci0" android:textColor="@color/manual_workspace_subtittle_text_color" android:layout_gravity="bottom|center" android:id="@id/subtitle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/clj" android:text="@string/gns" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="left" android:id="@id/back_button" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/chw" android:layout_marginTop="@dimen/chy" android:src="@drawable/ic_manual_workspace_back" />
+        <ImageButton android:layout_gravity="right" android:id="@id/selected_all_button" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chy" android:layout_marginRight="@dimen/chw" />
+    </FrameLayout>
+    <com.android.camera.ui.EdgeSpringBackLayout android:id="@id/manual_work_springbacklayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ck8" android:layout_below="@id/manual_toolbar" android:layout_alignParentBottom="true" android:paddingHorizontal="@dimen/cl7" app:zn="top" app:atu="bbx" app:aty="@id/manual_work_space_list">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/manual_work_space_list" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.android.camera.ui.EdgeSpringBackLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/manual_workspace_edit_action" android:paddingTop="@dimen/ck7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/chx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="@dimen/ck6" android:textColor="@color/manual_workspace_detail_pro_item_text_color" android:gravity="center" android:id="@id/share_button" android:background="@drawable/bg_manual_workspace_edit_share" android:layout_width="@dimen/ck5" android:layout_height="@dimen/ck3" android:layout_marginRight="@dimen/ck4" android:text="@string/gk5" android:alpha="0.5" />
+        <Button android:textSize="@dimen/ck6" android:textColor="@color/manual_workspace_detail_pro_item_text_color" android:gravity="center" android:id="@id/delete_button" android:background="@drawable/bg_manual_workspace_edit_delete" android:layout_width="@dimen/ck5" android:layout_height="@dimen/ck3" android:layout_marginLeft="@dimen/ck4" android:text="@string/glr" android:alpha="0.5" />
+    </LinearLayout>
+    <ImageView android:id="@id/manual_workspace_selected_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/manual_workspace_cover" />
+</RelativeLayout>

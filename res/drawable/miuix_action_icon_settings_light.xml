@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable app:b3d="@dimen/d5i" app:b3e="@dimen/d5b" app:b3h="@dimen/d5n" app:b3i="@dimen/d5c" app:b3l="@dimen/d5k" app:b3m="@dimen/d5m" app:b3s="󰀝" app:b3t="@color/miuix_default_color_action_icon_tint_light" class="miuix.theme.symbol.SymbolDrawable" xmlns:app="http://schemas.android.com/apk/res-auto" />

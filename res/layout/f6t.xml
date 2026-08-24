@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.appcompat.app.CalendarDateTimePickerPanel android:id="@id/calendar_date_time_picker_panel" android:background="@drawable/miuix_preference_calendar_panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

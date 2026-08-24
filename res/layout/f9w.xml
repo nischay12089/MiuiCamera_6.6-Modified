@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/area_head" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/area_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abf="@id/area_head" app:abk="@id/area_head" />
+    <FrameLayout android:id="@id/area_content" android:layout_width="0.0dip" android:layout_height="wrap_content" app:aax="parent" app:abg="@id/area_title" app:abj="@id/area_title" />
+    <FrameLayout android:id="@id/area_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aar="@id/area_title" app:aax="parent" app:ab7="1.0" app:abf="@id/area_title" app:abk="@id/area_title" app:abl="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

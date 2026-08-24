@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Đã lấy nét. Phát hiện %d khuôn mặt</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ảnh trong một lần chụp liên tiếp</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Khoảng thời gian: %d giây</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Thời lượng: %d phút</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Tốc độ: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Thời lượng: %d giây</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Đã nhập %d ký tự.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Nhập tối đa %d ký tự.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Bạn có thể kết nối tối đa %d camera với cùng một mạng</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Bạn có thể kết nối tối đa %d màn hình với cùng một mạng</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Bạn có thể tạo tối đa %d phân thân tại một thời điểm.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Không thể kết nối camera.&lt;br>Ứng dụng này sẽ đóng sau &lt;font color=#FFCE16>&lt;b>%1$d giây&lt;/b>&lt;/font>. Sau đó, chờ một hoặc hai phút và thử lại.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Thiết bị này hiện quá nóng.&lt;br>Ứng dụng sẽ đóng sau &lt;font color=#FFCE16>&lt;b>%1$d giây&lt;/b>&lt;/font>. Tiến trình hiện tại đã được lưu tự động.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Phiên bản Camera mà bạn đang sử dụng không tương thích với mẫu thiết bị của bạn&lt;br>Ứng dụng sẽ đóng sau &lt;font color=#FFCE16>&lt;b>%1$d giây&lt;/b>&lt;/font>. Gỡ cài đặt cập nhật Camera và thử lại.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Đã bật hẹn giờ (%1$d giây). Ảnh sẽ được chuyển đến thiết bị này.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Xóa %1$d thư nháp?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Thêm đến %d đặt trước</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Xóa %d cài đặt sẵn ngay?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Xóa %d cài đặt sẵn</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Đã nhập %d cài đặt sẵn</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d thông báo mới</item>
+        <item quantity="one">%d thông báo mới</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s phút</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Ghi lại khoảnh khắc trực tiếp, tối đa %d giây</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Quay %d giây</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Bạn có thể quay video đóng băng thời gian với tối đa %d đối tượng.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ảnh</item>
+    </plurals>
+</resources>

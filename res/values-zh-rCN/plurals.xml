@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">对焦完成，检测到%d张人脸</item>
+        <item quantity="one">对焦完成，检测到%d张人脸</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">拍摄张数%d张</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">时间间隔%d秒</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">时长%d分钟</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">速度%d倍</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">录制时间%d秒</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">已输入%d字符</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">最多可输入%d字符</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">同一网络下最多支持接入%d台摄像机</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">同一网络下最多支持接入%d台监视器</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">最多支持%d个分身</item>
+        <item quantity="one">最多支持%d个分身</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>无法连接到相机，&lt;br>应用将在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>后退出，请稍后重试。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>设备温度过高，&lt;br>应用将在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>后退出，拍摄进度已自动保存。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>当前相机版本和机型不匹配，&lt;br>应用将在&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>后退出，请卸载该版本后使用。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">已默认开启倒计时%1$ds拍摄，并自动传输照片至本机</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">是否删除%1$d项草稿？</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">最多支持添加%d个预设</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">是否删除%d个预设？</item>
+        <item quantity="one">是否删除%d个预设？</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">已删除%d个预设</item>
+        <item quantity="one">已删除%d个预设</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">已导入%d个预设</item>
+        <item quantity="one">已导入%d个预设</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d 条新通知</item>
+        <item quantity="one">%d 条新通知</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dS</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s分钟</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">动态照片拍摄中，最多支持%d秒</item>
+        <item quantity="one">动态照片拍摄中，最多支持%d秒</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d秒录制</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">仅支持 %d 个人像拍摄</item>
+        <item quantity="one">仅支持 %d 个人像拍摄</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s张</item>
+        <item quantity="one">%1$s张</item>
+    </plurals>
+</resources>

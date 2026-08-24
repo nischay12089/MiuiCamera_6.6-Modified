@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ai_tip_leading_icon" android:visibility="gone" android:layout_width="@dimen/bhh" android:layout_height="@dimen/bhh" android:src="@drawable/ic_ai_smart_creation_tip" android:contentDescription="@null" android:layout_marginEnd="@dimen/bhg" />
+        <TextView android:textSize="@dimen/bhk" android:textColor="@color/white" android:id="@id/ai_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcl" />
+        <ImageView android:id="@id/ai_tip_trailing_icon" android:layout_width="@dimen/bhh" android:layout_height="@dimen/bhh" android:src="@drawable/ic_ai_smart_creation_tip" android:contentDescription="@null" android:layout_marginStart="@dimen/bhl" />
+        <ImageView android:id="@id/ai_tip_dropdown_arrow" android:background="@drawable/bg_ai_tip_arrow" android:padding="@dimen/bhc" android:visibility="gone" android:layout_width="@dimen/bha" android:layout_height="@dimen/bha" android:src="@drawable/ic_ai_tip_dropdown_arrow" android:contentDescription="@null" android:layout_marginStart="@dimen/bhb" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bhf" android:textColor="@color/white" android:id="@id/ai_tip_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bhd" android:maxWidth="@dimen/bhe" />
+</merge>

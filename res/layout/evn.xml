@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/id_photo_entry_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:background="@drawable/bg_id_photo_entry" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/ca_" android:paddingVertical="@dimen/caa">
+        <TextView android:textSize="@dimen/cab" android:textColor="@color/black" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/cg_template_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ge8" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <ImageView android:id="@id/cg_template_image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_card_arrow_right" android:contentDescription="@string/ge8" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/text_edit_dialog_options_font_panel_item" android:background="@drawable/text_edit_font_background" android:layout_width="@dimen/cn3" android:layout_height="@dimen/cn2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_item_background" android:layout_width="@dimen/cn3" android:layout_height="@dimen/cn2" />
+    <com.android.camera.fragment.watermark.wmSettingV2.signature.keyboard.typeface.DownloadView android:id="@id/item_download" android:background="@drawable/sky_menu_item_download_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

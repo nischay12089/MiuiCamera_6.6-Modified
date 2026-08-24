@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <drawable app:i3="0.12" app:a7e="0.08" app:alw="0.0" app:ar2="0.14" app:b8z="@color/miuix_preference_item_tint_color_dark" app:b92="@dimen/d4o" class="com.miui.support.drawable.CardStateDrawable" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </item>
+</layer-list>

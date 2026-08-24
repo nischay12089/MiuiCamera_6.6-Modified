@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/top_menu_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/top_menu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/top_menu_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a5e="true" app:asb="@dimen/e70" />
+        <FrameLayout android:id="@id/top_menu_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/top_menu_recyclerview" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <com.android.camera.fragment.top.secondmenu.TimerBurstSecondMenu android:id="@id/layout_burst_menu" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.fragment.top.secondmenu.FastMotionSecondMenu android:id="@id/layout_fast_motion_menu" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.fragment.top.secondmenu.WatermarkSecondMenu android:id="@id/layout_watermark_standard" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.fragment.top.secondmenu.CustomShutterSecondMenu android:id="@id/layout_shutter_style_menu" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera2.compat.theme.custom.mm.top.MenuExpendViewMM android:id="@id/top_menu_expand_view" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.fragment.top.MenuProgressIndicatorView android:layout_gravity="bottom|center" android:id="@id/menu_progress_indicator" android:visibility="gone" android:layout_width="@dimen/e8r" android:layout_height="@dimen/e8q" android:layout_marginBottom="@dimen/e7m" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

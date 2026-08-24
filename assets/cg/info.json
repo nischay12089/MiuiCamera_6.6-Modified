@@ -1,0 +1,301 @@
+{
+  "version": "20251015-stable-1",
+  "data": [
+    {
+      "id": "cg.cg7",
+      "category": "cg",
+      "uri": "assets://cg/cg7.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg7"
+        },
+        {
+          "lang": "cn",
+          "name": "模板7"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg8",
+      "category": "cg",
+      "uri": "assets://cg/cg8.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg8"
+        },
+        {
+          "lang": "cn",
+          "name": "模板8"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg13",
+      "category": "cg",
+      "uri": "assets://cg/cg13.zip",
+      "ratio": "2X3",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg13"
+        },
+        {
+          "lang": "cn",
+          "name": "模板13"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg14",
+      "category": "cg",
+      "uri": "assets://cg/cg14.zip",
+      "ratio": "2X3",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg14"
+        },
+        {
+          "lang": "cn",
+          "name": "模板14"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg15",
+      "category": "cg",
+      "uri": "assets://cg/cg15.zip",
+      "ratio": "2X3",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg15"
+        },
+        {
+          "lang": "cn",
+          "name": "模板15"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg16",
+      "category": "cg",
+      "uri": "assets://cg/cg16.zip",
+      "ratio": "2X3",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg16"
+        },
+        {
+          "lang": "cn",
+          "name": "模板16"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg9",
+      "category": "cg",
+      "uri": "assets://cg/cg9.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg9"
+        },
+        {
+          "lang": "cn",
+          "name": "模板9"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg10",
+      "category": "cg",
+      "uri": "assets://cg/cg10.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg10"
+        },
+        {
+          "lang": "cn",
+          "name": "模板10"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg11",
+      "category": "cg",
+      "uri": "assets://cg/cg11.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg11"
+        },
+        {
+          "lang": "cn",
+          "name": "模板11"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg12",
+      "category": "cg",
+      "uri": "assets://cg/cg12.zip",
+      "ratio": "2x3",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg12"
+        },
+        {
+          "lang": "cn",
+          "name": "模板12"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg1",
+      "category": "cg",
+      "uri": "assets://cg/cg1.zip",
+      "ratio": "1x1",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg1"
+        },
+        {
+          "lang": "cn",
+          "name": "模板1"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg6",
+      "category": "cg",
+      "uri": "assets://cg/cg6.zip",
+      "ratio": "1x1",
+      "versionCode": 2,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg6"
+        },
+        {
+          "lang": "cn",
+          "name": "模板6"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg17",
+      "category": "cg",
+      "uri": "assets://cg/cg17.zip",
+      "ratio": "1x1",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg17"
+        },
+        {
+          "lang": "cn",
+          "name": "模板17"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg18",
+      "category": "cg",
+      "uri": "assets://cg/cg18.zip",
+      "ratio": "1x1",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg18"
+        },
+        {
+          "lang": "cn",
+          "name": "模板18"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg2",
+      "category": "cg",
+      "uri": "assets://cg/cg2.zip",
+      "ratio": "1x1",
+      "versionCode": 1,
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg2"
+        },
+        {
+          "lang": "cn",
+          "name": "模板2"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg3",
+      "category": "cg",
+      "uri": "assets://cg/cg3.zip",
+      "ratio": "1x1",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg3"
+        },
+        {
+          "lang": "cn",
+          "name": "模板3"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg4",
+      "category": "cg",
+      "uri": "assets://cg/cg4.zip",
+      "ratio": "1x1",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg4"
+        },
+        {
+          "lang": "cn",
+          "name": "模板4"
+        }
+      ]
+    },
+    {
+      "id": "cg.cg5",
+      "category": "cg",
+      "uri": "assets://cg/cg5.zip",
+      "ratio": "1x1",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Cg5"
+        },
+        {
+          "lang": "cn",
+          "name": "模板5"
+        }
+      ]
+    }
+  ]
+}

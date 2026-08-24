@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/master_live_zoom_adjust_top_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cnb" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/master_live_zoom_adjust_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cn9" />
+</LinearLayout>

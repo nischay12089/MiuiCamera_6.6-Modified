@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="be0">48.0dip</dimen>
+    <dimen name="co7">450.0dip</dimen>
+    <dimen name="co8">600.0dip</dimen>
+    <dimen name="cqs">10.0dip</dimen>
+    <dimen name="cqt">10.0dip</dimen>
+    <dimen name="d9x">24.0dip</dimen>
+    <dimen name="d_0">24.0dip</dimen>
+    <dimen name="da5">20.0dip</dimen>
+    <dimen name="da7">4.0dip</dimen>
+    <dimen name="daa">96.0dip</dimen>
+    <dimen name="dad">0.0dip</dimen>
+    <dimen name="dae">0.0dip</dimen>
+    <dimen name="daf">104.0dip</dimen>
+    <dimen name="dam">68.0dip</dimen>
+    <dimen name="dan">64.0dip</dimen>
+    <dimen name="dao">24.0dip</dimen>
+    <dimen name="dap">32.0dip</dimen>
+</resources>

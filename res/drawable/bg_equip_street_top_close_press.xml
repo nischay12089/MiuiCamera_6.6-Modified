@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="38.0dip" android:width="54.0dip" android:viewportWidth="54.0" android:viewportHeight="38.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h54v38h-54z" />
+        <path android:fillColor="#ff0a0a0a" android:pathData="M0,4.8C0,3.12 0,2.28 0.327,1.638C0.615,1.074 1.074,0.615 1.638,0.327C2.28,0 3.12,0 4.8,0H49.2C50.88,0 51.72,0 52.362,0.327C52.926,0.615 53.385,1.074 53.673,1.638C54,2.28 54,3.12 54,4.8V33.2C54,34.88 54,35.72 53.673,36.362C53.385,36.926 52.926,37.385 52.362,37.673C51.72,38 50.88,38 49.2,38H4.8C3.12,38 2.28,38 1.638,37.673C1.074,37.385 0.615,36.926 0.327,36.362C0,35.72 0,34.88 0,33.2V4.8Z" />
+        <path android:fillColor="@drawable/$bg_equip_street_top_close_press__0" android:pathData="M2,3.452C2,2.65 2.65,2 3.452,2H50.548C51.35,2 52,2.65 52,3.452V34.548C52,35.35 51.35,36 50.548,36H3.452C2.65,36 2,35.35 2,34.548V3.452Z" />
+        <path android:fillColor="@drawable/$bg_equip_street_top_close_press__1" android:pathData="M1.928,4C1.928,2.895 2.823,2 3.928,2H50.071C51.175,2 52.071,2.895 52.071,4V4H1.928V4Z" />
+        <path android:fillColor="@drawable/$bg_equip_street_top_close_press__2" android:pathData="M1.928,34C1.928,35.105 2.823,36 3.928,36H50.071C51.175,36 52.071,35.105 52.071,34V34H1.928V34Z" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/pic_style_root" android:layout_width="@dimen/die" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/dia"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.widget.StrokeAdaptiveTextView android:textSize="@dimen/dib" android:textColor="@android:color/white" android:id="@id/pic_style_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:textDirection="ltr" app:b1z="@dimen/dic" />
+    <com.xiaomi.camera.ui.widget.StrokeAdaptiveTextView android:textSize="@dimen/did" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/pic_style_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:textDirection="ltr" app:b1z="@dimen/dic" />
+</LinearLayout>

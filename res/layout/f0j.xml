@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/zoom_ring_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.fragment.zoomring.ZoomRingView android:layout_gravity="bottom|center" android:id="@id/zoom_ring_view" android:clipChildren="false" android:layout_width="@dimen/emb" android:layout_height="@dimen/em4" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/selected_item_indicator" android:layout_width="@dimen/em6" android:layout_height="@dimen/em6" android:layout_marginBottom="@dimen/em5" android:contentDescription="@null" />
+</FrameLayout>

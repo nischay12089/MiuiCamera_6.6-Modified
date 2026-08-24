@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokus. %d muka terdeteksi</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d foto dalam foto beruntun</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d detik</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Durasi: %d menit</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Kecepatan: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Durasi: %d detik</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d karakter dimasukkan.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Masukkan maksimal %d karakter.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Maksimal menghubungkan %d kamera ke jaringan yang sama</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Maksimal menghubungkan %d monitor ke jaringan yang sama</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Maksimal bisa buat %d kloning dalam satu kali proses.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Tidak dapat terhubung ke kamera.&lt;br>Apl ini akan ditutup setelah &lt;font color=#FFCE16>&lt;b>%1$d dtk&lt;/b>&lt;/font>. Setelahnya, tunggu sebentar dan coba lagi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Perangkat ini terlalu panas sekarang.&lt;br>Apl akan ditutup setelah &lt;font color=#FFCE16>&lt;b>%1$d dtk&lt;/b>&lt;/font>. Perkembangan saat ini akan otomatis disimpan.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Versi Kamera yang Anda gunakan tidak kompatibel dengan model perangkat Anda.&lt;br>Apl ini akan ditutup setelah &lt;font color=#FFCE16>&lt;b>%1$d dtk&lt;/b>&lt;/font> lagi. Uninstal pembaruan Kamera dan coba lagi&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d mnt</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d dtk</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Timer dihidupkan (%1$d dtk). Foto akan ditransfer ke perangkat ini.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Hapus %1$d draf?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Maksimal %d preset</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Hapus %d preset?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Preset %d terhapus</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d preset terimpor</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s mnt</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Mengabadikan momen, maksimal %d dtk</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Rekam %d detik</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Anda dapat merekam video dengan efek pembekuan waktu maksimal %d subjek.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s foto</item>
+    </plurals>
+</resources>

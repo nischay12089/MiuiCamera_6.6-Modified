@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/e8y"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/alert_icon" android:visibility="gone" android:layout_width="@dimen/e8v" android:layout_height="@dimen/e8v" android:contentDescription="功能开关提示图标" android:layout_marginEnd="@dimen/e8u" />
+    <TextView android:textSize="@dimen/bh4" android:textColor="#ff000000" android:id="@id/alert_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

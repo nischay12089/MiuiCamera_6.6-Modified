@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cdy"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.viewpager.widget.ViewPager android:layout_gravity="center_horizontal" android:id="@id/selected_viewpager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/ce0" android:paddingHorizontal="@dimen/cds" android:paddingVertical="@dimen/cdt" />
+            <FrameLayout android:id="@id/rounded_shape_layout" android:background="@drawable/rounded_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/legendary_mode_m9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/cdq" android:layout_marginBottom="@dimen/cdv" android:src="@drawable/legendary_leica_camera" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/e5w" android:textColor="@color/newbie_track_focus_button_text" android:paddingTop="@dimen/cdw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gjv" android:alpha="0.6" android:paddingHorizontal="@dimen/cdu" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/legendary_mode_m3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/cdq" android:layout_marginBottom="@dimen/cdv" android:src="@drawable/legendary_leica_film_camera" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/e5w" android:textColor="@color/newbie_track_focus_button_text" android:paddingTop="@dimen/cdw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gju" android:alpha="0.6" android:paddingHorizontal="@dimen/cdu" />
+                </ScrollView>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <Button android:textSize="@dimen/cdk" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/btn_apply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cdn" android:layout_marginBottom="@dimen/cdm" android:text="@string/g4x" android:layout_marginHorizontal="@dimen/bvk" style="@style/ih3" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bi1">38.0dip</dimen>
+    <dimen name="bs3">156.29999dip</dimen>
+    <dimen name="c48">58.625dip</dimen>
+    <dimen name="c8x">114.0dip</dimen>
+    <dimen name="deu">5.0dip</dimen>
+    <dimen name="dfm">20.679993dip</dimen>
+    <dimen name="dgd">115.0dip</dimen>
+    <dimen name="dgg">80.0dip</dimen>
+    <dimen name="e78">22.619995dip</dimen>
+    <dimen name="e7t">212.93dip</dimen>
+    <dimen name="e7u">33.97998dip</dimen>
+    <dimen name="e7v">82.22dip</dimen>
+    <dimen name="e7x">19.339996sp</dimen>
+    <dimen name="e88">53.19998dip</dimen>
+    <dimen name="e8i">96.72998dip</dimen>
+    <dimen name="e8o">9.669983dip</dimen>
+    <dimen name="e8p">26.71997dip</dimen>
+    <dimen name="eag">124.54999dip</dimen>
+    <dimen name="ech">214.54999dip</dimen>
+    <dimen name="ecn">217.01999dip</dimen>
+    <dimen name="ect">14.5dip</dimen>
+    <dimen name="ecw">196.23999dip</dimen>
+    <dimen name="ecx">3.899994dip</dimen>
+    <dimen name="ecy">435.20312dip</dimen>
+    <dimen name="ecz">421.54688dip</dimen>
+    <dimen name="eie">27.46997dip</dimen>
+</resources>

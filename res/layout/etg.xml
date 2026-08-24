@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_module_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/preview_rect_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layoutDirection="ltr" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/zoom_map_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/histogram_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/halo_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/top_bar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/e4j" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/sub_panel_entry_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/zoom_toggle_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/sub_panel_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/zoom_panel_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/pro_panel_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/pro_picture_style_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/er5" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/top_hint_layout" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/full_screen_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

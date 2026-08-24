@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:name="preview" android:src="@drawable/preference_tint_color_preview_image" android:height="482.0dip" android:width="236.0dip" android:tileMode="disabled" android:viewportWidth="236.0" android:viewportHeight="482.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

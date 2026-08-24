@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokus qilindi. %d ta yuz aniqlandi</item>
+        <item quantity="one">Fokus qilindi. %d ta yuz aniqlandi</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ta seriya rasmi</item>
+        <item quantity="one">%d ta seriya rasmi</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d soniya</item>
+        <item quantity="one">Interval: %d soniya</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Davomiylik: %d daqiqa</item>
+        <item quantity="one">Davomiylik: %d daqiqa</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Tezlik: %dX</item>
+        <item quantity="one">Tezlik: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Davomiylik: %d soniya</item>
+        <item quantity="one">Davomiylik: %d soniya</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d belgi kiritildi.</item>
+        <item quantity="one">%d belgi kiritildi.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d ta belgigacha kiriting.</item>
+        <item quantity="one">%d ta belgigacha kiriting.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d son</item>
+        <item quantity="one">%d son</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Siz bitta tarmoqqa %d tagacha kamerani ulashingiz mumkin</item>
+        <item quantity="one">Siz bitta tarmoqqa %d tagacha kamerani ulashingiz mumkin</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Siz bitta tarmoqqa %d tagacha monitorni ulashingiz mumkin</item>
+        <item quantity="one">Siz bitta tarmoqqa %d tagacha monitorni ulashingiz mumkin</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Bir vaqtning o‘zida %d ta klonni yaratishingiz mumkin.</item>
+        <item quantity="one">Bir vaqtning o‘zida %d ta klonni yaratishingiz mumkin.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kameraga bog‘lab bo‘lmadi.&lt;br>Ushbu ilova &lt;font color=#FFCE16>&lt;b>%1$d son ichida yopiladi&lt;/b>&lt;/font>. Undan so‘ng, birozdan so‘ng takrorlang.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameraga bog‘lab bo‘lmadi.&lt;br>Ushbu ilova &lt;font color=#FFCE16>&lt;b>%1$d son ichida yopiladi&lt;/b>&lt;/font>. Undan so‘ng, birozdan so‘ng takrorlang.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Ushbu qurilma judo issue.&lt;br>Ushbu qurilma &lt;font color=#FFCE16>&lt;b>%1$d son ichida yopiladi&lt;/b>&lt;/font>. Joriy taraqqiyot avtomatik tarzda saqlandi.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Ushbu qurilma judo issue.&lt;br>Ushbu qurilma &lt;font color=#FFCE16>&lt;b>%1$d son ichida yopiladi&lt;/b>&lt;/font>. Joriy taraqqiyot avtomatik tarzda saqlandi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Siz foydalanayotgan Kamera versiyasi qurilmangiz modeliga mos kelmaydi.&lt;br>Ilova &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font> sekundda yopiladi. Uninstall Camera updates and try again.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Siz foydalanayotgan kamera versiyasi qurilmangiz modeliga mos kelmaydi.&lt;br>Ilova &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>sekunddan keyin yopiladi. Kamera yangilanishlarini o‘chirib tashlang va qayta urinib ko‘ring.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d daq</item>
+        <item quantity="one">%1$d daq</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d son</item>
+        <item quantity="one">%1$d son</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">(%1$d secs) Taymer yoqilgan. Rasmlar ushbu qurilmaga o‘tkaziladi.</item>
+        <item quantity="one">(%1$d sec)Taymer yoqilgan. Rasmlar ushbu qurilmaga o‘tkaziladi.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d ta qarolama o‘chirilsinmi?</item>
+        <item quantity="one">%1$d ta qarolama o‘chirilsinmi?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">"Oldindan o'rnatilgan %d tagacha qo'shing"</item>
+        <item quantity="one">"Oldindan oʻrnatilgan %d tagacha qo'shing"</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">"Oldindan o'rnatilgan %d ta o‘chirilsinmi?"</item>
+        <item quantity="one">"Oldindan o'rnatilgan %d ta o‘chirilsinmi?"</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">"Oldindan o'rnatilgan %d ta oʻchirildi"</item>
+        <item quantity="one">"Oldindan o'rnatilgan %d ta oʻchirildi"</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">"O'rnatilgan %d ta import qilindi"</item>
+        <item quantity="one">"O'rnatilgan %d ta import qilindi"</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d son</item>
+        <item quantity="one">%d son</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s daq</item>
+        <item quantity="one">%1$s daq</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Jonli lahzalarni suratga olish, %d soniyagacha</item>
+        <item quantity="one">Jonli lahzalarni suratga olish, %d soniyagacha</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d soniya yozish</item>
+        <item quantity="one">%d soniya yozish</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Faqat %d ta odamni videolarini muzlatishingiz mumkin.</item>
+        <item quantity="one">Faqat %d ta odamni videolarini muzlatishingiz mumkin.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ta rasm</item>
+        <item quantity="one">%1$s ta rasm</item>
+    </plurals>
+</resources>

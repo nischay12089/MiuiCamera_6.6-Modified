@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.visual.check.VisualCheckBox android:gravity="center" android:id="@id/layout_item_box" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/ehu" android:layout_height="@dimen/ehr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/layout_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</miuix.visual.check.VisualCheckBox>

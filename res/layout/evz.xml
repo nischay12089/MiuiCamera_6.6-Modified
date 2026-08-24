@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/live_preview_bottom_action" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/live_preview_snap" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/fgy" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/cex" android:textColor="@color/cta_user_tips_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/remind_tv" android:background="@drawable/toast_frame" android:visibility="gone" android:layout_width="@dimen/cez" android:layout_height="@dimen/cen" android:layout_marginTop="@dimen/cey" />
+    <FrameLayout android:id="@id/music_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/music_cut_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

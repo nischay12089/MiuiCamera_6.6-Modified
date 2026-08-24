@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container2" android:layout_width="fill_parent" android:layout_height="@dimen/c71"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.TextureVideoView android:id="@id/playerView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.litegallery.view.Gallery2View android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageButton android:layout_gravity="center" android:id="@id/playerButton" android:background="@color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery2_play_button" />
+    <ImageButton android:layout_gravity="start|bottom|center" android:id="@id/pauseButton" android:background="@color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c6y" android:src="@drawable/gallery2_pause" android:layout_marginStart="@dimen/c70" />
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/muteButton" android:background="@color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c6y" android:src="@drawable/gallery2_mute" android:layout_marginEnd="@dimen/c70" />
+    <TextView android:layout_gravity="bottom|center" android:id="@id/timeLine" android:background="@drawable/time_line_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c6y" android:paddingHorizontal="@dimen/c74" android:paddingVertical="@dimen/c75" />
+    <miuix.miuixbasewidget.widget.HyperProgressSeekBar android:layout_gravity="bottom" android:id="@id/seekbar" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c72" android:layout_marginHorizontal="@dimen/c6z" style="@style/ij_" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black" android:paddingTop="@dimen/cci" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.CompareImageView android:id="@id/lc_filter_compare_image" android:layout_width="fill_parent" android:layout_height="@dimen/ccm" android:scaleType="centerCrop" app:aas="@id/lc_filter_list_layout" app:abk="parent" />
+    <TextView android:textSize="@dimen/ccr" android:textColor="@color/white" android:gravity="center" android:id="@id/lc_filter_compare_original" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ccp" android:text="@string/g0h" app:aba="parent" app:abk="@id/lc_filter_compare_image" app:abs="0.5" />
+    <TextView android:textSize="@dimen/ccr" android:textColor="@color/white" android:gravity="center" android:id="@id/lc_filter_compare_applied" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ccp" android:text="@string/g0g" app:abe="parent" app:abk="@id/lc_filter_compare_image" app:abs="0.5" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/lc_filter_list_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/cco" android:layout_marginTop="@dimen/ccp" app:aax="parent" app:abg="parent" app:abj="@id/lc_filter_compare_image">
+        <com.android.camera.ui.EdgeSpringBackLayout android:layout_gravity="center" android:id="@id/lc_filter_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zn="left|right" app:zo="@dimen/ccn" app:atu="horizontal" app:aty="@id/lc_filter_list">
+            <com.android.camera2.compat.theme.custom.lc.looks.FilterSelectViewLC android:orientation="horizontal" android:id="@id/lc_filter_list" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.android.camera.ui.EdgeSpringBackLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/lc_filter_indicator" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dq7" android:src="@drawable/effect_filter_item_selector_lc" />
+    </FrameLayout>
+    <com.android.camera.ui.EdgeGradientView android:id="@id/lc_filter_desc_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cck" android:layout_marginTop="@dimen/ccp" app:zn="bottom" app:abj="@id/lc_filter_list_layout">
+        <androidx.core.widget.NestedScrollView android:id="@id/lc_filter_desc_container" android:paddingBottom="@dimen/cct" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls">
+            <TextView android:textSize="@dimen/cd1" android:textColor="@color/white_alpha_50" android:layout_gravity="center_horizontal" android:id="@id/lc_filter_desc" android:layout_width="@dimen/ccl" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:lineHeight="@dimen/cd0" />
+        </androidx.core.widget.NestedScrollView>
+    </com.android.camera.ui.EdgeGradientView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bmx">5.0dip</dimen>
+    <dimen name="bmy">32.0dip</dimen>
+    <dimen name="bsf">0.0dip</dimen>
+    <dimen name="drn">66.0dip</dimen>
+    <dimen name="drv">112.0dip</dimen>
+    <dimen name="ds_">28.5dip</dimen>
+    <dimen name="dwi">10.0dip</dimen>
+    <dimen name="dyj">189.0dip</dimen>
+    <dimen name="dyk">130.0dip</dimen>
+    <dimen name="dyt">20.0dip</dimen>
+    <dimen name="dyu">118.0dip</dimen>
+    <dimen name="e82">76.0dip</dimen>
+    <dimen name="e8_">32.0dip</dimen>
+    <dimen name="e8l">76.0dip</dimen>
+    <dimen name="ea3">192.0dip</dimen>
+    <dimen name="eaz">180.0dip</dimen>
+    <dimen name="eb2">116.0dip</dimen>
+    <dimen name="eb7">19.0dip</dimen>
+    <dimen name="eb9">14.0dip</dimen>
+    <dimen name="eb_">225.0dip</dimen>
+    <dimen name="eba">120.0dip</dimen>
+    <dimen name="ebb">170.0dip</dimen>
+    <dimen name="ebg">130.0dip</dimen>
+    <dimen name="ebi">18.0dip</dimen>
+    <dimen name="ebq">110.0dip</dimen>
+</resources>

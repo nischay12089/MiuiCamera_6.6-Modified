@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/makeup_image_parent" android:layout_width="@dimen/dq7" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqa"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:clipChildren="false" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dq7">
+        <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center" android:id="@id/makeups_container_wrapper" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" app:asb="@dimen/dqe">
+            <ImageView android:id="@id/item_image_view" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" android:scaleType="centerInside" android:contentDescription="@null" />
+            <ImageView android:id="@id/video_log_lut_item_selected_bg" android:background="@color/select_corner_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+            <ImageView android:layout_gravity="center" android:id="@id/video_log_lut_selected_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pro_video_log_lut_more_select" android:contentDescription="@null" />
+        </com.android.camera.ui.NormalRoundView>
+        <ImageView android:id="@id/item_selected_indicator" android:visibility="gone" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dq7" android:src="@drawable/effect_filter_item_selector" android:contentDescription="@null" app:asb="@dimen/dqe" />
+    </FrameLayout>
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dqg" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/name_text_view" android:layout_width="@dimen/dq5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqz" android:maxLines="1" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dqw" android:lineBreakWordStyle="phrase" />
+</LinearLayout>

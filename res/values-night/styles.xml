@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="i0e" parent="@style/i0d" />
+    <style name="i6h" parent="@style/ifx">
+        <item name="android:checkboxStyle">@style/ihb</item>
+        <item name="om">@drawable/miuix_appcompat_btn_checkbox_dark</item>
+        <item name="on">@bool/bdo</item>
+        <item name="oo">@color/miuix_appcompat_dialog_default_checkbox_btn_on_background_color_dark</item>
+        <item name="op">@color/miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_dark</item>
+        <item name="ou">@integer/enl</item>
+        <item name="ov">@integer/enn</item>
+        <item name="ow">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="ox">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="oy">@color/miuix_appcompat_checkbox_btn_stroke_color_dark</item>
+        <item name="oz">@integer/enp</item>
+        <item name="p0">@integer/enr</item>
+        <item name="p1">temporary</item>
+        <item name="p2">@dimen/ctx</item>
+        <item name="p5">@color/miuix_appcompat_checkable_btn_text_color_stable_dark</item>
+    </style>
+    <style name="i6i" parent="@style/ify">
+        <item name="android:radioButtonStyle">@style/ihg</item>
+        <item name="ou">@integer/enl</item>
+        <item name="ov">@integer/enn</item>
+        <item name="ow">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="ox">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="oy">@color/miuix_appcompat_checkbox_btn_stroke_color_dark</item>
+        <item name="oz">@integer/enp</item>
+        <item name="p0">@integer/enr</item>
+        <item name="p5">@color/miuix_appcompat_checkable_btn_text_color_stable_dark</item>
+        <item name="as5">@bool/bdo</item>
+        <item name="as6">@color/miuix_appcompat_dialog_default_checkbox_btn_on_background_color_dark</item>
+        <item name="as7">@color/miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_dark</item>
+    </style>
+    <style name="i7s" parent="@style/i7r" />
+    <style name="ico" parent="@style/icl" />
+    <style name="icp" parent="@style/icm" />
+    <style name="icq" parent="@style/icn" />
+    <style name="icw" parent="@style/icv" />
+    <style name="id1" parent="@style/ico">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+        <item name="a0e">true</item>
+        <item name="a2l">@style/iil</item>
+        <item name="aqw">@style/icw</item>
+    </style>
+    <style name="id6" parent="@style/id5">
+        <item name="a2l">@style/iil</item>
+    </style>
+    <style name="igz" parent="@style/igy" />
+    <style name="ihk" parent="@style/ihj" />
+    <style name="ii7" parent="@style/ii6" />
+    <style name="ii9" parent="@style/ii8" />
+    <style name="iih" parent="@style/iig" />
+    <style name="iim" parent="@style/iik" />
+    <style name="iir" parent="@style/iiq" />
+    <style name="iiv" parent="@style/iiu" />
+    <style name="ij4" parent="@style/ij3" />
+    <style name="ij7" parent="@style/ij6" />
+    <style name="ijb" parent="@style/ija" />
+    <style name="im3" parent="@style/im2" />
+    <style name="im7" parent="@style/im6" />
+    <style name="im_" parent="@style/im9" />
+    <style name="imf" parent="@style/ime" />
+    <style name="imn" parent="@style/imm" />
+    <style name="in9" parent="@style/in8" />
+    <style name="inc" parent="@style/inb" />
+    <style name="ink" parent="@style/inj" />
+</resources>

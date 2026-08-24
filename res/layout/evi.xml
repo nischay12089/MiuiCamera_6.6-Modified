@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/fl_border" android:background="@drawable/shape_gif_edit_words" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bx6">
+        <com.xiaomi.mimoji.gif.AdaptiveEditText android:textSize="@dimen/bxc" android:textColor="@color/white" android:gravity="center" android:id="@id/edit_gif_fake_words" android:paddingLeft="@dimen/bwt" android:paddingRight="@dimen/bwt" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bwu" android:layout_marginBottom="@dimen/bwu" android:hint="@string/gr5" android:singleLine="false" android:inputType="textMultiLine" android:textIsSelectable="false" />
+        <com.xiaomi.mimoji.gif.LimitInputEditText android:textSize="@dimen/bxc" android:textColor="@color/white" android:gravity="center" android:id="@id/edit_gif_words" android:paddingLeft="@dimen/bwt" android:paddingRight="@dimen/bwt" android:focusableInTouchMode="true" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bwu" android:layout_marginBottom="@dimen/bwu" android:hint="@string/gr5" android:singleLine="false" android:maxLength="33" android:inputType="textMultiLine" android:textIsSelectable="false" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/image_delete_gif_txt" android:visibility="gone" android:layout_width="@dimen/bx0" android:layout_height="@dimen/bwz" android:src="@drawable/ic_gif_text_delete" android:scaleType="centerInside" android:contentDescription="@string/fol" />
+</FrameLayout>

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "get_frame",
+    "descriptions": {"zh": "获得图像帧数据"},
+    "method": "getFrame",
+    "class": "com.xiaomi.camera.agent.AgentToolService",
+    "paramCount": 2,
+    "params": [
+      {"name": "frame_resolution", "type": "string", "descriptions": {"zh": "获得当前帧分辨率"}, "required": true, "index": 0},
+      {"name": "frame_data", "type": "string", "descriptions": {"zh": "获得当前预览画面数据"}, "required": true, "index": 1}
+    ]
+  },
+  {
+    "name": "set_camera_scene",
+    "descriptions": {"zh": "设置相机场景"},
+    "method": "setScene",
+    "class": "com.xiaomi.camera.agent.AgentToolService",
+    "paramCount": 1,
+    "params": [
+      {"name": "param", "type": "string", "descriptions": {"zh": "场景对应相机配置参数"}, "required": true, "index": 0}
+    ]
+  },
+  {
+    "name": "set_camera_capability",
+    "descriptions": {"zh": "设置相机能力"},
+    "method": "setCapability",
+    "class": "com.xiaomi.camera.agent.AgentToolService",
+    "paramCount": 4,
+    "params": [
+      {"name": "title", "type": "string", "descriptions": {"zh": "相机能力目标"}, "required": true, "index": 0},
+      {"name": "key", "type": "string", "descriptions": {"zh": "相机能力目标对应的相机参数名称"}, "required": true, "index": 1},
+      {"name": "control", "type": "string", "descriptions": {"zh": "相机能力目标对应的文字参数"}, "required": true, "index": 2},
+      {"name": "value", "type": "string", "descriptions": {"zh": "相机能力目标对应的数字参数"}, "required": true, "index": 3}
+    ]
+  }
+]

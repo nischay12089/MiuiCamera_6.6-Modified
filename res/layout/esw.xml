@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/layout_3d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_config_effect_comparison_3d" android:scaleType="fitXY" android:adjustViewBounds="true" android:maxWidth="@dimen/c08" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/c09" android:textColor="@color/effect_ai_audio_3d_text_color" android:id="@id/text_3d_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0_" />
+        <TextView android:textSize="@dimen/c09" android:textColor="@color/effect_ai_audio_3d_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0a" android:text="@string/hfd" />
+    </LinearLayout>
+</FrameLayout>

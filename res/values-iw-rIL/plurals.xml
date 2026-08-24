@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ממוקד. זוהו %d פרצופים</item>
+        <item quantity="one">ממוקד. זוהה פרצוף %d</item>
+        <item quantity="two">ממוקד. זוהו %d פרצופים</item>
+        <item quantity="many">ממוקד. זוהו %d פרצופים</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d תמונות בצילום מתפרץ</item>
+        <item quantity="one">תמונה %d בצילום מתפרץ</item>
+        <item quantity="two">%d תמונות בצילום מתפרץ</item>
+        <item quantity="many">%d תמונות בצילום מתפרץ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">זמן בין כל שני צילומים: %d שניות</item>
+        <item quantity="one">זמן בין כל שני צילומים: שנייה %d</item>
+        <item quantity="two">זמן בין כל שני צילומים: %d שניות</item>
+        <item quantity="many">זמן בין כל שני צילומים: %d שניות</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">משך: %d דקות</item>
+        <item quantity="one">משך: דקה %d</item>
+        <item quantity="two">משך: %d דקות</item>
+        <item quantity="many">משך: %d דקות</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">מהירות: %dX</item>
+        <item quantity="one">מהירות: %dX</item>
+        <item quantity="two">מהירות: %dX</item>
+        <item quantity="many">מהירות: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">משך זמן: %d שניות</item>
+        <item quantity="one">משך זמן: שנייה אחת (%d)</item>
+        <item quantity="two">משך זמן: %d שניות</item>
+        <item quantity="many">משך זמן: %d שניות</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">הוזנו %d תווים.</item>
+        <item quantity="one">הוזן תו %d.</item>
+        <item quantity="two">הוזנו %d תווים.</item>
+        <item quantity="many">הוזנו %d תווים.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">יש להזין עד %d תווים.</item>
+        <item quantity="one">יש להזין עד תו %d.</item>
+        <item quantity="two">יש להזין עד %d תווים.</item>
+        <item quantity="many">יש להזין עד %d תווים.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">"%d שנ'"</item>
+        <item quantity="one">"שנ' %d"</item>
+        <item quantity="two">"%d שנ'"</item>
+        <item quantity="many">"%d שנ'"</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ניתן לחבר לאותה הרשת עד %d מצלמות</item>
+        <item quantity="one">ניתן לחבר לאותה הרשת עד מצלמה %d</item>
+        <item quantity="two">ניתן לחבר לאותה הרשת עד %d מצלמות</item>
+        <item quantity="many">ניתן לחבר לאותה הרשת עד %d מצלמות</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ניתן לחבר לאותה הרשת עד %d מסכים</item>
+        <item quantity="one">ניתן לחבר לאותה הרשת עד מסך %d</item>
+        <item quantity="two">ניתן לחבר לאותה הרשת עד %d מסכים</item>
+        <item quantity="many">ניתן לחבר לאותה הרשת עד %d מסכים</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">אפשר ליצור עד %d שיבוטים בכל פעם.</item>
+        <item quantity="one">אפשר ליצור עד שיבוט %d בכל פעם</item>
+        <item quantity="two">אפשר ליצור עד %d שיבוטים בכל פעם.</item>
+        <item quantity="many">אפשר ליצור עד %d שיבוטים בכל פעם.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>לא ניתן להתחבר למצלמה.&lt;br>יישום זה ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. לאחר מכן עליך להמתין דקה או שתיים ולנסות שוב.&lt;/Data></item>
+        <item quantity="one">&lt;Data>לא ניתן להתחבר למצלמה.&lt;br>יישום זה ייסגר בעוד שנייה &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>. לאחר מכן עליך להמתין דקה או שתיים ולנסות שוב.&lt;/Data></item>
+        <item quantity="two">&lt;Data>לא ניתן להתחבר למצלמה.&lt;br>יישום זה ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. לאחר מכן עליך להמתין דקה או שתיים ולנסות שוב.&lt;/Data></item>
+        <item quantity="many">&lt;Data>לא ניתן להתחבר למצלמה.&lt;br>יישום זה ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. לאחר מכן עליך להמתין דקה או שתיים ולנסות שוב.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>כרגע המכשיר הזה חם מדי.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. ההתקדמות עד כה נשמרה באופן אוטומטי.&lt;/Data></item>
+        <item quantity="one">&lt;Data>כרגע המכשיר הזה חם מדי.&lt;br>היישום ייסגר בעוד שנייה &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>. ההתקדמות עד כה נשמרה באופן אוטומטי.&lt;/Data></item>
+        <item quantity="two">&lt;Data>כרגע המכשיר הזה חם מדי.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. ההתקדמות עד כה נשמרה באופן אוטומטי.&lt;/Data></item>
+        <item quantity="many">&lt;Data>כרגע המכשיר הזה חם מדי.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. ההתקדמות עד כה נשמרה באופן אוטומטי.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>גרסת המצלמה בה אתם משתמשים אינה תואמת את דגם המכשיר שלכם.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. יש להסיר את העדכונים למצלמה ולנסות שוב.&lt;/Data></item>
+        <item quantity="one">&lt;Data>גרסת המצלמה בה אתם משתמשים אינה תואמת את דגם המכשיר שלכם.&lt;br>היישום ייסגר בעוד שנייה &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>. יש להסיר את העדכונים למצלמה ולנסות שוב.&lt;/Data></item>
+        <item quantity="two">&lt;Data>גרסת המצלמה בה אתם משתמשים אינה תואמת את דגם המכשיר שלכם.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. יש להסיר את העדכונים למצלמה ולנסות שוב.&lt;/Data></item>
+        <item quantity="many">&lt;Data>גרסת המצלמה בה אתם משתמשים אינה תואמת את דגם המכשיר שלכם.&lt;br>היישום ייסגר בעוד &lt;font color=#FFCE16>&lt;b>%1$d שניות&lt;/b>&lt;/font>. יש להסיר את העדכונים למצלמה ולנסות שוב.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה אחת (%1$d)</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d שניות</item>
+        <item quantity="one">שנייה אחת (%1$d)</item>
+        <item quantity="two">%1$d שניות</item>
+        <item quantity="many">%1$d שניות</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">הופעל טיימר (%1$d שניות). התמונות יועברו למכשיר זה.</item>
+        <item quantity="one">הופעל טיימר (שנייה %1$d). התמונות יועברו למכשיר זה.</item>
+        <item quantity="two">הופעל טיימר (%1$d שניות). התמונות יועברו למכשיר זה.</item>
+        <item quantity="many">הופעל טיימר (%1$d שניות). התמונות יועברו למכשיר זה.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">למחוק %1$d טיוטות?</item>
+        <item quantity="one">למחוק טיוטה %1$d?</item>
+        <item quantity="two">למחוק %1$d טיוטות?</item>
+        <item quantity="many">למחוק %1$d טיוטות?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">הוסף עד %d סגנונות מוגדרים מראש</item>
+        <item quantity="one">הוסף עד סגנון מוגדר מראש אחד (%d)</item>
+        <item quantity="two">הוסף עד %d סגנונות מוגדרים מראש</item>
+        <item quantity="many">הוסף עד %d סגנונות מוגדרים מראש</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">למחוק %d הגדרות קבועות מראש כעת?</item>
+        <item quantity="one">למחוק הגדרה קבועה מראש %d כעת?</item>
+        <item quantity="two">למחוק %d הגדרות קבועות מראש כעת?</item>
+        <item quantity="many">למחוק %d הגדרות קבועות מראש כעת?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">נמחקו %d הגדרות קבועות מראש</item>
+        <item quantity="one">נמחקה הגדרה קבועה מראש %d</item>
+        <item quantity="two">נמחקו %d הגדרות קבועות מראש</item>
+        <item quantity="many">נמחקו %d הגדרות קבועות מראש</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">יובאו %d הגדרות קבועות מראש</item>
+        <item quantity="one">יובאה הגדרה קבועה מראש %d</item>
+        <item quantity="two">יובאו %d הגדרות קבועות מראש</item>
+        <item quantity="many">יובאו %d הגדרות קבועות מראש</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">"%dשנ'"</item>
+        <item quantity="one">"שנ'%d"</item>
+        <item quantity="two">"%dשנ'"</item>
+        <item quantity="many">"%dשנ'"</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s דקות</item>
+        <item quantity="one">דקה %1$s</item>
+        <item quantity="two">%1$s דקות</item>
+        <item quantity="many">%1$s דקות</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">מצלם רגע חי, עד %d שניות</item>
+        <item quantity="one">מצלם רגע חי, עד שנייה %d</item>
+        <item quantity="two">מצלם רגע חי, עד %d שניות</item>
+        <item quantity="many">מצלם רגע חי, עד %d שניות</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">הקלט %d שניות</item>
+        <item quantity="one">הקלט שנייה אחת (%d)</item>
+        <item quantity="two">הקלט %d שניות</item>
+        <item quantity="many">הקלט %d שניות</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">ניתן לצלם סרטוני הקפאת-זמן עם פוקוס על עד %d גורמים.</item>
+        <item quantity="one">ניתן לצלם סרטוני הקפאת-זמן עם פוקוס על גורם %d בלבד.</item>
+        <item quantity="two">ניתן לצלם סרטוני הקפאת-זמן עם פוקוס על עד %d גורמים.</item>
+        <item quantity="many">ניתן לצלם סרטוני הקפאת-זמן עם פוקוס על עד %d גורמים.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s תמונות</item>
+        <item quantity="one">תמונה %1$s</item>
+        <item quantity="two">%1$s תמונות</item>
+        <item quantity="many">%1$s תמונות</item>
+    </plurals>
+</resources>

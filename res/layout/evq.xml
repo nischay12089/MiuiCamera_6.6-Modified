@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/makeup_image_parent" android:layout_width="@dimen/dq7" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqa"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:clipChildren="false" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqu">
+        <com.android.camera.ui.NormalRoundView android:layout_gravity="center" android:orientation="vertical" android:id="@id/makeups_container_wrapper" android:focusable="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" app:asb="@dimen/dqe">
+            <ImageView android:layout_gravity="center" android:id="@id/item_image_view" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@null" />
+            <ImageView android:layout_gravity="center" android:id="@id/mimoji_long_item_selected_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tri_point" android:layout_centerInParent="true" android:contentDescription="@null" />
+        </com.android.camera.ui.NormalRoundView>
+        <ImageView android:layout_gravity="center" android:id="@id/item_selected_indicator" android:visibility="gone" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqu" android:contentDescription="@null" />
+    </FrameLayout>
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dqg" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/name_text_view" android:layout_width="@dimen/dq5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqz" android:maxLines="1" android:singleLine="true" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dqw" />
+</LinearLayout>

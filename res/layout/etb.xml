@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@id/ai_enter_layout" android:paddingBottom="@dimen/bg0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bfx">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ai_feature_smart_composition" android:background="@drawable/bg_ai_round_btn" android:layout_width="wrap_content" android:layout_height="@dimen/bfl" android:paddingStart="0.0dip" android:paddingEnd="@dimen/bfk">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_ai_feature_smart_composition" android:layout_width="@dimen/bfl" android:layout_height="@dimen/bfl" android:src="@drawable/ic_ai_smart_composition" android:scaleType="centerInside" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/bfm" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gck" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ai_feature_effect_recommend" android:background="@drawable/bg_ai_round_btn" android:layout_width="wrap_content" android:layout_height="@dimen/bfl" android:layout_marginTop="@dimen/bg4" android:paddingStart="0.0dip" android:paddingEnd="@dimen/bfk">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_ai_feature_effect_recommend" android:layout_width="@dimen/bfl" android:layout_height="@dimen/bfl" android:scaleType="centerInside" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/bfm" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcc" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ai_feature_posture_guide" android:background="@drawable/bg_ai_round_btn" android:layout_width="wrap_content" android:layout_height="@dimen/bfl" android:layout_marginTop="@dimen/bg4" android:paddingStart="0.0dip" android:paddingEnd="@dimen/bfk">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_ai_feature_posture_guide" android:layout_width="@dimen/bfl" android:layout_height="@dimen/bfl" android:src="@drawable/ic_ai_posture_guide" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/bfm" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcj" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/ai_effect_recommend_panel" android:visibility="gone" android:layout_width="@dimen/bfw" android:layout_height="@dimen/bfv">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ai_effect_change" android:background="@drawable/bg_ai_round_btn" android:layout_width="wrap_content" android:layout_height="@dimen/bfl" android:layout_marginBottom="@dimen/bfq" android:paddingStart="0.0dip" android:paddingEnd="@dimen/bfk" android:layout_marginEnd="@dimen/bfr">
+            <ImageView android:layout_width="@dimen/bfl" android:layout_height="@dimen/bfl" android:src="@drawable/ic_ai_effect_change" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/bfn" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcb" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ai_effect_realtime_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/bfu" android:overScrollMode="never" />
+    </LinearLayout>
+</FrameLayout>

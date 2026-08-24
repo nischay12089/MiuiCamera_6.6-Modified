@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lottie_view" android:layout_width="@dimen/c5b" android:layout_height="@dimen/c5b" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/c5h" android:textColor="@color/white_alpha_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/selfie_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gav" android:layout_marginStart="@dimen/c5j" android:layout_marginEnd="@dimen/c5j" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/arrow_root" android:paddingTop="@dimen/c5k" android:paddingBottom="@dimen/c5k" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5i" android:paddingStart="@dimen/c5j" android:paddingEnd="@dimen/c5j">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/arrow" android:layout_width="@dimen/c58" android:layout_height="@dimen/c58" android:elevation="2.0dip" />
+        <com.android.camera.fragment.presentation.LinearGradientSlideView android:id="@id/slide_mask" android:layout_width="@dimen/c59" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/c5c" android:elevation="1.0dip" />
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/c5h" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/slide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c5e" android:text="@string/gau" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginEnd="@dimen/c5d" />
+    </LinearLayout>
+</FrameLayout>

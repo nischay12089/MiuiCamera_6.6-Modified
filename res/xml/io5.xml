@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<networking_service_list>
+    <service needAddService="true" notifyConnect="false" serviceData="[2]" serviceName="cameraPreviewService" trustLevel="sameAccount" />
+</networking_service_list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_select" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/d88" android:textColor="@color/white" android:id="@id/iv_con_camera" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g48" android:drawableTop="@drawable/ic_vector_cine_camera" android:layout_marginStart="@dimen/d87" android:fallbackLineSpacing="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/view_screen_prompt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d7z" android:layout_below="@id/iv_con_camera" android:layout_alignStart="@id/iv_con_camera">
+        <TextView android:textSize="@dimen/d80" android:textColor="#99ffffff" android:id="@id/view_monitor_screen_prompt" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@id/view_monitor_screen_prompt_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track" android:showText="false" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/d88" android:textColor="@color/white" android:id="@id/iv_con_monitor" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g49" android:drawableTop="@drawable/ic_vector_cine_monitor" android:layout_marginEnd="@dimen/d87" android:layout_alignEnd="@id/iv_con_camera" android:layout_alignParentEnd="true" android:fallbackLineSpacing="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/view_switch_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d7z" android:layout_below="@id/iv_con_monitor" android:layout_alignStart="@id/iv_con_monitor">
+        <TextView android:textSize="@dimen/d80" android:textColor="#99ffffff" android:id="@id/view_monitor_prompt" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g4_" />
+        <Switch android:id="@id/view_monitor_remote_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track" android:showText="false" />
+    </LinearLayout>
+</RelativeLayout>

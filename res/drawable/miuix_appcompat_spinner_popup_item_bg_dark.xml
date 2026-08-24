@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/miuix_appcompat_spinner_popup_checkable_item_bg_color_dark" />
+    <padding android:left="@dimen/d15" android:top="@dimen/d1c" android:right="@dimen/d14" android:bottom="@dimen/d1c" />
+</shape>

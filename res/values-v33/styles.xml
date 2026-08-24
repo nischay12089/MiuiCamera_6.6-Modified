@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="i5d">
+        <item name="android:textAppearance">@style/i7n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+    <style name="i5e">
+        <item name="android:textAppearance">@style/i7k</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+        <item name="ay5">@dimen/d2b</item>
+    </style>
+    <style name="i5o">
+        <item name="android:textAppearance">@style/i7o</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+    <style name="i5p">
+        <item name="android:textAppearance">@style/i7l</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+    <style name="i6d">
+        <item name="android:textAppearance">@style/i7p</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+    <style name="i6e">
+        <item name="android:textAppearance">@style/i7m</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+    <style name="i7k" parent="@style/i6j">
+        <item name="android:textSize">@dimen/d1y</item>
+        <item name="android:textColor">?gl</item>
+        <item name="android:fontFamily">@string/gt0</item>
+        <item name="android:fallbackLineSpacing">true</item>
+    </style>
+    <style name="ieo" parent="@style/ie9">
+        <item name="android:textAppearance">@style/i7c</item>
+        <item name="android:textSize">@dimen/d0w</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:hyphenationFrequency">fullFast</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="false" android:focusableInTouchMode="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.features.zoom.ui.view.toggle.ZoomIndexButtonsLayout android:id="@id/index_buttons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/eku" android:layout_marginStart="@dimen/chu" android:layout_marginEnd="@dimen/chu" app:abg="parent" app:abk="parent" />
+    <View android:id="@id/extra_background" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" app:aar="parent" app:abg="parent" app:abk="parent" />
+    <TextView android:textSize="@dimen/dwa" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/zoom_tip_text" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/emp" android:singleLine="true" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/sliding_view_parent" android:layout_width="wrap_content" android:layout_height="fill_parent" app:aar="parent" app:abg="parent" app:abk="parent">
+        <com.xiaomi.camera.features.zoom.ui.view.scale.HorizontalScaleZoomView android:layout_gravity="center" android:id="@id/sliding_view" android:layout_width="@dimen/dg8" android:layout_height="@dimen/dg7" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

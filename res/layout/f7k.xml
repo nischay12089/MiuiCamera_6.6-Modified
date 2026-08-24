@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:layout_gravity="center_horizontal" android:id="@id/extra_tootle_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/extra_tootle_item_image" android:layout_width="@dimen/d92" android:layout_height="@dimen/d92" android:contentDescription="@null" android:layout_marginVertical="@dimen/d91" />
+    </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+    <com.android.camera.ui.AdaptiveMarqueeTextView android:textSize="@dimen/d94" android:textColor="@color/more_mode_edit_mode_list_text_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/extra_tootle_item_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:importantForAccessibility="no" android:fallbackLineSpacing="true" app:ag8="1.1" />
+</FrameLayout>

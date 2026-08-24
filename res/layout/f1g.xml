@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/page_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.privacylogo.PrivacyLogoView android:layout_gravity="bottom|center" android:id="@id/bottom_privacy_logo" android:layout_width="@dimen/bof" android:layout_height="@dimen/boc" android:layout_marginTop="@dimen/bod" android:layout_marginBottom="@dimen/bod" />
+</FrameLayout>

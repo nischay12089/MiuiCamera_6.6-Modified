@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pro_panel_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.features.panel.proparam.widget.CombineSlideView android:layout_gravity="bottom|center" android:id="@id/pro_panel_slider_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dw1" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/pro_panel_selector_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pro_panel_reset_button" android:layout_width="@dimen/dmm" android:layout_height="@dimen/dmm" android:src="@drawable/ic_pro_panel_reset" android:scaleType="centerInside" android:contentDescription="@string/hkx" android:layout_marginEnd="@dimen/dml" />
+        <include android:id="@id/selector_ev" android:layout_width="@dimen/dmu" android:layout_height="@dimen/dmo" android:layout_marginHorizontal="@dimen/dmp" layout="@layout/f94" />
+        <include android:id="@id/selector_et" android:layout_width="@dimen/dmt" android:layout_height="@dimen/dmo" android:layout_marginHorizontal="@dimen/dmp" layout="@layout/f94" />
+        <include android:id="@id/selector_iso" android:layout_width="@dimen/dmw" android:layout_height="@dimen/dmo" android:layout_marginHorizontal="@dimen/dmp" layout="@layout/f94" />
+        <include android:id="@id/selector_wb" android:layout_width="@dimen/dmx" android:layout_height="@dimen/dmo" android:layout_marginHorizontal="@dimen/dmp" layout="@layout/f94" />
+        <include android:id="@id/selector_focus" android:layout_width="@dimen/dmv" android:layout_height="@dimen/dmo" android:layout_marginHorizontal="@dimen/dmp" layout="@layout/f94" />
+    </LinearLayout>
+</FrameLayout>

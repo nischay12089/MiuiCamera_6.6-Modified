@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manually_item_layout" android:layout_width="@dimen/cmk" android:layout_height="@dimen/cmk"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center|top" android:id="@id/pic_style_key" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/dis" android:importantForAccessibility="no" android:textDirection="locale" />
+    <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/diy" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/pic_style_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dis" android:importantForAccessibility="no" android:textDirection="ltr" app:b1z="@dimen/bp0" />
+</FrameLayout>

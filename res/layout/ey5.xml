@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/scene_card_recycler" android:fadingEdgeLength="@dimen/dx7" android:layout_width="wrap_content" android:layout_height="@dimen/bom" />
+    <View android:layout_gravity="center" android:id="@id/select_scene_ring" android:background="@drawable/smart_scene_card_select_ring" android:layout_width="@dimen/dx4" android:layout_height="@dimen/dx4" android:layerType="hardware" />
+</FrameLayout>

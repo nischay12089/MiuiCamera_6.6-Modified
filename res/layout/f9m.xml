@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/dxc" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/mart_scene_unselect_ring" android:background="@drawable/smart_scene_card_unselect_ring" android:layout_width="@dimen/dxd" android:layout_height="@dimen/dxd" />
+    <ImageView android:layout_gravity="center" android:id="@id/smart_scene_card_view" android:layout_width="@dimen/dxd" android:layout_height="@dimen/dxd" android:src="@drawable/smart_scene_firework_toast" android:antialias="true" android:scaleType="centerInside" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+</FrameLayout>

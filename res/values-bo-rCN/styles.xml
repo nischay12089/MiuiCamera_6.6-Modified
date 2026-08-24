@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ih1" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/i7h</item>
+        <item name="android:textSize">@dimen/csz</item>
+        <item name="android:textColor">?b6f</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">?mj</item>
+        <item name="android:maxWidth">@dimen/csw</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+        <item name="android:fallbackLineSpacing">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="a9a">true</item>
+    </style>
+    <style name="ina" parent="@style/ii4">
+        <item name="android:textColor">?android:editTextColor</item>
+        <item name="android:textColorHint">?zt</item>
+        <item name="android:gravity">end|center</item>
+        <item name="aic">1.25</item>
+        <item name="aiu">@dimen/d1k</item>
+    </style>
+    <style name="ino">
+        <item name="android:textSize">@dimen/d2c</item>
+        <item name="android:textColor">?sx</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fontFamily">@string/gt5</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:fallbackLineSpacing">true</item>
+    </style>
+</resources>

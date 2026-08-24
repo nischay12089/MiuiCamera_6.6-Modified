@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/dsn" android:width="@dimen/dsn" />
+    <solid android:color="@color/zoom_ratio_toggle_view_square_bg_color" />
+</shape>

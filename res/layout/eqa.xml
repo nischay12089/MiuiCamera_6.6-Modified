@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/cpy" android:paddingStart="@dimen/cq1" android:paddingEnd="@dimen/cq0">
+        <ImageButton android:layout_gravity="start|center" android:id="@id/button_close" android:background="@drawable/editor_cancel_action_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/g06" />
+        <TextView android:textSize="@dimen/dmi" android:textStyle="bold" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/title_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/dmf" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textAlignment="center" />
+        <ImageButton android:layout_gravity="end|center" android:id="@id/button_save" android:background="@drawable/editor_done_action_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/hva" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cai" android:paddingVertical="@dimen/caj">
+        <EditText android:layout_gravity="center" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:fallbackLineSpacing="false" style="@style/ii7" />
+        <TextView android:textSize="@dimen/eih" android:textColor="@color/cai_input_tip" android:gravity="start" android:id="@id/count_tip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gj7" android:paddingHorizontal="12.0dip" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/history_label" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/caj">
+        <TextView android:textSize="@dimen/cad" android:textColor="@color/cai_input_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hd_" android:contentDescription="@string/hd_" android:paddingHorizontal="@dimen/cak" app:aar="parent" app:abg="parent" app:abk="parent" />
+        <TextView android:textSize="@dimen/cae" android:textStyle="bold" android:textColor="@color/cai_input_history_clear" android:id="@id/button_clear_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gj6" android:contentDescription="@string/gj6" android:paddingHorizontal="@dimen/cak" android:paddingVertical="@dimen/caj" app:aar="parent" app:aax="parent" app:abk="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/history_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cak" android:layout_marginRight="@dimen/cak" />
+</LinearLayout>

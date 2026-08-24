@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bkx">0.0dip</dimen>
+    <dimen name="bmn">21.73999dip</dimen>
+    <dimen name="bmo">25.0dip</dimen>
+    <dimen name="cp6">150.0dip</dimen>
+    <dimen name="cpe">33.25dip</dimen>
+    <dimen name="d6l">15.409973sp</dimen>
+    <dimen name="den">143.06dip</dimen>
+    <dimen name="dep">80.19998dip</dimen>
+    <dimen name="df4">100.0dip</dimen>
+    <dimen name="dg5">-0.59000003dip</dimen>
+    <dimen name="dga">170.0dip</dimen>
+</resources>

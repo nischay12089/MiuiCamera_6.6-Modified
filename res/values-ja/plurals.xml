@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">フォーカスしました。%d個の顔を認識しました。</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">撮影枚数%d枚</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">時間間隔%d秒</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">時間: %d 分</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">速度: %d 倍</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">時間：%d秒</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d 文字を入力しました。</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">最大 %d 文字まで入力してください。</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">最大%d台のカメラを同じネットワークに接続できます</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">最大%d台のモニターを同じネットワークに接続できます</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">一度に最大で%d体のクローンを作成できます。</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>カメラに接続できません。&lt;br>このアプリは&lt;font color=#FFCE16>&lt;b>%1$d秒&lt;/b>&lt;/font>後に終了します。その後、数分待ってからもう一度お試しください。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>現在、デバイスの温度が高すぎます。&lt;br>このアプリは&lt;font color=#FFCE16>&lt;b>%1$d秒&lt;/b>&lt;/font>後に終了します。現在の進捗状況は自動的に保存されました。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>使用しているカメラのバージョンはデバイスのモデルと互換性がありません。&lt;br>アプリは&lt;font color=#FFCE16>&lt;b>%1$d 秒&lt;/b>&lt;/font>後に終了します。カメラのアップデートをアンインストールして、もう一度お試しください。&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">タイマーをオンにしました (%1$d秒)。写真はこのデバイスに転送されます。</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d件の下書きを削除しますか？</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">最大 %d 個のプリセットを追加します</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">今すぐ%d個のプリセットを削除しますか？</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d個のプリセットを削除しました</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d個のプリセットをインポートしました</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s分</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ライブモーメントを撮影中 (最長 %d 秒)</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d秒録画</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">%d個までの被写体でタイムフリーズビデオを撮影することができます。</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s枚</item>
+    </plurals>
+</resources>

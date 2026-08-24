@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.mode.doc.ui.widgets.PrivacyWatermarkView android:id="@id/privacy_watermark_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.xiaomi.camera.mode.doc.ui.widgets.IDCardView android:orientation="horizontal" android:id="@id/id_card_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/c_e" android:textColor="@color/white" android:id="@id/hint" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c_d" android:text="@string/geq" android:importantForAccessibility="yes" android:textAlignment="center" />
+    <include android:id="@id/f8l" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/f8l" />
+</FrameLayout>

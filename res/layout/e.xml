@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_update_dialog" android:padding="29.089996dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.179993sp" android:textColor="@color/update_dialog_title_color" android:layout_gravity="center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="17.449982sp" android:textColor="@color/update_dialog_message_color" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.179993dip" android:layout_marginBottom="29.089996dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="17.449982sp" android:textColor="@color/update_dialog_negative_button_text_color" android:id="@id/negative_button" android:background="@drawable/bg_update_dialog_button" android:layout_width="0.0dip" android:layout_height="50.899994dip" android:text="Negative" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:backgroundTint="@color/update_dialog_negative_button_bg_color" />
+        <View android:background="@android:color/transparent" android:layout_width="15.0dip" android:layout_height="1.0dip" />
+        <Button android:textSize="17.449982sp" android:textColor="@color/update_dialog_positive_button_text_color" android:id="@id/positive_button" android:background="@drawable/bg_update_dialog_button" android:layout_width="0.0dip" android:layout_height="50.899994dip" android:text="Positive" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:backgroundTint="@color/update_dialog_positive_button_bg_color" />
+    </LinearLayout>
+</LinearLayout>

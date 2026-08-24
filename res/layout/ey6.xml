@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.features.screenhalo.ui.cover.ScreenHaloCoverView android:layout_gravity="top" android:id="@id/halo_cover_top" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.xiaomi.camera.features.screenhalo.ui.cover.ScreenHaloCoverView android:layout_gravity="bottom" android:id="@id/halo_cover_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.xiaomi.camera.features.screenhalo.ui.cover.ScreenHaloCoverView android:layout_gravity="start" android:id="@id/halo_cover_left" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <com.xiaomi.camera.features.screenhalo.ui.cover.ScreenHaloCoverView android:layout_gravity="end" android:id="@id/halo_cover_right" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <com.xiaomi.camera.features.screenhalo.ui.halo.ScreenHaloView android:id="@id/screen_halo_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

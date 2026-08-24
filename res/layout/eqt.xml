@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/root_view" android:layout_width="@dimen/e8l" android:layout_height="@dimen/e82">
+        <com.xiaomi.camera.ui.blur.BlurBackgroundView android:layout_gravity="center_horizontal" android:id="@id/img_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minWidth="@dimen/e8_">
+            <com.android.camera.ui.ColorImageView android:id="@id/main_image" android:visibility="gone" android:layout_width="@dimen/e8_" android:layout_height="@dimen/e8_" android:scaleType="centerInside" android:minWidth="@dimen/e8_" />
+        </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/e8g" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/label_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/e82" android:maxLines="3" android:layout_centerHorizontal="true" android:lineBreakWordStyle="phrase" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

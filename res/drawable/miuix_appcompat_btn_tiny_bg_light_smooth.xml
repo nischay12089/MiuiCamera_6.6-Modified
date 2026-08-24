@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.appcompat.app.AdaptRoundButtonDrawable app:ms="@dimen/ct3" app:n7="@dimen/ct3" app:ajp="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <child>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_appcompat_btn_bg_color_light" />
+            <size android:height="@dimen/ct2" />
+        </shape>
+    </child>
+</miuix.appcompat.app.AdaptRoundButtonDrawable>

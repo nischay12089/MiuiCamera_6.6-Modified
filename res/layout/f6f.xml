@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ii3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="end" android:id="@android:id/text1" android:visibility="gone" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/d1g" android:layout_weight="1.0" android:textDirection="locale" style="@style/i7a" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@android:id/icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:b00="@drawable/miuix_appcompat_arrow_up_down_integrated" />
+</LinearLayout>

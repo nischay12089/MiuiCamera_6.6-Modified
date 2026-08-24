@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ab0="0.0dip" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/position_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:l2="top" app:um="left_popup_tip_group, guideline_bottom" />
+    <com.xiaomi.camera.ui.base.popuptip.PopupTipsGroup android:id="@id/left_popup_tip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aar="parent" app:abg="parent" />
+    <com.xiaomi.camera.ui.base.popuptip.PopupTipsGroup android:id="@id/right_popup_tip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:aar="parent" app:aax="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

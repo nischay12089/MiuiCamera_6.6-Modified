@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera2.compat.theme.custom.mm.zoom.HorizontalScaleZoomMaskCoverView android:layout_gravity="bottom" android:id="@id/mask_cover_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.SlideMaskView android:layout_gravity="bottom" android:id="@id/bg_slide_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

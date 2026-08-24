@@ -1,0 +1,32 @@
+.class public final LUo/d$a;
+.super LUo/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LUo/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field public static final a:LUo/d$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LUo/d$a;
+
+    invoke-direct {v0}, LUo/d;-><init>()V
+
+    sput-object v0, LUo/d$a;->a:LUo/d$a;
+
+    return-void
+.end method

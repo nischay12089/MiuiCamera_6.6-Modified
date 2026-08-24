@@ -1,0 +1,515 @@
+{
+  "certificates": [
+    {
+      "title": "certificate_id",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "false",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"ID_Card",
+      "covering": [
+        {
+          "width": "132",
+          "height": "132",
+          "marginRight": "23.5"
+        },
+        {
+          "width": "132",
+          "height": "122"
+        }
+      ],
+      "tips": [
+        {
+          "tip": "certificate_id_tip_1"
+        },
+        {
+          "tip": "certificate_id_tip_2"
+        }
+      ]
+    },
+    {
+      "title": "certificate_bank",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "false",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Bank_Card",
+      "covering": [
+        {
+          "width": "298",
+          "height": "19",
+          "marginBottom": "32"
+        }
+      ],
+      "tips": [
+        {
+          "tip": "certificate_bank_tip_1"
+        },
+        {
+          "tip": "certificate_bank_tip_3"
+        }
+      ]
+    },
+    {
+      "title": "certificate_household",
+      "widthMM": "143",
+      "heightMM": "210",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Household_Register",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_household_puzzle",
+      "widthMM": "143",
+      "heightMM": "105",
+      "isSingleCapture": "false",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Household_Register_Collage",
+      "tips": [
+        {
+          "tip": "certificate_household_puzzle_tip_1"
+        },
+        {
+          "tip": "certificate_household_puzzle_tip_2"
+        }
+      ]
+    },
+    {
+      "title": "certificate_passport",
+      "widthMM": "125",
+      "heightMM": "176",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "80",
+      "hintViewMarginTop": "64",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Passport",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_driving_license",
+      "widthMM": "88",
+      "heightMM": "60",
+      "isSingleCapture": "false",
+      "cardViewMarginTop": "162",
+      "hintViewMarginTop": "129",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Driver's_License",
+      "tips": [
+        {
+          "tip": "certificate_driving_license_tip_1"
+        },
+        {
+          "tip": "certificate_driving_license_tip_2"
+        }
+      ]
+    },
+    {
+      "title": "certificate_travel_license",
+      "widthMM": "88",
+      "heightMM": "60",
+      "isSingleCapture": "false",
+      "cardViewMarginTop": "162",
+      "hintViewMarginTop": "129",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"Vehicle_License",
+      "tips": [
+        {
+          "tip": "certificate_travel_license_tip_1"
+        },
+        {
+          "tip": "certificate_travel_license_tip_2"
+        }
+      ]
+    },
+    {
+      "title": "certificate_household_registration",
+      "widthMM": "239",
+      "heightMM": "333",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "scaleRatio": "0.85",
+      "category1": "certificate_category_common",
+      "category2": "certificate_category_live",
+      "eventValue":"House_Property_Ownership_Certificate"
+    },
+    {
+      "title": "certificate_residence",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category2": "certificate_category_live",
+      "eventValue":"Residence_Permit_Card"
+    },
+    {
+      "title": "certificate_social_security",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category2": "certificate_category_live",
+      "eventValue":"Social_Security_Card"
+    },
+    {
+      "title": "certificate_marriage",
+      "widthMM": "128",
+      "heightMM": "190",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_live",
+      "eventValue":"Marriage_Certificate",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_divorce",
+      "widthMM": "128",
+      "heightMM": "190",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_live",
+      "eventValue":"Divorce_Certificate",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_disability_second",
+      "widthMM": "150",
+      "heightMM": "103",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "163",
+      "hintViewMarginTop": "130",
+      "category2": "certificate_category_live",
+      "eventValue":"Disability_Certificate_2nd",
+      "covering": [
+        {
+          "width": "3",
+          "height": "215",
+          "marginTop": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_disability_third",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "false",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category2": "certificate_category_live",
+      "eventValue":"Disability_Certificate_3rd",
+      "tips": [
+        {
+          "tip": "certificate_disability_third_tip_1"
+        },
+        {
+          "tip": "certificate_disability_third_tip_2"
+        }
+      ]
+    },
+    {
+      "title": "certificate_business_license",
+      "widthMM": "297",
+      "heightMM": "420",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "scaleRatio": "0.7",
+      "category2": "certificate_category_live",
+      "eventValue":"Business_License"
+    },
+    {
+      "title": "certificate_citizen",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category2": "certificate_category_live",
+      "eventValue":""
+    },
+    {
+      "title": "certificate_medicare",
+      "widthMM": "85.6",
+      "heightMM": "54",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "169",
+      "hintViewMarginTop": "136",
+      "category2": "certificate_category_live",
+      "eventValue":""
+    },
+    {
+      "title": "certificate_student",
+      "widthMM": "140",
+      "heightMM": "100",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "158",
+      "hintViewMarginTop": "125",
+      "category2": "certificate_category_student",
+      "eventValue":"Student_ID_Card"
+    },
+    {
+      "title": "certificate_cet4_cet6",
+      "widthMM": "133",
+      "heightMM": "203",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_student",
+      "eventValue":"CET4/6"
+    },
+    {
+      "title": "certificate_officer",
+      "widthMM": "150",
+      "heightMM": "110",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "154",
+      "hintViewMarginTop": "120",
+      "category2": "certificate_category_profession",
+      "eventValue":"Military_Officer_Certificate"
+    },
+    {
+      "title": "certificate_teacher",
+      "widthMM": "145",
+      "heightMM": "205",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Teacher_Qualification_Certificate",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_physician",
+      "widthMM": "176",
+      "heightMM": "250",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Physician"
+    },
+    {
+      "title": "certificate_lawyer",
+      "widthMM": "176",
+      "heightMM": "125",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "157",
+      "hintViewMarginTop": "124",
+      "category2": "certificate_category_profession",
+      "eventValue":"Lawyer's_Practice_Certificate"
+    },
+    {
+      "title": "certificate_legal_pro",
+      "widthMM": "176",
+      "heightMM": "250",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Legal_Professional_Qualification"
+    },
+    {
+      "title": "certificate_tour_guide",
+      "widthMM": "176",
+      "heightMM": "250",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Tour_Guide_Certificate",
+      "covering": [
+        {
+          "width": "282",
+          "height": "3",
+          "marginLeft": "16"
+        }
+      ]
+    },
+    {
+      "title": "certificate_public_accountant",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Certified_Public_Accountant_(CPA)"
+    },
+    {
+      "title": "certificate_architect",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Architect"
+    },
+    {
+      "title": "certificate_registered_fire_engineer",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Fire_Protection_Engineer"
+    },
+    {
+      "title": "certificate_rural_planner",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Urban_and_Rural_Planner"
+    },
+    {
+      "title": "certificate_registered_structural",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Structural_Engineer"
+    },
+    {
+      "title": "certificate_registered_civil",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Civil_Engineer"
+    },
+    {
+      "title": "certificate_registered_chemical",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Chemical_Engineer"
+    },
+    {
+      "title": "certificate_registered_electrical",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Registered_Electrical_Engineer"
+    },
+    {
+      "title": "certificate_cost_engineer",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Cost_Engineer"
+    },
+    {
+      "title": "certificate_constructor",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Constructor"
+    },
+    {
+      "title": "certificate_horse_estate",
+      "widthMM": "210",
+      "heightMM": "297",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Real_Estate_Appraiser"
+    },
+    {
+      "title": "certificate_supervising_engineer",
+      "widthMM": "176",
+      "heightMM": "250",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_profession",
+      "eventValue":"Supervision_Engineer"
+    },
+    {
+      "title": "certificate_medical_birth_new",
+      "widthMM": "297",
+      "heightMM": "210",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "159",
+      "hintViewMarginTop": "130",
+      "category2": "certificate_category_child",
+      "eventValue":"Medical_Certificate_of_Birth"
+    },
+    {
+      "title": "certificate_inoculation",
+      "widthMM": "110",
+      "heightMM": "155",
+      "isSingleCapture": "true",
+      "cardViewMarginTop": "64",
+      "hintViewMarginTop": "80",
+      "category2": "certificate_category_child",
+      "eventValue":"Immunization_Record"
+    }
+  ]
+}

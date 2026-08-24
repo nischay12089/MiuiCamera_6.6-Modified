@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Encofcado. Detectáronse %d facianas</item>
+        <item quantity="one">Encofcado. Detectouse %d faciana</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotos en refacho</item>
+        <item quantity="one">%d foto en refacho</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervalo: %d segundos</item>
+        <item quantity="one">Intervalo: %d segundo</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Duración: %d minutos</item>
+        <item quantity="one">Duración: %d minuto</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Velocidade: %dX</item>
+        <item quantity="one">Velocidade: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Duración: %d segundos</item>
+        <item quantity="one">Duración: %d segundo</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Inseríronse %d caracteres.</item>
+        <item quantity="one">Inseriuse %d carácter.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Insire ata %d caracteres.</item>
+        <item quantity="one">Insire ata %d carácter.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Podes conectar ata %d cámaras á mesa rede</item>
+        <item quantity="one">Podes conectar ata %d cámara á mesa rede</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Podes conectar ata %d monitores á mesa rede</item>
+        <item quantity="one">Podes conectar ata %d monitor á mesa rede</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Podes crear ata %d clons dunha vez.</item>
+        <item quantity="one">Podes crear ata %d clon dunha vez.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Non é posible conectar a cámara.&lt;br>Esta aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d segs.&lt;/b>&lt;/font>. Despois disto, agarda un par de minutos e téntao de novo.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Non é posible conectar a cámara.&lt;br>Esta aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d seg.&lt;/b>&lt;/font>. Despois disto, agarda un par de minutos e téntao de novo.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Este dispositivo agora está demasiado quente.&lt;br>A aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d segs.&lt;/b>&lt;/font>. O progreso actual gardouse automaticamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Este dispositivo agora está demasiado quente.&lt;br>A aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d seg.&lt;/b>&lt;/font>. O progreso actual gardouse automaticamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>A versión da Cámara que estás usando non é compatible co modelo do teu dispositivo.&lt;br>A aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d segundos&lt;/b>&lt;/font>. Desinstala as actualizacións da Cámara e téntao de novo.&lt;/Data></item>
+        <item quantity="one">&lt;Data>A versión da Cámara que estás usando non é compatible co modelo do teu dispositivo.&lt;br>A aplicación pecharase en &lt;font color=#FFCE16>&lt;b>%1$d segundo&lt;/b>&lt;/font>. Desinstala as actualizacións da Cámara e téntao de novo.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d mins</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d segs</item>
+        <item quantity="one">%1$d seg</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Temporizador activado (%1$d segundos). As fotos transferiranse a este dispositivo.</item>
+        <item quantity="one">Temporizador activado (%1$d segundo). As fotos transferiranse a este dispositivo.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Eliminar %1$d borradores?</item>
+        <item quantity="one">Eliminar %1$d borrador?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Engadir ata %d preaxustes</item>
+        <item quantity="one">Engadir ata %d preaxuste</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Borrar %d preaxustes agora?</item>
+        <item quantity="one">Borrar %d preaxuste agora?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Borráronse %d preaxustes</item>
+        <item quantity="one">Borrouse %d preaxuste</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Importáronse %d preaxustes</item>
+        <item quantity="one">Importouse %d preaxuste</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s mins</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturando momento en directo, ata %d s</item>
+        <item quantity="one">Capturando momento en directo, ata %d s</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Gravar %d segundos</item>
+        <item quantity="one">Gravar %d segundo</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Só podes gravar vídeos con tempo conxelado con até %d suxeitos.</item>
+        <item quantity="one">Só podes gravar vídeos con tempo conxelado con %d suxeito.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotos</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

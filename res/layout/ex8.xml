@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:clipChildren="false" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center" android:background="@drawable/makeup_item_bg_cv" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" app:asb="@dimen/dqe">
+        <ImageView android:layout_gravity="center" android:id="@id/item_image_view" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" android:scaleType="centerCrop" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="end|bottom|center" android:id="@id/mimoji_timbre_progress" android:visibility="gone" android:layout_width="@dimen/c4f" android:layout_height="@dimen/c4f" android:indeterminateDrawable="@drawable/vv_download_progress" style="?android:progressBarStyleSmall" />
+    </com.android.camera.ui.NormalRoundView>
+    <ImageView android:layout_gravity="center" android:id="@id/item_selected_indicator" android:visibility="gone" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqu" android:src="@drawable/effect_filter_item_selector" android:contentDescription="@null" app:asb="@dimen/dqe" />
+</FrameLayout>

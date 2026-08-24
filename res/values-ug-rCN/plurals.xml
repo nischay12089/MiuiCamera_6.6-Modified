@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">فوكۇسلاش تاماملاندى،%d دانە چىراي بايقالدى</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">تارتقان سۈرەت%dپارچە</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ۋاقىت ئارىلىقى %d سېكۇنت</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ۋاقتى %d مىنۇت</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">تېزلىكى %d ھەسسە</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">سىنلاش ۋاقتى %d سېكۇنت</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d ھەرپ كىرگۈزۈلدى</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">كۆپ بولغاندا %d ھەرپ كىرگۈزۈڭ</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ئوخشاش بىر توردا ئەڭ كۆپ بولغاندا %d دانە كامېرانى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ئوخشاش بىر توردا ئەڭ كۆپ بولغاندا %d دانە تىڭشىغۇچنى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ئەڭ كۆپ بولغاندا %d دانە ئايرىشنى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data> كامېراغا ئۇلىنالمىدى، &lt;br> ئەپ &lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font> كېيىن چېكىنىدۇ، سەل تۇرۇپ سىناڭ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data> ئۈسكۈنە تېمپىراتۇرىسى يۇقىرى، &lt;br> ئەپ &lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font> كېيىن چېكىنىدۇ، تارتقانلىرى ساقلاندى.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>نۆۋەتتە كامېرا نەشرى بىلەن يانفون ماس كەلمەيدۇ، &lt;br>ئەپ&lt;font color=#FFCE16>&lt;b>%1$ds&lt;/b>&lt;/font>دىن كېيىن چېكىنىدۇ، بۇ نەشىرنى ئۆچۈىۋېتىپ ئىشلىتىڭ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d مىنۇت</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d سېكۇنت</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">تەتۈر ساناق %1$ds سېكۇنت تارتىش ئېچىلدى، ھەمدە رەسىمنى بۇ ئۈسكۈنىگە ئاپتوماتىك يوللايدۇ</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d تۈرنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">ئەڭ كۆپ بولغاندا%dنى ئالدىن تەڭشەشنى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">%d دانىنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d دانىسى ئۆچۈرۈلدى</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d دانىسى كىرگۈزۈلدى</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dS</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s مىنۇت</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ھەرىكەتلىك رەسىمگە تارتىۋاتىدۇ، كۆپ بولغاندا %d سېكۇنتنى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d سېكۇنت سىنلاش</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">پەقەت %d شەخسىي تارتىشنى قوللايدۇ</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s پارچە</item>
+    </plurals>
+</resources>

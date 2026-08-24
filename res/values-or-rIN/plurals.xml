@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ଫୋକସ କରାଯାଇଛି । %dଟି ଚେହେରା ଚିହ୍ନିତ</item>
+        <item quantity="one">ଫୋକସ କରାଯାଇଛି । %d ଚେହେରା ଚିହ୍ନିତ</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">ଏକ ବର୍ଷ୍ଟ ସଟରେ %d ଫଟୋ</item>
+        <item quantity="one">ଏକ ବର୍ଷ୍ଟ ସଟରେ %d ଫଟୋ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ବ୍ୟବଧାନ: %d ସେକେଣ୍ଡ</item>
+        <item quantity="one">ବ୍ୟବଧାନ: %d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ଅବଧି: %d ମିନିଟ</item>
+        <item quantity="one">ଅବଧି: %d ମିନିଟ</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">ବେଗ: %dX</item>
+        <item quantity="one">ବେଗ: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ଅବଧି: %d ସେକେଣ୍ଡ</item>
+        <item quantity="one">ଅବଧି: %d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d କ୍ୟାରେକ୍ଟର ଦିଆଯାଇଛି।</item>
+        <item quantity="one">%d କ୍ୟାରେକ୍ଟର ଦିଆଯାଇଛି।</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">ଅତିବେଶିରେ %d କ୍ୟାରେକ୍ଟର ଦିଅନ୍ତୁ।</item>
+        <item quantity="one">ଅତିବେଶିରେ %d କ୍ୟାରେକ୍ଟର ଦିଅନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dସେ</item>
+        <item quantity="one">%dସେ</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ସମାନ ନେଟୱାର୍କ ସହିତ ଆପଣ ଅତିବେଶିରେ %dଟି କ୍ୟାମେରା ସଂଯୋଗ କରିପାରିବେ</item>
+        <item quantity="one">ସମାନ ନେଟୱାର୍କ ସହିତ ଆପଣ ଅତିବେଶିରେ %dଟି କ୍ୟାମେରା ସଂଯୋଗ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ସମାନ ନେଟୱାର୍କ ସହିତ ଆପଣ ଅତିବେଶିରେ %dଟି ମନିଟର ସଂଯୋଗ କରିପାରିବେ</item>
+        <item quantity="one">ସମାନ ନେଟୱାର୍କ ସହିତ ଆପଣ ଅତିବେଶିରେ %dଟି ମନିଟର ସଂଯୋଗ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ଆପଣ ଥରକେ %dଟି ପର୍ଯ୍ୟନ୍ତ କ୍ଲୋନ୍ ତିଆରି କରିପାରିବେ।</item>
+        <item quantity="one">ଆପଣ ଥରକେ %d ପର୍ଯ୍ୟନ୍ତ କ୍ଲୋନ୍ ତିଆରି କରିପାରିବେ ।</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>କ୍ୟାମେରା ସହିତ ସଂଯୋଗ ହୋଇପାରୁନାହିଁ।&lt;br> ଏହି ଆପ୍ &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font>ବନ୍ଦ ହୋଇଯିବ। ଏହା ପରେ ଗୋଟିଏ ବା ଦୁଇ ମିନିଟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।&lt;/Data></item>
+        <item quantity="one">&lt;Data>କ୍ୟାମେରା ସହିତ ସଂଯୋଗ ହୋଇପାରୁନାହିଁ।&lt;br> ଏହି ଆପ୍ &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font> ବନ୍ଦ ହୋଇଯିବ। ଏହା ପରେ ଗୋଟିଏ ବା ଦୁଇ ମିନିଟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ଏହି ଡିଭାଇସ ଏବେ ବହୁତ ଗରମ ହୋଇଛି।&lt;br> ଆପଟି &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font> ବନ୍ଦ ହୋଇଯିବ। ବର୍ତ୍ତମାନର ପ୍ରଗତି ସ୍ୱତଃ ସେଭ୍ ହୋଇଛି।&lt;/Data></item>
+        <item quantity="one">&lt;Data>ଏହି ଡିଭାଇସ ଏବେ ବହୁତ ଗରମ ହୋଇଛି।&lt;br> ଆପଟି &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font> ବନ୍ଦ ହୋଇଯିବ। ବର୍ତ୍ତମାନର ପ୍ରଗତି ସ୍ୱତଃ ସେଭ୍ ହୋଇଛି।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>ଆପଣ ବ୍ୟବହାର କରୁଥିବା କ୍ୟାମେରା ସଂସ୍କରଣ ଆପଣଙ୍କ ଡିଭାଇସ ମଡେଲ ସହିତ କମ୍ପାଟିବୁଲ ନୁହେଁ।&lt;br> ଆପଟି &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font> ବନ୍ଦ ହେବ। କ୍ୟାମେରା ଅପଡେଟକୁ ଅଣସଂସ୍ଥାପନ କରନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।&lt;/Data></item>
+        <item quantity="one">&lt;Data>ଆପଣ ବ୍ୟବହାର କରୁଥିବା କ୍ୟାମେରା ସଂସ୍କରଣ ଆପଣଙ୍କ ଡିଭାଇସ ମଡେଲ ସହିତ କମ୍ପାଟିବୁଲ ନୁହେଁ।&lt;br> ଆପଟି &lt;font color=#FFCE16>&lt;b>%1$d ସେକେଣ୍ଡରେ&lt;/b>&lt;/font> ବନ୍ଦ ହେବ। କ୍ୟାମେରା ଅପଡେଟକୁ ଅଣସଂସ୍ଥାପନ କରନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d ମିନିଟ୍‌</item>
+        <item quantity="one">%1$d ମିନିଟ୍‌</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d ସେକେଣ୍ଡ</item>
+        <item quantity="one">%1$d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">ଟାଇମର୍ ଚାଲୁ ହୋଇଛି (%1$d ସେକେଣ୍ଡ)। ଫଟୋଗୁଡ଼ିକ ଏହି ଡିଭାଇସକୁ ସ୍ଥାନାନ୍ତର ହେବ।</item>
+        <item quantity="one">ଟାଇମର୍ ଚାଲୁ ହୋଇଛି (%1$d ସେକେଣ୍ଡ)। ଫଟୋଗୁଡ଼ିକ ଏହି ଡିଭାଇସକୁ ସ୍ଥାନାନ୍ତର ହେବ।</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d ଡ୍ରାଫ୍ଟ ଡିଲିଟ୍ କରିବେ?</item>
+        <item quantity="one">%1$d ଡ୍ରାଫ୍ଟ‌ ଡିଲିଟ୍ କରିବେ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d ପ୍ରିସେଟ ଯାଏଁ ଯୋଗ କରନ୍ତୁ</item>
+        <item quantity="one">%d ପ୍ରିସେଟ ଯାଏଁ ଯୋଗ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">ବର୍ତ୍ତମାନ %d ପ୍ରିସେଟ ଡିଲିଟ କରିବେ?</item>
+        <item quantity="one">ବର୍ତ୍ତମାନ %d ପ୍ରିସେଟ ଡିଲିଟ କରିବେ?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d ପ୍ରିସେଟ ଡିଲିଟ ହୋଇଛି</item>
+        <item quantity="one">%d ପ୍ରିସେଟ ଡିଲିଟ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d ପ୍ରିସେଟ ଇମ୍ପୋର୍ଟ ହୋଇଛି</item>
+        <item quantity="one">%d ପ୍ରିସେଟ ଇମ୍ପୋର୍ଟ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$sଟି ମିନିଟ</item>
+        <item quantity="one">%1$s ମିନିଟ</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ଲାଇଭ ମୁମେଣ୍ଟ କ୍ୟାପଚର କରୁଛି, %d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ</item>
+        <item quantity="one">ଲାଇଭ ମୁମେଣ୍ଟ କ୍ୟାପଚର କରୁଛି, %d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d ସେକେଣ୍ଡ ରେକର୍ଡ କରନ୍ତୁ</item>
+        <item quantity="one">%d ସେକେଣ୍ଡ ରେକର୍ଡ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">ଆପଣ %dଟି ସବଜେକ୍ଟ ପର୍ଯ୍ୟନ୍ତ ଟାଇମ୍ ଫ୍ରିଜ୍ ଭିଡିଓ ସୁଟ୍ କରିପାରିବେ।</item>
+        <item quantity="one">ଆପଣ କେବଳ %d ସବଜେକ୍ଟ ସହିତ ଟାଇମ୍ ଫ୍ରିଜ୍ ଭିଡିଓ ସୁଟ୍ କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$sଟି ଫଟୋ</item>
+        <item quantity="one">%1$s ଫଟୋ</item>
+    </plurals>
+</resources>

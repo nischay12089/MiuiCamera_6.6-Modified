@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokusirano. %d lica otkriveno</item>
+        <item quantity="one">Fokusirano. %d lice otkriveno</item>
+        <item quantity="few">Fokusirano. %d lica otkrivena</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotografija u brzoj fotografiji</item>
+        <item quantity="one">%d fotografija u brzoj fotografiji</item>
+        <item quantity="few">%d fotografije u brzoj fotografiji</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d sekundi</item>
+        <item quantity="one">Interval: %d sekunda</item>
+        <item quantity="few">Interval: %d sekunde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Trajanje: %d minuta</item>
+        <item quantity="one">Trajanje: %d minuta</item>
+        <item quantity="few">Trajanje: %d minute</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Brzina: %dX</item>
+        <item quantity="one">Brzina: %dX</item>
+        <item quantity="few">Brzina: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Trajanje: %d sekundi</item>
+        <item quantity="one">Trajanje: %d sekunda</item>
+        <item quantity="few">Trajanje: %d sekunde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Uneseno %d karaktera.</item>
+        <item quantity="one">Unesen %d karakter.</item>
+        <item quantity="few">Unesena %d karaktera.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Unesite do %d karaktera.</item>
+        <item quantity="one">Unesite do %d karaktera.</item>
+        <item quantity="few">Unesite do %d karaktera.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+        <item quantity="few">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Na istu mrežu možete povezati do %d kamera</item>
+        <item quantity="one">Na istu mrežu možete povezati do %d kamere</item>
+        <item quantity="few">Na istu mrežu možete povezati do %d kamere</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Na istu mrežu možete povezati do %d monitora</item>
+        <item quantity="one">Na istu mrežu možete povezati do %d monitora</item>
+        <item quantity="few">Na istu mrežu možete povezati do %d monitora</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">%d klonova mogu biti kreirana odjednom.</item>
+        <item quantity="one">%d klon može biti kreiran odjednom.</item>
+        <item quantity="few">%d klona mogu biti kreirana odjednom.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Ne mogu se povezati na kameru.&lt;br>Ova aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nakon toga, pričekajte minutu ili dvije i pokušajte ponovo.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Ne mogu se povezati na kameru.&lt;br>Ova aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nakon toga, pričekajte minutu ili dvije i pokušajte ponovo.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Ne mogu se povezati na kameru.&lt;br>Ova aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nakon toga, pričekajte minutu ili dvije i pokušajte ponovo.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Ovaj uređaj je sada prevruć.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Trenutni rad je automatski sačuvan.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Ovaj uređaj je sada prevruć.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Trenutni rad je automatski sačuvan.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Ovaj uređaj je sada prevruć.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Trenutni rad je automatski sačuvan.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Verzija Kamere koju koristite nije kompatibilna sa modelom vašeg uređaja.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Deinstalirajte ažuriranja Kamere i pokušajte ponovo.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Verzija Kamere koju koristite nije kompatibilna sa modelom vašeg uređaja.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Deinstalirajte ažuriranja Kamere i pokušajte ponovo.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Verzija Kamere koju koristite nije kompatibilna sa modelom vašeg uređaja.&lt;br>Aplikacija će se zatvoriti za &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Deinstalirajte ažuriranja Kamere i pokušajte ponovo.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sek</item>
+        <item quantity="one">%1$d sek</item>
+        <item quantity="few">%1$d sek</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Uključen tajmer (%1$d s). Fotografije će biti prebačene na ovaj uređaj.</item>
+        <item quantity="one">Uključen tajmer (%1$d s). Fotografije će biti prebačene na ovaj uređaj.</item>
+        <item quantity="few">Uključen tajmer (%1$d s). Fotografije će biti prebačene na ovaj uređaj.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Obrisati %1$d skica?</item>
+        <item quantity="one">Obrisati %1$d skicu?</item>
+        <item quantity="few">Obrisati %1$d skice?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Dodajte do %d postavki</item>
+        <item quantity="one">Dodajte do %d postavke</item>
+        <item quantity="few">Dodajte do %d postavke</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Izbrisati %d unaprijed podešenih postavki sada?</item>
+        <item quantity="one">Izbrisati %d unaprijed podešenu postavku sada?</item>
+        <item quantity="few">Izbrisati %d unaprijed podešene postavke sada?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Izbrisano je %d unaprijed podešenih postavki</item>
+        <item quantity="one">Izbrisana je %d unaprijed podešena postavka</item>
+        <item quantity="few">Izbrisano je %d unaprijed postavljenih postavki</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Uvezeno je %d unaprijed podešenih postavki</item>
+        <item quantity="one">Uvezena je %d unaprijed podešena postavka</item>
+        <item quantity="few">Uvezene su %d unaprijed podešene postavke</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d novih obavještenja</item>
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+        <item quantity="few">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+        <item quantity="few">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Hvatanje trenutka uživo, do %d sekundi</item>
+        <item quantity="one">Hvatanje trenutka uživo, do %d sekunde</item>
+        <item quantity="few">Hvatanje trenutka uživo, do %d sekunde</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Snimi %d sekundi</item>
+        <item quantity="one">Snimi %d sekundu</item>
+        <item quantity="few">Snimi %d sekunde</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Možete snimati zaleđene videozapise samo sa %d subjekata.</item>
+        <item quantity="one">Možete snimati zaleđene videozapise samo sa %d subjektom.</item>
+        <item quantity="few">Možete snimati zaleđene videozapise samo sa %d subjekta.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotografija</item>
+        <item quantity="one">%1$s fotografija</item>
+        <item quantity="few">%1$s fotografije</item>
+    </plurals>
+</resources>

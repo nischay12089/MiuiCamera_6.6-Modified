@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/state_three_buttons">
+        <Constraint android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.13" />
+        <Constraint android:orientation="vertical" android:id="@id/end_extra_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.72" />
+        <Constraint android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.87" />
+        <Constraint android:id="@id/start_container" android:layout_width="@dimen/boy" android:layout_height="@dimen/boy" motion:aar="parent" motion:aax="@id/start_guideline" motion:abg="@id/start_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/snap_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:aar="parent" motion:aax="parent" motion:abg="parent" motion:abk="parent" />
+        <Constraint android:id="@id/end_extra_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:alpha="0.0" android:scaleX="0.75" android:scaleY="0.75" motion:aar="parent" motion:aax="@id/end_extra_guideline" motion:abg="@id/end_extra_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/end_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" motion:aar="parent" motion:aax="@id/end_guideline" motion:abg="@id/end_guideline" motion:abk="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/state_four_buttons">
+        <Constraint android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.09" />
+        <Constraint android:orientation="vertical" android:id="@id/end_extra_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.72" />
+        <Constraint android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.91" />
+        <Constraint android:id="@id/start_container" android:layout_width="@dimen/boy" android:layout_height="@dimen/boy" motion:aar="parent" motion:aax="@id/start_guideline" motion:abg="@id/start_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/snap_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:aar="parent" motion:aax="parent" motion:abg="parent" motion:abk="parent" />
+        <Constraint android:id="@id/end_extra_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:aar="parent" motion:aax="@id/end_extra_guideline" motion:abg="@id/end_extra_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/end_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" motion:aar="parent" motion:aax="@id/end_guideline" motion:abg="@id/end_guideline" motion:abk="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/state_four_buttons_swapped">
+        <Constraint android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.09" />
+        <Constraint android:orientation="vertical" android:id="@id/end_extra_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.72" />
+        <Constraint android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:ab1="0.91" />
+        <Constraint android:id="@id/start_container" android:layout_width="@dimen/boy" android:layout_height="@dimen/boy" motion:aar="parent" motion:aax="@id/start_guideline" motion:abg="@id/start_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/snap_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:aar="parent" motion:aax="parent" motion:abg="parent" motion:abk="parent" />
+        <Constraint android:id="@id/end_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" motion:aar="parent" motion:aax="@id/end_extra_guideline" motion:abg="@id/end_extra_guideline" motion:abk="parent" />
+        <Constraint android:id="@id/end_extra_container" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:aar="parent" motion:aax="@id/end_guideline" motion:abg="@id/end_guideline" motion:abk="parent" />
+    </ConstraintSet>
+    <Transition android:id="@id/transition_three_to_four" motion:uk="@id/state_four_buttons" motion:ul="@id/state_three_buttons">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="0" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.4" android:scaleX="0.95" android:scaleY="0.95" motion:a51="25" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.7" android:scaleX="1.08" android:scaleY="1.08" motion:a51="50" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.9" android:scaleX="1.03" android:scaleY="1.03" motion:a51="75" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:a51="100" motion:b4t="@id/end_extra_container" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/transition_four_to_three" motion:uk="@id/state_three_buttons" motion:ul="@id/state_four_buttons">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:a51="0" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.7" android:scaleX="0.95" android:scaleY="0.95" motion:a51="30" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.3" android:scaleX="0.85" android:scaleY="0.85" motion:a51="60" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="100" motion:b4t="@id/end_extra_container" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/transition_three_to_four_swapped" motion:uk="@id/state_four_buttons_swapped" motion:ul="@id/state_three_buttons">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="0" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="60" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.5" android:scaleX="0.95" android:scaleY="0.95" motion:a51="75" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.8" android:scaleX="1.06" android:scaleY="1.06" motion:a51="88" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:a51="100" motion:b4t="@id/end_extra_container" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/transition_four_swapped_to_three" motion:uk="@id/state_three_buttons" motion:ul="@id/state_four_buttons_swapped">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="1.0" android:scaleY="1.0" motion:a51="0" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.9" android:scaleY="0.9" motion:a51="20" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="40" motion:b4t="@id/end_extra_container" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:a51="100" motion:b4t="@id/end_extra_container" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

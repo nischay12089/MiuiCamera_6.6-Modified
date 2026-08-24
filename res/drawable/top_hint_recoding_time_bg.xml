@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/top_hint_recording_time_bg" />
+    <corners android:topLeftRadius="@dimen/e6o" android:topRightRadius="@dimen/e6o" android:bottomLeftRadius="@dimen/e6o" android:bottomRightRadius="@dimen/e6o" />
+</shape>

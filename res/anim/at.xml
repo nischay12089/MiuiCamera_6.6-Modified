@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <translatewithclip android:interpolator="@anim/s" android:duration="350" app:wh="0.4" app:a3l="@dimen/cwz" app:a3u="@dimen/cx2" app:a99="true" app:asx="0.36" app:at_="@dimen/cww" app:bdd="0" />
+</set>

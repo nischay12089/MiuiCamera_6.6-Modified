@@ -1,0 +1,21 @@
+{
+  "modelResourceInfoList": [
+    {
+      "models": ["default"],
+      "devices": ["default"],
+      "extraInfo": {
+        "VIDEO_4K_30FPS": "2",
+        "VIDEO_4K_60FPS": "2",
+        "VIDEO_4K_120FPS": "2",
+        "VIDEO_1080P_30FPS": "0",
+        "VIDEO_1080P_60FPS": "2",
+        "VIDEO_1080P_120FPS": "2",
+        "VIDEO_1080P_240FPS": "2",
+        "VIDEO_1080P_960FPS": "0",
+        "VIDEO_720P_120FPS": "1",
+        "VIDEO_720P_240FPS": "1",
+        "VIDEO_720P_960FPS": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="6.3599854dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/effect_close_item" android:layout_width="@dimen/dq7" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dqd" android:layout_marginEnd="@dimen/dqc">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqu">
+            <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" app:asb="@dimen/dqe">
+                <ImageView android:layout_gravity="center" android:id="@id/close_item_image" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dqt" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@null" />
+            </com.android.camera.ui.NormalRoundView>
+            <ImageView android:layout_gravity="center" android:id="@id/close_indicator" android:visibility="gone" android:layout_width="@dimen/dq7" android:layout_height="@dimen/dqu" android:src="@drawable/effect_filter_item_selector" android:contentDescription="@null" app:asb="@dimen/dqe" />
+        </FrameLayout>
+        <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dqg" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/name_text_view" android:layout_width="@dimen/dq5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqz" android:maxLines="1" android:singleLine="true" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dqw" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/live_effect_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/live_effect_updating_progress" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="@dimen/eez" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/eow" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/cfa" android:textColor="@android:color/white" android:id="@id/live_effect_updating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/eez" android:text="@string/gm1" android:layout_marginStart="11.0dip" />
+    </LinearLayout>
+    <com.android.camera.ui.SideFadingSpringBackLayout android:id="@id/filter_spring_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:atu="horizontal" app:aty="@id/live_effect_list">
+        <miuix.recyclerview.widget.RecyclerView android:id="@id/live_effect_list" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.camera.ui.SideFadingSpringBackLayout>
+</LinearLayout>

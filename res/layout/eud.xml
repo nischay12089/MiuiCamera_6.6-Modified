@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cinematic_dolly_panel_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/cinematic_dolly_rv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/cinematic_dolly_operation_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cinematic_dolly_operation_panel" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bqz">
+            <LinearLayout android:orientation="vertical" android:id="@id/operate_scope" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/br3" android:textColor="@color/white" android:gravity="center" android:id="@id/scope_value" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/br2" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/scope_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br1" android:text="@string/fdb" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+            <ImageView android:id="@id/cinematic_dolly_panel_divider" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cinematic_dolly_panel_divider" android:contentDescription="@null" />
+            <LinearLayout android:orientation="vertical" android:id="@id/operate_speed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/br3" android:textColor="@color/white" android:gravity="center" android:id="@id/speed_value" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/br2" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/speed_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br1" android:text="@string/fdc" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/scope_adjust_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom" android:id="@id/scope_adjust_adverse_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br9" android:src="@drawable/ic_vector_cinematic_dolly_scope_adverse" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_marginStart="@dimen/br8" />
+            <com.android.camera.ui.HorizontalScopeZoomView android:id="@id/scope_adjust_view" android:layout_width="fill_parent" android:layout_height="@dimen/dw1" android:layout_marginStart="@dimen/br5" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/speed_adjust_view_parent" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

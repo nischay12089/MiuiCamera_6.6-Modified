@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ic_pano_preview_hint_frame_vertical_background" android:padding="@dimen/dgv" android:focusable="false" android:layout_width="@dimen/dh0" android:layout_height="fill_parent" android:contentDescription="@string/fg0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Group android:id="@id/pano_move_direction_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:um="pano_move_line_view,panorama_image_preview,pano_move_direction_view" />
+    <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingLineView android:id="@id/pano_move_line_view" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <ImageView android:id="@id/panorama_image_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingIndicatorView android:id="@id/pano_move_direction_view" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <androidx.constraintlayout.widget.Group android:id="@id/pano_still_preview_hint_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:um="pano_move_reference_line,pano_preview_container,pano_arrow" />
+    <View android:id="@id/pano_move_reference_line" android:background="@drawable/bg_pano_move_line" android:layout_width="@dimen/dh5" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dh2" android:layout_marginBottom="@dimen/dh3" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    <FrameLayout android:id="@id/pano_preview_container" android:background="@drawable/bg_pano_preview_container_background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:clipToOutline="true" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent">
+        <com.android.camera.ui.GLTextureView android:id="@id/panorama_still_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/pano_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pano_arrow" android:contentDescription="@null" app:aar="parent" app:aax="parent" app:abg="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/style_item_type_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cjh" android:paddingHorizontal="@dimen/cji"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ColorImageView android:layout_gravity="start" android:id="@id/manual_item_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/cla" android:textColor="@color/manual_workspace_detail_item_text_color" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/manual_item_key_name" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/cla" android:textColor="@color/manual_workspace_detail_item_text_color" android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/manual_item_value" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</FrameLayout>

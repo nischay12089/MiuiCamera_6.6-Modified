@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:background="@color/preference_watermark_edit_preview_bg_color" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ehy" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ehz" android:textColor="@color/preference_watermark_edit_reminder_text_color" android:id="@id/watermark_reminder_not_support_tx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="misans-normal" android:layout_marginHorizontal="@dimen/eib" android:textFontWeight="330" />
+    <TextView android:textSize="@dimen/ehz" android:textColor="@color/preference_watermark_edit_reminder_text_color" android:id="@id/watermark_reminder_not_support_tx_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="misans-normal" android:layout_marginHorizontal="@dimen/eib" android:textFontWeight="330" />
+</LinearLayout>

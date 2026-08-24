@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/vv_share" android:background="@drawable/bg_vv_share" android:visibility="gone" android:layout_width="@dimen/efu" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/vv_share_recyclerview" android:layout_width="@dimen/eft" android:layout_height="@dimen/efs" android:layout_marginTop="@dimen/efx" android:layout_marginBottom="@dimen/efv" android:layout_marginStart="@dimen/efw" android:layout_marginEnd="@dimen/efw" />
+    <com.xiaomi.microfilm.vlog.vv.page.PageIndicatorView android:id="@id/vv_share_recyclerview_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/efy" />
+    <TextView android:textSize="@dimen/ee9" android:textColor="@color/vv_dialog_cancel_color" android:gravity="center" android:id="@id/vv_share_message" android:background="@drawable/bg_vv_dialog_button_cancel_exit" android:layout_width="@dimen/efp" android:layout_height="@dimen/efn" android:layout_marginBottom="@dimen/efo" android:text="@string/gku" />
+</LinearLayout>

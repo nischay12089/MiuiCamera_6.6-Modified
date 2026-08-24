@@ -1,0 +1,339 @@
+.class public final Lvb/v$e;
+.super Lvb/v$k;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lvb/v;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "e"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lvb/v$k<",
+        "Ljava/lang/Character;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lrb/a;
+.end annotation
+
+
+# static fields
+.field public static final h:Lvb/v$e;
+
+.field public static final i:Lvb/v$e;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lvb/v$e;
+
+    const/4 v1, 0x0
+
+    invoke-static {v1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+
+    move-result-object v1
+
+    sget-object v2, Ljava/lang/Character;->TYPE:Ljava/lang/Class;
+
+    invoke-direct {v0, v2, v1}, Lvb/v$e;-><init>(Ljava/lang/Class;Ljava/lang/Character;)V
+
+    sput-object v0, Lvb/v$e;->h:Lvb/v$e;
+
+    new-instance v0, Lvb/v$e;
+
+    const-class v1, Ljava/lang/Character;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2}, Lvb/v$e;-><init>(Ljava/lang/Class;Ljava/lang/Character;)V
+
+    sput-object v0, Lvb/v$e;->i:Lvb/v$e;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Class;Ljava/lang/Character;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "Ljava/lang/Character;",
+            ">;",
+            "Ljava/lang/Character;",
+            ")V"
+        }
+    .end annotation
+
+    sget-object v0, LHb/f;->f:LHb/f;
+
+    const/4 v1, 0x0
+
+    invoke-static {v1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+
+    move-result-object v1
+
+    invoke-direct {p0, p1, v0, p2, v1}, Lvb/v$k;-><init>(Ljava/lang/Class;LHb/f;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Lgb/i;Lqb/g;)Ljava/lang/Object;
+    .locals 8
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Lgb/c;
+        }
+    .end annotation
+
+    invoke-virtual {p1}, Lgb/i;->q()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    iget-object v3, p0, Lvb/B;->a:Ljava/lang/Class;
+
+    if-eq v0, v2, :cond_d
+
+    const/4 v4, 0x3
+
+    if-eq v0, v4, :cond_c
+
+    const/16 v5, 0xb
+
+    if-eq v0, v5, :cond_a
+
+    iget-object v5, p0, Lvb/v$k;->f:Ljava/lang/Object;
+
+    const/4 v6, 0x6
+
+    const/4 v7, 0x0
+
+    if-eq v0, v6, :cond_5
+
+    const/4 v2, 0x7
+
+    if-ne v0, v2, :cond_4
+
+    sget-object v0, Lsb/d;->a:Lsb/d;
+
+    iget-object v2, p0, Lvb/v$k;->d:LHb/f;
+
+    invoke-virtual {p2, v2, v3, v0}, Lqb/g;->n(LHb/f;Ljava/lang/Class;Lsb/d;)Lsb/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    const/4 v0, 0x2
+
+    if-eq v2, v0, :cond_3
+
+    if-eq v2, v4, :cond_1
+
+    invoke-virtual {p1}, Lgb/i;->j0()I
+
+    move-result p0
+
+    if-ltz p0, :cond_0
+
+    const p1, 0xffff
+
+    if-gt p0, p1, :cond_0
+
+    int-to-char p0, p0
+
+    invoke-static {p0}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p0
+
+    const-string/jumbo p1, "value outside valid Character range (0x0000 - 0xFFFF)"
+
+    new-array v0, v7, [Ljava/lang/Object;
+
+    invoke-virtual {p2, v3, p0, p1, v0}, Lqb/g;->H(Ljava/lang/Class;Ljava/lang/Number;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    throw v1
+
+    :cond_1
+    check-cast v5, Ljava/lang/Character;
+
+    return-object v5
+
+    :cond_2
+    invoke-virtual {p1}, Lgb/i;->s0()Ljava/lang/Number;
+
+    move-result-object v1
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "Integer value ("
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Lgb/i;->D0()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, ")"
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p2, v0, v1, p1}, Lvb/B;->s(Lqb/g;Lsb/b;Ljava/io/Serializable;Ljava/lang/String;)V
+
+    :cond_3
+    invoke-virtual {p0, p2}, Lvb/v$k;->b(Lqb/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Character;
+
+    return-object p0
+
+    :cond_4
+    invoke-virtual {p0, p2}, Lvb/B;->k0(Lqb/g;)Lqb/i;
+
+    move-result-object p0
+
+    invoke-virtual {p2, p1, p0}, Lqb/g;->D(Lgb/i;Lqb/i;)V
+
+    throw v1
+
+    :cond_5
+    invoke-virtual {p1}, Lgb/i;->D0()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-ne v0, v2, :cond_6
+
+    invoke-virtual {p1, v7}, Ljava/lang/String;->charAt(I)C
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_6
+    invoke-virtual {p0, p1, p2}, Lvb/B;->w(Ljava/lang/String;Lqb/g;)Lsb/b;
+
+    move-result-object v0
+
+    sget-object v2, Lsb/b;->c:Lsb/b;
+
+    if-ne v0, v2, :cond_7
+
+    invoke-virtual {p0, p2}, Lvb/v$k;->b(Lqb/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Character;
+
+    return-object p0
+
+    :cond_7
+    sget-object v2, Lsb/b;->d:Lsb/b;
+
+    if-ne v0, v2, :cond_8
+
+    check-cast v5, Ljava/lang/Character;
+
+    return-object v5
+
+    :cond_8
+    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1, p2}, Lvb/B;->z(Ljava/lang/String;Lqb/g;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_9
+
+    invoke-virtual {p0, p2}, Lvb/v$k;->b(Lqb/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Character;
+
+    return-object p0
+
+    :cond_9
+    const-string p0, "Expected either Integer value code or 1-character String"
+
+    new-array v0, v7, [Ljava/lang/Object;
+
+    invoke-virtual {p2, v3, p1, p0, v0}, Lqb/g;->I(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    throw v1
+
+    :cond_a
+    iget-boolean p1, p0, Lvb/v$k;->g:Z
+
+    if-eqz p1, :cond_b
+
+    invoke-virtual {p0, p2}, Lvb/B;->c0(Lqb/g;)V
+
+    :cond_b
+    invoke-virtual {p0, p2}, Lvb/v$k;->b(Lqb/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Character;
+
+    return-object p0
+
+    :cond_c
+    invoke-virtual {p0, p1, p2}, Lvb/B;->E(Lgb/i;Lqb/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Character;
+
+    return-object p0
+
+    :cond_d
+    invoke-virtual {p2, p1, v3}, Lqb/g;->C(Lgb/i;Ljava/lang/Class;)V
+
+    throw v1
+.end method

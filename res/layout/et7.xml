@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/filter_item_parent" android:focusable="false" android:layout_width="@dimen/dq2" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqb"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/filter_still_parent" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" app:asb="@dimen/dqe">
+        <ImageView android:id="@id/effect_item_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+        <TextureView android:id="@id/effect_item_realtime" android:focusable="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/iv_filter_type_icon" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dq5" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|bottom|center" android:id="@id/filter_gallery_item_state" android:visibility="gone" android:layout_width="@dimen/c4f" android:layout_height="@dimen/c4f" android:scaleType="centerInside" />
+        <ProgressBar android:layout_gravity="end|bottom|center" android:id="@id/filter_gallery_item_loading" android:visibility="gone" android:layout_width="@dimen/c4f" android:layout_height="@dimen/c4f" android:indeterminateDrawable="@drawable/vv_download_progress" style="?android:progressBarStyleLarge" />
+    </com.android.camera.ui.NormalRoundView>
+</LinearLayout>

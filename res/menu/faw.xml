@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/live_draft_record_icon" android:id="@id/live_draft_record" android:title="@string/gjy" />
+    <item android:icon="@drawable/miuix_action_icon_rename_dark" android:id="@id/live_draft_rename" android:title="@string/hxs" />
+    <item android:icon="@drawable/miuix_action_icon_delete_dark" android:id="@id/live_draft_delete" android:title="@string/hxr" />
+</menu>

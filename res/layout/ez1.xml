@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/top_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera2.compat.theme.custom.mm.top.MainTopBarLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/top_config_menu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.camera2.compat.theme.custom.mm.top.topbarview.TopBarView android:id="@id/top_bar_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a0r="@dimen/e9f" app:b11="@dimen/e9h" />
+        <com.android.camera2.compat.theme.custom.mm.top.MenuIndicatorView android:id="@id/menu_indicator" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.android.camera2.compat.theme.custom.mm.top.topbarview.expandview.TopBarExpandView android:id="@id/top_bar_expand_view" android:background="@color/transparent" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.android.camera2.compat.theme.custom.mm.top.MainTopBarLayout>
+    <TextView android:textSize="@dimen/bpm" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/v6_capture_delay_number" android:visibility="gone" android:clickable="false" android:shadowColor="#33000000" android:shadowRadius="3.0" style="@style/i__" />
+    <TextView android:gravity="center" android:layout_gravity="center|top" android:id="@id/v6_multi_snap_number" android:focusable="false" android:visibility="gone" style="@style/i92" />
+    <com.xiaomi.camera.ui.base.halo.ShapeBackGroundView android:id="@id/top_config_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

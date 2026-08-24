@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Focalizat. %d fețe detectate</item>
+        <item quantity="one">Focalizat. %d față detectată</item>
+        <item quantity="few">Focalizat. %d fețe detectate</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotografii în captură în rafale</item>
+        <item quantity="one">%d fotografie în captură în rafale</item>
+        <item quantity="few">%d fotografii în captură în rafale</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d secundă</item>
+        <item quantity="one">Interval: %d secundă</item>
+        <item quantity="few">Interval: %d secunde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Durată: %d minute</item>
+        <item quantity="one">Durată: %d minut</item>
+        <item quantity="few">Durată: %d minute</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Viteză: %dX</item>
+        <item quantity="one">Viteză: %dX</item>
+        <item quantity="few">Viteză: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Durată: %d secunde</item>
+        <item quantity="one">Durată: %d secundă</item>
+        <item quantity="few">Durată: %d secunde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">S-au introdus %d caractere.</item>
+        <item quantity="one">S-a introdus %d caracter.</item>
+        <item quantity="few">S-au introdus %d caractere.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Introduceți până la %d caractere.</item>
+        <item quantity="one">Introduceți până la %d caracter.</item>
+        <item quantity="few">Introduceți până la %d caractere.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Puteți conecta până la %d camere la aceeași rețea</item>
+        <item quantity="one">Puteți conecta până la %d cameră la aceeași rețea</item>
+        <item quantity="few">Puteți conecta până la %d camere la aceeași rețea</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Puteți conecta până la %d monitoare la aceeași rețea</item>
+        <item quantity="one">Puteți conecta până la %d monitor la aceeași rețea</item>
+        <item quantity="few">Puteți conecta până la %d monitoare la aceeași rețea</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Puteți crea până la %d clone simultan.</item>
+        <item quantity="one">Puteți crea până la %d clonă simultan.</item>
+        <item quantity="few">Puteți crea până la %d clone simultan.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Nu se poate conecta la cameră.&lt;br>Această aplicație se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. După aceasta, așteptați un minut sau două și încercați din nou.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Nu se poate conecta la cameră.&lt;br>Această aplicație se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. După aceasta, așteptați un minut sau două și încercați din nou.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Nu se poate conecta la cameră.&lt;br>Această aplicație se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. După aceasta, așteptați un minut sau două și încercați din nou.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Acest dispozitiv este prea fierbinte acum.&lt;br>Aplicația va fi închisă în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Progresul actual a fost salvat automat.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Acest dispozitiv este prea fierbinte acum.&lt;br>Aplicația va fi închisă în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Progresul actual a fost salvat automat.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Acest dispozitiv este prea fierbinte acum.&lt;br>Aplicația va fi închisă în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Progresul actual a fost salvat automat.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Versiunea camerei pe care o utilizați nu este compatibilă cu modelul dispozitivului dvs.&lt;br>Aplicația se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Dezinstalați actualizările camerei și încercați din nou.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Versiunea camerei pe care o utilizați nu este compatibilă cu modelul dispozitivului dvs.&lt;br>Aplicația se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Dezinstalați actualizările camerei și încercați din nou.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Versiunea camerei pe care o utilizați nu este compatibilă cu modelul dispozitivului dvs.&lt;br>Aplicația se va închide în &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Dezinstalați actualizările camerei și încercați din nou.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sec</item>
+        <item quantity="one">%1$d sec</item>
+        <item quantity="few">%1$d sec</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Temporizator activat (%1$d sec). Fotografiile vor fi transferate pe acest dispozitiv.</item>
+        <item quantity="one">Temporizator activat (%1$d sec). Fotografiile vor fi transferate pe acest dispozitiv.</item>
+        <item quantity="few">Temporizator activat (%1$d sec). Fotografiile vor fi transferate pe acest dispozitiv.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Ștergeți %1$d schițe?</item>
+        <item quantity="one">Ștergeți %1$d schiță?</item>
+        <item quantity="few">Ștergeți %1$d schițe?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Adăugați până la %d presetări</item>
+        <item quantity="one">Adăugați până la %d presetare</item>
+        <item quantity="few">Adăugați până la %d presetări</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Ștergeți %d presetări acum?</item>
+        <item quantity="one">Ștergeți %d presetare acum?</item>
+        <item quantity="few">Ștergeți %d presetări acum?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d presetări au fost șterse</item>
+        <item quantity="one">%d presetare a fost ștearsă</item>
+        <item quantity="few">%d presetări au fost șterse</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d presetări importate</item>
+        <item quantity="one">%d presetare importată</item>
+        <item quantity="few">%d presetări importate</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+        <item quantity="few">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+        <item quantity="few">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Se capturează momentul live, până la %d sec</item>
+        <item quantity="one">Se capturează momentul live, până la %d sec</item>
+        <item quantity="few">Se capturează momentul live, până la %d sec</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Înregistrați %d secunde</item>
+        <item quantity="one">Înregistrați %d secundă</item>
+        <item quantity="few">Înregistrați %d secunde</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Puteți înregistra videoclipuri cu înghețarea timpului doar cu %d subiecte.</item>
+        <item quantity="one">Puteți înregistra videoclipuri cu înghețarea timpului doar cu %d subiect.</item>
+        <item quantity="few">Puteți înregistra videoclipuri cu înghețarea timpului doar cu %d subiecte.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotografii</item>
+        <item quantity="one">%1$s fotografie</item>
+        <item quantity="few">%1$s fotografii</item>
+    </plurals>
+</resources>

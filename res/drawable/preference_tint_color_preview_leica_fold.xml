@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tint_color_preview_bg" android:drawable="@drawable/preference_tint_color_preview_bg_fold" />
+    <item android:id="@id/tint_color_preview_display" android:drawable="@drawable/preference_tint_color_preview_display_fold" />
+    <item android:id="@id/tint_color_preview_common" android:drawable="@drawable/preference_tint_color_preview_common_fold" />
+    <item android:id="@id/tint_color_preview_zoom" android:drawable="@drawable/preference_tint_color_preview_zoom_leica_fold" />
+    <item android:id="@id/tint_color_preview_highlight" android:drawable="@drawable/preference_tint_color_preview_highlight_leica_fold" />
+    <item android:id="@id/tint_color_preview_border" android:drawable="@drawable/preference_tint_color_preview_border_fold" />
+</layer-list>

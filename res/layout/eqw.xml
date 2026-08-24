@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/beauty_icon_area" android:layout_width="@dimen/bl7" android:layout_height="@dimen/bl7" app:aax="parent" app:abg="parent" app:abk="parent">
+        <com.xiaomi.camera.features.beauty.ui.multi.view.BeautyProgressView android:layout_gravity="center" android:id="@id/beauty_item_progress" android:layout_width="@dimen/bl7" android:layout_height="@dimen/bl7" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="center" android:id="@id/beauty_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    </FrameLayout>
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dqg" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/beauty_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqy" android:maxLines="2" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dqw" android:fallbackLineSpacing="false" app:aax="parent" app:abg="parent" app:abj="@id/beauty_icon_area" />
+</androidx.constraintlayout.widget.ConstraintLayout>

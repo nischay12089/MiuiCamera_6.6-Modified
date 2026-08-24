@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black" android:paddingTop="@dimen/cci" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lc_lens_effect_image" android:layout_width="fill_parent" android:layout_height="@dimen/ccy" android:scaleType="centerCrop" app:aas="@id/lc_lens_desc_layout" app:abk="parent" />
+    <com.android.camera.ui.EdgeGradientView android:id="@id/lc_lens_desc_layout" android:layout_width="fill_parent" android:layout_height="@dimen/ccw" android:layout_marginTop="@dimen/ccz" app:zn="bottom" app:abj="@id/lc_lens_effect_image">
+        <androidx.core.widget.NestedScrollView android:id="@id/lc_lens_desc_container" android:paddingBottom="@dimen/cct" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="ifContentScrolls">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/cd1" android:textColor="@color/white_alpha_50" android:layout_gravity="center_horizontal" android:id="@id/lc_lens_desc" android:layout_width="@dimen/ccx" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:lineHeight="@dimen/cd0" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/ccu" android:layout_height="@dimen/ccu" android:layout_marginTop="@dimen/ccv" android:src="@drawable/lc_looks_lens_desc_image" android:scaleType="centerCrop" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.android.camera.ui.EdgeGradientView>
+</androidx.constraintlayout.widget.ConstraintLayout>

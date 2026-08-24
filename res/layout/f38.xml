@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/edit_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/text_input_area" android:background="@color/surface_subtle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/cn5" app:aax="parent" app:abg="parent" app:abk="parent">
+            <com.android.camera.fragment.watermark.wmSettingV2.signature.keyboard.dialog.StatefulEditText android:textSize="@dimen/e19" android:textColor="@color/on_surface" android:textColorHighlight="@color/on_surface_disabled" android:gravity="center_vertical" android:id="@id/edit_text" android:background="@color/surface_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/e16" android:cursorVisible="true" android:singleLine="true" android:inputType="none" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/mark_text_editor_cursor" android:paddingStart="@dimen/e18" android:paddingEnd="@dimen/e17" android:layout_marginHorizontal="@dimen/e14" app:av8="@color/on_surface" app:av9="@color/on_surface_disabled" app:avb="@dimen/dna" />
+            <ImageView android:layout_gravity="end" android:id="@id/text_confirm_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_button_confirm" android:contentDescription="@string/g69" android:layout_marginEnd="@dimen/e15" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/text_tab_area" android:background="@color/surface_subtle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dip" app:aba="parent" app:abe="parent" app:abj="@id/text_input_area">
+            <LinearLayout android:orientation="horizontal" android:id="@id/text_tab_group" android:layout_width="fill_parent" android:layout_height="@dimen/cn4" />
+        </FrameLayout>
+        <View android:background="@color/mark_text_edit_dialog_tab_menu_border" android:layout_width="fill_parent" android:layout_height="1.0px" app:aba="parent" app:abe="parent" app:abj="@id/text_tab_area" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:gravity="center" android:id="@id/text_tab_container" android:background="@color/surface_subtle" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</LinearLayout>

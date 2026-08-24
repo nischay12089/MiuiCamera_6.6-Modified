@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bdy">24.0dip</dimen>
+    <dimen name="bdz">80.0dip</dimen>
+    <dimen name="be0">64.0dip</dimen>
+    <dimen name="be1">8.0dip</dimen>
+    <dimen name="be2">8.0dip</dimen>
+    <dimen name="bed">580.0dip</dimen>
+    <dimen name="bw6">320.0dip</dimen>
+    <dimen name="bw7">0.0dip</dimen>
+    <dimen name="bw9">2.0dip</dimen>
+    <dimen name="bwa">576.0dip</dimen>
+    <dimen name="bwb">320.0dip</dimen>
+    <item type="dimen" name="bwe">@dimen/bwd</item>
+    <dimen name="bwg">160.0dip</dimen>
+    <dimen name="d_a">64.0dip</dimen>
+    <dimen name="dcw">64.0dip</dimen>
+</resources>

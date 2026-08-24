@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bvf">5.0dip</dimen>
+    <dimen name="dep">65.0dip</dimen>
+    <dimen name="dfr">44.0dip</dimen>
+</resources>

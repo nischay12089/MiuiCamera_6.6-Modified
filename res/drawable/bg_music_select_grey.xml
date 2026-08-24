@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/d6h" android:topRightRadius="@dimen/d6h" />
+    <solid android:color="@color/top_menu_laptop_background" />
+</shape>

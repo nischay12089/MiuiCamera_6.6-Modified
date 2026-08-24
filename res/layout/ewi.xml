@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/parameter_description_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dhc">
+        <ImageView android:id="@id/parameter_description_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_vertical" android:id="@id/parameter_description_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dhk" style="@style/i5l" />
+    </LinearLayout>
+    <TextView android:id="@id/parameter_description_content" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dhi" android:layout_marginBottom="@dimen/dhf" android:layout_marginStart="@dimen/dhh" android:layout_marginEnd="@dimen/dhg" style="@style/i5k" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0sp" android:id="@id/parameter_description_content_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dhf" android:drawablePadding="@dimen/dhd" android:layout_marginStart="@dimen/dhh" android:layout_marginEnd="@dimen/dhg" android:textFontWeight="500" app:z7="@drawable/ic_vector_download_desc" style="@style/i5k" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/parameter_description_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dhi" android:layout_marginBottom="@dimen/dhf" />
+</LinearLayout>

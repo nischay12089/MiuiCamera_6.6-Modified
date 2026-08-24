@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/filter_item_parent" android:focusable="false" android:layout_width="@dimen/ccs" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/filter_image_parent" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" app:asb="@dimen/dpr">
+        <ImageView android:id="@id/filter_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </com.android.camera.ui.NormalRoundView>
+</LinearLayout>

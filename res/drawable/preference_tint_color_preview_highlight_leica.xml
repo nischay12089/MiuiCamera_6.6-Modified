@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="482.0dip" android:width="236.0dip" android:viewportWidth="236.0" android:viewportHeight="482.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="zoom_1x" android:fillColor="#ffffb700" android:pathData="M116.9,329.43L116.9,325.46L115.89,325.99L115.89,325.19L117.06,324.59H117.66L117.66,329.43H116.9ZM121.47,328.58L118.85,325.96L119.37,325.44L121.99,328.06L121.47,328.58ZM119.37,328.58L118.85,328.06L121.47,325.44L121.99,325.96L119.37,328.58Z" />
+</vector>

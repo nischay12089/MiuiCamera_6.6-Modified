@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Odaklandı. %d yüz algılandı</item>
+        <item quantity="one">Odaklandı. %d yüz algılandı</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">Bir seri çekimde %d fotoğraf</item>
+        <item quantity="one">Bir seri çekimde %d fotoğraf</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Aralık: %d saniye</item>
+        <item quantity="one">Aralık: %d saniye</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Süre: %d dakika</item>
+        <item quantity="one">Süre: %d dakika</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Hız: %dX</item>
+        <item quantity="one">Hız: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Süre: %d saniye</item>
+        <item quantity="one">Süre: %d saniye</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d karakter girildi.</item>
+        <item quantity="one">%d karakter girildi.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d karaktere kadar girin.</item>
+        <item quantity="one">%d karaktere kadar girin.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d sn.</item>
+        <item quantity="one">%d sn.</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Aynı ağa %d kadar kamera bağlayabilirsiniz</item>
+        <item quantity="one">Aynı ağa %d kadar kamera bağlayabilirsiniz</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Aynı ağa %d kadar monitör bağlayabilirsiniz</item>
+        <item quantity="one">Aynı ağa %d kadar monitör bağlayabilirsiniz</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Tek seferde %d klona kadar oluşturabilirsiniz.</item>
+        <item quantity="one">Tek seferde %d klona kadar oluşturabilirsiniz.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kameraya bağlanılamıyor.&lt;br>Bu uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacaktır. Bundan sonra, bir iki dakika bekleyin ve tekrar deneyin.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameraya bağlanılamıyor.&lt;br>Bu uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacaktır. Bundan sonra, bir iki dakika bekleyin ve tekrar deneyin.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Bu cihaz şu an çok sıcak.&lt;br>Bu uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacaktır. Mevcut ilerleme otomatik olarak kaydedildi.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Bu cihaz şu an çok sıcak.&lt;br>Bu uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacaktır. Mevcut ilerleme otomatik olarak kaydedildi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Kullandığınız kamera sürümü cihaz modelinizle uyumlu değil.&lt;br>Uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacak. Kamera güncellemelerini kaldırın ve tekrar deneyin.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kullandığınız kamera sürümü cihaz modelinizle uyumlu değil.&lt;br>Uygulama &lt;font color=#FFCE16>&lt;b>%1$d sn.&lt;/b>&lt;/font> içinde kapatılacak. Kamera güncellemelerini kaldırın ve tekrar deneyin.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d dk.</item>
+        <item quantity="one">%1$d dk.</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sn.</item>
+        <item quantity="one">%1$d sn.</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Zamanlayıcı (%1$d sn.) açıldı. Fotoğraflar bu cihaza aktarılacak.</item>
+        <item quantity="one">Zamanlayıcı (%1$d sn.) açıldı. Fotoğraflar bu cihaza aktarılacak.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d taslağı sil?</item>
+        <item quantity="one">%1$d taslağı sil?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">En fazla %d ön ayar ekleyin</item>
+        <item quantity="one">En fazla %d ön ayar ekleyin</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">%d ön ayar şimdi silinsin mi?</item>
+        <item quantity="one">%d ön ayar şimdi silinsin mi?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d ön ayar silindi</item>
+        <item quantity="one">%d ön ayar silindi</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d ön ayar içe aktarıldı</item>
+        <item quantity="one">%d ön ayar içe aktarıldı</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dsn.</item>
+        <item quantity="one">%dsn.</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s dk</item>
+        <item quantity="one">%1$s dk</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Canlı an yakalanıyor, %d saniyeye kadar</item>
+        <item quantity="one">Canlı an yakalanıyor, %d saniyeye kadar</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d saniye kaydet</item>
+        <item quantity="one">%d saniye kaydet</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Zaman dondurma videolarını yalnızca %d nesneye kadar ile çekebilirsiniz.</item>
+        <item quantity="one">Zaman dondurma videolarını yalnızca %d nesne ile çekebilirsiniz.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotoğraf</item>
+        <item quantity="one">%1$s fotoğraf</item>
+    </plurals>
+</resources>

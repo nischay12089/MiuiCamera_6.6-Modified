@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/manually_frame_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="start|center" android:id="@id/manually_parameter_reset" android:visibility="gone" android:layout_width="@dimen/c6q" android:layout_height="@dimen/c6q" android:src="@drawable/ic_beauty_out_reset_new" android:scaleType="centerInside" android:contentDescription="@string/hkx" android:layout_marginStart="@dimen/di3" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/manually_recycler_view" android:focusable="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

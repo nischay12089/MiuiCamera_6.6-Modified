@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pano_preview_hint_frame_vertical" android:background="@drawable/ic_pano_preview_hint_frame_vertical_background" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dh0" android:layout_height="fill_parent" android:contentDescription="@string/fg0">
+        <RelativeLayout android:id="@id/pano_move_direction_area_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dgv" android:layout_marginBottom="@dimen/dgv" android:layout_marginStart="@dimen/dgv" android:layout_marginEnd="@dimen/dgv">
+            <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingLineView android:id="@id/pano_move_line_view_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/panorama_image_preview_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+            <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingIndicatorView android:id="@id/pano_move_direction_view_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pano_still_preview_hint_area_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dgv" android:layout_marginBottom="@dimen/dgv" android:layout_marginStart="@dimen/dgv" android:layout_marginEnd="@dimen/dgv">
+            <View android:id="@id/pano_move_reference_line_vertical" android:background="@drawable/bg_pano_move_line" android:layout_width="@dimen/dh5" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dh2" android:layout_marginBottom="@dimen/dh3" android:layout_centerHorizontal="true" />
+            <FrameLayout android:id="@id/pano_preview_container_vertical" android:background="@drawable/bg_pano_preview_container_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true">
+                <com.android.camera.ui.GLTextureView android:id="@id/panorama_still_preview_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+            </FrameLayout>
+            <ImageView android:id="@id/pano_arrow_vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pano_arrow" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pano_preview_hint_frame" android:background="@drawable/ic_pano_preview_hint_frame_background" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dgy" android:contentDescription="@string/fg1">
+        <RelativeLayout android:id="@id/pano_move_direction_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dgv" android:layout_marginBottom="@dimen/dgv" android:layout_marginStart="@dimen/dgv" android:layout_marginEnd="@dimen/dgv">
+            <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingLineView android:id="@id/pano_move_line_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/panorama_image_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <com.xiaomi.camera.mode.panorama.ui.widgets.PanoMovingIndicatorView android:id="@id/pano_move_direction_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pano_still_preview_hint_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dgv" android:layout_marginBottom="@dimen/dgv" android:layout_marginStart="@dimen/dgv" android:layout_marginEnd="@dimen/dgv">
+            <View android:id="@id/pano_move_reference_line" android:background="@drawable/bg_pano_move_line" android:layout_width="fill_parent" android:layout_height="@dimen/dh1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dh4" android:layout_marginEnd="@dimen/dh2" />
+            <FrameLayout android:id="@id/pano_preview_container" android:background="@drawable/bg_pano_preview_container_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true">
+                <com.android.camera.ui.GLTextureView android:id="@id/panorama_still_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+            </FrameLayout>
+            <ImageView android:id="@id/pano_arrow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pano_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:id="@id/pano_use_hint_vertical" layout="@layout/f__" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/pano_use_hint_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dha" android:layout_below="@id/pano_preview_hint_frame">
+        <TextView android:textSize="@dimen/dh6" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/pano_use_hint" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gxu" style="@style/ia0" />
+    </LinearLayout>
+</RelativeLayout>

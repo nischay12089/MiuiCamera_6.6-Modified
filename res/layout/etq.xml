@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dw1" app:aar="parent">
+        <micamx.compat.ui.widget.seekbar.IndicatorTickedSeekBar android:layout_gravity="center" android:id="@id/bokeh_slider" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bae="@color/zoom_slider_normal_color" app:baf="@dimen/e1f" app:bag="@dimen/dwc" app:bah="true" app:baj="@color/tint_color_yellow_depth2" app:bal="@dimen/bm8" app:ban="@dimen/bma" app:bap="@dimen/e1h" app:bar="0" app:bas="move_tick" app:bb3="false" app:bb5="true" app:bb7="true" app:bb8="@dimen/e1m" app:bb9="@color/zoom_slider_normal_color" app:bb_="@dimen/bm4" app:bba="@dimen/e1m" app:bbb="1.0" app:bbc="@dimen/bme" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

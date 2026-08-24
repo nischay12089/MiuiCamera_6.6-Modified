@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_gif_full_screen_consume_click" android:background="@color/black" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:id="@id/ll_gif_share" android:layout_width="fill_parent" android:layout_height="@dimen/bxd" android:layout_marginTop="@dimen/bxe" android:layout_marginEnd="@dimen/bxf">
+        <ImageView android:layout_width="@dimen/bx2" android:layout_height="@dimen/bx1" android:layout_marginTop="12.72998dip" android:src="@drawable/ic_new_config_gif_share" android:scaleType="centerInside" android:contentDescription="@string/gk5" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ll_operate_gif_words" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/gif_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/fgd" />
+        <ImageView android:id="@id/image_mimoji_cover" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/concat_mimoji_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="15.0dip" android:layout_width="@dimen/boj" android:layout_height="@dimen/boj" android:indeterminateDrawable="@drawable/live_share_progress" android:indeterminateDuration="700" android:contentDescription="@string/ff1" style="?android:progressBarStyleLarge" />
+        <com.xiaomi.mimoji.gif.GifEditLayout android:layout_gravity="bottom|center" android:id="@id/fl_edit_gif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.199982dip" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_operate_gif_bottom_panel" android:paddingTop="58.899994dip" android:paddingBottom="@dimen/bx8" android:layout_width="fill_parent" android:layout_height="@dimen/bx7" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_fuc_opera" android:paddingLeft="@dimen/bx5" android:paddingRight="@dimen/bx5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_clear_bg" android:background="@drawable/bg_btn_mimoji_edit_black" android:layout_width="@dimen/bx4" android:layout_height="@dimen/bx3">
+                <ImageView android:id="@id/iv_clear_bg" android:background="@drawable/ic_vector_gif_clear_bg" android:padding="@dimen/bwx" android:layout_width="@dimen/bwy" android:layout_height="@dimen/bww" android:scaleType="center" android:contentDescription="@string/gr4" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_clear_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bxh" android:text="@string/gr4" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_accelerate" android:background="@drawable/bg_btn_mimoji_edit_black" android:layout_width="@dimen/bx4" android:layout_height="@dimen/bx3">
+                <ImageView android:background="@drawable/ic_vector_gif_accelerate" android:padding="@dimen/bwx" android:layout_width="@dimen/bwy" android:layout_height="@dimen/bww" android:scaleType="center" android:contentDescription="@string/gr3" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_accelerate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bxh" android:text="@string/gr3" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_reverse" android:background="@drawable/bg_btn_mimoji_edit_black" android:layout_width="@dimen/bx4" android:layout_height="@dimen/bx3">
+                <ImageView android:background="@drawable/ic_vector_gif_reverse" android:padding="@dimen/bwx" android:layout_width="@dimen/bwy" android:layout_height="@dimen/bww" android:scaleType="center" android:contentDescription="@string/gr8" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_reverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bxh" android:text="@string/gr8" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_fuc_opera2" android:paddingLeft="@dimen/bx5" android:paddingRight="@dimen/bx5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_accelerate2" android:background="@drawable/bg_btn_mimoji_edit_black" android:layout_width="@dimen/bx4" android:layout_height="@dimen/bx3">
+                <ImageView android:background="@drawable/ic_vector_gif_accelerate" android:padding="@dimen/bwx" android:layout_width="@dimen/bwy" android:layout_height="@dimen/bww" android:scaleType="center" android:contentDescription="@string/gr3" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_accelerate2" android:layout_width="wrap_content" android:layout_height="@dimen/bxg" android:layout_marginTop="@dimen/bxh" android:text="@string/gr3" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_reverse2" android:background="@drawable/bg_btn_mimoji_edit_black" android:layout_width="@dimen/bx4" android:layout_height="@dimen/bx3">
+                <ImageView android:background="@drawable/ic_vector_gif_reverse" android:padding="@dimen/bwx" android:layout_width="@dimen/bwy" android:layout_height="@dimen/bww" android:scaleType="center" android:contentDescription="@string/gr8" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_reverse2" android:layout_width="wrap_content" android:layout_height="@dimen/bxg" android:layout_marginTop="@dimen/bxh" android:text="@string/gr8" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rv_bottom_navigation_layout" android:layout_width="fill_parent" android:layout_height="@dimen/bx9" android:layout_marginLeft="@dimen/bx_" android:layout_marginRight="@dimen/bx_" android:layout_alignParentBottom="true">
+            <ImageView android:gravity="center" android:id="@id/iv_gif_back" android:layout_width="@dimen/bx9" android:layout_height="@dimen/bx9" android:src="@drawable/bg_gif_cancel" android:contentDescription="@string/ff0" />
+            <TextView android:textSize="18.179993sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gr6" android:layout_centerInParent="true" />
+            <ImageView android:gravity="center" android:id="@id/iv_gif_confirm" android:layout_width="@dimen/bx9" android:layout_height="@dimen/bx9" android:src="@drawable/bg_gif_save" android:contentDescription="@string/fh0" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

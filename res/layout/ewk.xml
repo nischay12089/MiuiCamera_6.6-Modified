@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/manually_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cmr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/cmw" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/manually_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" app:b1z="@dimen/bp0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.camera.ui.StrokeAdaptiveTextView android:textSize="@dimen/cmv" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/manually_item_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" app:b1z="@dimen/bp0" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="bottom" android:id="@id/manually_item_value_image" android:layout_width="@dimen/cmo" android:layout_height="@dimen/cml" android:layout_marginLeft="@dimen/cmn" android:layout_marginBottom="@dimen/cmm" android:src="@drawable/ic_professional_parameter_auto_normal" android:scaleType="centerInside" style="@style/ia1" />
+    </LinearLayout>
+</LinearLayout>

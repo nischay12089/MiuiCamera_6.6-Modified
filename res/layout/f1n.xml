@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/equipstreet_hint_fragment" android:background="@color/black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rotation="90.0">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/equipstreet_hint_view" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/c2e" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/equipstreet_animal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/g9x" />
+    </LinearLayout>
+</FrameLayout>

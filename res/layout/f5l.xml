@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/cz8" android:paddingBottom="@dimen/cz8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cz5" android:layoutDirection="locale" style="@style/ijj"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.appcompat.widget.NoPressedImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="@dimen/cya" android:layout_height="@dimen/cy9" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/imc" />
+        <TextView android:id="@android:id/text2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/imb" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/check_mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_appcompat_default_btn_radio_arrow_on" android:layout_marginStart="8.0dip" />
+    <ImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/miuix_appcompat_secondary_menu_header_arrow_right" />
+</LinearLayout>

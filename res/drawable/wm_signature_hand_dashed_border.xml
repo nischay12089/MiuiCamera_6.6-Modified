@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="4.0dip" android:color="@color/signature_hand_view_dashed_border_color" android:dashWidth="10.0dip" android:dashGap="10.0dip" />
+    <corners android:radius="20.0dip" />
+</shape>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="by5">220.0dip</dimen>
+    <dimen name="by6">12.0dip</dimen>
+    <dimen name="by7">25.0dip</dimen>
+    <dimen name="bya">61.0dip</dimen>
+    <dimen name="byb">125.0dip</dimen>
+    <dimen name="bye">24.699982dip</dimen>
+    <dimen name="cf_">1.0dip</dimen>
+    <dimen name="clk">18.329987dip</dimen>
+    <dimen name="des">147.0dip</dimen>
+    <dimen name="dfl">66.0dip</dimen>
+    <dimen name="dg4">15.0dip</dimen>
+    <dimen name="dg5">-0.70000005dip</dimen>
+    <dimen name="dgb">40.149994dip</dimen>
+    <dimen name="e0b">36.0dip</dimen>
+    <dimen name="ej9">79.402985dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <miuix.appcompat.app.AlphaBlendingDrawable app:i3="0.08" app:aiw="@color/miuix_appcompat_tint_color_dark" app:aix="@dimen/d1f" />
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:layout_gravity="center_horizontal" android:id="@id/extra_tootle_item_layout" android:background="@drawable/bg_round_item" android:padding="@dimen/e8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/e8_">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/extra_tootle_item_image" android:layout_width="@dimen/e8_" android:layout_height="@dimen/e8_" android:scaleType="centerInside" android:minWidth="@dimen/e8_" />
+    </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+    <com.android.camera.ui.AdaptiveMarqueeTextView android:textSize="@dimen/e8g" android:textColor="#bfffffff" android:ellipsize="marquee" android:gravity="center_horizontal" android:layout_gravity="center|top" android:id="@id/extra_tootle_item_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:importantForAccessibility="no" android:fallbackLineSpacing="true" app:ag8="1.1" />
+</FrameLayout>

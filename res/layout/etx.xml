@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/beauty_operate_menu_p" android:background="@drawable/bg_bottom_menu_lc" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/beauty_operate_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/leica_looks_hint" android:layout_width="@dimen/dqm" android:layout_height="@dimen/dqm" android:src="@drawable/ic_vector_information_lc" android:scaleType="center" android:layout_marginStart="@dimen/dql" />
+</LinearLayout>

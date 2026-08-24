@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_appcompat_transparent" />
+            <size android:height="@dimen/d3k" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/miuix_preference_first_last_divider_line_dark" android:left="?apl" android:right="?apk" />
+</layer-list>

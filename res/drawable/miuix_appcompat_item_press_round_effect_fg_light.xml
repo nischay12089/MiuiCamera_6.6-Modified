@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/d38" android:insetRight="@dimen/d38"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.appcompat.app.AlphaBlendingDrawable app:a7e="0.04" app:aiw="@color/miuix_appcompat_tint_color_light" app:aix="@dimen/d1x" app:alw="0.0" app:ar2="0.1" />
+</inset>

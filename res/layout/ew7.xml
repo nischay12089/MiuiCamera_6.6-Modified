@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_log_lut_delete_view" android:background="@drawable/ic_pro_video_log_lut_delete_bg" android:visibility="gone" android:layout_width="@dimen/e_d" android:layout_height="@dimen/e_c">
+        <ImageView android:layout_gravity="center" android:id="@id/video_log_lut_delete_ic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pro_video_log_lut_delete" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pro_video_log_lut_frame_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.camera.ui.SideFadingMiuiRecyclerView android:layout_gravity="center" android:id="@id/pro_video_log_lut_item_list" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

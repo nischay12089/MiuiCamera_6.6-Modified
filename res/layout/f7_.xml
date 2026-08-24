@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.pickerwidget.widget.DateTimePicker android:layout_gravity="center" android:id="@id/datetime_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/lunar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/aef" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d32" android:layout_marginBottom="@dimen/d32" style="@style/i7k" />
+        <miuix.slidingwidget.widget.SlidingButton android:layout_gravity="end|center" android:id="@id/lunar_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d32" android:layout_marginBottom="@dimen/d32" />
+    </FrameLayout>
+</LinearLayout>

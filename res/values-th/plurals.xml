@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">โฟกัสแล้ว ตรวจพบ %d ใบหน้า</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ภาพในภาพถ่ายต่อเนื่อง</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ช่วงเวลา: %d วินาที</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ระยะเวลา: %d นาที</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">ความเร็ว: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ระยะเวลา: %d วินาที</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">ป้อนแล้ว %d อักขระ</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">ป้อนไม่เกิน %d อักขระ</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d วิ</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">คุณสามารถเชื่อมต่อได้ถึง %d กล้องกับเครือข่ายเดียวกัน</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">คุณสามารถเชื่อมต่อได้ถึง %d มอนิเตอร์กับเครือข่ายเดียวกัน</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">คุณสามารถสร้างได้ถึง %d การโคลนในแต่ละครั้ง</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>ไม่สามารถเชื่อมต่อกับกล้องได้&lt;br>แอปนี้จะถูกปิดใน &lt;font color=#FFCE16>&lt;b>%1$d วินาที&lt;/b>&lt;/font> หลังจากนี้ โปรดรอสักครู่แล้วลองอีกครั้ง&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>อุปกรณ์นี้ร้อนเกินไปในขณะนี้&lt;br>แอปจะถูกปิดใน &lt;font color=#FFCE16>&lt;b>%1$d วินาที&lt;/b>&lt;/font> ความคืบหน้าปัจจุบันถูกบันทึกโดยอัตโนมัติ&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>รุ่นของกล้องที่คุณใช้ไม่รองรับรุ่นอุปกรณ์ของคุณ&lt;br>แอปจะปิดใน &lt;font color=#FFCE16>&lt;b>%1$d วิ&lt;/b>&lt;/font> ถอนการติดตั้งการอัปเดตกล้องแล้วลองอีกครั้ง&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">เปิดตัวจับเวลา (%1$d วินาที) รูปภาพจะถูกถ่ายโอนไปยังอุปกรณ์นี้</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">ลบ %1$d ฉบับร่าง?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">เพิ่มค่าที่ตั้งไว้ล่วงหน้าถึง %d รายการ</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">ลบ %d พรีเซ็ตเลยไหม?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">ลบแล้ว %d พรีเซ็ต</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">นำเข้าแล้ว %d พรีเซ็ต</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d วิ</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s นาที</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">บันทึกช่วงเวลาที่บันทึกไว้ นานสูงสุด %d วินาที</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">บันทึก %d วินาที</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">คุณสามารถถ่ายวิดีโอแบบหยุดเวลาได้เฉพาะกับหัวข้อ %d</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s รูป</item>
+    </plurals>
+</resources>

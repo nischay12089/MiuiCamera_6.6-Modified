@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Ֆոկուս կա։ %d դեմքը հայտնաբերված է</item>
+        <item quantity="one">Ֆոկուս կա։ %d դեմքը հայտնաբերված է</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d լուսանկար բազմանկարում</item>
+        <item quantity="one">%d լուսանկար բազմանկարում</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Ընդմիջում. %d վարկյան</item>
+        <item quantity="one">Ընդմիջում. %d վարկյան</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Տևողություն` %d րոպե</item>
+        <item quantity="one">Տևողություն` %d րոպե</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Արագություն` %dX</item>
+        <item quantity="one">Արագություն` %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Տևողությունը՝ %d վայրկյան</item>
+        <item quantity="one">Տևողությունը՝ %d վայրկյան</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Մուտքագրվել է %d նիշ:</item>
+        <item quantity="one">Մուտքագրվել է %d նիշ:</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Մուտքագրեք մինչև %d նիշ:</item>
+        <item quantity="one">Մուտքագրեք մինչև %d նիշ:</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dվրկ</item>
+        <item quantity="one">%dվրկ</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Նույն ցանցին կարող եք միացնել մինչև %d տեսախցիկներ</item>
+        <item quantity="one">Նույն ցանցին կարող եք միացնել մինչև %d տեսախցիկ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Նույն ցանցին կարող եք միացնել մինչև %d մոնիտոր</item>
+        <item quantity="one">Նույն ցանցին կարող եք միացնել մինչև %d մոնիտոր</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Կարող եք ստեղծել մինչև %d կլոններ միանգամից:</item>
+        <item quantity="one">Կարող եք ստեղծել մինչև %d կլոն միանգամից:</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Չհաջողվեց միացնել տեսախցիկը: &lt;br> Այս ծրագիրը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d վրկ&lt;/b>&lt;/font>. Դրանից հետո սպասեք մեկ-երկու րոպե և նորից փորձեք:&lt;/Data></item>
+        <item quantity="one">&lt;Data>Չհաջողվի միացնել տեսախցիկը: &lt;br> Այս ծրագիրը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d վրկ&lt;/b>&lt;/font>. Դրանից հետո սպասեք մեկ-երկու րոպե և նորից փորձեք:&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Այս սարքն այժմ շատ տաք է: &lt;br> Հավելվածը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d վրկ&lt;/b>&lt;/font>. Ընթացիկ առաջընթացը պահվեց ինքնաբերաբար:&lt;/Data></item>
+        <item quantity="one">&lt;Data>Այս սարքն այժմ շատ տաք է: &lt;br> Հավելվածը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d վրկ&lt;/b>&lt;/font>. Ընթացիկ առաջընթացը պահվեց ինքնաբերաբար:&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>Խցիկի տարբերակը, որը դուք օգտագործում եք, համատեղելի չէ ձեր սարքի մոդելի հետ:&lt;br>Հավելվածը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Ապատեղադրեք Տեսախցիկի թարմացումները և նորից փորձեք:&lt;/Data></item>
+        <item quantity="one">&lt;Data>Խցիկի տարբերակը, որը դուք օգտագործում եք, համատեղելի չէ ձեր սարքի մոդելի հետ:&lt;br>Հավելվածը կփակվի &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Ապատեղադրեք Տեսախցիկի թարմացումները և նորից փորձեք:&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d րոպե</item>
+        <item quantity="one">%1$d րոպե</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d վրկ</item>
+        <item quantity="one">%1$d վրկ</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Միացված է ժամանակաչափը (%1$d վրկ): Լուսանկարները կտեղափոխվեն այս սարքին:</item>
+        <item quantity="one">Միացված է ժամանակաչափը (%1$d վրկ): Լուսանկարները կտեղափոխվեն այս սարքին:</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Ջնջե՞լ %1$d նախագիծերը:</item>
+        <item quantity="one">Ջնջե՞լ %1$d նախագիծը:</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Ավելացրեք մինչև %d նախադրված</item>
+        <item quantity="one">Ավելացրեք մինչև %d նախադրված</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Ջնջե՞լ %d նախնական կարգավորումը հիմա։</item>
+        <item quantity="one">Ջնջե՞լ %d նախնական կարգավորումը հիմա։</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Ջնջվեց %d նախնական կարգավորում</item>
+        <item quantity="one">Ջնջվեց %d նախնական կարգավորում</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Ներմուծվեց %d նախնական կարգավորում</item>
+        <item quantity="one">Ներմուծվեց %d նախնական կարգավորում</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dվ</item>
+        <item quantity="one">%dվ</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s րոպե</item>
+        <item quantity="one">%1$s րոպե</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Կենդանի ակնթարթի ֆիքսում, մինչև %d վայրկյան</item>
+        <item quantity="one">Կենդանի ակնթարթի ֆիքսում, մինչև %d վայրկյան</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Գրանցել %d վարկյան</item>
+        <item quantity="one">Գրանցել %d վարկյան</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Timeամանակի սառեցման տեսանյութերը կարող եք նկարահանել միայն %d թեմաներով:</item>
+        <item quantity="one">Timeամանակի սառեցման տեսանյութերը կարող եք նկարահանել միայն %d թեմայով:</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s լուսանկար</item>
+        <item quantity="one">%1$s լուսանկար</item>
+    </plurals>
+</resources>

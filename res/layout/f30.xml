@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manually_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/add_item_layout" android:layout_width="@dimen/cju" android:layout_height="@dimen/cjt" android:layout_marginTop="@dimen/cjv" android:layout_marginBottom="@dimen/cjr">
+        <com.android.camera.ui.ColorImageView android:layout_gravity="center_vertical" android:id="@id/add_item_value_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" style="@style/ia1" />
+        <TextView android:textSize="@dimen/ckt" android:textColor="@color/manual_workspace_add_pro_text_color" android:ellipsize="marquee" android:id="@id/add_item_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+        <TextView android:textSize="@dimen/ci3" android:textColor="@color/manual_workspace_add_pro_text_color" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/add_pro_item_key" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+        <TextView android:textSize="@dimen/ckt" android:textColor="@color/manual_workspace_add_pro_text_color" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/add_item_key" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="ltr" />
+    </FrameLayout>
+</FrameLayout>

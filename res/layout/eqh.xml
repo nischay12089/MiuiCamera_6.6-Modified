@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/ehv" android:paddingVertical="4.0dip">
+        <EditText android:layout_gravity="center" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:paddingEnd="@dimen/egs" android:fallbackLineSpacing="false" style="@style/ii7" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/ei7" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/preference_watermark_greeting_list_title_color" android:id="@id/history_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hd_" android:layout_marginStart="@dimen/eho" app:aar="parent" app:abg="parent" app:abk="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/preference_watermark_custom_text_clear_color" android:id="@id/button_clear_history" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hz3" android:layout_marginEnd="@dimen/eho" app:aar="parent" app:aax="parent" app:abk="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/history_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:overScrollMode="never" android:paddingStart="@dimen/eho" android:paddingEnd="@dimen/ehv" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

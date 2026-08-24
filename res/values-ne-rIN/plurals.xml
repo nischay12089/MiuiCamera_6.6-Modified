@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">केन्द्रित गरियो। %d अनुहारहरू पत्ता लगाइयो</item>
+        <item quantity="one">केन्द्रित गरियो। %d अनुहार पत्ता लगाइयो</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">बर्स्ट शूट प्रयोग गरेर %d फोटो लिइयो</item>
+        <item quantity="one">बर्स्ट शूट प्रयोग गरेर %d फोटो लिइयो</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">अन्तराल: %d सेकेन्ड</item>
+        <item quantity="one">अन्तराल: %d सेकेन्ड</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">अवधि: %d मिनेट</item>
+        <item quantity="one">अवधि: %d मिनेट</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">गति: %dX</item>
+        <item quantity="one">गति: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">अवधि: %d सेकेन्ड</item>
+        <item quantity="one">अवधि: %d सेकेन्ड</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d वर्णहरू प्रविष्ट गरियो।</item>
+        <item quantity="one">%d वर्ण प्रविष्ट गरियो।</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d क्यारेक्टहरूसम्म थप्नुहोस्।</item>
+        <item quantity="one">%d क्यारेक्टसम्म थप्नुहोस्।</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dसे</item>
+        <item quantity="one">%dसे</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">तपाईं एउटै नेटवर्कमा %d सम्म क्यामेराहरू कनेक्ट गर्न सक्नुहुन्छ</item>
+        <item quantity="one">तपाईं एउटै नेटवर्कमा %d सम्म क्यामेरा कनेक्ट गर्न सक्नुहुन्छ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">तपाईँ एउटै नेटवर्कमा %d मोनिटरहरू सम्म कनेक्ट गर्न सक्नुहुन्छ</item>
+        <item quantity="one">तपाईँ एउटै नेटवर्कमा %d मोनिटर सम्म कनेक्ट गर्न सक्नुहुन्छ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">तपाईंले एकपटकमा %d क्लोनहरू बनाउन सक्नुहुन्छ।</item>
+        <item quantity="one">तपाईंले एकपटकमा %d क्लोन बनाउन सक्नुहुन्छ।</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>क्यामेरामा कनेक्ट गर्न सकिएन।&lt;br>यो एप &lt;font color=#FFCE16>&lt;b>%1$d सेकेन्ड&lt;/b>&lt;/font> मा बन्द हुनेछ। यस पछि, एक-दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।&lt;/Data></item>
+        <item quantity="one">&lt;Data>क्यामेरामा कनेक्ट गर्न सकिएन।&lt;br>यो एप &lt;font color=#FFCE16>&lt;b>%1$d सेकेन्ड&lt;/b>&lt;/font> मा बन्द हुनेछ। यस पछि, एक-दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>यो डिभाइस अहिले एकदमै तातो छ।&lt;br>एप&lt;font color=#FFCE16>&lt;b>%1$d सेकेन्ड&lt;/b>&lt;/font> मा बन्द हुनेछ। वर्तमान प्रगति स्वचालित रूपमा सेभ गरियो।&lt;/Data></item>
+        <item quantity="one">&lt;Data>यो डिभाइस अहिले एकदमै तातो छ।&lt;br>एप &lt;font color=#FFCE16>&lt;b>%1$d सेकेन्ड&lt;/b>&lt;/font> मा बन्द हुनेछ। वर्तमान प्रगति स्वचालित रूपमा सेभ गरियो।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>तपाईंले प्रयोग गरिरहनुभएको क्यामेरा संस्करण तपाईंको यन्त्र मोडेलसँग मिल्दो छैन।&lt;br> एप &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> मा बन्द हुनेछ। क्यामेराका अपडेटहरू अनइन्स्टल गर्नुहोस् र फेरि प्रयास गर्नुहोस्।&lt;/Data></item>
+        <item quantity="one">&lt;Data>तपाईंले प्रयोग गरिरहनुभएको क्यामेरा संस्करण तपाईंको यन्त्र मोडेलसँग मिल्दो छैन।&lt;br> एप &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font> मा बन्द हुनेछ। क्यामेराका अपडेटहरू अनइन्स्टल गर्नुहोस् र फेरि प्रयास गर्नुहोस्।&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d मिनेट</item>
+        <item quantity="one">%1$d मिनेट</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d सेके</item>
+        <item quantity="one">%1$d सेके</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">टाइमर (%1$d सेकेन्ड) चालु गरियो । तस्बिरहरू यस डिभाइसमा ट्रान्स्फर गरिने छ।</item>
+        <item quantity="one">टाइमर (%1$d सेकेन्ड) चालु गरियो । तस्बिरहरू यस डिभाइसमा ट्रान्स्फर गरिने छ।</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d ड्राफ्टहरू मेटाउनुहुन्छ?</item>
+        <item quantity="one">%1$d ड्राफ्ट मेटाउनुहुन्छ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d प्रिसेट सम्म थप्नुहोस्</item>
+        <item quantity="one">%d प्रिसेट सम्म थप्नुहोस्</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">अहिले %d प्रिसेट मेटाउने हो?</item>
+        <item quantity="one">अहिले %d प्रिसेट मेटाउने हो?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d प्रिसेट मेटाइयो</item>
+        <item quantity="one">%d प्रिसेट मेटाइयो</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d प्रिसेट इम्पोर्ट गरियो</item>
+        <item quantity="one">%d प्रिसेट इम्पोर्ट गरियो</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dसे</item>
+        <item quantity="one">%dसे</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s मिनेट</item>
+        <item quantity="one">%1$s मिनेट</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">%d सेकेन्डसम्म लाइभ पल खिच्दै</item>
+        <item quantity="one">%d सेकेन्डसम्म लाइभ पल खिच्दै</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d सेकेन्डसम्म रेकर्ड गर्नुहोस्</item>
+        <item quantity="one">%d सेकेन्डसम्म रेकर्ड गर्नुहोस्</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">समय फ्रिज भिडियो तपाईं %d वस्तुहरूसंग मात्र शूट गर्न सक्नुहुन्छ।</item>
+        <item quantity="one">समय फ्रिज भिडियो तपाईं %d वस्तुसंग मात्र शूट गर्न सक्नुहुन्छ।</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s फोटोहरू</item>
+        <item quantity="one">%1$s फोटो</item>
+    </plurals>
+</resources>

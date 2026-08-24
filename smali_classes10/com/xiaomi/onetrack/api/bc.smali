@@ -1,0 +1,55 @@
+.class Lcom/xiaomi/onetrack/api/bc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lcom/xiaomi/onetrack/api/ba;
+
+
+# direct methods
+.method public constructor <init>(Lcom/xiaomi/onetrack/api/ba;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/xiaomi/onetrack/api/bc;->a:Lcom/xiaomi/onetrack/api/ba;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    invoke-static {}, Lcom/xiaomi/onetrack/c/j;->b()Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-static {}, Lcom/xiaomi/onetrack/c/ah;->a()Lcom/xiaomi/onetrack/c/ah;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p0, v0, v1}, Lcom/xiaomi/onetrack/c/ah;->a(IZ)V
+
+    invoke-static {}, Lcom/xiaomi/onetrack/c/ah;->a()Lcom/xiaomi/onetrack/c/ah;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v1, v1}, Lcom/xiaomi/onetrack/c/ah;->a(IZ)V
+
+    return-void
+.end method

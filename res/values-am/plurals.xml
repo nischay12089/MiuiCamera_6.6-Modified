@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ያተኮረ። %d ፊቶች ተለይቷል</item>
+        <item quantity="one">ያተኮረ። %d መልክ ተለይቷል</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ፎቶዎች በ ፈጣን ተከታታይ ፎቶ</item>
+        <item quantity="one">%d ፎቶ በ ፈጣን ተከታታይ ፎቶ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ጊዜ፡- %d ሰከንዶች</item>
+        <item quantity="one">ጊዜ፡- %d ሰከንድ</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">የጊዜ ርዝመት፦ %d ደቂቃዎች</item>
+        <item quantity="one">የጊዜ ርዝመት፦ %d ደቂቃ</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">ፍጥነት፦ %dX</item>
+        <item quantity="one">ፍጥነት፦ %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ጊዜ፡- %d ሰከንዶች</item>
+        <item quantity="one">ጊዜ፡- %d ሰከንድ</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d ቁምፊዎች ገብተዋል።</item>
+        <item quantity="one">%d ቁምፊ ገብቷል።</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">እስከ %d ቁምፊዎች ያስገቡ።</item>
+        <item quantity="one">እስከ %d ቁምፊ ያስገቡ።</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">እስከ %d ካሜራዎችን ወደ ተመሳሳይ አውታረ መረብ ማገናኘት ይችላሉ</item>
+        <item quantity="one">እስከ %d ካሜራን ወደ ተመሳሳይ አውታረ መረብ ማገናኘት ይችላሉ</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">እስከ %d ማሳያዎችን ወደ ተመሳሳይ አውታረ መረብ ማገናኘት ይችላሉ</item>
+        <item quantity="one">እስከ %d ማሳያን ወደ ተመሳሳይ አውታረ መረብ ማገናኘት ይችላሉ</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">በአንድ ጊዜ እስከ %d ተመሳሳይ ምስሎችን መፍጠር ይችላሉ።</item>
+        <item quantity="one">በአንድ ጊዜ እስከ %d ተመሳሳይ ምስል መፍጠር ይችላሉ።</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>ከካሜራው ጋር መገናኘት አይቻልም።&lt;br>ይህ መተግበርያ በ &lt;font color=#FFCE16>&lt;b>%1$d ሴ ይዘጋል&lt;/b>&lt;/font>። ከዚህ በኃላ፣ አንድ ደቂቃ ወይም ሁለት ይጠብቁ እና እንደገና ይሞክሩ።&lt;/Data></item>
+        <item quantity="one">&lt;Data>ከካሜራው ጋር መገናኘት አይቻልም።&lt;br>ይህ መተግበርያ በ &lt;font color=#FFCE16>&lt;b>%1$d ሴ ይዘጋል&lt;/b>&lt;/font>። ከዚህ በኃላ፣ አንድ ደቂቃ ወይም ሁለት ይጠብቁ እና እንደገና ይሞክሩ።&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ይህ መሳሪያ አሁን በጣም ሞቃት ነው።&lt;br>ይህ መተግበርያ በ &lt;font color=#FFCE16>&lt;b>%1$d ሰከ ይዘጋል&lt;/b>&lt;/font>። የአሁኑ እድገት በራስ ሰር ተቀምጧል።&lt;/Data></item>
+        <item quantity="one">&lt;Data>ይህ መሳሪያ አሁን በጣም ሞቃት ነው።&lt;br>ይህ መተግበርያ በ &lt;font color=#FFCE16>&lt;b>%1$d ሴ ይዘጋል&lt;/b>&lt;/font>። የአሁኑ እድገት በራስ ሰር ተቀምጧል።&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>እየተጠቀሙበት ያለው የካሜራ ስሪት ከመሣሪያዎ ሞዴል ጋር የሚጣጣም አይደለም።&lt;br>መተግበርያው በ &lt;font color=#FFCE16>&lt;b>%1$d ሰከ ይዘጋል&lt;/b>&lt;/font>። የካሜራ ዝማኔዎችን ከተጫነበት ያስወግዱ እና እንደገና ይሞክሩ።&lt;/Data></item>
+        <item quantity="one">&lt;Data>እየተጠቀሙበት ያለው የካሜራ ስሪት ከመሣሪያዎ ሞዴል ጋር የሚጣጣም አይደለም።&lt;br>መተግበርያው በ &lt;font color=#FFCE16>&lt;b>%1$d ሴ ይዘጋል&lt;/b>&lt;/font>። የካሜራ ዝማኔዎችን ከተጫነበት ያስወግዱ እና እንደገና ይሞክሩ።&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d ደዎች</item>
+        <item quantity="one">%1$d ደ</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d ሰከ</item>
+        <item quantity="one">%1$d ሴ</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">ሰዓት ቆጣሪን አበራ (%1$d ሰከ)። ፎቶዎች ወደዚህ መሳሪያ ይተላለፋሉ።</item>
+        <item quantity="one">ሰዓት ቆጣሪን አበራ (%1$d ሴ)። ፎቶዎች ወደዚህ መሳሪያ ይተላለፋሉ።</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d ረቂቆች ይሰረዙ?</item>
+        <item quantity="one">%1$d ረቂቅ ይሰረዝ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">እስከ %d ቅድመ ዝግጅቶችን አክል</item>
+        <item quantity="one">እስከ %d ቅድመ ዝግጅት አክል</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">%d ቅድመ ቅንብሮች አሁን ሰርዝ?</item>
+        <item quantity="one">%d ቅድመ ቅንብር አሁን ሰርዝ?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d ቅድመ ቅንብሮች ተሰርዟል</item>
+        <item quantity="one">%d ቅድመ ቅንብር ተሰርዟል</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d ቅድመ ቅንብሮች መጥተዋል</item>
+        <item quantity="one">%d ቅድመ ቅንብር መጥቷል</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dሰ</item>
+        <item quantity="one">%dሰ</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s ደዎች</item>
+        <item quantity="one">%1$s ደ</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturing live moment, up to %d secs</item>
+        <item quantity="one">Capturing live moment, up to %d sec</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d ሰከንዶች ቅዳ</item>
+        <item quantity="one">%d ሰከንድ ቅዳ</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">የጊዜ ማቆሚያ ቪዲዮዎችን በ %d ርዕሰ ጉዳዮች ብቻ መቅረጽ ይችላሉ።</item>
+        <item quantity="one">የጊዜ ማቆሚያ ቪዲዮዎችን በ %d ርዕሰ ጉዳይ ብቻ መቅረጽ ይችላሉ።</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ፎቶዎች</item>
+        <item quantity="one">%1$s ፎቶ</item>
+    </plurals>
+</resources>

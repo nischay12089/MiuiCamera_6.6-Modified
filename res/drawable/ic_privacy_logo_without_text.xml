@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="19.0dip" android:width="19.0dip" android:viewportWidth="19.0" android:viewportHeight="19.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__0" android:pathData="M7.818,1.636L3.061,4.382C2.36,4.787 1.927,5.536 1.927,6.347V10.135L7.535,6.897C8.236,6.492 8.669,5.743 8.669,4.933V2.126C8.669,1.69 8.196,1.417 7.818,1.636Z" />
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__1" android:pathData="M15.642,4.382L10.884,1.636C10.506,1.417 10.034,1.69 10.034,2.127V4.933C10.034,5.743 10.466,6.492 11.167,6.897L16.775,10.135V6.347C16.776,5.536 16.344,4.787 15.642,4.382Z" />
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__2" android:pathData="M7.818,1.636L3.061,4.382C2.36,4.787 1.927,5.536 1.927,6.347V10.135L7.535,6.897C8.236,6.492 8.669,5.743 8.669,4.933V2.126C8.669,1.69 8.196,1.417 7.818,1.636Z" />
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__3" android:pathData="M15.642,4.382L10.884,1.636C10.506,1.417 10.034,1.69 10.034,2.127V4.933C10.034,5.743 10.466,6.492 11.167,6.897L16.775,10.135V6.347C16.776,5.536 16.344,4.787 15.642,4.382Z" />
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__4" android:pathData="M3.203,4.3L3.061,4.382C2.36,4.787 1.927,5.536 1.927,6.346V12.379C1.927,13.189 2.36,13.938 3.061,14.343L7.818,17.09C8.196,17.309 8.669,17.036 8.669,16.599V10.239C8.669,9.429 8.236,8.68 7.535,8.275C7.535,8.275 4.334,6.426 3.203,5.774C2.636,5.446 2.636,4.627 3.203,4.3Z" />
+    <path android:fillColor="@drawable/$ic_privacy_logo_without_text__5" android:pathData="M15.642,4.382L15.501,4.301C16.067,4.628 16.067,5.446 15.501,5.774C14.37,6.428 11.168,8.275 11.168,8.275C10.467,8.68 10.034,9.429 10.034,10.24V16.599C10.034,17.036 10.507,17.309 10.885,17.091L15.642,14.344C16.344,13.939 16.776,13.19 16.776,12.38V6.346C16.776,5.536 16.344,4.787 15.642,4.382Z" />
+</vector>

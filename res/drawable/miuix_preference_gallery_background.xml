@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_color_transparent" />
+            <padding android:left="?aq2" android:top="?aq3" android:right="?aq1" android:bottom="?aq0" />
+        </shape>
+    </item>
+</layer-list>

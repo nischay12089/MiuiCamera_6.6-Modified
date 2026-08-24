@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|left|top" android:id="@id/miuix_popupwidget_popup_offset_anim_container" android:padding="128.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.smooth.SmoothFrameLayout2 android:id="@id/content_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:radius="@dimen/cvw" style="@style/i7s">
+        <miuix.springback.view.SpringBackLayout android:id="@id/miuix_popupwidget_popup_anim_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:atu="bbx" app:aty="@android:id/list">
+            <ListView android:id="@android:id/list" android:paddingTop="@dimen/d3d" android:paddingBottom="@dimen/d3d" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" />
+        </miuix.springback.view.SpringBackLayout>
+    </miuix.smooth.SmoothFrameLayout2>
+</FrameLayout>

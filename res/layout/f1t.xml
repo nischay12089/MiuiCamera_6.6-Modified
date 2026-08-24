@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/ckz" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.NormalRoundView android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/cky" android:scaleType="centerCrop" app:asb="@dimen/cka">
+        <ImageView android:id="@id/manual_workspace_cover" android:background="@drawable/bg_manual_workspace_activity_item_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/ci0" android:textColor="@color/manual_workspacr_batch_item_order" android:layout_gravity="start|center|top" android:id="@id/item_order" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cko" android:layout_marginStart="@dimen/ckn" />
+        <ImageButton android:layout_gravity="end" android:id="@id/style_item_name_space" android:background="@drawable/ic_manual_workspace_activity_detail" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cks" />
+        <CheckBox android:layout_gravity="end|center|top" android:id="@id/item_selectable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ckq" android:button="@drawable/ic_workspace_custom_checkbox" android:layout_marginEnd="@dimen/ckq" />
+        <ImageView android:layout_gravity="center" android:id="@id/import_item" android:background="@drawable/ic_manual_workspace_activity_import" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.camera.ui.NormalRoundView>
+    <LinearLayout android:layout_gravity="start|center|top" android:orientation="vertical" android:id="@id/item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ckx">
+        <TextView android:textSize="@dimen/cku" android:textColor="@color/manual_workspacr_batch_item_name" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <com.android.camera2.compat.theme.custom.mm.manually.view.NoTouchRecyclerView android:id="@id/item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</FrameLayout>

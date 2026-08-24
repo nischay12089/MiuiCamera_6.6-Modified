@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bfc">15.0sp</dimen>
+    <dimen name="bih">1.5999756dip</dimen>
+    <dimen name="bl1">112.28598dip</dimen>
+    <dimen name="bl2">68.94699dip</dimen>
+    <dimen name="blb">2.8569946dip</dimen>
+    <dimen name="bre">12.856995dip</dimen>
+    <dimen name="brf">10.28598dip</dimen>
+    <dimen name="c2t">45.679993dip</dimen>
+    <dimen name="c_0">60.179993dip</dimen>
+    <dimen name="dl1">135.0dip</dimen>
+    <dimen name="ea6">25.139984dip</dimen>
+    <dimen name="eji">14.47998dip</dimen>
+    <dimen name="ejk">15.0dip</dimen>
+    <dimen name="eke">3.8099976dip</dimen>
+    <dimen name="elx">3.8099976dip</dimen>
+</resources>

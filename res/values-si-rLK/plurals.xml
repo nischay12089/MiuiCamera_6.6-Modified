@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">නාභිගත වී ත. %d මුහුණු අනාවරණය වී ඇත</item>
+        <item quantity="one">නාභිගත වී ඇත. %d මුහුණක් අනාවරණය විය</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">පොකුරු ඡායාරූපවල ඡායාරූප %dක්</item>
+        <item quantity="one">පොකුරු ඡායාරූපවල %d ඡායාරූපයක්</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">විරාමය: තත්පර %d</item>
+        <item quantity="one">විරාමය: තත්පර %d</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">කාල සීමාව: විනාඩි %d</item>
+        <item quantity="one">කාල සීමාව: විනාඩි %d</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">වේගය: %dX</item>
+        <item quantity="one">වේගය: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">කාලය: තත්පර %d</item>
+        <item quantity="one">කාලය: තත්පර %d</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">අකුරු %d අතර ප්‍රමාණයක් ඇතුළත් කරන්න.</item>
+        <item quantity="one">අකුරු %d අතර ප්‍රමාණයක් ඇතුළත් කරන්න.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">අනුලකුණු %dක් දක්වා ඇතුළත් කරන්න.</item>
+        <item quantity="one">අනුලකුණු %dක් දක්වා ඇතුළත් කරන්න.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ඔබට කැමරා %dක් එකම ජාලයට සම්බන්ධ කළ හැකියි</item>
+        <item quantity="one">ඔබට කැමරා %dක් එකම ජාලයට සම්බන්ධ කළ හැකියි</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ඔබට එකම ජාලයට මොනිටර් %dක් දක්වා සම්බන්ධ කළ හැකි ය</item>
+        <item quantity="one">ඔබට එකම ජාලයට මොනිටර %dක් දක්වා සම්බන්ධ කළ හැකි ය</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ඔබට එකවර ක්ලෝන %dක් දක්වා තැනිය හැකි ය.</item>
+        <item quantity="one">ඔබට එකවර ක්ලෝන %dක් දක්වා තැනිය හැකි ය.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>කැමරාවට සම්බන්ධ විය නොහැක.&lt;br>මෙම යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font> තුළ වසා දමනු ඇත. මින් පසු, මොහොතක් රැඳී සිට නැවත උත්සාහ කරන්න.&lt;/Data></item>
+        <item quantity="one">&lt;Data>කැමරාවට සම්බන්ධ විය නොහැක.&lt;br>මෙම යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>ක් තුළ වසා දමනු ඇත. මින් පසු, මොහොතක් රැඳී සිට නැවත උත්සාහ කරන්න.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>මෙම උපාංගය දැන් අධික ලෙස රත් වී ඇත.&lt;br>යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>ක් තුළ වසා දමනු ඇත. වත්මන් ප්‍රගතිය ස්වයංක්‍රීයව සුරකින ලදී.&lt;/Data></item>
+        <item quantity="one">&lt;Data>මෙම උපාංගය දැන් අධික ලෙස රත් වී ඇත.&lt;br>යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>ක් තුළ වසා දමනු ඇත. වත්මන් ප්‍රගතිය ස්වයංක්‍රීයව සුරකින ලදී.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>ඔබ භාවිත කරන කැමරා අනුවාදය ඔබගේ උපාංග ආකෘතියට අනුකූල නොවේ.&lt;br>යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>ක් තුළ වසා දමනු ඇත. කැමරා යාවත්කාලීන කිරීම් ඉවත් කර නැවත උත්සාහ කරන්න.&lt;/Data></item>
+        <item quantity="one">&lt;Data>ඔබ භාවිතා කරන කැමරා අනුවාදය ඔබගේ උපාංග ආකෘතියට අනුකූල නොවේ.&lt;br>යෙදුම තත්පර &lt;font color=#FFCE16>&lt;b>%1$d&lt;/b>&lt;/font>ක් තුළ වසා දමනු ලැබේ. කැමරා යාවත්කාලීන කිරීම් ඉවත් කර නැවත උත්සාහ කරන්න.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">විනා %1$dක්</item>
+        <item quantity="one">විනා %1$dක්</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">තත් %1$d</item>
+        <item quantity="one">තත්පර %1$dක්</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">කාල මාපකය ක්‍රියාත්මක කර ඇත (තත්පර %1$d). ඡායාරූප මෙම උපාංගයට මාරු කරනු ලැබේ.</item>
+        <item quantity="one">කාල මාපකය ක්‍රියාත්මක කර ඇත (තත්පර %1$d). ඡායාරූප මෙම උපාංගයට මාරු කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">කෙටුම්පත් %1$dක් මකා දමන්න ද?</item>
+        <item quantity="one">කෙටුම්පත් %1$dක් මකා දමන්න ද?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">පෙර සැකසුම් %dක් දක්වා එකතු කරන්න</item>
+        <item quantity="one">පෙර සැකසුම් %dක් දක්වා එකතු කරන්න</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">දැන් පෙර සැකසුම් %dක් මකා දමන්න ද?</item>
+        <item quantity="one">දැන් පෙර සැකසුම් %dක් මකා දමන්න ද?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">පෙර සැකසුම් %dක් මකා දමන ලදී</item>
+        <item quantity="one">පෙර සැකසුම් %dක් මකා දමන ලදී</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">පෙර සැකසුම් %dක් නිර්යාත කරන ලදී</item>
+        <item quantity="one">පෙර සැකසුම් %dක් ආයාත කරන ලදී</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">ත %d</item>
+        <item quantity="one">ත %d</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">විනා %1$sක්</item>
+        <item quantity="one">විනා %1$sක්</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturing live moment, up to %d secs</item>
+        <item quantity="one">Capturing live moment, up to %d sec</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">තත්පර %dක් පටිගත කරන්න</item>
+        <item quantity="one">තත්පර %dක් පටිගත කරන්න</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">ඔබට වස්තු විෂයන් %dක් සමග දක්වා කාල නැවතුම් වීඩියෝ රූගත කළ හැකිය.</item>
+        <item quantity="one">ඔබට කාල නැවතුම් වීඩියෝ රූගත කළ හැක්කේ වස්තු විෂයන් %dක් සමඟ පමණි.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">ඡායාරූප %1$sක්</item>
+        <item quantity="one">ඡායාරූප %1$sක්</item>
+    </plurals>
+</resources>

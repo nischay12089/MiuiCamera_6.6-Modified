@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/open_os" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/c0b">
+        <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/card_os" android:layout_width="@dimen/c0j" android:layout_height="@dimen/c0h" android:importantForAccessibility="yes" app:nl="@dimen/c0i" app:nm="0.0dip">
+            <VideoView android:layout_gravity="center" android:id="@id/open_os_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" android:importantForAccessibility="no" />
+            <View android:layout_gravity="center" android:id="@id/effect_comparison_os_cover" android:background="@drawable/effect_comparison_os" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="center" android:id="@id/effect_comparison_os_play" android:background="@drawable/effect_comparison_play_button" android:layout_width="@dimen/c0e" android:layout_height="@dimen/c0d" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="@dimen/c0g" android:textStyle="bold" android:textColor="@color/effect_comparison_text_color" android:layout_gravity="center_horizontal" android:id="@id/effect_comparison_text_os" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0f" android:text="@string/hbx" android:maxLines="3" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/open_ns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/c0b">
+        <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/card_ns" android:layout_width="@dimen/c0j" android:layout_height="@dimen/c0h" android:importantForAccessibility="yes" app:nl="@dimen/c0i" app:nm="0.0dip">
+            <VideoView android:layout_gravity="center" android:id="@id/open_ns_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" android:importantForAccessibility="no" />
+            <View android:layout_gravity="center" android:id="@id/effect_comparison_ns_cover" android:background="@drawable/effect_comparison_ns" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="center" android:id="@id/effect_comparison_ns_play" android:background="@drawable/effect_comparison_play_button" android:layout_width="@dimen/c0e" android:layout_height="@dimen/c0d" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="@dimen/c0g" android:textStyle="bold" android:textColor="@color/effect_comparison_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/effect_comparison_text_ns" android:layout_width="@dimen/c0c" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0f" android:text="@string/hcc" android:maxLines="3" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

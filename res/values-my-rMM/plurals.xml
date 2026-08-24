@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ဆုံချက်ချိန်ထားသည်။ မျက်နှာ %d ခု တွေ့ရှိသည်</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">အမြန်ရိုက် ဓာတ်ပုံ %d ပုံ</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ကြားချိန် - %d စက္ကန့်</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ကြာချိန် - %d မိနစ်</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">နှုန်း - %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ကြာချိန် - %d စက္ကန့်</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">အက္ခရာ %d လုံး ထည့်ထားသည်။</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">အက္ခရာ %d လုံး အထိ ထည့်ပါ။</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">ကွန်ရက်တစ်ခုတွင် ကင်မရာ %d လုံးအထိ ချိတ်နိုင်သည်</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">ကွန်ရက်တစ်ခုတွင် မော်နီတာ %d လုံးအထိ ချိတ်နိုင်သည်</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">တစ်ကြိမ်တိုင်းတွင် ပုံတူကူးယူမှု %d အထိ ဖန်တီးနိုင်ပါသည်။</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>ကင်မရာချိတ်မရပါ။&lt;br>&lt;font color=#FFCE16>&lt;b>%1$d စက္ကန့်&lt;/b>&lt;/font> ကြာအတွင်း ဤအက်(ပ်)ပိတ်သွားပါမည်။ ၎င်းနောက် တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>စက်အလွန်ပူနေသည်။&lt;br>&lt;font color=#FFCE16>&lt;b>%1$d စက္ကန့်&lt;/b>&lt;/font> ကြာအတွင်း ဤအက်(ပ်)ပိတ်သွားပါမည်။ လက်ရှိလုပ်ဆောင်ချက်ကို အလိုအလျောက် သိမ်းလိုက်ပါပြီ။&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>သင်သုံးနေသော ကင်မရာဗားရှင်းကို စက်မော်ဒယ်နှင့် တွဲသုံးမရပါ။&lt;br>&lt;font color=#FFCE16>&lt;b>%1$d စက္ကန့်&lt;/b>&lt;/font> အတွင်း အက်(ပ်)ပိတ်သွားပါမည်။ ကင်မရာအပ်ပဒိတ်များကိုဖြုတ်ပြီး ပြန်လုပ်ကြည့်ပါ။&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d စက္ကန့်</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">တိုင်မာဖွင့်ထားသည် (%1$d sec)။ ဓာတ်ပုံများကို ဤစက်သို့ လွှဲပြောင်းပါမည်။</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">စာကြမ်း %1$d ခု ကို ဖျက်လိုသလား။</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">အကြိုသတ်မှတ်ချက် %d ထိ ထည့်နိုင်သည်</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">အကြိုသတ်မှတ်ချက် %d ခုကို ယခုဖျက်လိုသလား။</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">အကြိုသတ်မှတ်ချက် %d ခု ဖျက်ထားသည်</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">အကြိုသတ်မှတ်ချက် %d ခု တင်သွင်းထားသည်</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s မိနစ်</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">တိုက်ရိုက်လွှင့်အခိုက်အတန့် %d စက္ကန့်အထိ ရိုက်ကူးနေသည်</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d စက္ကန့် မှတ်တမ်းတင်ရန်</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">အချိန်ရပ်ဗီဒီယိုများကို ရိုက်လိုသောအရာ %d ခု နှင့်သာ ရိုက်နိုင်သည်</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">ဓာတ်ပုံ %1$s ပုံ</item>
+    </plurals>
+</resources>

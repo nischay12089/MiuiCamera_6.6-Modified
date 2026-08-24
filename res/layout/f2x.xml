@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="75.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/longitude_group" android:layout_width="@dimen/bij" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/big" android:textColor="#ccffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gme" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/bii" android:textColor="#ffffffff" android:gravity="center" android:id="@id/longitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bih" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/latitude_group" android:layout_width="@dimen/bij" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/big" android:textColor="#ccffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gjj" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/bii" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/latitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bih" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/altitude_group" android:layout_width="@dimen/bij" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/big" android:textColor="#ccffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fn2" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/bii" android:textColor="#ffffffff" android:gravity="center" android:id="@id/altitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bih" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

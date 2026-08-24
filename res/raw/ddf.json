@@ -1,0 +1,2879 @@
+{
+  "type": "urn:aiot-spec-v3:com.mi.phones:device:phones:0:1.0",
+  "description": "",
+  "protocol-version": "3.0",
+  "class": "MiPhone",
+  "dynamic": 0,
+  "ddfid": 6619137,
+  "dynamic_ddfid": "true",
+  "modules": {
+    "iid": 1,
+    "type": "urn:aiot-spec-v3:com.mi.phones:module:[com.android.camera]:0:1.0",
+    "description": "camera agent",
+    "name": "com.android.camera",
+    "services": {
+      "iid": 1,
+      "type": "urn:aiot-spec-v3:com.mi.phones:service:[com.android.camera/agent]:0:1.0",
+      "description": "camera agent workspace",
+      "name": "agent",
+      "actions": [
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/workspace]:0:1.0",
+          "description": "相机场景",
+          "in": [
+            {
+              "name": "extra_agent_workspace_parameters",
+              "value": "场景参数",
+              "format": "string",
+              "valueList": [
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "场景支持",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "支持该场景"
+                },
+                {
+                  "value": 1,
+                  "description": "不支持该场景"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-cvType]:0.0.1",
+          "description": "徕卡风格选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "徕卡风格的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigCvType",
+                  "description": "徕卡风格的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "徕卡风格选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "徕卡生动"
+                },
+                {
+                  "value": "1",
+                  "description": "徕卡经典"
+                },
+                {
+                  "value": "2",
+                  "description": "大师人像"
+                },
+                {
+                  "value": "3",
+                  "description": "徕卡人像"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-zoom]:0.0.1",
+          "description": "zoom倍率",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "zoom倍率Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningZoom",
+                  "description": "zoom倍率TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "zoom倍率",
+              "format": "float",
+              "value-range": [
+                0.5,
+                120
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "zoom倍率调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                },
+                {
+                  "value": "ULTRA_WIDE",
+                  "description": "超广"
+                },
+                {
+                  "value": "MAIN",
+                  "description": "主摄"
+                },
+                {
+                  "value": "TELE",
+                  "description": "长焦"
+                },
+                {
+                  "value": "ULTRA_TELE",
+                  "description": "超长焦"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-focal]:0.0.1",
+          "description": "zoom焦段",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "zoom焦段Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningFocal",
+                  "description": "zoom焦段TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "zoom焦段",
+              "format": "int",
+              "value-range": [
+                10,
+                4000
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "zoom焦段调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-ev]:0.0.1",
+          "description": "EV曝光",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "EV曝光Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentManuallyEV",
+                  "description": "EV曝光TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "EV曝光值",
+              "format": "float",
+              "value-range": [
+                -4,
+                4
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "EV曝光调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                },
+                {
+                  "value": "DEFAULT",
+                  "description": "默认值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-filter]:0.0.1",
+          "description": "滤镜选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "滤镜Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningFilter",
+                  "description": "滤镜TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "滤镜选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "66048",
+                  "description": "原图"
+                },
+                {
+                  "value": "655411",
+                  "description": "徕卡鲜艳"
+                },
+                {
+                  "value": "655412",
+                  "description": "徕卡自然"
+                },
+                {
+                  "value": "655413",
+                  "description": "徕卡单色"
+                },
+                {
+                  "value": "655414",
+                  "description": "徕卡单色HC"
+                },
+                {
+                  "value": "655415",
+                  "description": "徕卡漂棕"
+                },
+                {
+                  "value": "655416",
+                  "description": "徕卡单色蓝"
+                },
+                {
+                  "value": "655583",
+                  "description": "赤霞红"
+                },
+                {
+                  "value": "655585",
+                  "description": "远山青"
+                },
+                {
+                  "value": "655417",
+                  "description": "繁花如梦"
+                },
+                {
+                  "value": "655429",
+                  "description": "生动"
+                },
+                {
+                  "value": "655436",
+                  "description": "黑金"
+                },
+                {
+                  "value": "655447",
+                  "description": "季风"
+                },
+                {
+                  "value": "131164",
+                  "description": "奶油"
+                },
+                {
+                  "value": "131167",
+                  "description": "清新"
+                },
+                {
+                  "value": "131145",
+                  "description": "自然"
+                },
+                {
+                  "value": "131165",
+                  "description": "净白"
+                },
+                {
+                  "value": "131150",
+                  "description": "经典"
+                },
+                {
+                  "value": "131156",
+                  "description": "韩胶"
+                },
+                {
+                  "value": "131166",
+                  "description": "鲜亮"
+                },
+                {
+                  "value": "131138",
+                  "description": "冷白"
+                },
+                {
+                  "value": "131168",
+                  "description": "清晰"
+                },
+                {
+                  "value": "131134",
+                  "description": "原生"
+                },
+                {
+                  "value": "131158",
+                  "description": "写意"
+                },
+                {
+                  "value": "131157",
+                  "description": "贝松"
+                },
+                {
+                  "value": "41033",
+                  "description": "正片"
+                },
+                {
+                  "value": "41032",
+                  "description": "负片"
+                },
+                {
+                  "value": "655450",
+                  "description": "松弛"
+                },
+                {
+                  "value": "655448",
+                  "description": "京都"
+                },
+                {
+                  "value": "655449",
+                  "description": "旧巷"
+                },
+                {
+                  "value": "655443",
+                  "description": "反转"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c1]:0.0.1",
+          "description": "美颜支持0到100的",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "美颜指定选项key",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "pref_beautify_skin_smooth_ratio_key",
+                  "description": "磨皮"
+                },
+                {
+                  "value": "pref_beautify_whiten_ratio_key",
+                  "description": "美白"
+                },
+                {
+                  "value": "pref_beautify_solid_ratio_key",
+                  "description": "立体"
+                },
+                {
+                  "value": "pref_beautify_makeup_ratio_key",
+                  "description": "补妆"
+                },
+                {
+                  "value": "pref_beautify_slim_face_ratio_key",
+                  "description": "瘦脸"
+                },
+                {
+                  "value": "pref_beautify_down_head_narrow",
+                  "description": "小头"
+                },
+                {
+                  "value": "pref_beautify_hair_puffy_key",
+                  "description": "蓬蓬发"
+                },
+                {
+                  "value": "pref_beautify_enlarge_eye_ratio_key",
+                  "description": "大眼"
+                },
+                {
+                  "value": "pref_beautify_nose_ratio_key",
+                  "description": "瘦鼻"
+                },
+                {
+                  "value": "pref_beautify_tooth_white_key",
+                  "description": "白牙"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "美颜调节程度",
+              "format": "int",
+              "value-range": [
+                0,
+                100
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "美颜调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                },
+                {
+                  "value": "ON",
+                  "description": "开启"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关闭"
+                },
+                {
+                  "value": "DEFAULT",
+                  "description": "默认值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c2]:0.0.1",
+          "description": "美颜支持-100到100的",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "美颜指定选项key",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "pref_beautify_nose_tip",
+                  "description": "鼻尖"
+                },
+                {
+                  "value": "pref_beautify_temple",
+                  "description": "太阳穴"
+                },
+                {
+                  "value": "pref_beautify_cheekbone",
+                  "description": "颧骨"
+                },
+                {
+                  "value": "pref_beautify_jaw",
+                  "description": "下颌角"
+                },
+                {
+                  "value": "pref_beautify_chin_ratio_key",
+                  "description": "下巴"
+                },
+                {
+                  "value": "pref_beautify_lips_ratio_key",
+                  "description": "嘴型"
+                },
+                {
+                  "value": "pref_beautify_hairline_ratio_key",
+                  "description": "发际线"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "美颜调节程度",
+              "format": "int",
+              "value-range": [
+                -100,
+                100
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "美颜调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                },
+                {
+                  "value": "ON",
+                  "description": "开启"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关闭"
+                },
+                {
+                  "value": "DEFAULT",
+                  "description": "默认值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c3]:0.0.1",
+          "description": "美颜开关控制",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "美颜开关控制的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigMutexBeauty",
+                  "description": "美颜开关的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "美颜开关控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ON",
+                  "description": "开启"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关闭"
+                },
+                {
+                  "value": "DEFAULT",
+                  "description": "默认值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-makeup]:0.0.1",
+          "description": "妆容选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "妆容Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningMakeups",
+                  "description": "妆容TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "妆容选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "无"
+                },
+                {
+                  "value": "7",
+                  "description": "青瓷韵"
+                },
+                {
+                  "value": "8",
+                  "description": "明烟青"
+                },
+                {
+                  "value": "9",
+                  "description": "笑倾城"
+                },
+                {
+                  "value": "10",
+                  "description": "梦琉璃"
+                },
+                {
+                  "value": "11",
+                  "description": "百魅生"
+                },
+                {
+                  "value": "12",
+                  "description": "柳亭松"
+                },
+                {
+                  "value": "1",
+                  "description": "淡颜妆"
+                },
+                {
+                  "value": "2",
+                  "description": "下至妆"
+                },
+                {
+                  "value": "3",
+                  "description": "元气妆"
+                },
+                {
+                  "value": "4",
+                  "description": "甜莓妆"
+                },
+                {
+                  "value": "5",
+                  "description": "千金妆"
+                },
+                {
+                  "value": "6",
+                  "description": "盐酷妆"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-flash]:0.0.1",
+          "description": "闪光灯选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "闪光灯Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigFlash",
+                  "description": "闪光灯TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "闪光灯选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "关"
+                },
+                {
+                  "value": "3",
+                  "description": "后置闪光灯自动"
+                },
+                {
+                  "value": "1",
+                  "description": "后置闪光灯开启"
+                },
+                {
+                  "value": "2",
+                  "description": "后置闪光灯常亮"
+                },
+                {
+                  "value": "105",
+                  "description": "前置柔光环自动"
+                },
+                {
+                  "value": "104",
+                  "description": "前置柔光环常亮"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-hdr]:0.0.1",
+          "description": "HDR选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "HDR的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigHdr",
+                  "description": "HDR的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "HDR选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "off",
+                  "description": "关"
+                },
+                {
+                  "value": "auto",
+                  "description": "自动"
+                },
+                {
+                  "value": "on",
+                  "description": "开"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-ratio]:0.0.1",
+          "description": "画幅选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "画幅的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigRatio",
+                  "description": "画幅的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "画幅选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "1x1",
+                  "description": "1:1"
+                },
+                {
+                  "value": "4x3",
+                  "description": "3:4"
+                },
+                {
+                  "value": "16x9",
+                  "description": "9:16"
+                },
+                {
+                  "value": "full",
+                  "description": "全屏"
+                },
+                {
+                  "value": "2.39x1",
+                  "description": "遮幅电影"
+                },
+                {
+                  "value": "2.39x1_new",
+                  "description": "2.39:1"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-referenceLine]:0.0.1",
+          "description": "参考线选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "参考线的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentLiveReferenceLine",
+                  "description": "参考线的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "参考线选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "off",
+                  "description": "关"
+                },
+                {
+                  "value": "jiugongge",
+                  "description": "九宫格"
+                },
+                {
+                  "value": "golden_section",
+                  "description": "黄金比例"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-switch]:0.0.1",
+          "description": "功能开关",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "支持功能开关的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigCenterMark",
+                  "description": "中心标的TAG"
+                },
+                {
+                  "value": "ComponentConfigGradienter",
+                  "description": "水平仪的TAG"
+                },
+                {
+                  "value": "ComponentRunningMacroMode",
+                  "description": "超级微距的TAG"
+                },
+                {
+                  "value": "ComponentConfigLiveShot",
+                  "description": "动态照片的TAG"
+                },
+                {
+                  "value": "ComponentLiveTimerBurst",
+                  "description": "定时连拍的TAG"
+                },
+                {
+                  "value": "ComponentConfigMotionCapture",
+                  "description": "运动抓拍的TAG"
+                },
+                {
+                  "value": "ComponentConfigPortraitRepair",
+                  "description": "人像超清的TAG"
+                },
+                {
+                  "value": "ComponentConfigTrueColour",
+                  "description": "杜比视界的TAG"
+                },
+                {
+                  "value": "ComponentConfigAiBeauty",
+                  "description": "智能美颜的TAG"
+                },
+                {
+                  "value": "ComponentConfigTrackFocus",
+                  "description": "万物追焦的TAG"
+                },
+                {
+                  "value": "ComponentRunningSuperNightVideo",
+                  "description": "录像夜景的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "开关选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ON",
+                  "description": "开"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-masterLens]:0.0.1",
+          "description": "大师镜头选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "大师镜头的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningCvLens",
+                  "description": "大师镜头的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "大师镜头选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "CLOSE",
+                  "description": "无"
+                },
+                {
+                  "value": "STANDARD",
+                  "description": "标准"
+                },
+                {
+                  "value": "FOCUS",
+                  "description": "旋焦"
+                },
+                {
+                  "value": "HUMANITIES",
+                  "description": "人文"
+                },
+                {
+                  "value": "SOFT",
+                  "description": "柔焦"
+                },
+                {
+                  "value": "WIDE",
+                  "description": "宽荧幕"
+                },
+                {
+                  "value": "BUBBLE",
+                  "description": "泡泡"
+                },
+                {
+                  "value": "PORTRAIT",
+                  "description": "肖像"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-FNumber]:0.0.1",
+          "description": "人像/录像虚化值选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "人像/录像虚化值的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningFNumber",
+                  "description": "人像/录像虚化值的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "人像/录像虚化值选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ON",
+                  "description": "开启"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关闭"
+                },
+                {
+                  "value": "0.95",
+                  "description": "f0.95"
+                },
+                {
+                  "value": "1.1",
+                  "description": "f1.1"
+                },
+                {
+                  "value": "1.2",
+                  "description": "f1.2"
+                },
+                {
+                  "value": "1.4",
+                  "description": "f1.4"
+                },
+                {
+                  "value": "1.6",
+                  "description": "f1.6"
+                },
+                {
+                  "value": "1.8",
+                  "description": "f1.8"
+                },
+                {
+                  "value": "2.0",
+                  "description": "f2.0"
+                },
+                {
+                  "value": "2.2",
+                  "description": "f2.2"
+                },
+                {
+                  "value": "2.5",
+                  "description": "f2.5"
+                },
+                {
+                  "value": "2.8",
+                  "description": "f2.8"
+                },
+                {
+                  "value": "3.2",
+                  "description": "f3.2"
+                },
+                {
+                  "value": "3.5",
+                  "description": "f3.5"
+                },
+                {
+                  "value": "4.0",
+                  "description": "f4.0"
+                },
+                {
+                  "value": "4.5",
+                  "description": "f4.5"
+                },
+                {
+                  "value": "5.0",
+                  "description": "f5.0"
+                },
+                {
+                  "value": "5.6",
+                  "description": "f5.6"
+                },
+                {
+                  "value": "6.3",
+                  "description": "f6.3"
+                },
+                {
+                  "value": "7.1",
+                  "description": "f7.1"
+                },
+                {
+                  "value": "8.0",
+                  "description": "f8.0"
+                },
+                {
+                  "value": "9.0",
+                  "description": "f9.0"
+                },
+                {
+                  "value": "10",
+                  "description": "f10"
+                },
+                {
+                  "value": "11",
+                  "description": "f11"
+                },
+                {
+                  "value": "13",
+                  "description": "f13"
+                },
+                {
+                  "value": "14",
+                  "description": "f14"
+                },
+                {
+                  "value": "16",
+                  "description": "f16"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timer]:0.0.1",
+          "description": "倒计时选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "倒计时的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentRunningTimer",
+                  "description": "倒计时的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "倒计时选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "关"
+                },
+                {
+                  "value": "3",
+                  "description": "3秒"
+                },
+                {
+                  "value": "5",
+                  "description": "5秒"
+                },
+                {
+                  "value": "10",
+                  "description": "10秒"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timerBurstCount]:0.0.1",
+          "description": "定时连拍张数选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "定时连拍张数的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentLiveTimerBurstCount",
+                  "description": "定时连拍张数的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "定时连拍张数",
+              "format": "int",
+              "value-range": [
+                10,
+                600
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "无限张数",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "无限张数"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timerBurstInterval]:0.0.1",
+          "description": "定时连拍时间间隔",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "定时连拍时间间隔的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentLiveTimerBurstInterval",
+                  "description": "定时连拍时间间隔的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "定时连拍时间间隔",
+              "format": "int",
+              "value-range": [
+                1,
+                60
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-pictureStyle]:0.0.1",
+          "description": "专业自定义摄影风格",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "专业自定义摄影风格key",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentManuallyTone",
+                  "description": "对比度",
+                  "preference": "pref_qc_camera_style_tone_key"
+                },
+                {
+                  "value": "ComponentManuallyColorSubTemperature",
+                  "description": "冷暖调",
+                  "preference": "pref_qc_camera_style_color_temp_key"
+                },
+                {
+                  "value": "ComponentManuallyColorSubTune",
+                  "description": "青品调",
+                  "preference": "pref_qc_camera_style_color_tone_key"
+                },
+                {
+                  "value": "ComponentManuallyVibrance",
+                  "description": "饱和度",
+                  "preference": "pref_qc_camera_style_vibrance_key"
+                },
+                {
+                  "value": "ComponentManuallyTexture",
+                  "description": "锐度",
+                  "preference": "pref_qc_camera_style_texture_key"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "自定义摄影风格调节程度",
+              "format": "int",
+              "value-range": [
+                -50,
+                50
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "自定义摄影风格调节控制",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "MAX",
+                  "description": "最大"
+                },
+                {
+                  "value": "MIN",
+                  "description": "最小"
+                },
+                {
+                  "value": "UP",
+                  "description": "增加"
+                },
+                {
+                  "value": "DOWN",
+                  "description": "减少"
+                },
+                {
+                  "value": "ADD",
+                  "description": "增加指定值"
+                },
+                {
+                  "value": "SUB",
+                  "description": "减少指定值"
+                },
+                {
+                  "value": "MULTIPLY",
+                  "description": "乘以指定值"
+                },
+                {
+                  "value": "DIVIDE",
+                  "description": "除以指定值"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "调节结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "调节成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持调节"
+                },
+                {
+                  "value": 2,
+                  "description": "已到最大值"
+                },
+                {
+                  "value": 3,
+                  "description": "已到最小值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-videoQuality]:0.0.1",
+          "description": "录像分辨率选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "录像分辨率的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigVideoSubQuality",
+                  "description": "录像分辨率的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "录像分辨率选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "5",
+                  "description": "720P"
+                },
+                {
+                  "value": "6",
+                  "description": "1080P"
+                },
+                {
+                  "value": "7",
+                  "description": "2.8K"
+                },
+                {
+                  "value": "8",
+                  "description": "4K"
+                },
+                {
+                  "value": "3001",
+                  "description": "8K"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-videoFps]:0.0.1",
+          "description": "录像帧率选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "录像帧率的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigVideoSubFPS",
+                  "description": "录像帧率的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "录像帧率选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "24",
+                  "description": "24帧"
+                },
+                {
+                  "value": "30",
+                  "description": "30帧"
+                },
+                {
+                  "value": "60",
+                  "description": "60帧"
+                },
+                {
+                  "value": "120",
+                  "description": "120帧"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-pixel]:0.0.1",
+          "description": "照片像素选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "照片像素的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigUltraPixel",
+                  "description": "照片像素的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "照片像素选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "OFF",
+                  "description": "12.5M"
+                },
+                {
+                  "value": "AUTO",
+                  "description": "自动"
+                },
+                {
+                  "value": "REARx5",
+                  "description": "50M"
+                },
+                {
+                  "value": "REARx7",
+                  "description": "200M"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-raw]:0.0.1",
+          "description": "照片专业格式选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "照片专业格式的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentConfigRaw",
+                  "description": "照片专业格式的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "照片专业格式选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "JPEG",
+                  "description": "JPEG"
+                },
+                {
+                  "value": "RAW",
+                  "description": "RAW"
+                },
+                {
+                  "value": "Ultra RAW",
+                  "description": "ULTRA RAW"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-imageFormat]:0.0.1",
+          "description": "照片编码选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "照片编码的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalImageFormat",
+                  "description": "照片编码的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "照片编码选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "JPG",
+                  "description": "JPG"
+                },
+                {
+                  "value": "HEIF",
+                  "description": "HEIF"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-videoFormat]:0.0.1",
+          "description": "视频编码选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "视频编码的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalVideoFormat",
+                  "description": "视频编码的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "视频编码选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "h264",
+                  "description": "H.264"
+                },
+                {
+                  "value": "h265",
+                  "description": "HEVC"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-operation]:0.0.1",
+          "description": "相机操作选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "相机操作Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalOperation",
+                  "description": "相机操作的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_control",
+              "description": "相机操作选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "CAPTURE",
+                  "description": "拍照"
+                },
+                {
+                  "value": "SWITCH_FRONT",
+                  "description": "切换前置"
+                },
+                {
+                  "value": "SWITCH_BACK",
+                  "description": "切换后置"
+                },
+                {
+                  "value": "START_RECORDING",
+                  "description": "开始录像"
+                },
+                {
+                  "value": "PAUSE_RECORDING",
+                  "description": "暂停录像"
+                },
+                {
+                  "value": "RESUME_RECORDING",
+                  "description": "继续录像"
+                },
+                {
+                  "value": "STOP_RECORDING",
+                  "description": "停止录像"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "操作结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "操作成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持操作"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermark]:0.0.1",
+          "description": "水印选择",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermark",
+                  "description": "水印的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "OFF",
+                  "description": "关闭"
+                },
+                {
+                  "value": "1",
+                  "description": "id:1\n徕卡水印"
+                },
+                {
+                  "value": "2",
+                  "description": "id:2\n徕卡限定水印"
+                },
+                {
+                  "value": "3",
+                  "description": "id:3\n徕卡3"
+                },
+                {
+                  "value": "4",
+                  "description": "id:4\n徕卡4"
+                },
+                {
+                  "value": "5",
+                  "description": "id:5\n徕卡5"
+                },
+                {
+                  "value": "6",
+                  "description": "id:6\n标准水印"
+                },
+                {
+                  "value": "7",
+                  "description": "id:7\n标准2"
+                },
+                {
+                  "value": "8",
+                  "description": "id:8\n标准3"
+                },
+                {
+                  "value": "9",
+                  "description": "id:9\n打卡水印"
+                },
+                {
+                  "value": "10",
+                  "description": "id:10\n打卡2"
+                },
+                {
+                  "value": "11",
+                  "description": "id:11\n打卡3"
+                },
+                {
+                  "value": "12",
+                  "description": "id:12\n胶片水印"
+                },
+                {
+                  "value": "13",
+                  "description": "id:13\n胶片2"
+                },
+                {
+                  "value": "14",
+                  "description": "id:14\n胶片3"
+                },
+                {
+                  "value": "15",
+                  "description": "id:15\n胶片4"
+                },
+                {
+                  "value": "16",
+                  "description": "id:16\n胶片5"
+                },
+                {
+                  "value": "17",
+                  "description": "id:17\n经典水印"
+                },
+                {
+                  "value": "18",
+                  "description": "id:18\n经典2"
+                },
+                {
+                  "value": "19",
+                  "description": "id:19\n经典3"
+                },
+                {
+                  "value": "20",
+                  "description": "id:20\n经典4"
+                },
+                {
+                  "value": "21",
+                  "description": "id:21\n经典5"
+                },
+                {
+                  "value": "22",
+                  "description": "id:22\n经典6"
+                },
+                {
+                  "value": "23",
+                  "description": "id:23\n经典7"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/watermarkSettingSwitch]:0.0.1",
+          "description": "水印设置开关",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印设置开关的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "WatermarkTimeSwitch",
+                  "description": "时间开关的TAG"
+                },
+                {
+                  "value": "WatermarkModelSwitch",
+                  "description": "机型开关的TAG"
+                },
+                {
+                  "value": "WatermarkExifSwitch",
+                  "description": "镜头参数开关的TAG"
+                },
+                {
+                  "value": "WatermarkLatlngSwitch",
+                  "description": "经纬度开关的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "开关选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ON",
+                  "description": "开"
+                },
+                {
+                  "value": "OFF",
+                  "description": "关"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/watermarkSettingLocation]:0.0.1",
+          "description": "水印位置选择的Component",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印位置选择",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkLocation",
+                  "description": "水印位置选择的Component"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印位置选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "location_off",
+                  "description": "不显示"
+                },
+                {
+                  "value": "location_latlng",
+                  "description": "经纬度"
+                },
+                {
+                  "value": "location_address",
+                  "description": "地点"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkSettingViewScaled]:0.0.1",
+          "description": "水印内容大小",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印内容大小的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkViewScaled",
+                  "description": "水印内容大小的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印内容大小选项",
+              "format": "float",
+              "value-range": [
+                0.9,
+                1.1,
+                0.1
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkTransparency]:0.0.1",
+          "description": "水印透明度",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印透明度的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkTransparency",
+                  "description": "水印透明度的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印透明度选项",
+              "format": "int",
+              "value-range": [
+                0,
+                100
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkFrameBackground]:0.0.1",
+          "description": "水印画框背景",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印画框背景的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkFrameBackground",
+                  "description": "水印画框背景的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印画框背景选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "画框背景0"
+                },
+                {
+                  "value": "1",
+                  "description": "画框背景1"
+                },
+                {
+                  "value": "2",
+                  "description": "画框背景2"
+                },
+                {
+                  "value": "3",
+                  "description": "画框背景3"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkBorderLocation]:0.0.1",
+          "description": "水印边框位置",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印边框位置的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkBorderLocation",
+                  "description": "水印边框位置的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印边框位置选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "0",
+                  "description": "边框位置0"
+                },
+                {
+                  "value": "1",
+                  "description": "边框位置1"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkVerticalLayoutType]:0.0.1",
+          "description": "水印纵向布局类型",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印纵向布局类型的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkVerticalLayoutType",
+                  "description": "水印纵向布局类型的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印纵向布局类型选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "top",
+                  "description": "上方对齐"
+                },
+                {
+                  "value": "center",
+                  "description": "居中对齐"
+                },
+                {
+                  "value": "bottom",
+                  "description": "下方对齐"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkHorizontalLayoutType]:0.0.1",
+          "description": "水印横向布局类型",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印横向布局类型的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkHorizontalLayoutType",
+                  "description": "水印横向布局类型的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印横向布局类型选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "left",
+                  "description": "左侧对齐"
+                },
+                {
+                  "value": "middle",
+                  "description": "居中对齐"
+                },
+                {
+                  "value": "right",
+                  "description": "右侧对齐"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkCustomIcon]:0.0.1",
+          "description": "水印自定义图像",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印自定义图像的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkCustomIcon",
+                  "description": "水印自定义图像的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印自定义图像选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "off",
+                  "description": "关闭"
+                },
+                {
+                  "value": "default",
+                  "description": "默认图像"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkCustomSignature]:0.0.1",
+          "description": "水印自定义签名",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印自定义签名的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkCustomSignature",
+                  "description": "水印自定义签名的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印自定义签名选项",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "off",
+                  "description": "关闭"
+                },
+                {
+                  "value": "default",
+                  "description": "默认签名"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-watermarkCustomText]:0.0.1",
+          "description": "水印自定义文字",
+          "in": [
+            {
+              "name": "specified_key",
+              "description": "水印自定义文字的Component",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "ComponentGlobalAgentWatermarkCustomText",
+                  "description": "水印自定义文字的TAG"
+                }
+              ]
+            },
+            {
+              "name": "specified_value",
+              "description": "水印自定义文字",
+              "format": "string",
+              "value-list": [
+                {
+                  "value": "",
+                  "description": "(无)"
+                },
+                {
+                  "value": "自定义文字测试文案",
+                  "description": "自定义文字测试文案"
+                }
+              ]
+            }
+          ],
+          "out": [
+            {
+              "name": "status",
+              "value": "选择结果",
+              "format": "uint32",
+              "value-list": [
+                {
+                  "value": 0,
+                  "description": "选择成功"
+                },
+                {
+                  "value": 1,
+                  "description": "当前不支持选择"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

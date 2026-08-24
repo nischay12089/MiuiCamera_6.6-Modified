@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">Fokuslandı. %d üz aşkarlandı</item>
+        <item quantity="one">Fokuslandı. %d üz aşkarlandı</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">ardıcıl çəkilişdə %d şəkil</item>
+        <item quantity="one">ardıcıl çəkilişdə %d şəkil</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">İnterval: %d saniyə</item>
+        <item quantity="one">İnterval: %d saniyə</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Müddət: %d dəqiqə</item>
+        <item quantity="one">Müddət: %d dəqiqə</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Sürət: %dX</item>
+        <item quantity="one">Sürət: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Müddət: %d saniyə</item>
+        <item quantity="one">Müddət: %d saniyə</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d simvol daxil edildi.</item>
+        <item quantity="one">%d simvol daxil edildi.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d simvola qədər daxil edin.</item>
+        <item quantity="one">%d simvola qədər daxil edin.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Siz eyni şəbəkəyə %d-dək kamera qoşa bilərsiniz</item>
+        <item quantity="one">Siz eyni şəbəkəyə %d-dək kamera qoşa bilərsiniz</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Siz eyni şəbəkəyə %d-dək monitor qoşa bilərsiniz</item>
+        <item quantity="one">Siz eyni şəbəkəyə %d-dək monitor qoşa bilərsiniz</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Bir dəfədə %d klona qədər yarada bilərsiniz.</item>
+        <item quantity="one">Bir dəfədə %d klona qədər yarada bilərsiniz.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Kameraya qoşula bilmir.&lt;br>Bu tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərzində bağlanacaq&lt;/b>&lt;/font>. Bundan sonra bir-iki dəqiqə gözləyin və yenidən cəhd edin.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameraya qoşula bilmir.&lt;br>Bu tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərzində bağlanacaq&lt;/b>&lt;/font>. Bundan sonra bir-iki dəqiqə gözləyin və yenidən cəhd edin.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>Cihaz indi çox istidir.&lt;br>Tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərizndə bağlanacaq&lt;/b>&lt;/font>. Cari tərəqqi avtomatik olaraq qeyd edildi.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Cihaz indi çox istidir.&lt;br>Tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərizndə bağlanacaq&lt;/b>&lt;/font>. Cari tərəqqi avtomatik olaraq qeyd edildi.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>İstifadə etdiyiniz Kamera versiyası cihazınızın modelinə uyğun deyil.&lt;br>Tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərzində bağlanacaq&lt;/b>&lt;/font>. Kamera yeniləmələrini silin və yenidən cəhd edin.&lt;/Data></item>
+        <item quantity="one">&lt;Data>İstifadə etdiyiniz Kamera versiyası cihazınızın modelinə uyğun deyil.&lt;br>Tətbiq &lt;font color=#FFCE16>&lt;b>%1$d san ərzində bağlanacaq&lt;/b>&lt;/font>. Kamera yeniləmələrini silin və yenidən cəhd edin.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d dəq</item>
+        <item quantity="one">%1$d dəq</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d san</item>
+        <item quantity="one">%1$d san</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Taymer (%1$d san) açıldı. Şəkillər bu cihaza köçürüləcək.</item>
+        <item quantity="one">Taymer (%1$d san) açıldı. Şəkillər bu cihaza köçürüləcək.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d qaralama silinsin?</item>
+        <item quantity="one">%1$d qaralama silinsin?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d qədər ön tənzimləmə əlavə edin</item>
+        <item quantity="one">%d qədər ön tənzimləmə əlavə edin</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">%d əvvəlcədən təyin edilmiş indi silinsin?</item>
+        <item quantity="one">%d əvvəlcədən təyin edilmiş indi silinsin?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d əvvəlcədən təyin edilmiş silindi</item>
+        <item quantity="one">%d əvvəlcədən təyin edilmiş silindi</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d əvvəlcədən təyin edilmiş idxal olundu</item>
+        <item quantity="one">%d əvvəlcədən təyin edilmiş idxal olundu</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s dəq</item>
+        <item quantity="one">%1$s dəq</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Canlı an çəkilir, %d saniyəyə qədər</item>
+        <item quantity="one">Canlı an çəkilir, %d saniyəyə qədər</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%dsaniyə yaz</item>
+        <item quantity="one">%dsaniyə yaz</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Vaxt dondurma videolarını yalnız %d mövzu ilə çəkə bilərsiniz.</item>
+        <item quantity="one">Zaman dondurma videolarını yalnız%dmövzu ilə çəkə bilərsiniz</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s şəkil</item>
+        <item quantity="one">%1$s şəkil</item>
+    </plurals>
+</resources>

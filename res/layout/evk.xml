@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_histogram_container" android:layout_width="@dimen/c9t" android:layout_height="@dimen/c9r"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.features.histogram.widget.HistogramView android:id="@id/histogramView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

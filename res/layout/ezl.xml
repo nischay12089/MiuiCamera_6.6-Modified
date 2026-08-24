@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/vv_feature_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/vv_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/eet">
+        <ProgressBar android:id="@id/vv_updating_progress" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="@dimen/ef0" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/eow" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="13.799988sp" android:textColor="@android:color/white" android:id="@id/vv_updating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ef0" android:text="@string/gm1" android:layout_marginStart="11.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/vv_list_layout" android:layout_width="fill_parent" android:layout_height="@dimen/eeo">
+        <miuix.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/vv_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/brt" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ctk" android:importantForAccessibility="yes" android:paddingHorizontal="@dimen/cte" android:paddingVertical="@dimen/ctg">
+        <TextView android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/ibi" />
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/header_right_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/header_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ctb" style="@style/ibh" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/picker_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/line" android:background="@drawable/miuix_appcompat_calendar_date_time_picker_panel_line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/cth" android:layout_marginStart="@dimen/cti" android:layout_marginEnd="@dimen/cti" />
+        <miuix.pickerwidget.widget.NumberPicker android:layout_gravity="center_horizontal" android:id="@id/number_picker" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    </LinearLayout>
+</merge>

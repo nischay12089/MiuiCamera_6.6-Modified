@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.camera.ui.base.hint.view.TopHintGroup android:gravity="center|top" android:orientation="vertical" android:id="@id/top_bar_hint_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.xiaomi.camera.ui.base.hint.view.TopHintGroup android:gravity="center|top" android:orientation="vertical" android:id="@id/top_context_hint_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.xiaomi.camera.ui.base.hint.view.TopHintGroup android:gravity="center|top" android:orientation="vertical" android:id="@id/top_context_hint_land_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.xiaomi.camera.ui.base.hint.view.TopHintGroup android:gravity="start|center|top" android:orientation="vertical" android:id="@id/top_left_hint_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.xiaomi.camera.ui.base.hint.view.TopHintGroup android:gravity="end|center|top" android:orientation="vertical" android:id="@id/top_right_hint_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

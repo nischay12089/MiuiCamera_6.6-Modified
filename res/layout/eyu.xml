@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera2.compat.theme.custom.mm.top.topalert.RecordingTimeView android:layout_gravity="center_horizontal" android:id="@id/ll_alert_recording_time_view" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/pro_video_recording_simple_view" android:background="@drawable/ic_vector_pro_video_recording_simple_cv" android:visibility="gone" android:layout_width="@dimen/dn1" android:layout_height="@dimen/dn1" android:scaleType="centerInside" android:layout_marginStart="@dimen/dmz" />
+    <include android:layout_gravity="end" android:id="@id/f_v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/f_v" />
+    <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:id="@id/end_gravity_tip_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ec7">
+        <com.android.camera.ui.FastmotionIndicatorView android:id="@id/fastmotion_indicator" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c3m" app:zk="@dimen/c3a" app:acr="@dimen/c3n" app:act="@dimen/c3o" app:acw="@dimen/c3p" app:alo="true" app:amb="@dimen/c3q" app:ayd="@dimen/c3b" />
+        <TextView android:textSize="@dimen/e6u" android:textColor="@color/white" android:gravity="center" android:id="@id/ai_audio_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ia0" />
+        <TextView android:textSize="@dimen/e6u" android:textColor="@color/white" android:gravity="right" android:id="@id/video_ultra_clear_tip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ia0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start" android:layout_gravity="start" android:orientation="vertical" android:id="@id/start_gravity_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.ColorImageView android:id="@id/esp_feature_tip" android:background="@drawable/ic_config_esp_display_shadow" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dnq" android:src="@drawable/ic_config_esp_display" />
+        <ImageView android:id="@id/manually_parameter_description_tip" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dnq" android:src="@drawable/ic_parameter_description_entrance_normal" />
+        <ImageView android:id="@id/reset_manually_parameter_tip" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_parameter_reset_normal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/pro_parameter_graph_container" android:layout_width="@dimen/e41" android:layout_height="@dimen/e41">
+        <FrameLayout android:id="@id/pro_parameter_audio_graph_container" android:background="@drawable/pro_parameter_graph_background" android:focusable="false" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/e4a" android:layout_height="@dimen/e42" android:layout_marginBottom="@dimen/e44">
+            <com.android.camera.VolumeControlPanel android:id="@id/volume_control_panel" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom" android:id="@id/volume_silence_strengthen_switch" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/ecb" android:layout_height="@dimen/eca" android:src="@drawable/ic_volume_control__microphone_open_icon" android:scaleType="centerInside" />
+            <com.android.camera.AudioMapMove android:id="@id/audio_map_display" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aeg="100" app:aeh="80" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pro_parameter_light_graph_root_container" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no">
+            <FrameLayout android:id="@id/pro_parameter_light_graph_container" android:background="@drawable/pro_parameter_graph_background" android:focusable="false" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/e4a" android:layout_height="@dimen/e42">
+                <TextureView android:id="@id/mishot_gl_textureview" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/e40" android:contentDescription="@string/gyr" />
+                <com.android.camera.ui.HistogramView android:layout_gravity="center" android:id="@id/rgb_histogram" android:background="@drawable/shape_round_corner_histogram" android:layout_width="@dimen/c_0" android:layout_height="@dimen/c9u" android:layout_marginTop="@dimen/c9v" android:contentDescription="@string/gy_" />
+            </FrameLayout>
+            <ImageView android:id="@id/pro_parameter_light_graph_indicator" android:padding="@dimen/e43" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e42" android:contentDescription="@null" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/top_tip_layout" layout="@layout/ez9" />
+    <include android:id="@id/top_tip_softlight_adjust_view" android:visibility="gone" layout="@layout/f_6" />
+</FrameLayout>

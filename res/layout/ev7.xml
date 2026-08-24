@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/result_media_view" android:background="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/fgd" app:abg="parent" app:abk="parent" />
+    <ImageView android:id="@id/video_play_button" android:background="@drawable/shape_intent_done_play_bg" android:visibility="gone" android:layout_width="@dimen/cap" android:layout_height="@dimen/cap" android:src="@drawable/ic_intent_done_video_play" android:contentDescription="@string/ff3" app:aar="@id/result_media_view" app:aax="@id/result_media_view" app:abg="@id/result_media_view" app:abk="@id/result_media_view" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/result_live_photo_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:abg="parent" app:abk="parent">
+        <ImageView android:id="@id/result_image_view_livephoto_icon" android:padding="@dimen/can" android:visibility="gone" android:layout_width="@dimen/cao" android:layout_height="@dimen/cao" android:src="@drawable/ic_motionphoto" android:scaleType="center" android:contentDescription="@null" app:abg="parent" app:abk="parent" />
+        <com.android.camera.ui.TextureVideoView android:id="@id/result_live_photo_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/fgd" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:abg="parent" app:abk="parent">
+        <FrameLayout android:layout_gravity="start|center" android:id="@id/retry_button" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/gry" android:layout_marginStart="@dimen/bnk">
+            <ImageView android:layout_gravity="center" android:id="@id/retry_bg" android:background="@drawable/shape_intent_done_action_bg" android:layout_width="@dimen/bng" android:layout_height="@dimen/bng" android:scaleType="center" android:contentDescription="@string/gry" />
+            <ImageView android:layout_gravity="center" android:id="@id/retry_icon" android:layout_width="@dimen/bng" android:layout_height="@dimen/bng" android:src="@drawable/ic_intent_done_retry" android:scaleType="center" android:contentDescription="@string/gry" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|center" android:id="@id/apply_button" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/fez" android:layout_marginEnd="@dimen/bnk">
+            <ImageView android:layout_gravity="center" android:id="@id/apply_bg" android:background="@drawable/shape_intent_done_action_bg" android:layout_width="@dimen/bng" android:layout_height="@dimen/bng" android:scaleType="center" android:contentDescription="@string/fez" />
+            <ImageView android:layout_gravity="center" android:id="@id/apply_icon" android:layout_width="@dimen/bng" android:layout_height="@dimen/bng" android:src="@drawable/ic_intent_done_apply" android:scaleType="center" android:contentDescription="@string/fez" />
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

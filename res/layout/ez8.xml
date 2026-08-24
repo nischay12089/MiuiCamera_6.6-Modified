@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:layout_gravity="bottom|center" android:id="@id/root_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="8.0dip" app:a5e="true" app:asb="@dimen/e70">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_menu_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e77" android:layout_marginBottom="@dimen/e74" android:layout_marginStart="@dimen/e76" android:layout_marginEnd="@dimen/e75" />
+        <FrameLayout android:id="@id/expand_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/e77" android:layout_marginBottom="@dimen/e74" android:layout_marginStart="@dimen/e76" android:layout_marginEnd="@dimen/e75" />
+        <FrameLayout android:id="@id/embed_container" android:visibility="gone" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" app:abk="parent" />
+    </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vp_preview_background" android:background="@drawable/vp_preview_background_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/vp_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/vp_preview_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ni="@color/fullscreen_background" app:nl="@dimen/efe" app:nm="0.0dip">
+            <ImageView android:id="@id/vv_preview_item_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.android.camera.ui.TextureVideoView android:id="@id/vv_preview_texture_video" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/vp_preview_sound_switch" android:layout_width="@dimen/ecu" android:layout_height="@dimen/ecu" android:src="@drawable/ic_sound_off" android:scaleType="centerInside" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center|top" android:id="@id/vv_preview_item_collapsing" android:visibility="gone" android:layout_width="@dimen/ecm" android:layout_height="@dimen/ecm" android:scaleType="centerInside" android:contentDescription="@string/fgp" />
+            <TextView android:textSize="@dimen/ecv" android:textColor="@color/white" android:layout_gravity="start|bottom|center" android:id="@id/vp_preview_item_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/efb" android:layout_marginStart="@dimen/efc" android:textFontWeight="600" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

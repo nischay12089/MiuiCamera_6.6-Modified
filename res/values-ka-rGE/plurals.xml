@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fb1">
+        <item quantity="other">ფოკუსირებულია. %d სახეები გამოვლინდა</item>
+        <item quantity="one">ფოკუსირებულია. %d სახე გამოვლინდა</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d ფოტო დუბლირებულიდან</item>
+        <item quantity="one">%d ფოტო დუბლირებულიდან</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">ინტერვალი: %d წამი</item>
+        <item quantity="one">ინტერვალი: %d წამი</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">ხანგრძლივობა: %d წუთი</item>
+        <item quantity="one">ხანგრძლივობა: %d წუთი</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">სიჩქარე: %dX</item>
+        <item quantity="one">სიჩქარე: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">ხანგრძლივობა: %d წამი</item>
+        <item quantity="one">ხანგრძლივობა: %d წამი</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">შეყვანილია %d სიმბოლო.</item>
+        <item quantity="one">შეყვანილია %d სიმბოლო.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">შეიყვანეთ %d-მდე სიმბოლო.</item>
+        <item quantity="one">შეიყვანეთ %d-მდე სიმბოლო.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dწმ</item>
+        <item quantity="one">%dწმ</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">შეგიძლიათ დააკავშიროთ %d-მდე კამერა იმავე ქსელში</item>
+        <item quantity="one">შეგიძლიათ დააკავშიროთ %d-მდე კამერა იმავე ქსელში</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">შეგიძლიათ დააკავშიროთ %d-მდე მონიტორი იმავე ქსელში</item>
+        <item quantity="one">შეგიძლიათ დააკავშიროთ %d-მდე მონიტორი იმავე ქსელში</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">ამ მომენტში თქვენ შეგიძლიათ შექმნა %d-მდე კლონის.</item>
+        <item quantity="one">ამ მომენტში თქვენ შეგიძლიათ შექმნა %d-მდე კლონის.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>კამერასთან დაკავშირება ვერ ხერხდება.&lt;br>ეს აპლიკაცია დაიხურება&lt;font color=#FFCE16>&lt;b>%1$d წამში&lt;/b>&lt;/font>. ამის შემდეგ, დაელოდეთ რამდენიმე წუთი და კიდევ სცადეთ.&lt;/Data></item>
+        <item quantity="one">&lt;Data>კამერასთან დაკავშირება ვერ ხერხდება.&lt;br>ეს აპლიკაცია დაიხურება&lt;font color=#FFCE16>&lt;b>%1$d წამში&lt;/b>&lt;/font>. ამის შემდეგ, დაელოდეთ რამდენიმე წუთი და კიდევ სცადეთ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>ეს მოწყობილობა ძალიან გაცხელდა.&lt;br>ეს აპლიკაცია დაიხურება&lt;font color=#FFCE16>&lt;b>%1$d წამში&lt;/b>&lt;/font>. მიმდინარე პროგრესი შეინახება ავტომატურად.&lt;/Data></item>
+        <item quantity="one">&lt;Data>ეს მოწყობილობა ძალიან გაცხელდა.&lt;br>ეს აპლიკაცია დაიხურება&lt;font color=#FFCE16>&lt;b>%1$d წამში&lt;/b>&lt;/font>. მიმდინარე პროგრესი შეინახება ავტომატურად.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">&lt;Data>კამერის ვერსია, რომელსაც იყენებთ, არ არის თავსებადი თქვენი მოწყობილობის მოდელთან.&lt;br>აპლიკაცია დაიხურება &lt;font color=#FFCE16>&lt;b>%1$dწმ-ში&lt;/b>&lt;/font>. წაშალეთ კამერის განახლებები და კიდევ სცადეთ.&lt;/Data></item>
+        <item quantity="one">&lt;Data>კამერის ვერსია, რომელსაც იყენებთ, არ არის თავსებადი თქვენი მოწყობილობის მოდელთან.&lt;br>აპლიკაცია დაიხურება &lt;font color=#FFCE16>&lt;b>%1$dწმ-ში&lt;/b>&lt;/font>. წაშალეთ კამერის განახლებები და კიდევ სცადეთ.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d წთ</item>
+        <item quantity="one">%1$d წთ</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d წმ</item>
+        <item quantity="one">%1$d წმ</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">ჩართულია ტაიმერი (%1$d წმ). ფოტოები გადაეცემა ამ მოწყობილობას.</item>
+        <item quantity="one">ჩართულია ტაიმერი (%1$d წმ). ფოტოები გადაეცემა ამ მოწყობილობას.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">წავშალო %1$d მონახაზი?</item>
+        <item quantity="one">წავშალო %1$d მონახაზი?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">დაამატეთ %d-მდე ფილტრი</item>
+        <item quantity="one">დაამატეთ %d-მდე ფილტრი</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">წავშალო %d წინასწარ დაყენებული პარამეტრი ახლავე?</item>
+        <item quantity="one">წავშალო %d წინასწარ დაყენებული პარამეტრი ახლავე?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">წაშლილია %d წინასწარ დაყენებული პარამეტრი</item>
+        <item quantity="one">წაშლილია %d წინასწარ დაყენებული პარამეტრი</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">გადატანილია %d წინასწარ დაყენებული პარამეტრი</item>
+        <item quantity="one">გადატანილია %d წინასწარ დაყენებული პარამეტრი</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dწმ</item>
+        <item quantity="one">%dწმ</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s წთ</item>
+        <item quantity="one">%1$s წთ</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">ლაივ მომენტის აღბეჭდვა %d წამით</item>
+        <item quantity="one">ლაივ მომენტის აღბეჭდვა %d წამით</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">ჩაწერეთ %d წამი</item>
+        <item quantity="one">ჩაწერეთ %d წამი</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">თქვენ შეგიძლიათ გადაიღოთ გაყინული ვიდოები მხოლოდ %d საგანი.</item>
+        <item quantity="one">თქვენ შეგიძლიათ გადაიღოთ გაყინული ვიდოები მხოლოდ %d საგანი.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s ფოტო</item>
+        <item quantity="one">%1$s ფოტო</item>
+    </plurals>
+</resources>

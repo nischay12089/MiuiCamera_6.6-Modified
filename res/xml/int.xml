@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-zoom]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-focal]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-ev]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-filter]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c1]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c2]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-beauty-c3]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-makeup]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-flash]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-hdr]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-ratio]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-referenceLine]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-switch]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-masterLens]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timer]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timerBurstCount]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-timerBurstInterval]:0.0.1" />
+    <action deploy-property="static" execution="foreground" sync-flag="0" sync-timeout="1000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.android.camera/agent/function-pictureStyle]:0.0.1" />
+</actions>

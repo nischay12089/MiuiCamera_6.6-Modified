@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/panel_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/panel_tab_layout" android:layout_width="wrap_content" android:layout_height="@dimen/bnm" app:aas="@id/panel_view_pager" app:aax="parent" app:abg="parent" app:b44="@null" app:b47="0.0dip" app:b4f="scrollable" app:b4i="0.0dip" app:b4j="0.0dip" app:b4l="@null" style="@style/iht" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/panel_view_pager" android:focusable="false" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abg="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

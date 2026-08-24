@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.MainScreenVideoPrompterAdjustLayout android:layout_gravity="bottom" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/e_i"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/adjust_blur_background" android:background="@color/alpha90_black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="fill_parent" android:layout_height="@dimen/ch6" android:layout_marginHorizontal="@dimen/ch7">
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_size_container" android:layout_width="fill_parent" android:layout_height="@dimen/ch3">
+            <TextView android:textSize="@dimen/e_q" android:textColor="@color/white" android:id="@id/adjust_text_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwn" />
+            <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/adjust_text_size_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ch4" app:yv="true" app:arl="@color/transparent" app:aru="@color/white" app:arv="@dimen/duc" app:awf="true" app:b_f="true" style="@style/inq" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_speed_container" android:layout_width="fill_parent" android:layout_height="@dimen/ch3" android:layout_marginTop="@dimen/ch5">
+            <TextView android:textSize="@dimen/e_q" android:textColor="@color/white" android:id="@id/adjust_text_speed_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwo" />
+            <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/adjust_text_speed_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ch4" app:yv="true" app:arl="@color/transparent" app:aru="@color/white" app:arv="@dimen/duc" app:awf="true" app:b_f="true" style="@style/inq" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.camera.fragment.videoprompter.MainScreenVideoPrompterAdjustLayout>

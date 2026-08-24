@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/ee0" />
+            <solid android:color="@color/vv_dialog_button_cancel_bg" />
+        </shape>
+    </item>
+</selector>

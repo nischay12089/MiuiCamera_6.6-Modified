@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <intent android:icon="@drawable/keyguard_shortcuts_capture" android:name="@string/gtl" android:targetPackage="com.android.camera" android:action="android.media.action.STILL_IMAGE_CAMERA" android:targetClass="com.android.camera.Camera" android:tag="CAMERA_CAPTURE" />
+    <intent android:icon="@drawable/keyguard_shortcuts_video" android:name="@string/gu_" android:targetPackage="com.android.camera" android:action="android.media.action.VIDEO_CAMERA" android:targetClass="com.android.camera.Camera" android:tag="CAMERA_VIDEO" />
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/d1m" />
+    <solid android:color="@color/miuix_appcompat_floating_suspend_menu_bg_dark" />
+</shape>

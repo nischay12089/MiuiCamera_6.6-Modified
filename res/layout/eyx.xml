@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.base.top.ui.topbar.view.MenuIndicatorView android:id="@id/iv_top_bar_show_more" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginHorizontal="20.0dip" app:aar="parent" app:aay="@id/rv_right_panel" app:abf="@id/rv_left_panel" app:abk="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_left_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aay="@id/iv_top_bar_show_more" app:abg="parent" app:abk="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_right_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:aar="parent" app:aax="parent" app:abf="@id/iv_top_bar_show_more" app:abk="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

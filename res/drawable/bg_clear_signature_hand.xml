@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="4.0dip" />
+    <stroke android:width="@dimen/ehb" android:color="@color/signature_hand_clear_border_color" />
+</shape>

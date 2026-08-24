@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/live_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <FrameLayout android:id="@id/live_preview_top" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@id/live_preview_recording_time_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableStart="@null" style="@style/i_8" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/live_preview_recording_center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/eg7" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/live_preview_newTip_text" android:background="@drawable/toast_top_recommend_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eg4" android:paddingStart="@dimen/eg4" android:paddingEnd="@dimen/eg4" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vv_process_video_cover" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/live_preview_play" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_play" android:scaleType="centerInside" android:contentDescription="@string/ff4" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/live_concat_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="15.0dip" android:layout_width="@dimen/boj" android:layout_height="@dimen/boj" android:indeterminateDrawable="@drawable/live_share_progress" android:indeterminateDuration="700" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vv_preview_bottom_action" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/vv_preview_bottom_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="start|center" android:id="@id/live_preview_back" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_close" android:scaleType="centerInside" android:contentDescription="@string/ff0" android:layout_marginStart="@dimen/bnw" />
+            <ProgressBar android:layout_gravity="start|center" android:id="@id/live_back_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="12.0dip" android:focusable="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:scaleType="centerInside" android:indeterminateDrawable="@drawable/live_share_progress" android:indeterminateDuration="700" android:layout_marginStart="@dimen/bnw" style="?android:progressBarStyleLarge" />
+            <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/live_preview_save_circle" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bom" android:layout_height="@dimen/bom" android:contentDescription="@string/fgy" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/live_preview_save" android:focusable="false" android:clickable="true" android:layout_width="@dimen/efl" android:layout_height="@dimen/efl" android:scaleType="centerInside" android:contentDescription="@string/fh0" />
+            <ImageView android:layout_gravity="center" android:id="@id/live_save_progress" android:focusable="false" android:layout_width="@dimen/efl" android:layout_height="@dimen/efl" android:src="@drawable/ic_vv_save_progress" android:scaleType="centerCrop" android:contentDescription="@string/fh6" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/live_preview_share" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_share" android:scaleType="centerInside" android:contentDescription="@string/gk5" android:layout_marginEnd="@dimen/bnw" />
+            <ProgressBar android:layout_gravity="end|center" android:id="@id/live_share_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="12.0dip" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:scaleType="centerInside" android:indeterminateDrawable="@drawable/live_share_progress" android:indeterminateDuration="@integer/eow" android:contentDescription="@string/fh6" android:layout_marginEnd="@dimen/bnw" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/live_share_layout" android:background="@drawable/bg_live_share" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/live_share_list" android:layout_width="fill_parent" android:layout_height="@dimen/cf9" />
+        <View android:background="@color/live_share_divider_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="@dimen/cf7" android:textColor="@color/cf7" android:gravity="center" android:id="@id/live_share_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/cf6" android:text="@string/gku" />
+    </LinearLayout>
+</FrameLayout>

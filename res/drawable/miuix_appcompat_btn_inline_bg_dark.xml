@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingLeft="@dimen/css" android:paddingTop="@dimen/cst" android:paddingRight="@dimen/css" android:paddingBottom="@dimen/cst"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/miuix_appcompat_btn_inline_bg_dark_smooth" />
+    <item android:drawable="@drawable/miuix_appcompat_btn_inline_fg_dark" />
+</layer-list>

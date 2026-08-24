@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/zoom_toggle_button_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.android.camera.ui.zoom.ZoomRatioToggleView android:layout_gravity="center" android:id="@id/zoom_toggle_button" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/ekv" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_gravity="center|top" android:id="@id/f8l" android:visibility="invisible" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/f8l" />
+</FrameLayout>
