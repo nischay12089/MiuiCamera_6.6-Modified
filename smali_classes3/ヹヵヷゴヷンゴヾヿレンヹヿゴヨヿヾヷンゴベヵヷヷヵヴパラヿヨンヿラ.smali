@@ -352,7 +352,7 @@
 .method public F3()Z
     .locals 0
 
-    instance-of p0, p0, L삮삢삠샣삠삤샣삩삨삻삤삮삨샣삟삢삹삥삦삢삒삽삿삢;
+    const/4 p0, 0x1
 
     return p0
 .end method

@@ -468,7 +468,7 @@
 .method public E3()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -553,7 +553,7 @@
 .method public F3()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -1574,7 +1574,7 @@
 .method public R3()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -1721,7 +1721,7 @@
 .method public S7()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -2553,7 +2553,7 @@
 .method public c7()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -3433,7 +3433,7 @@
 .method public m2()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -4439,7 +4439,7 @@
 .method public w2()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -4447,7 +4447,7 @@
 .method public w3()Z
     .locals 0
 
-    instance-of p0, p0, L굋굇굅괆굅굁괆굌굍굞굁굋굍괆굫굀굍굆굎굍굆굏;
+    const/4 p0, 0x1
 
     return p0
 .end method
