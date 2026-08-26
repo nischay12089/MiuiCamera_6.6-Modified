@@ -370,7 +370,7 @@
 .method public final E3()Z
     .locals 0
 
-    const/4 p0, 0x0
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -552,7 +552,7 @@
 .method public final R3()Z
     .locals 0
 
-    const/4 p0, 0x0
+    const/4 p0, 0x1
 
     return p0
 .end method

@@ -2178,16 +2178,6 @@
 
     if-eqz v2, :check_device_lists
 
-    sget-object v2, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v3, "onyx"
-
-    invoke-virtual {v3, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :check_device_lists
-
     const/4 p0, 0x1
 
     return p0

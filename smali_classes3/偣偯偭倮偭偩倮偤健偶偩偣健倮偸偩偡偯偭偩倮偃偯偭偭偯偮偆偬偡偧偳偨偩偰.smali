@@ -382,9 +382,7 @@
 .method public E3()Z
     .locals 0
 
-    instance-of p0, p0, L䣑䣝䣟䢜䣟䣛䢜䣖䣗䣄䣛䣑䣗䢜䣳䣇䣀䣝䣀䣓;
-
-    xor-int/lit8 p0, p0, 0x1
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -888,9 +886,7 @@
 .method public R3()Z
     .locals 0
 
-    instance-of p0, p0, L皪皦皤盧皤皠盧皭皬皿皠皪皬盧皋皰皻皦皧;
-
-    xor-int/lit8 p0, p0, 0x1
+    const/4 p0, 0x1
 
     return p0
 .end method

@@ -278,7 +278,7 @@
 .method public F3()Z
     .locals 0
 
-    instance-of p0, p0, L继绫绩纪绩续纪绠绡绲续继绡纪练绫绽绥;
+    const/4 p0, 0x1
 
     return p0
 .end method

@@ -461,7 +461,7 @@
 .method public final R3()Z
     .locals 0
 
-    const/4 p0, 0x0
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -1150,7 +1150,7 @@
 .end method
 
 .method public final v1()Landroid/util/SparseArray;
-    .locals 5
+    .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -1183,53 +1183,83 @@
 
     move-result-object v2
 
-    filled-new-array {v0, v1, v2}, [Ljava/lang/Float;
+    const/high16 v3, 0x40800000    # 4.0f
+
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    const/16 v4, 0xa3
+    const/high16 v4, 0x40a00000    # 5.0f
 
-    invoke-virtual {p0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
+    move-result-object v4
+
+    const/high16 v5, 0x40c00000    # 6.0f
+
+    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v5
+
+    const/high16 v6, 0x41200000    # 10.0f
+
+    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v6
+
+    # photo: 0.6x 1x 2x 5x 10x (C1 max = 10x)
+    filled-new-array {v0, v1, v2, v4, v6}, [Ljava/lang/Float;
+
+    move-result-object v7
+
+    const/16 v8, 0xa3
+
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    # video: 0.6x 1x 2x 4x 6x (C1 max = 6x)
+    filled-new-array {v0, v1, v2, v3, v5}, [Ljava/lang/Float;
+
+    move-result-object v7
+
+    const/16 v8, 0xa2
+
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    # unchanged
     filled-new-array {v0, v1, v2}, [Ljava/lang/Float;
 
-    move-result-object v3
+    move-result-object v7
 
-    const/16 v4, 0xa2
+    const/16 v8, 0xad
 
-    invoke-virtual {p0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
+    # unchanged
     filled-new-array {v0, v1, v2}, [Ljava/lang/Float;
 
-    move-result-object v3
+    move-result-object v7
 
-    const/16 v4, 0xad
+    const/16 v8, 0xa9
 
-    invoke-virtual {p0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    filled-new-array {v0, v1, v2}, [Ljava/lang/Float;
-
-    move-result-object v3
-
-    const/16 v4, 0xa9
-
-    invoke-virtual {p0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
-
+    # unchanged
     filled-new-array {v1, v2}, [Ljava/lang/Float;
 
-    move-result-object v2
+    move-result-object v7
 
-    const/16 v3, 0xab
+    const/16 v8, 0xab
 
-    invoke-virtual {p0, v3, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
+    # unchanged
     filled-new-array {v0, v1}, [Ljava/lang/Float;
 
-    move-result-object v0
+    move-result-object v7
 
-    const/16 v1, 0xa7
+    const/16 v8, 0xa7
 
-    invoke-virtual {p0, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     return-object p0
 .end method
