@@ -319,6 +319,10 @@
 
     move-result-object v2
 
+    invoke-static {v2}, Lr2/f0;->injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+
+    move-result-object v2
+
     iput-object v2, p1, Lj9/e;->N3:Ljava/util/ArrayList;
 
     :cond_0
@@ -356,6 +360,10 @@
     sget-object v2, Lga/w0;->A2:Lga/D0;
 
     invoke-virtual {p1, v2}, Lj9/e;->X0(Lga/D0;)Ljava/util/ArrayList;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lr2/f0;->injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     move-result-object v2
 
@@ -1951,6 +1959,10 @@
 
     move-result-object v15
 
+    invoke-static {v15}, Lr2/f0;->injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+
+    move-result-object v15
+
     iput-object v15, v4, Lj9/e;->N3:Ljava/util/ArrayList;
 
     :cond_12
@@ -1978,6 +1990,10 @@
     sget-object v1, Lga/w0;->A2:Lga/D0;
 
     invoke-virtual {v4, v1}, Lj9/e;->X0(Lga/D0;)Ljava/util/ArrayList;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lr2/f0;->injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -2545,6 +2561,8 @@
     goto :goto_f
 
     :cond_31
+    invoke-static {v2, v3, v1, v0}, Lr2/f0;->force8K(Ljava/util/List;Landroid/util/SparseBooleanArray;Landroid/util/SparseBooleanArray;Lr2/f0;)V
+
     iput-object v3, v0, Lr2/f0;->a:Landroid/util/SparseBooleanArray;
 
     iput-object v1, v0, Lr2/f0;->b:Landroid/util/SparseBooleanArray;
@@ -5306,6 +5324,10 @@
 
     move-result-object v3
 
+    invoke-static {v3}, Lr2/f0;->injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+
+    move-result-object v3
+
     iput-object v3, v4, Lj9/e;->N3:Ljava/util/ArrayList;
 
     :cond_2c
@@ -6415,5 +6437,76 @@
     iput-boolean v6, p1, Lr2/j1$a;->f:Z
 
     :cond_b
+    return-void
+.end method
+
+.method public static injectEightK(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+    .locals 3
+
+    if-nez p0, :cond_0
+
+    return-object p0
+
+    :cond_0
+    const v0, 0xbb91e
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_2
+    return-object p0
+.end method
+
+.method public static force8K(Ljava/util/List;Landroid/util/SparseBooleanArray;Landroid/util/SparseBooleanArray;Lr2/f0;)V
+    .locals 3
+
+    if-nez p0, :cond_0
+
+    return-void
+
+    :cond_0
+    const v0, 0xbb91e
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lr2/f0;->q(IZ)Lcom/android/camera/data/data/d;
+
+    move-result-object v2
+
+    if-nez v2, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-interface {p0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p1, v0, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
+
+    :cond_2
+    if-eqz p2, :cond_3
+
+    invoke-virtual {p2, v0, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
+
+    :cond_3
+    if-eqz p3, :cond_4
+
+    iget-object p3, p3, Lr2/f0;->d:Landroid/util/SparseBooleanArray;
+
+    if-eqz p3, :cond_4
+
+    invoke-virtual {p3, v0, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
+
+    :cond_4
     return-void
 .end method

@@ -18571,31 +18571,11 @@
     return v1
 
     :cond_0
-    invoke-static {}, Lg2/a;->g()Lu2/Q;
-
-    move-result-object v0
-
-    const-string v2, "pref_camera_watermark_type_key"
-
-    const-string v3, ""
-
-    invoke-virtual {v0, v2, v3}, LWh/a;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string/jumbo v2, "watermark_regular"
-
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
     invoke-static {}, Lcom/android/camera/data/data/r;->r()Z
 
     move-result v0
 
-    if-nez v0, :cond_3
+    if-nez v0, :cond_1
 
     sget-object v0, LGg/U;->n:LGg/U;
 
@@ -18603,42 +18583,8 @@
 
     move-result v0
 
-    if-nez v0, :cond_1
+    if-eqz v0, :cond_1
 
-    goto :goto_0
-
-    :cond_1
-    sget-boolean v0, LJe/c;->k:Z
-
-    sget-object v0, LJe/c$b;->a:LJe/c;
-
-    iget-object v2, v0, LJe/c;->e:L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;
-
-    invoke-virtual {v2}, L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;->q2()Z
-
-    move-result v2
-
-    if-nez v2, :cond_2
-
-    iget-object v0, v0, LJe/c;->e:L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;
-
-    invoke-virtual {v0}, L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;->U6()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    invoke-static {}, Lg2/a;->g()Lu2/Q;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lu2/Q;->O()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    :cond_2
     invoke-static {}, Lg2/a;->g()Lu2/Q;
 
     move-result-object v0
@@ -18651,8 +18597,7 @@
 
     return v0
 
-    :cond_3
-    :goto_0
+    :cond_1
     const/4 v0, 0x0
 
     return v0
