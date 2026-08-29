@@ -3,17 +3,17 @@
 Miui camera 6.6 Mod for onyx 
 
 # Features
--Enabled leica camera features
--enabled leica filters 
--enabled 8k video support 
--Leica watermark enabled 
+-Enabled leica camera features<br>
+-enabled leica filters <br>
+-enabled 8k video support <br>
+-Leica watermark enabled <br>
 
 All the features that are present releated to version 6.6 are enabled by default
 
 # Selinux denials after enabling this fearures
-If your selinux is on enforcing and the camera features get denied or blocked 
+If your selinux is on enforcing and the camera features get denied or blocked <br>
 
-you need to add those denials in <b>/vendor/etc/selinux/vendor_sepolicy.cil</b> file
+you need to add those denials in <b>/vendor/etc/selinux/vendor_sepolicy.cil</b> file<br>
 
 (allow priv_app_36 migt_dev (chr_file (read write open getattr)))<br>
 (allow priv_app_36 vendor_frc_prop (file (read open getattr map)))<br>
@@ -59,11 +59,15 @@ add com.android.camera.xml in product/etc/permissions or system/etc/permissions 
 
 # Adding MIUICamera in proper partition path
 if you are using miui camera on HyperOS 
+<br>
 -Add miui camera to /product/priv-app
-
+<br>
 If you are building Port roms
+<br>
 -Add miui camera to /system/priv-app
+<br>
 
 # Credits
 If you use my stuffs give credits to @Nischay_12089
+<br>
 @Claude
