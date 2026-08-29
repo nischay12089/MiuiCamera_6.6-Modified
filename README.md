@@ -53,17 +53,17 @@ you need to add those denials in <b>/vendor/etc/selinux/vendor_sepolicy.cil</b> 
 
 this are the denials of POCO F7 it should be like this
 
-#Adding permission file so that device should get access to file directories 
+# Adding permission file so that device should get access to file directories 
 
 add com.android.camera.xml in product/etc/permissions or system/etc/permissions folder path
 
-#Adding MIUICamera in proper partition path
+# Adding MIUICamera in proper partition path
 if you are using miui camera on HyperOS 
 -Add miui camera to /product/priv-app
 
 If you are building Port roms
 -Add miui camera to /system/priv-app
 
-#Credits
+# Credits
 If you use my stuffs give credits to @Nischay_12089
 @Claude
